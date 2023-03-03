@@ -1,0 +1,39 @@
+{
+    "_id": "HwUps0waR29bwlTI",
+    "img": "systems/xprpg/icons/features/classes/unleash-psyche.webp",
+    "name": "Unleash Psyche",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>When one thins the barrier between their inner mind and the outer world, one can unleash true psychic power. However, the mind wasn't meant to tap its full strength for long, leading to backlash once your unleashed psyche ends.</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.xprpg.actionsxprpg.Unleash Psyche"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "feat"
+}

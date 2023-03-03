@@ -1,0 +1,36 @@
+{
+    "_id": "8buK32r3i3aGyyOR",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Shaitan Magic",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>The magic of shaitans runs through your blood. You can cast <em>@UUID[Compendium.xprpg.spells-srd.Glitterdust]{Glitterdust}</em> and <em>@UUID[Compendium.xprpg.spells-srd.Resist Energy]{Resist Energy}</em> once per day each as 2nd-level arcane innate spells.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 9
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "oread"
+            ]
+        }
+    },
+    "type": "feat"
+}

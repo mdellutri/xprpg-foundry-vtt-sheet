@@ -1,0 +1,43 @@
+{
+    "_id": "jYEMVfrXJLpXS6aC",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Radiant Blade Master",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your divine ally turns your chosen weapon into a paragon of its type.</p>\n<p>When you choose the weapon for your blade divine ally during your preparations, add the following property runes to the list of effects you can choose from: @UUID[Compendium.xprpg.equipment-srd.Dancing]{Dancing}, @UUID[Compendium.xprpg.equipment-srd.Disrupting (Greater)]{Disrupting (Greater)}, and @UUID[Compendium.xprpg.equipment-srd.Keen]{Keen}.</p>\n<p>@UUID[Compendium.xprpg.feat-effects.Effect: Blade Ally]{Effect: Blade Ally}</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "divine ally (blade)"
+                },
+                {
+                    "value": "Radiant Blade Spirit"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "champion"
+            ]
+        }
+    },
+    "type": "feat"
+}

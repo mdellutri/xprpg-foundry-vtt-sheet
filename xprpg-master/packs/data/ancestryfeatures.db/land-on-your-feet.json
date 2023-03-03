@@ -1,0 +1,39 @@
+{
+    "_id": "sL1hHxrHdMNIZVAd",
+    "img": "systems/xprpg/icons/features/ancestry/land-on-your-feet.webp",
+    "name": "Land on Your Feet",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>When you fall, you take only half the normal damage and don't land @UUID[Compendium.xprpg.conditionitems.Prone]{Prone}.</p>"
+        },
+        "featType": {
+            "value": "ancestryfeature"
+        },
+        "level": {
+            "value": 0
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "selected": {
+                "catfolk": "Catfolk"
+            },
+            "value": [
+                "catfolk"
+            ]
+        }
+    },
+    "type": "feat"
+}

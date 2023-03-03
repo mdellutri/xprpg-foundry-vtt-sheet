@@ -1,0 +1,41 @@
+{
+    "_id": "fbSFwwp60AuDDKpK",
+    "img": "systems/xprpg/icons/equipment/worn-items/other-worn-items/belt-of-the-five-kings.webp",
+    "name": "Effect: Belt of the Five Kings (Allies)",
+    "system": {
+        "description": {
+            "value": "<p>Granted by @UUID[Compendium.xprpg.equipment-srd.Belt of the Five Kings]{Belt of the Five Kings} when your ally activates it.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "minutes",
+            "value": 10
+        },
+        "level": {
+            "value": 9
+        },
+        "rules": [
+            {
+                "key": "Sense",
+                "selector": "darkvision"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "effect"
+}

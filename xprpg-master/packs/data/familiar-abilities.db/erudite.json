@@ -1,0 +1,37 @@
+{
+    "_id": "cy7bdQqVANipyljS",
+    "img": "systems/xprpg/icons/actions/Passive.webp",
+    "name": "Erudite",
+    "system": {
+        "badge": null,
+        "description": {
+            "value": "<p>Your familiar has incredible religious knowledge. Despite being a minion, your familiar gains 1 reaction at the start of its turns, which it can use only to @UUID[Compendium.xprpg.actionsxprpg.Aid]{Aid} you on a Religion check (it still has to prepare to help you as normal for the Aid reaction). It automatically succeeds its check to Aid you with Religion checks or automatically critically succeeds if you're a master in Religion.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "unlimited",
+            "value": -1
+        },
+        "level": {
+            "value": 3
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": false
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "effect"
+}

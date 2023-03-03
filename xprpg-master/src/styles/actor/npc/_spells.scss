@@ -1,0 +1,130 @@
+.entries-list {
+    list-style: none;
+    padding: 2px;
+    margin: 0;
+
+    .spellcasting-entry {
+        display: block;
+        width: 100%;
+        margin: 0px;
+        border: 1px solid var(--sub);
+        border-radius: 4px;
+
+        &:not(:first-child) {
+            margin-top: 0.5rem;
+        }
+
+        .header {
+            background-color: $primary-accent;
+            color: $light-text;
+            display: flex;
+            flex: 1 0 auto;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            align-items: baseline;
+            padding: 4px 0.5em;
+            border-radius: 3px 3px 0px 0px;
+            gap: 0.25em;
+
+            .drag-handle {
+                cursor: move;
+            }
+
+            h4.name {
+                flex: 1;
+                margin: 0 4px 0 0;
+                padding-right: 6px;
+                width: max-content;
+
+                input {
+                    color: white;
+                    max-width: 100%;
+                    font-weight: 500;
+                    border: none;
+
+                    &:focus, &:hover {
+                        box-shadow: none;
+                    }
+                }
+            }
+
+            .inline-field {
+                flex: 0;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                justify-content: flex-start;
+                align-items: baseline;
+
+                label {
+                    margin-left: 2px;
+                    flex: 1;
+                }
+
+                input {
+                    margin-left: 4px;
+                }
+
+                .attack-input, .dc-input {
+                    flex: 1 0 32px;
+                    text-align: center;
+                    background-color: $light-text;
+                    font-weight: bold;
+                    width: 32px;
+                }
+            }
+
+            .ability-score {
+                select {
+                    max-width: 55px;
+                    padding: 2px !important;
+                }
+            }
+
+            .item-controls {
+                display: flex;
+                flex-basis: 2rem;
+                justify-content: space-between;
+
+                a {
+                    padding: 2px;
+                }
+            }
+        }
+
+        .spell-level-header input {
+            background: #f5efe0;
+            border: 1px solid transparent;
+            color: var(--body);
+            flex: 1 0 2rem;
+            font-weight: 700;
+            height: 18px;
+            text-align: center;
+            width: 2rem;
+        }
+    }
+}
+
+
+.footer {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    margin-top: 12px;
+
+    button.spellcasting-create {
+        cursor: pointer;
+        margin: 8px;
+        padding: 6px 12px;
+        font-size: var(--font-size-10);
+        line-height: 16px;
+        box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.3), inset 0 0 0 2px rgba(255, 255, 255, 0.2);
+        background: $primary-accent;
+        color: $light-text;
+        text-align: center;
+        white-space: nowrap;
+        border-radius: 3px;
+        border: none;
+    }
+}

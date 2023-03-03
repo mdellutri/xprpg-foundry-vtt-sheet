@@ -1,0 +1,40 @@
+{
+    "_id": "XttSGDuAsRDTuvgS",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Iron Repercussions",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Disobeying your @UUID[Compendium.xprpg.actionsxprpg.Iron Command]{Iron Command} has lasting consequences. If an enemy refuses to kneel to you, you can deal @UUID[Compendium.xprpg.conditionitems.Persistent Damage]{Persistent Mental Damage} instead of normal mental damage. You must decide whether the mental damage will be persistent before your enemy chooses whether to kneel or not. The amount of damage is unchanged.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "tyrant cause"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "uncommon",
+            "value": [
+                "champion"
+            ]
+        }
+    },
+    "type": "feat"
+}

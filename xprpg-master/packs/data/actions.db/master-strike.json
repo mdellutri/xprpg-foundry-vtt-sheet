@@ -1,0 +1,40 @@
+{
+    "_id": "Rlp7ND33yYfxiEWi",
+    "img": "systems/xprpg/icons/actions/FreeAction.webp",
+    "name": "Master Strike",
+    "system": {
+        "actionCategory": {
+            "value": "offensive"
+        },
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p><strong>Trigger</strong> Your Strike hits a @UUID[Compendium.xprpg.conditionitems.Flat-Footed]{Flat-Footed} creature and deals damage</p>\n<hr />\n<p>The target attempts a Fortitude save at your class DC. It then becomes temporarily immune to your Master Strike for 1 day.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is @UUID[Compendium.xprpg.conditionitems.Enfeebled]{Enfeebled 2} until the end of your next turn.</p>\n<p><strong>Failure</strong> The target is @UUID[Compendium.xprpg.conditionitems.Paralyzed]{Paralyzed} for 4 rounds.</p>\n<p><strong>Critical Failure</strong> The target is paralyzed for 4 rounds, knocked @UUID[Compendium.xprpg.conditionitems.Unconscious]{Unconscious} for 2 hours, or killed (your choice).</p>"
+        },
+        "requirements": {
+            "value": ""
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "incapacitation",
+                "rogue"
+            ]
+        },
+        "trigger": {
+            "value": ""
+        },
+        "weapon": {
+            "value": ""
+        }
+    },
+    "type": "action"
+}

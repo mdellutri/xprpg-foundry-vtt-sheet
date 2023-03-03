@@ -1,0 +1,37 @@
+{
+    "_id": "Lb4q2bBAgxamtix5",
+    "img": "systems/xprpg/icons/features/feats/treat-wounds.webp",
+    "name": "Effect: Treat Wounds Immunity",
+    "system": {
+        "badge": null,
+        "description": {
+            "value": "<p>Granted when someone uses @UUID[Compendium.xprpg.actionsxprpg.Treat Wounds]{Treat Wounds} on you, rendering you temporarily immune to Treat Wounds for the duration.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "hours",
+            "value": 1
+        },
+        "level": {
+            "value": 1
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "effect"
+}

@@ -1,0 +1,42 @@
+{
+    "_id": "8JMOgtB3XG7o6ffW",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Discordant Voice",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your Inspire Courage lets loose a discordant shriek that imbues your allies' attacks with powerful sonic reverberations.</p>\n<p>While your allies are affected by your <em>@UUID[Compendium.xprpg.spells-srd.Inspire Courage]{Inspire Courage}</em>, their weapon strikes and unarmed attacks deal an additional [[/r 1d6[sonic]]] damage.</p>\n<p>@UUID[Compendium.xprpg.feat-effects.Effect: Discordant Voice]{Effect: Discordant Voice}</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "inspire courage"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "bard",
+                "evocation",
+                "sonic"
+            ]
+        }
+    },
+    "type": "feat"
+}

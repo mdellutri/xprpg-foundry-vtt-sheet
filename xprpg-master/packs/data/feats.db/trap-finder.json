@@ -1,0 +1,101 @@
+{
+    "_id": "oA866uVEFu1OrAX0",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Trap Finder",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You have an intuitive sense that alerts you to the dangers and presence of traps. You gain a +1 circumstance bonus to Perception checks to find traps, to AC against attacks made by traps, and to saves against traps. Even if you aren't @UUID[Compendium.xprpg.actionsxprpg.Search]{Searching}, you get a check to find traps that normally require you to be Searching. You still need to meet any other requirements to find the trap.</p>\n<p>You can disable traps that require a proficiency rank of master in Thievery. If you have master proficiency in Thievery, you can disable traps that require a proficiency rank of legendary instead, and your circumstance bonuses against traps increase to +2.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "domain": "all",
+                "key": "RollOption",
+                "label": "XPRPG.SpecificRule.TrapFinder.SearchLabel",
+                "option": "trap-finder",
+                "toggleable": true
+            },
+            {
+                "key": "FlatModifier",
+                "predicate": [
+                    "origin:trait:trap"
+                ],
+                "selector": [
+                    "saving-throw",
+                    "ac"
+                ],
+                "type": "circumstance",
+                "value": {
+                    "brackets": [
+                        {
+                            "end": 2,
+                            "start": 1,
+                            "value": 1
+                        },
+                        {
+                            "end": 4,
+                            "start": 3,
+                            "value": 2
+                        }
+                    ],
+                    "field": "actor|system.skills.thi.rank"
+                }
+            },
+            {
+                "domain": "all",
+                "key": "RollOption",
+                "label": "XPRPG.SpecificRule.TrapFinder.DefendingLabel",
+                "option": "origin:trait:trap",
+                "toggleable": "totm"
+            },
+            {
+                "key": "FlatModifier",
+                "predicate": [
+                    "trap-finder"
+                ],
+                "selector": "perception",
+                "type": "circumstance",
+                "value": {
+                    "brackets": [
+                        {
+                            "end": 2,
+                            "start": 1,
+                            "value": 1
+                        },
+                        {
+                            "end": 4,
+                            "start": 3,
+                            "value": 2
+                        }
+                    ],
+                    "field": "actor|system.skills.thi.rank"
+                }
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "investigator",
+                "rogue"
+            ]
+        }
+    },
+    "type": "feat"
+}

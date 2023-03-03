@@ -1,0 +1,41 @@
+{
+    "_id": "MGn2wezOr3VAdO3U",
+    "img": "systems/xprpg/icons/features/classes/choice-feature.webp",
+    "name": "Perpetual Potency",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your perpetual infusions improve, allowing you to use @UUID[Compendium.xprpg.classfeatures.Quick Alchemy]{Quick Alchemy} to create more powerful items with no cost. The items you can select depend on your research field and must be in your formula book.</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 11
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "GrantItem",
+                "uuid": "{actor|flags.xprpg.alchemist.perpetualPotency}"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "alchemist"
+            ]
+        }
+    },
+    "type": "feat"
+}

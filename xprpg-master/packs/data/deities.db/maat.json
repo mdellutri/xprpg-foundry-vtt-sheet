@@ -1,0 +1,49 @@
+{
+    "_id": "ArmPZQrl0SFAKvrY",
+    "img": "systems/xprpg/icons/default-icons/deity.svg",
+    "name": "Ma'at",
+    "system": {
+        "ability": [
+            "int",
+            "wis"
+        ],
+        "alignment": {
+            "follower": [
+                "LG",
+                "LN",
+                "N"
+            ],
+            "own": "LN"
+        },
+        "category": "deity",
+        "description": {
+            "value": "<p><strong>Edicts</strong> Defend civilization from chaos, live an honest and just life, be impartial in judgment and reveal the truth</p>\n<p><strong>Anathema</strong> Deal unfairly with your family or community, destroy the environment, lie</p>"
+        },
+        "domains": {
+            "alternate": [],
+            "primary": [
+                "knowledge",
+                "protection",
+                "star",
+                "truth"
+            ]
+        },
+        "font": [
+            "heal"
+        ],
+        "rules": [],
+        "skill": "soc",
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "spells": {
+            "1": "Compendium.xprpg.spells-srd.TTwOKGqmZeKSyNMH",
+            "4": "Compendium.xprpg.spells-srd.qJQADktwD0x8kLAy",
+            "5": "Compendium.xprpg.spells-srd.9BnhadUO8FMLmeZ3"
+        },
+        "weapons": [
+            "starknife"
+        ]
+    },
+    "type": "deity"
+}

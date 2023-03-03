@@ -1,0 +1,36 @@
+{
+    "_id": "XtIPmZ3Ihq5NJHP2",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Pinpoint Poisoner",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Unsuspecting targets are especially vulnerable to your poisons. When you successfully Strike a flat-footed creature with a poisoned weapon or expose a @UUID[Compendium.xprpg.conditionitems.Flat-Footed]{Flat-Footed} creature to an inhaled poison, the flat-footed condition also gives that creature a -2 circumstance penalty to its initial save against that poison.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "alchemist"
+            ]
+        }
+    },
+    "type": "feat"
+}

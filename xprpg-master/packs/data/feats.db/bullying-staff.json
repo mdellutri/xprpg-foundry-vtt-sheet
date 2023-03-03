@@ -1,0 +1,40 @@
+{
+    "_id": "iMh9Ve8Kt8ZcdKU0",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Bullying Staff",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p><strong>Requirements</strong> You are wielding your staff.</p>\n<hr />\n<p>You can attempt to @UUID[Compendium.xprpg.actionsxprpg.Shove]{Shove} or @UUID[Compendium.xprpg.actionsxprpg.Trip]{Trip} creatures up to two sizes larger than you. If you have master proficiency with your staff, you can attempt to Shove or Trip creatures up to three sizes larger than you.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Staff Acrobat Dedication"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "uncommon",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "type": "feat"
+}

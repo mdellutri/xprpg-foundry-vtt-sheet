@@ -1,0 +1,34 @@
+{
+    "_id": "UTRDN1TAieBMjwP1",
+    "img": "systems/xprpg/icons/default-icons/feat.svg",
+    "name": "Order of the Godclaw",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p><strong>Favored Weapon</strong> @UUID[Compendium.xprpg.equipment-srd.Morningstar]{Morningstar}</p>\n<p>The Order of the Godclaw's Hellknights see their cause as a holy mandate from the Godclaw. They seek to punish criminals with a zeal rarely matched by others who enforce the law.</p>\n<hr />\n<p><strong>Lesser Benefit</strong> @UUID[Compendium.xprpg.feats-srd.Dedication to the Five]{Dedication to the Five}</p>\n<p><strong>Greater Benefit</strong> @UUID[Compendium.xprpg.feats-srd.Blessings of the Five]{Blessings of the Five}</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 0
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "feat"
+}

@@ -1,0 +1,47 @@
+name: XPRPG System CD
+
+on:
+  workflow_dispatch:
+    branches: [release]
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [16.x]
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Build
+        run: |
+          npm ci
+          npm run build
+
+      - name: Update Manifest
+        run: |
+          SYSTEM_VERSION=$(grep -oP '(?<="version": ")[^"]+' dist/system.json | tr -d '\n')
+          echo "systemVersion=$SYSTEM_VERSION" >> $GITHUB_ENV
+
+      - name: Zip Files
+        working-directory: ./dist
+        run: zip -r ./xprpg.zip ./*
+
+      - name: Create Version Release
+        id: create_version_release
+        uses: ncipollo/release-action@v1
+        with:
+          name: ${{ env.systemVersion }}
+          allowUpdates: false
+          draft: false
+          prerelease: false
+          token: ${{ secrets.GITHUB_TOKEN }}
+          artifacts: './dist/system.json,./dist/xprpg.zip'
+          tag: ${{ env.systemVersion }}

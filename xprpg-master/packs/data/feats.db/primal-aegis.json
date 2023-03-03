@@ -1,0 +1,51 @@
+{
+    "_id": "AbjVJIBdNjbQbVnV",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Primal Aegis",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You surround yourself with a thick field of protective primal energy. You and allies within 30 feet of you gain resistance equal to your Wisdom modifier to acid, cold, electricity, fire, negative, and positive damage.</p>\n<p>@UUID[Compendium.xprpg.feat-effects.Effect: Primal Aegis]{Effect: Primal Aegis}</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "effects": [
+                    {
+                        "affects": "allies",
+                        "events": [
+                            "enter"
+                        ],
+                        "uuid": "Compendium.xprpg.feat-effects.Effect: Primal Aegis"
+                    }
+                ],
+                "key": "Aura",
+                "radius": 30,
+                "slug": "primal-aegis"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "druid"
+            ]
+        }
+    },
+    "type": "feat"
+}

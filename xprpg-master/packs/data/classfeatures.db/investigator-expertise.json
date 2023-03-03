@@ -1,0 +1,43 @@
+{
+    "_id": "PFvB79O2VFdiAeSj",
+    "img": "systems/xprpg/icons/features/classes/investigator-expertise.webp",
+    "name": "Investigator Expertise",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You've refined your investigative techniques to an exceptional degree. Your circumstance bonus from @UUID[Compendium.xprpg.actionsxprpg.Pursue a Lead]{Pursue a Lead} increases to +2. Your proficiency rank for your investigator class DC increases to expert.</p>\n<p>@UUID[Compendium.xprpg.feat-effects.Effect: Clue In (Expertise)]{Effect: Clue In (Expertise)}</p>\n<p>If you have @UUID[Compendium.xprpg.feats-srd.Detective's Readiness]{Detective's Readiness}, @UUID[Compendium.xprpg.feat-effects.Effect: Clue In (Detective's Readiness, Expertise)]{Effect: Clue In (Detective's Readiness, Expertise)}</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 9
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.proficiencies.classDCs.investigator.rank",
+                "value": 2
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "investigator"
+            ]
+        }
+    },
+    "type": "feat"
+}

@@ -1,0 +1,36 @@
+{
+    "_id": "z2z3UTayfUhcGazv",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Scar-Thick Skin",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Glorious, storied scars cover and protect much of your body. Your DC on flat checks to end @UUID[Compendium.xprpg.conditionitems.Persistent Damage]{Persistent Bleed Damage} is reduced from 15 to @Check[type:flat|dc:10]{10}, or from 10 to @Check[type:flat|dc:5]{5} after receiving especially appropriate assistance.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 5
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "orc"
+            ]
+        }
+    },
+    "type": "feat"
+}

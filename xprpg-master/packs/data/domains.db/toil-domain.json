@@ -1,0 +1,11 @@
+{
+    "_id": "fVfFKKvGocG2JM5q",
+    "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Chohar]{Chohar}, @UUID[Compendium.xprpg.deities.Droskar]{Droskar}, @UUID[Compendium.xprpg.deities.Lissala]{Lissala}, @UUID[Compendium.xprpg.deities.Mammon]{Mammon}, @UUID[Compendium.xprpg.deities.Sairazul]{Sairazul}, @UUID[Compendium.xprpg.deities.The Path of the Heavens]{The Path of the Heavens}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Practice Makes Perfect]{Practice Makes Perfect}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Tireless Worker]{Tireless Worker}</em></p>\n<p>You work constantly and refuse to let anything stand in your way.</p>",
+    "name": "Toil Domain",
+    "ownership": {
+        "default": 0
+    },
+    "permission": {
+        "default": 0
+    }
+}

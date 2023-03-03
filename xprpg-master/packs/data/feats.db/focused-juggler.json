@@ -1,0 +1,42 @@
+{
+    "_id": "lYVAGuHU47Ixyuxy",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Focused Juggler",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p><strong>Trigger</strong> Your turn begins.</p>\n<hr />\n<p>You continue Juggling until the end of your next turn. Increase the maximum number of items you can juggle by one.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Juggler Dedication"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "uncommon",
+            "value": [
+                "archetype",
+                "concentrate",
+                "manipulate"
+            ]
+        }
+    },
+    "type": "feat"
+}

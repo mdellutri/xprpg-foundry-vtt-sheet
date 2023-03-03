@@ -1,0 +1,40 @@
+{
+    "_id": "7uofkNynjFy3ofk2",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Ever Dreaming",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You draw no distinction between the sleeping and waking worlds. Your Daydream Trance has an unlimited duration, and you no longer need to take an action to enter it. If you're @UUID[Compendium.xprpg.conditionitems.Unconscious]{Unconscious} due to sleep, you don't take the -4 penalty to AC, Perception, and Reflex saves, and don't have the @UUID[Compendium.xprpg.conditionitems.Flat-Footed]{Flat-Footed} condition. You're still @UUID[Compendium.xprpg.conditionitems.Blinded]{Blinded} while asleep. You can act on your turn while asleep, though you're @UUID[Compendium.xprpg.conditionitems.Slowed]{Slowed 2} until you fully awaken.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Sleepwalker Dedication"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "type": "feat"
+}

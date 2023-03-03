@@ -1,0 +1,56 @@
+{
+    "_id": "iz7Mv2xGwqyicNiA",
+    "img": "systems/xprpg/icons/equipment/treasure/art-objects/lesser-art-object/quality-painting-by-an-unknown.webp",
+    "name": "Quality painting by an unknown",
+    "system": {
+        "baseItem": null,
+        "containerId": null,
+        "description": {
+            "value": ""
+        },
+        "equippedBulk": {
+            "value": ""
+        },
+        "hardness": 0,
+        "hp": {
+            "brokenThreshold": 0,
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "negateBulk": {
+            "value": "0"
+        },
+        "preciousMaterial": {
+            "value": ""
+        },
+        "preciousMaterialGrade": {
+            "value": ""
+        },
+        "price": {
+            "value": {
+                "gp": 10
+            }
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "stackGroup": null,
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "usage": {
+            "value": ""
+        },
+        "weight": {
+            "value": "-"
+        }
+    },
+    "type": "treasure"
+}

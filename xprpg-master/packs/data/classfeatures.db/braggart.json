@@ -1,0 +1,76 @@
+{
+    "_id": "KBhwFjdptrKyN5EM",
+    "img": "systems/xprpg/icons/features/classes/braggart-style.webp",
+    "name": "Braggart",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You boast, taunt, and psychologically needle your foes.</p>\n<p>You are trained in Intimidation. You gain @UUID[Compendium.xprpg.classfeatures.Panache]{Panache} during an encounter whenever you successfully @UUID[Compendium.xprpg.actionsxprpg.Demoralize]{Demoralize} a foe.</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "predicate": [
+                    "self:effect:panache",
+                    {
+                        "or": [
+                            "action:demoralize"
+                        ]
+                    }
+                ],
+                "selector": "intimidation",
+                "type": "circumstance",
+                "value": 1
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.skills.itm.rank",
+                "predicate": [
+                    "class:swashbuckler"
+                ],
+                "value": 1
+            },
+            {
+                "key": "Note",
+                "outcome": [
+                    "success",
+                    "criticalSuccess"
+                ],
+                "predicate": [
+                    "action:demoralize",
+                    {
+                        "not": "self:effect:panache"
+                    }
+                ],
+                "selector": "intimidation",
+                "text": "XPRPG.SpecificRule.Swashbuckler.Panache",
+                "title": "{item|name}"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "swashbuckler"
+            ]
+        }
+    },
+    "type": "feat"
+}

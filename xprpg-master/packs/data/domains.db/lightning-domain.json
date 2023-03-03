@@ -1,0 +1,11 @@
+{
+    "_id": "ywn4ODaUt382Z3Nz",
+    "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Casandalee]{Casandalee}, @UUID[Compendium.xprpg.deities.Cernunnos]{Cernunnos}, @UUID[Compendium.xprpg.deities.Chamidu]{Chamidu}, @UUID[Compendium.xprpg.deities.Gozreh]{Gozreh}, @UUID[Compendium.xprpg.deities.Hei Feng]{Hei Feng}, @UUID[Compendium.xprpg.deities.Lubaiko]{Lubaiko}, @UUID[Compendium.xprpg.deities.Ranginori]{Ranginori}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Charged Javelin]{Charged Javelin}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Bottle the Storm]{Bottle the Storm}</em></p>\n<p>You control electricity, thunder, and storms.</p>",
+    "name": "Lightning Domain",
+    "ownership": {
+        "default": 0
+    },
+    "permission": {
+        "default": 0
+    }
+}

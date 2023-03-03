@@ -1,0 +1,57 @@
+{
+    "_id": "y24ykEUfpIu5Gp6D",
+    "img": "systems/xprpg/icons/default-icons/heritage.svg",
+    "name": "Warrior Automaton",
+    "system": {
+        "ancestry": {
+            "name": "Automaton",
+            "slug": "automaton",
+            "uuid": "Compendium.xprpg.ancestries.kYsBAJ103T44agJF"
+        },
+        "description": {
+            "value": "<p>Sporting a bulkier, powerful design, your body has been designed for combat. You have a bulky, humanoid shape. The damage die for your fist increases to 1d6 instead of 1d4. You don't take a penalty when making a lethal attack with your fist or any other unarmed attack.</p>"
+        },
+        "rules": [
+            {
+                "baseType": "fist",
+                "category": "unarmed",
+                "damage": {
+                    "base": {
+                        "damageType": "bludgeoning",
+                        "dice": 1,
+                        "die": "d6"
+                    }
+                },
+                "group": "brawling",
+                "img": "systems/xprpg/icons/features/classes/powerful-fist.webp",
+                "key": "Strike",
+                "label": "XPRPG.Strike.Fist.Label",
+                "predicate": [
+                    {
+                        "nor": [
+                            "feature:powerful-fist",
+                            "feat:martial-artist-dedication",
+                            "feat:arcane-fist"
+                        ]
+                    }
+                ],
+                "range": null,
+                "slug": "fist",
+                "traits": [
+                    "agile",
+                    "finesse",
+                    "nonlethal",
+                    "unarmed"
+                ]
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "heritage"
+}

@@ -1,0 +1,43 @@
+{
+    "_id": "viCX9fZzTWGuoO85",
+    "img": "systems/xprpg/icons/equipment/worn-items/other-worn-items/cloak-of-elvenkind.webp",
+    "name": "Effect: Cloak of Elvenkind (Greater)",
+    "system": {
+        "description": {
+            "value": "<p>Granted by @UUID[Compendium.xprpg.equipment-srd.Cloak of Elvenkind (Greater)]{Cloak of Elvenkind (Greater)}</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "unlimited",
+            "value": -1
+        },
+        "level": {
+            "value": 12
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "stealth",
+                "type": "item",
+                "value": 2
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "effect"
+}

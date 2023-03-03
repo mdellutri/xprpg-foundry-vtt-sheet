@@ -1,0 +1,22 @@
+import { ItemSourceXPRPG } from "@item/data";
+import { RuleElementSource } from "@module/rules";
+import { MigrationBase } from "../base";
+
+/** Remove class AE-likes setting skill proficiencies to trained */
+export class Migration783RemoveClassSkillAELikes extends MigrationBase {
+    static override version = 0.783;
+
+    override async updateItem(source: ItemSourceXPRPG): Promise<void> {
+        if (source.type === "class") {
+            source.system.rules = source.system.rules.filter(
+                (r: RuleElementSource & { path?: unknown; value?: unknown }) =>
+                    !(
+                        r.key === "ActiveEffectLike" &&
+                        typeof r.path === "string" &&
+                        /^system.skills\.[a-z]{3}\.rank$/.test(r.path) &&
+                        r.value === 1
+                    )
+            );
+        }
+    }
+}

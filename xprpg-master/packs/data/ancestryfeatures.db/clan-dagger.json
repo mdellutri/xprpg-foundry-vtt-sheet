@@ -1,0 +1,85 @@
+{
+    "_id": "Eyuqu6eIaoGCjnMv",
+    "img": "systems/xprpg/icons/equipment/weapons/clan-dagger.webp",
+    "name": "Clan Dagger",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You get one @UUID[Compendium.xprpg.equipment-srd.Clan Dagger]{clan dagger} of your clan for free, as it was given to you at birth. Selling this dagger is a terrible taboo and earns you the disdain of other dwarves.</p>"
+        },
+        "featType": {
+            "value": "ancestryfeature"
+        },
+        "level": {
+            "value": 0
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "adjustName": false,
+                "allowedDrops": {
+                    "label": "level-0 dwarf weapon",
+                    "predicate": [
+                        "item:level:0",
+                        "item:trait:dwarf",
+                        "item:type:weapon"
+                    ]
+                },
+                "choices": [
+                    {
+                        "img": "systems/xprpg/icons/equipment/weapons/clan-dagger.webp",
+                        "label": "XPRPG.Weapon.Base.clan-dagger",
+                        "value": "clan-dagger"
+                    },
+                    {
+                        "img": "systems/xprpg/icons/equipment/weapons/clan-pistol.webp",
+                        "label": "XPRPG.SpecificRule.ClanWeapon.ClanPistol",
+                        "value": "clan-pistol"
+                    }
+                ],
+                "flag": "clanWeapon",
+                "key": "ChoiceSet",
+                "label": "XPRPG.SpecificRule.ClanWeapon.Label",
+                "prompt": "XPRPG.SpecificRule.ClanWeapon.Prompt"
+            },
+            {
+                "domain": "all",
+                "key": "RollOption",
+                "option": "{item|flags.xprpg.rulesSelections.clanWeapon}",
+                "removeUponCreate": true
+            },
+            {
+                "key": "GrantItem",
+                "predicate": [
+                    "clan-dagger"
+                ],
+                "uuid": "Compendium.xprpg.equipment-srd.Clan Dagger"
+            },
+            {
+                "key": "GrantItem",
+                "nestFeat": false,
+                "predicate": [
+                    "clan-pistol"
+                ],
+                "uuid": "Compendium.xprpg.feats-srd.Clan Pistol"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "dwarf"
+            ]
+        }
+    },
+    "type": "feat"
+}

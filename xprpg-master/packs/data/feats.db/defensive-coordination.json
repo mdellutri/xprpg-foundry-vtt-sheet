@@ -1,0 +1,46 @@
+{
+    "_id": "515N9nl9ChZwLWKR",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Defensive Coordination",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "description": {
+            "value": "<p>Like the storied heroes who persist in the face of overwhelming odds, you and your allies will hold the line.</p>\n<p>If your next action is to cast the <em>@UUID[Compendium.xprpg.spells-srd.Inspire Defense]{Inspire Defense}</em> composition cantrip, you can @UUID[Compendium.xprpg.actionsxprpg.Raise a Shield]{Raise a Shield}, and one ally who gains a status bonus from the spell can immediately use a reaction to Raise a Shield.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "warrior muse"
+                },
+                {
+                    "value": "Inspire Defense"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "auditory",
+                "bard",
+                "concentrate",
+                "metamagic"
+            ]
+        }
+    },
+    "type": "feat"
+}

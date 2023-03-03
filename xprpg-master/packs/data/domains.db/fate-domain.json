@@ -1,0 +1,11 @@
+{
+    "_id": "B40VxP6oZ0mIR4PS",
+    "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Angradd]{Angradd}, @UUID[Compendium.xprpg.deities.Cosmic Caravan]{Cosmic Caravan}, @UUID[Compendium.xprpg.deities.Erecura]{Erecura}, @UUID[Compendium.xprpg.deities.Followers of Fate]{Followers of Fate}, @UUID[Compendium.xprpg.deities.Grandmother Spider]{Grandmother Spider}, @UUID[Compendium.xprpg.deities.Imot]{Imot}, @UUID[Compendium.xprpg.deities.Irez]{Irez}, @UUID[Compendium.xprpg.deities.Lissala]{Lissala}, @UUID[Compendium.xprpg.deities.Luhar]{Luhar}, @UUID[Compendium.xprpg.deities.Lysianassa]{Lysianassa}, @UUID[Compendium.xprpg.deities.Magdh]{Magdh}, @UUID[Compendium.xprpg.deities.Magrim]{Magrim}, @UUID[Compendium.xprpg.deities.Mahathallah]{Mahathallah}, @UUID[Compendium.xprpg.deities.Otolmens]{Otolmens}, @UUID[Compendium.xprpg.deities.Pharasma]{Pharasma}, @UUID[Compendium.xprpg.deities.Ravithra]{Ravithra}, @UUID[Compendium.xprpg.deities.Shyka]{Shyka}, @UUID[Compendium.xprpg.deities.Valmallos]{Valmallos}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Read Fate]{Read Fate}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Tempt Fate]{Tempt Fate}</em></p>\n<p>You see and understand hidden inevitabilities.</p>",
+    "name": "Fate Domain",
+    "ownership": {
+        "default": 0
+    },
+    "permission": {
+        "default": 0
+    }
+}

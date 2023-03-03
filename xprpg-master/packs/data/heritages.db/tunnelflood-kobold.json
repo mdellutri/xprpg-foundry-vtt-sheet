@@ -1,0 +1,30 @@
+{
+    "_id": "ZW8GX14n3ZGievK1",
+    "img": "systems/xprpg/icons/default-icons/heritage.svg",
+    "name": "Tunnelflood Kobold",
+    "system": {
+        "ancestry": {
+            "name": "Kobold",
+            "slug": "kobold",
+            "uuid": "Compendium.xprpg.ancestries.7oQxL6wgsokD3QXG"
+        },
+        "description": {
+            "value": "<p>You grew up in a warren crisscrossed by underwater passages, whether natural or excavated. You gain a swim Speed of 15 feet.</p>"
+        },
+        "rules": [
+            {
+                "key": "BaseSpeed",
+                "selector": "swim-speed",
+                "value": 15
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "heritage"
+}

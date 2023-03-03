@@ -1,0 +1,37 @@
+{
+    "_id": "dF1HR6TqyMz03o6F",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Combat Grab",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "description": {
+            "value": "<p><strong>Requirements</strong> You have one hand free, and your target is within reach of that hand</p>\n<hr />\n<p>You swipe at your opponent and grab at them.</p>\n<p>Make a melee Strike while keeping one hand free. If the Strike hits, you grab the target using your free hand. The creature remains @UUID[Compendium.xprpg.conditionitems.Grabbed]{Grabbed} until the end of your next turn or until it @UUID[Compendium.xprpg.actionsxprpg.Escape]{Escapes}, whichever comes first.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fighter",
+                "press"
+            ]
+        }
+    },
+    "type": "feat"
+}

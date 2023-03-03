@@ -1,0 +1,596 @@
+import { CreatureXPRPG } from "@actor";
+import { createSpellcastingDialog } from "@actor/sheet/spellcasting-dialog";
+import { ABILITY_ABBREVIATIONS, SKILL_DICTIONARY } from "@actor/values";
+import { AbstractEffectXPRPG, ItemXPRPG, SpellcastingEntryXPRPG, SpellXPRPG } from "@item";
+import { ItemSourceXPRPG } from "@item/data";
+import { ITEM_CARRY_TYPES } from "@item/data/values";
+import { DropCanvasItemDataXPRPG } from "@module/canvas/drop-canvas-data";
+import { goesToEleven, ZeroToFour } from "@module/data";
+import { createSheetTags } from "@module/sheet/helpers";
+import { eventToRollParams } from "@scripts/sheet-util";
+import { ErrorXPRPG, fontAwesomeIcon, htmlClosest, htmlQueryAll, objectHasKey, setHasElement } from "@util";
+import { ActorSheetXPRPG } from "../sheet/base";
+import { CreatureConfig } from "./config";
+import { SkillAbbreviation, SkillData } from "./data";
+import { SpellPreparationSheet } from "./spell-preparation-sheet";
+import { CreatureSheetData, SpellcastingSheetData } from "./types";
+
+/**
+ * Base class for NPC and character sheets
+ * @category Actor
+ */
+export abstract class CreatureSheetXPRPG<TActor extends CreatureXPRPG> extends ActorSheetXPRPG<TActor> {
+    /** A DocumentSheet class presenting additional, per-actor settings */
+    protected abstract readonly actorConfigClass: ConstructorOf<CreatureConfig<CreatureXPRPG>> | null;
+
+    override async getData(options?: ActorSheetOptions): Promise<CreatureSheetData<TActor>> {
+        const sheetData = (await super.getData(options)) as CreatureSheetData<TActor>;
+        const { actor } = this;
+
+        // Update save labels
+        if (sheetData.data.saves) {
+            for (const key of ["fortitude", "reflex", "will"] as const) {
+                const save = sheetData.data.saves[key];
+                save.icon = this.getProficiencyIcon(save.rank);
+                save.hover = CONFIG.XPRPG.proficiencyLevels[save.rank];
+                save.label = CONFIG.XPRPG.saves[key];
+            }
+        }
+
+        // Update proficiency label
+        if (sheetData.data.attributes !== undefined) {
+            sheetData.data.attributes.perception.icon = this.getProficiencyIcon(
+                sheetData.data.attributes.perception.rank
+            );
+            sheetData.data.attributes.perception.hover =
+                CONFIG.XPRPG.proficiencyLevels[sheetData.data.attributes.perception.rank];
+        }
+
+        // Ability Scores
+        if (sheetData.data.abilities) {
+            for (const key of ABILITY_ABBREVIATIONS) {
+                sheetData.data.abilities[key].label = CONFIG.XPRPG.abilities[key];
+            }
+        }
+
+        // Update skill labels
+        if (sheetData.data.skills) {
+            type WithSheetProperties = Record<
+                SkillAbbreviation,
+                SkillData & { icon?: string; hover?: string; rank?: ZeroToFour }
+            >;
+            const skills: WithSheetProperties = sheetData.data.skills;
+            for (const [key, skill] of Object.entries(skills)) {
+                const label = objectHasKey(CONFIG.XPRPG.skills, key) ? CONFIG.XPRPG.skills[key] : null;
+                skill.icon = this.getProficiencyIcon(skill.rank ?? 0);
+                skill.hover = CONFIG.XPRPG.proficiencyLevels[skill.rank ?? 0];
+                skill.label = skill.label ?? label ?? "";
+            }
+        }
+
+        // Enrich condition data
+        const enrich = async (content: string, rollData: Record<string, unknown>): Promise<string> => {
+            return TextEditor.enrichHTML(content, { rollData, async: true });
+        };
+        const actorRollData = this.actor.getRollData();
+        const conditions = game.xprpg.ConditionManager.getFlattenedConditions(actor.itemTypes.condition);
+        for (const condition of conditions) {
+            const item = this.actor.items.get(condition.id);
+            if (item) {
+                const rollData = { ...item.getRollData(), ...actorRollData };
+                condition.enrichedDescription = await enrich(condition.description, rollData);
+
+                if (condition.parents.length) {
+                    for (const parent of condition.parents) {
+                        parent.enrichedText = await enrich(parent.text, rollData);
+                    }
+                }
+
+                if (condition.children.length) {
+                    for (const child of condition.children) {
+                        child.enrichedText = await enrich(child.text, rollData);
+                    }
+                }
+
+                if (condition.overrides.length) {
+                    for (const override of condition.overrides) {
+                        override.enrichedText = await enrich(override.text, rollData);
+                    }
+                }
+
+                if (condition.overriddenBy.length) {
+                    for (const overridenBy of condition.overriddenBy) {
+                        overridenBy.enrichedText = await enrich(overridenBy.text, rollData);
+                    }
+                }
+            }
+        }
+
+        return {
+            ...sheetData,
+            languages: createSheetTags(CONFIG.XPRPG.languages, actor.system.traits.languages),
+            abilities: CONFIG.XPRPG.abilities,
+            skills: CONFIG.XPRPG.skills,
+            actorSizes: CONFIG.XPRPG.actorSizes,
+            alignments: deepClone(CONFIG.XPRPG.alignments),
+            rarity: CONFIG.XPRPG.rarityTraits,
+            frequencies: CONFIG.XPRPG.frequencies,
+            attitude: CONFIG.XPRPG.attitude,
+            xpsFactions: CONFIG.XPRPG.xpsFactions,
+            conditions,
+            dying: {
+                maxed: actor.attributes.dying.value >= actor.attributes.dying.max,
+                remainingDying: Math.max(actor.attributes.dying.max - actor.attributes.dying.value),
+                remainingWounded: Math.max(actor.attributes.wounded.max - actor.attributes.wounded.value),
+            },
+        };
+    }
+
+    /** Opens the spell preparation sheet, but only if its a prepared entry */
+    protected openSpellPreparationSheet(entryId: string) {
+        const entry = this.actor.items.get(entryId);
+        if (entry?.isOfType("spellcastingEntry") && entry.isPrepared) {
+            const $book = this.element.find(`.item-container[data-container-id="${entry.id}"] .prepared-toggle`);
+            const offset = $book.offset() ?? { left: 0, top: 0 };
+            const sheet = new SpellPreparationSheet(entry, { top: offset.top - 60, left: offset.left + 200 });
+            sheet.render(true);
+        }
+    }
+
+    protected async prepareSpellcasting(): Promise<SpellcastingSheetData[]> {
+        const entries = await Promise.all(
+            this.actor.spellcasting.map(async (entry) => {
+                const data = entry.toObject(false);
+                const spellData = await entry.getSpellData();
+                return mergeObject(data, spellData);
+            })
+        );
+        return entries.sort((a, b) => a.sort - b.sort);
+    }
+
+    /** Get the font-awesome icon used to display a certain level of skill proficiency */
+    protected getProficiencyIcon(level: ZeroToFour): string {
+        return [...Array(level)].map(() => fontAwesomeIcon("check-circle").outerHTML).join("");
+    }
+
+    /** Preserve browser focus on unnamed input elements when updating */
+    protected override async _render(force?: boolean, options?: RenderOptions): Promise<void> {
+        const focused = document.activeElement;
+        const contained = this.element.get(0)?.contains(focused);
+
+        await super._render(force, options);
+
+        if (focused instanceof HTMLInputElement && focused.name && contained) {
+            const selector = `input[data-property="${focused.name}"]:not([name])`;
+            const sameInput = this.element.get(0)?.querySelector<HTMLInputElement>(selector);
+            sameInput?.focus();
+            sameInput?.select();
+        }
+    }
+
+    override activateListeners($html: JQuery): void {
+        super.activateListeners($html);
+        const html = $html[0]!;
+
+        // Change carry type
+        const carryMenuListener = (event: MouseEvent) => {
+            if (!(event.currentTarget instanceof HTMLElement)) {
+                throw ErrorXPRPG("Unexpected error retrieving carry-type link");
+            }
+            const menu = event.currentTarget;
+            const toggle = menu.nextElementSibling;
+            if (toggle?.classList.contains("carry-type-hover")) {
+                $(toggle).tooltipster("close");
+            }
+
+            const itemId = htmlClosest(menu, "[data-item-id]")?.dataset.itemId;
+            const item = this.actor.inventory.get(itemId, { strict: true });
+            const carryType = menu.dataset.carryType;
+            const handsHeld = Number(menu.dataset.handsHeld) || 0;
+            const inSlot = menu.dataset.inSlot === "true";
+            if (carryType && setHasElement(ITEM_CARRY_TYPES, carryType)) {
+                this.actor.adjustCarryType(item, carryType, handsHeld, inSlot);
+            }
+        };
+        for (const carryTypeMenu of htmlQueryAll(html, ".tab.inventory a[data-carry-type]")) {
+            carryTypeMenu.addEventListener("click", carryMenuListener);
+        }
+
+        // General handler for embedded item updates
+        const selectors = "input[data-item-id][data-item-property], select[data-item-id][data-item-property]";
+        $html.find(selectors).on("change", (event) => {
+            const $target = $(event.target);
+
+            const { itemId, itemProperty } = event.target.dataset;
+            if (!itemId || !itemProperty) return;
+
+            const value = (() => {
+                const value = $(event.target).val();
+                if (typeof value === "undefined" || value === null) {
+                    return value;
+                }
+
+                const dataType =
+                    $target.attr("data-dtype") ??
+                    ($target.attr("type") === "checkbox"
+                        ? "Boolean"
+                        : ["number", "range"].includes($target.attr("type") ?? "")
+                        ? "Number"
+                        : "String");
+
+                switch (dataType) {
+                    case "Boolean":
+                        return typeof value === "boolean" ? value : value === "true";
+                    case "Number":
+                        return Number(value);
+                    case "String":
+                        return String(value);
+                    default:
+                        return value;
+                }
+            })();
+
+            this.actor.updateEmbeddedDocuments("Item", [{ _id: itemId, [itemProperty]: value }]);
+        });
+
+        // Toggle Dying or Wounded
+        $html.find(".dots.dying, .dots.wounded").on("click contextmenu", (event) => {
+            type ConditionName = "dying" | "wounded";
+            const condition = Array.from(event.delegateTarget.classList).find((className): className is ConditionName =>
+                ["dying", "wounded"].includes(className)
+            );
+            if (condition) {
+                const currentMax = this.actor.system.attributes[condition]?.max;
+                if (event.type === "click" && currentMax) {
+                    this.actor.increaseCondition(condition, { max: currentMax });
+                } else if (event.type === "contextmenu") {
+                    this.actor.decreaseCondition(condition);
+                }
+            }
+        });
+
+        // Roll recovery flat check when Dying
+        $html
+            .find("[data-action=recovery-check]")
+            .tooltipster({ theme: "crb-hover" })
+            .filter(":not(.disabled)")
+            .on("click", (event) => {
+                this.actor.rollRecovery(event);
+            });
+
+        // Roll skill checks
+        $html.find(".skill-name.rollable, .skill-score.rollable").on("click", (event) => {
+            const skill = event.currentTarget.closest<HTMLElement>("[data-skill]")?.dataset.skill ?? "";
+            const key = objectHasKey(SKILL_DICTIONARY, skill) ? SKILL_DICTIONARY[skill] : skill;
+            const rollParams = eventToRollParams(event);
+            this.actor.skills[key]?.check.roll(rollParams);
+        });
+
+        // Add, edit, and remove spellcasting entries
+        for (const section of htmlQueryAll(html, ".tab.spellcasting, .tab.spells") ?? []) {
+            for (const element of htmlQueryAll(section, "[data-action=spellcasting-create]") ?? []) {
+                element.addEventListener("click", (event) => {
+                    createSpellcastingDialog(event, this.actor);
+                });
+            }
+
+            for (const element of htmlQueryAll(section, "[data-action=spellcasting-edit]") ?? []) {
+                element.addEventListener("click", (event) => {
+                    const containerId = htmlClosest(event.target, "[data-item-id]")?.dataset.itemId;
+                    const entry = this.actor.spellcasting.get(containerId, { strict: true });
+                    createSpellcastingDialog(event, entry as Embedded<SpellcastingEntryXPRPG>);
+                });
+            }
+
+            for (const element of htmlQueryAll(section, "[data-action=spellcasting-remove]") ?? []) {
+                element.addEventListener("click", async (event) => {
+                    const itemId = htmlClosest(event.currentTarget, "[data-item-id]")?.dataset.itemId;
+                    const item = this.actor.items.get(itemId, { strict: true });
+
+                    const title = game.i18n.localize("XPRPG.DeleteSpellcastEntryTitle");
+                    const content = await renderTemplate(
+                        "systems/xprpg/templates/actors/delete-spellcasting-dialog.hbs"
+                    );
+
+                    // Render confirmation modal dialog
+                    if (await Dialog.confirm({ title, content })) {
+                        item.delete();
+                    }
+                });
+            }
+        }
+
+        $html.find(".spell-attack").on("click", async (event) => {
+            if (!this.actor.isOfType("character")) {
+                throw ErrorXPRPG("This sheet only works for characters");
+            }
+            const index = $(event.currentTarget).closest("[data-container-id]").data("containerId");
+            const entry = this.actor.spellcasting.get(index);
+            if (entry) {
+                await entry.statistic.check.roll(eventToRollParams(event));
+            }
+        });
+
+        $html.find(".prepared-toggle").on("click", async (event) => {
+            event.preventDefault();
+            const itemId = $(event.currentTarget).parents(".item-container").attr("data-container-id") ?? "";
+            this.openSpellPreparationSheet(itemId);
+        });
+
+        // Update max slots for Spell Items
+        $html.find(".slotless-level-toggle").on("click", async (event) => {
+            event.preventDefault();
+
+            const itemId = $(event.currentTarget).parents(".item-container").attr("data-container-id") ?? "";
+            const itemToEdit = this.actor.items.get(itemId);
+            if (!itemToEdit?.isOfType("spellcastingEntry"))
+                throw new Error("Tried to toggle visibility of slotless levels on a non-spellcasting entry");
+            const bool = !(itemToEdit.system.showSlotlessLevels || {}).value;
+
+            await this.actor.updateEmbeddedDocuments("Item", [
+                {
+                    _id: itemId ?? "",
+                    "system.showSlotlessLevels.value": bool,
+                },
+            ]);
+        });
+
+        // Casting spells and consuming slots
+        $html.find("button[data-action=cast-spell]").on("click", (event) => {
+            const $spellEl = $(event.currentTarget).closest(".item");
+            const { itemId, slotLevel, slotId, entryId } = $spellEl.data();
+            const collection = this.actor.spellcasting.collections.get(entryId, { strict: true });
+            const spell = collection.get(itemId, { strict: true });
+            collection.entry.cast(spell, { slot: slotId, level: slotLevel });
+        });
+
+        // Regenerating spell slots and spell uses
+        $html.find(".spell-slots-increment-reset").on("click", (event) => {
+            const target = $(event.currentTarget);
+            const itemId = target.data().itemId;
+            const itemLevel = target.data().level;
+            const actor = this.actor;
+            const item = actor.items.get(itemId);
+            if (item?.isOfType("spellcastingEntry")) {
+                const { system } = item.toObject();
+                if (!system.slots) return;
+                const slotLevel = goesToEleven(itemLevel) ? (`slot${itemLevel}` as const) : "slot0";
+                system.slots[slotLevel].value = system.slots[slotLevel].max;
+                item.update({ system });
+            } else if (item?.isOfType("spell")) {
+                const max = item.system.location.uses?.max;
+                if (!max) return;
+                item.update({ "system.location.uses.value": max });
+            }
+        });
+
+        // We can't use form submission for these updates since duplicates force array updates.
+        // We'll have to move focus points to the top of the sheet to remove this
+        $html.find(".focus-pool").on("change", (event) => {
+            this.actor.update({ "system.resources.focus.max": $(event.target).val() });
+        });
+
+        $html.find(".toggle-signature-spell").on("click", (event) => {
+            this.#onToggleSignatureSpell(event);
+        });
+
+        // Action Browser
+        for (const button of htmlQueryAll(html, ".action-browse")) {
+            button.addEventListener("click", () => game.xprpg.compendiumBrowser.openTab("action"));
+        }
+
+        // Spell Browser
+        for (const button of htmlQueryAll(html, ".spell-browse")) {
+            button.addEventListener("click", () => this.#onClickBrowseSpellCompendia(button));
+        }
+
+        // Decrease effect value
+        $html.find(".effects-list .decrement").on("click", async (event) => {
+            const target = $(event.currentTarget);
+            const parent = target.parents(".item");
+            const effect = this.actor.items.get(parent.attr("data-item-id") ?? "");
+            if (effect instanceof AbstractEffectXPRPG) {
+                await effect.decrease();
+            }
+        });
+
+        // Increase effect value
+        $html.find(".effects-list .increment").on("click", async (event) => {
+            const target = $(event.currentTarget);
+            const parent = target.parents(".item");
+            const effect = this.actor?.items.get(parent.attr("data-item-id") ?? "");
+            if (effect instanceof AbstractEffectXPRPG) {
+                await effect.increase();
+            }
+        });
+
+        // Change whether an effect is secret to players or not
+        for (const element of htmlQueryAll(html, ".effects-list [data-action=effect-toggle-unidentified]") ?? []) {
+            element.addEventListener("click", async (event) => {
+                const effectId = htmlClosest(event.currentTarget, "[data-item-id]")?.dataset.itemId;
+                const effect = this.actor.items.get(effectId, { strict: true });
+                if (effect instanceof AbstractEffectXPRPG) {
+                    const isUnidentified = effect.unidentified;
+                    await effect.update({ "system.unidentified": !isUnidentified });
+                }
+            });
+        }
+    }
+
+    /** Adds support for moving spells between spell levels, spell collections, and spell preparation */
+    protected override async _onSortItem(event: ElementDragEvent, itemSource: ItemSourceXPRPG): Promise<ItemXPRPG[]> {
+        const $dropItemEl = $(event.target).closest(".item");
+        const $dropContainerEl = $(event.target).closest(".item-container");
+
+        const dropSlotType = $dropItemEl.attr("data-item-type");
+        const dropContainerType = $dropContainerEl.attr("data-container-type");
+
+        const item = this.actor.items.get(itemSource._id);
+        if (!item) return [];
+
+        // if they are dragging onto another spell, it's just sorting the spells
+        // or moving it from one spellcastingEntry to another
+        if (item.isOfType("spell")) {
+            const targetLocation = $dropContainerEl.attr("data-container-id") ?? "";
+            const collection = this.actor.spellcasting.collections.get(targetLocation, { strict: true });
+
+            if (dropSlotType === "spellLevel") {
+                const { level } = $dropItemEl.data();
+                const spell = await collection.addSpell(item, { slotLevel: Number(level) });
+                this.openSpellPreparationSheet(collection.id);
+                return [spell ?? []].flat();
+            } else if ($dropItemEl.attr("data-slot-id")) {
+                const dropId = Number($dropItemEl.attr("data-slot-id"));
+                const slotLevel = Number($dropItemEl.attr("data-slot-level"));
+
+                if (Number.isInteger(dropId) && Number.isInteger(slotLevel)) {
+                    const allocated = await collection.prepareSpell(item, slotLevel, dropId);
+                    if (allocated) return [allocated];
+                }
+            } else if (dropSlotType === "spell") {
+                const dropId = $dropItemEl.attr("data-item-id") ?? "";
+                const target = this.actor.items.get(dropId);
+                if (target?.isOfType("spell") && item.id !== dropId) {
+                    const sourceLocation = item.system.location.value;
+
+                    // Inner helper to test if two spells are siblings
+                    const testSibling = (item: SpellXPRPG, test: SpellXPRPG) => {
+                        if (item.isCantrip !== test.isCantrip) return false;
+                        if (item.isCantrip && test.isCantrip) return true;
+                        if (item.isFocusSpell && test.isFocusSpell) return true;
+                        if (item.level === test.level) return true;
+                        return false;
+                    };
+
+                    if (sourceLocation === targetLocation && testSibling(item, target)) {
+                        const siblings = collection.filter((spell) => testSibling(item, spell));
+                        await item.sortRelative({ target, siblings });
+                        return [target];
+                    } else {
+                        const spell = await collection.addSpell(item, { slotLevel: target.level });
+                        this.openSpellPreparationSheet(collection.id);
+                        return [spell ?? []].flat();
+                    }
+                }
+            } else if (dropContainerType === "spellcastingEntry") {
+                // if the drop container target is a spellcastingEntry then check if the item is a spell and if so update its location.
+                // if the dragged item is a spell and is from the same actor
+                if (CONFIG.debug.hooks)
+                    console.debug("XPRPG System | ***** spell from same actor dropped on a spellcasting entry *****");
+
+                const dropId = $(event.target).parents(".item-container").attr("data-container-id");
+                return dropId ? [await item.update({ "system.location.value": dropId })] : [];
+            }
+        } else if (item.isOfType("spellcastingEntry")) {
+            // target and source are spellcastingEntries and need to be sorted
+            if (dropContainerType === "spellcastingEntry") {
+                const sourceId = item.id;
+                const dropId = $dropContainerEl.attr("data-container-id") ?? "";
+                const source = this.actor.items.get(sourceId);
+                const target = this.actor.items.get(dropId);
+
+                if (source && target && source.id !== target.id) {
+                    const siblings = this.actor.spellcasting.contents;
+                    source.sortRelative({ target, siblings });
+                    return [target];
+                }
+            }
+        }
+
+        return super._onSortItem(event, itemSource);
+    }
+
+    /** Handle dragging spells onto spell slots. */
+    protected override async _handleDroppedItem(
+        event: ElementDragEvent,
+        item: ItemXPRPG,
+        data: DropCanvasItemDataXPRPG
+    ): Promise<ItemXPRPG[]> {
+        const containerEl = htmlClosest(event.target, ".item-container[data-container-type=spellcastingEntry]");
+        if (containerEl && item.isOfType("spell")) {
+            const entryId = containerEl.dataset.containerId;
+            const collection = this.actor.spellcasting.collections.get(entryId, { strict: true });
+            const slotLevel = Number(htmlClosest(event.target, "[data-slot-level]")?.dataset.slotLevel ?? 0);
+            this.openSpellPreparationSheet(collection.id);
+            return [(await collection.addSpell(item, { slotLevel: Math.max(slotLevel, item.baseLevel) })) ?? []].flat();
+        }
+
+        return super._handleDroppedItem(event, item, data);
+    }
+
+    /** Replace sheet config with a special PC config form application */
+    protected override _getHeaderButtons(): ApplicationHeaderButton[] {
+        const buttons = super._getHeaderButtons();
+        if (!this.actor.isOfType("character", "npc")) return buttons;
+
+        if (this.isEditable) {
+            const index = buttons.findIndex((b) => b.class === "close");
+            buttons.splice(index, 0, {
+                label: "Configure", // Top-level foundry localization key
+                class: "configure-creature",
+                icon: "fas fa-cog",
+                onclick: () => this.#onConfigureActor(),
+            });
+        }
+
+        return buttons;
+    }
+
+    /** Open actor configuration for this sheet's creature */
+    #onConfigureActor(): void {
+        if (!this.actorConfigClass) return;
+        new this.actorConfigClass(this.actor).render(true);
+    }
+
+    #onToggleSignatureSpell(event: JQuery.ClickEvent): void {
+        const { itemId } = event.target.closest(".item").dataset;
+        const spell = this.actor.items.get(itemId);
+        if (!(spell instanceof SpellXPRPG)) {
+            return;
+        }
+
+        spell.update({ "system.location.signature": !spell.system.location.signature });
+    }
+
+    #onClickBrowseSpellCompendia(button: HTMLElement) {
+        const level = Number(button.dataset.level ?? null);
+        const spellcastingIndex = htmlClosest(button, "[data-container-id]")?.dataset.containerId ?? "";
+        const entry = this.actor.spellcasting.get(spellcastingIndex);
+
+        if (entry) {
+            game.xprpg.compendiumBrowser.openSpellTab(entry, level);
+        }
+    }
+
+    // Ensure a minimum of zero hit points and a maximum of the current max
+    protected override async _onSubmit(
+        event: Event,
+        options: OnSubmitFormOptions = {}
+    ): Promise<Record<string, unknown>> {
+        // Limit HP value to data.attributes.hp.max value
+        if (!(event.currentTarget instanceof HTMLInputElement)) {
+            return super._onSubmit(event, options);
+        }
+
+        const target = event.currentTarget;
+        if (target.name === "system.attributes.hp.value") {
+            const inputted = Number(target.value) || 0;
+            target.value = Math.floor(Math.clamped(inputted, 0, this.actor.hitPoints.max)).toString();
+        }
+
+        return super._onSubmit(event, options);
+    }
+
+    /** Redirect an update to shield HP to the actual item */
+    protected override async _updateObject(event: Event, formData: Record<string, unknown>): Promise<void> {
+        const heldShield = this.actor.heldShield;
+        if (heldShield && typeof formData["system.attributes.shield.hp.value"] === "number") {
+            await heldShield.update({
+                "system.hp.value": formData["system.attributes.shield.hp.value"],
+            });
+        }
+        delete formData["system.attributes.shield.hp.value"];
+
+        return super._updateObject(event, formData);
+    }
+}

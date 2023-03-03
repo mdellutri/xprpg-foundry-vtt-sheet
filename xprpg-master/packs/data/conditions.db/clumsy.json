@@ -1,0 +1,46 @@
+{
+    "_id": "i3OJZU2nk64Df3xm",
+    "flags": {
+        "xprpg": {
+            "condition": true
+        }
+    },
+    "img": "systems/xprpg/icons/conditions/clumsy.webp",
+    "name": "Clumsy",
+    "system": {
+        "description": {
+            "value": "<p>Your movements become clumsy and inexact. Clumsy always includes a value. You take a status penalty equal to the condition value to Dexterity-based checks and DCs, including AC, Reflex saves, ranged attack rolls, and skill checks using Acrobatics, Stealth, and Thievery.</p>"
+        },
+        "duration": {
+            "value": 0
+        },
+        "group": "abilities",
+        "overrides": [],
+        "references": {
+            "children": [],
+            "immunityFrom": [],
+            "overriddenBy": [],
+            "overrides": []
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": [
+                    "dex-based",
+                    "dex-damage"
+                ],
+                "slug": "clumsy",
+                "type": "status",
+                "value": "-@item.badge.value"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "value": {
+            "isValued": true,
+            "value": 1
+        }
+    },
+    "type": "condition"
+}

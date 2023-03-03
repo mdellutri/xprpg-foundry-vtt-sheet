@@ -1,0 +1,41 @@
+{
+    "_id": "xRTlbvvBzURgC6M2",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Quick Shot",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "description": {
+            "value": "<p>You draw your bow and attack with the same action. You @UUID[Compendium.xprpg.actionsxprpg.Interact]{Interact} to draw a weapon from the bow weapon group that is loaded or has reload 0, then Strike with that weapon.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Archer Dedication"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype",
+                "open"
+            ]
+        }
+    },
+    "type": "feat"
+}

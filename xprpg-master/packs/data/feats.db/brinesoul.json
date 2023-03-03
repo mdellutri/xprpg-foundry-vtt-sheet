@@ -1,0 +1,43 @@
+{
+    "_id": "dmEMftRe8P5iPDKo",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Brinesoul",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your elemental ancestor's legacy asserts itself as brackish water, like the seawater of the ocean. You gain the @UUID[Compendium.xprpg.actionsxprpg.Salt Wound]{Salt Wound} reaction.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 1
+        },
+        "onlyLevel1": true,
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.xprpg.actionsxprpg.Salt Wound"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "lineage",
+                "undine"
+            ]
+        }
+    },
+    "type": "feat"
+}

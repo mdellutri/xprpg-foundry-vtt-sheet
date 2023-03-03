@@ -1,0 +1,38 @@
+{
+    "_id": "AxjjAoU1IZaNUGGS",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Fear No Law, Fear No One",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>When you roll a success on a save against a fear effect, you get a critical success instead. In addition, any time you gain the @UUID[Compendium.xprpg.conditionitems.Frightened]{Frightened} condition, reduce the condition's value by 1. As usual, this ability reduces the initial frightened condition by 1, so if you have multiple similar abilities, they don't both take effect.</p>"
+        },
+        "featType": {
+            "value": "bonus"
+        },
+        "level": {
+            "value": 0
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Order of the Scourge"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "feat"
+}

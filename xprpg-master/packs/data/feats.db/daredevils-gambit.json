@@ -1,0 +1,40 @@
+{
+    "_id": "6DkylvU5RF1O6DTT",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Daredevil's Gambit",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>If you critically succeed at your Daring Act, you can enter the target's space and remain there until the beginning of your next turn or until the target moves, whichever comes first. You gain a +2 circumstance bonus to AC, and your target is @UUID[Compendium.xprpg.conditionitems.Flat-Footed]{Flat-Footed} against your attacks while you are sharing its space in this way. If any creature other than your target hits you with an attack roll while you are sharing your target's space, attempt a @Check[type:flat|dc:15]. On a success, resolve the attack against the target instead of you, using the same attack roll result that hit you.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Daring Act"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "type": "feat"
+}

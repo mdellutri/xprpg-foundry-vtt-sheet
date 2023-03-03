@@ -1,0 +1,29 @@
+{
+    "_id": "6JKdAZGa8odFzleS",
+    "img": "systems/xprpg/icons/default-icons/heritage.svg",
+    "name": "Farsight Goloma",
+    "system": {
+        "ancestry": {
+            "name": "Goloma",
+            "slug": "goloma",
+            "uuid": "Compendium.xprpg.ancestries.c4secsSNG2AO7I5i"
+        },
+        "description": {
+            "value": "<p>Your eyes have adapted to see more in less than favorable conditions. You gain @UUID[Compendium.xprpg.ancestryfeatures.Low-Light Vision]{Low-Light Vision}.</p>"
+        },
+        "rules": [
+            {
+                "key": "Sense",
+                "selector": "lowLightVision"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "heritage"
+}

@@ -1,0 +1,42 @@
+{
+    "_id": "CrS0iDwHmjKqvKti",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Flexible Spellcaster Dedication",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You now have four cantrips per day instead of three. At 4th level, you have five cantrips per day instead of four.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "flexible spell preparation"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype",
+                "class",
+                "dedication"
+            ]
+        }
+    },
+    "type": "feat"
+}

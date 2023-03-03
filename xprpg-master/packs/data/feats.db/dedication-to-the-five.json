@@ -1,0 +1,43 @@
+{
+    "_id": "UHejQS4uCNGRI45t",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Dedication to the Five",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your dedication to @UUID[Compendium.xprpg.deities.The Godclaw]{The Godclaw} borders on a cleric's. You gain the cleric's @UUID[Compendium.xprpg.feats-srd.Domain Initiate]{Domain Initiate} feat but must select perfection, protection, tyranny, or zeal as your domain. In addition, you can use any religious symbol of @UUID[Compendium.xprpg.deities.Abadar]{Abadar}, @UUID[Compendium.xprpg.deities.Asmodeus]{Asmodeus}, @UUID[Compendium.xprpg.deities.Iomedae]{Iomedae}, @UUID[Compendium.xprpg.deities.Irori]{Irori}, or @UUID[Compendium.xprpg.deities.Torag]{Torag} as your divine focus.</p>"
+        },
+        "featType": {
+            "value": "bonus"
+        },
+        "level": {
+            "value": 0
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Order of the Godclaw"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.xprpg.feats-srd.Domain Initiate"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "feat"
+}

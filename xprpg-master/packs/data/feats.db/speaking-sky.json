@@ -1,0 +1,50 @@
+{
+    "_id": "bTNgHDqzfoqOLWu3",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Speaking Sky",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You gain the <em>@UUID[Compendium.xprpg.spells-srd.Speaking Sky]{Speaking Sky}</em> ki spell. Increase the number of Focus Points in your focus pool by 1.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Jalmeri Heavenseeker Dedication"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "add",
+                "path": "system.resources.focus.max",
+                "value": 1
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "selected": {
+                "archetype": "Archetype"
+            },
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "type": "feat"
+}

@@ -1,0 +1,46 @@
+{
+    "_id": "LRSTjjBNNlD0XZX8",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Phase Arrow",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p>You can concentrate an immense amount of magic to create a piece of ammunition that phases through everything but your target.</p>\n<p>Make a bow Strike against a foe who is @UUID[Compendium.xprpg.conditionitems.Observed]{Observed} or @UUID[Compendium.xprpg.conditionitems.Hidden]{Hidden} to you (but not @UUID[Compendium.xprpg.conditionitems.Undetected]{Undetected}).</p>\n<p>The ammunition travels to your target in a straight line, passing through any non-magical barriers or walls in its way, though magical barriers stop the arrow. The shot ignores all cover, the concealed condition, the hidden condition, and circumstance bonuses to AC from shields. It has a +4 status bonus to hit creatures wearing any type of armor.</p>\n<p>The Strike's damage can't be reduced with a @UUID[Compendium.xprpg.feats-srd.Shield Block]{Shield Block} reaction using a non-magical shield.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "frequency": {
+            "max": 1,
+            "per": "day"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Eldritch Archer Dedication"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype",
+                "conjuration",
+                "magical"
+            ]
+        }
+    },
+    "type": "feat"
+}

@@ -1,0 +1,11 @@
+{
+    "_id": "a0fe0kFowMMwUFZa",
+    "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Azathoth]{Azathoth}, @UUID[Compendium.xprpg.deities.Chamidu]{Chamidu}, @UUID[Compendium.xprpg.deities.Groetus]{Groetus}, @UUID[Compendium.xprpg.deities.Gyronna]{Gyronna}, @UUID[Compendium.xprpg.deities.Jaidz]{Jaidz}, @UUID[Compendium.xprpg.deities.Kalekot]{Kalekot}, @UUID[Compendium.xprpg.deities.Kelizandri]{Kelizandri}, @UUID[Compendium.xprpg.deities.Lamashtu]{Lamashtu}, @UUID[Compendium.xprpg.deities.Nyarlathotep (Haunter in the Dark)]{Nyarlathotep (Haunter in the Dark)}, @UUID[Compendium.xprpg.deities.Nyarlathotep (The Crawling Chaos)]{Nyarlathotep (The Crawling Chaos)}, @UUID[Compendium.xprpg.deities.Sifkesh]{Sifkesh}, @UUID[Compendium.xprpg.deities.Treerazer]{Treerazer}, @UUID[Compendium.xprpg.deities.Trelmarixian]{Trelmarixian}, @UUID[Compendium.xprpg.deities.Zura]{Zura}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Waking Nightmare]{Waking Nightmare}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Shared Nightmare]{Shared Nightmare}</em></p>\n<p>You fill minds with horror and dread.</p>",
+    "name": "Nightmares Domain",
+    "ownership": {
+        "default": 0
+    },
+    "permission": {
+        "default": 0
+    }
+}

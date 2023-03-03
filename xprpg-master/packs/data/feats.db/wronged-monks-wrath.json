@@ -1,0 +1,47 @@
+{
+    "_id": "aajcuwKYihsinPCt",
+    "img": "systems/xprpg/icons/default-icons/feats.webp",
+    "name": "Wronged Monk's Wrath",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You gain the <em>@UUID[Compendium.xprpg.spells-srd.Wronged Monk's Wrath]{Wronged Monk's Wrath}</em> ki spell. Increase the number of Focus Points in your focus pool by 1.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "ki spells"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "add",
+                "path": "system.resources.focus.max",
+                "value": 1
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "uncommon",
+            "value": [
+                "monk"
+            ]
+        }
+    },
+    "type": "feat"
+}

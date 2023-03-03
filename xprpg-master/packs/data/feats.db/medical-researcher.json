@@ -1,0 +1,45 @@
+{
+    "_id": "6GO3dtFJnsNnSwWz",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Medical Researcher",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Kassi has taught you not only how to apply medicines with your medical skills but how to craft them as well. When you @UUID[Compendium.xprpg.actionsxprpg.Craft]{Craft} healer's kits, vaccines, addiction suppressants, antidotes, antiplagues, elixirs of life, or other non-magical medical or healing items, you can use Medicine instead of Crafting.</p>"
+        },
+        "featType": {
+            "value": "skill"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "trained in Medicine"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "rare",
+            "selected": {
+                "general": "General",
+                "skill": "Skill"
+            },
+            "value": [
+                "general",
+                "skill"
+            ]
+        }
+    },
+    "type": "feat"
+}

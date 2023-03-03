@@ -1,0 +1,45 @@
+{
+    "_id": "VTtXwBxrfRUXSL38",
+    "img": "systems/xprpg/icons/features/ancestry/death-warden-dwarf.webp",
+    "name": "Death Warden Dwarf",
+    "system": {
+        "ancestry": {
+            "name": "Dwarf",
+            "slug": "dwarf",
+            "uuid": "Compendium.xprpg.ancestries.BYj5ZvlXZdpaEgA6"
+        },
+        "description": {
+            "value": "<p>Your ancestors have been tomb guardians for generations, and the power they cultivated to ward off necromancy has passed on to you. If you roll a success on a saving throw against a necromancy effect, you get a critical success instead.</p>"
+        },
+        "rules": [
+            {
+                "key": "Note",
+                "predicate": [
+                    "necromancy"
+                ],
+                "selector": "saving-throw",
+                "text": "XPRPG.SpecificRule.Dwarf.DeathWardenDwarf.Note",
+                "title": "{item|name}"
+            },
+            {
+                "adjustment": {
+                    "success": "one-degree-better"
+                },
+                "key": "AdjustDegreeOfSuccess",
+                "predicate": [
+                    "necromancy"
+                ],
+                "selector": "saving-throw",
+                "type": "save"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "heritage"
+}

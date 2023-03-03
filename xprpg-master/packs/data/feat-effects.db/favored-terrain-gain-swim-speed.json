@@ -1,0 +1,43 @@
+{
+    "_id": "OhLcaJeQy4Nf5Mwo",
+    "img": "systems/xprpg/icons/spells/elemental-form-water.webp",
+    "name": "Favored Terrain (Gain Swim Speed)",
+    "system": {
+        "badge": null,
+        "description": {
+            "value": "<p>Granted by @UUID[Compendium.xprpg.feats-srd.Favored Terrain]{Favored Terrain (Aquatic)} if you have the @UUID[Compendium.xprpg.classfeatures.Wild Stride]{Wild Stride} class feature, and are in aquatic terrain and do not already have a swim Speed.</p>\n<p>You gain a swim Speed equal to your Speed.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "unlimited",
+            "value": -1
+        },
+        "level": {
+            "value": 11
+        },
+        "rules": [
+            {
+                "key": "BaseSpeed",
+                "selector": "swim",
+                "value": "@actor.attributes.speed.total"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "effect"
+}

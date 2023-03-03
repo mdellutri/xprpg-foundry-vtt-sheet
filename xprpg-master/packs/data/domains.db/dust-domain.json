@@ -1,0 +1,11 @@
+{
+    "_id": "zec5N7EnDJANGHmy",
+    "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Hshurha]{Hshurha}, @UUID[Compendium.xprpg.deities.Nurgal]{Nurgal}, @UUID[Compendium.xprpg.deities.Trelmarixian]{Trelmarixian}, @UUID[Compendium.xprpg.deities.Ymeri]{Ymeri}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Parch]{Parch}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Dust Storm]{Dust Storm}</em></p>\n<p>You have the power to dry and crumble what opposes you.</p>",
+    "name": "Dust Domain",
+    "ownership": {
+        "default": 0
+    },
+    "permission": {
+        "default": 0
+    }
+}

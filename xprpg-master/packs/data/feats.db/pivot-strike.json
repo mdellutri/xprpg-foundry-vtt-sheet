@@ -1,0 +1,42 @@
+{
+    "_id": "RnxullWsNdbU7fuH",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Pivot Strike",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 2
+        },
+        "description": {
+            "value": "<p><strong>Requirements</strong> You are wielding your staff.</p>\n<hr />\n<p>You @UUID[Compendium.xprpg.actionsxprpg.Leap]{Leap} and then Strike using your staff. You gain a circumstance bonus to damage for the Strike equal to twice the number of weapon damage dice. Regardless of whether your Strike hit, you can then attempt to @UUID[Compendium.xprpg.actionsxprpg.Shove]{Shove} or @UUID[Compendium.xprpg.actionsxprpg.Trip]{Trip} the target.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Staff Acrobat Dedication"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "uncommon",
+            "value": [
+                "archetype",
+                "attack",
+                "open"
+            ]
+        }
+    },
+    "type": "feat"
+}

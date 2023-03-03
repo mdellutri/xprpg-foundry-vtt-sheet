@@ -1,0 +1,73 @@
+{
+    "_id": "WrKVeUQ6KeRCm9uH",
+    "img": "systems/xprpg/icons/default-icons/background.svg",
+    "name": "Teacher",
+    "system": {
+        "boosts": {
+            "0": {
+                "value": [
+                    "int",
+                    "wis"
+                ]
+            },
+            "1": {
+                "value": [
+                    "cha",
+                    "con",
+                    "dex",
+                    "int",
+                    "str",
+                    "wis"
+                ]
+            }
+        },
+        "description": {
+            "value": "<p>You are incredibly knowledgeable, skilled, and perhaps even trained to teach children and adults about the world and its wonders. From books to classes, you're committed to imparting knowledge to all. Not everything can be taught or learned from a book, though, so you've become an adventurer to learn subjects more directly and bring that wisdom back to your students.</p>\n<p>Choose two ability boosts. One must be to <strong>Intelligence</strong> or <strong>Wisdom</strong>, and one is a free ability boost.</p>\n<p>You're trained in your choice of the Performance or Society skills, along with the Academia Lore skill. You gain the @UUID[Compendium.xprpg.feats-srd.Experienced Professional]{Experienced Professional} skill feat.</p>"
+        },
+        "items": {
+            "2phf2": {
+                "img": "systems/xprpg/icons/features/feats/feats.webp",
+                "level": 1,
+                "name": "Experienced Professional",
+                "uuid": "Compendium.xprpg.feats-srd.sMm0UfYxEPpq2Yzd"
+            }
+        },
+        "rules": [
+            {
+                "adjustName": false,
+                "choices": [
+                    {
+                        "label": "XPRPG.SkillPrf",
+                        "value": "performance"
+                    },
+                    {
+                        "label": "XPRPG.SkillSoc",
+                        "value": "society"
+                    }
+                ],
+                "flag": "skill",
+                "key": "ChoiceSet",
+                "prompt": "XPRPG.SpecificRule.Prompt.Skill"
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.skills.{item|flags.xprpg.rulesSelections.skill}.rank",
+                "value": 1
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "trainedLore": "Academia Lore",
+        "trainedSkills": {
+            "custom": "",
+            "value": []
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "background"
+}

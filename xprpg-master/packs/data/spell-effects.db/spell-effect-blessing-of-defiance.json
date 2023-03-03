@@ -1,0 +1,63 @@
+{
+    "_id": "FD9Ce5pqcZYstcMI",
+    "img": "systems/xprpg/icons/spells/blessing-of-defiance.webp",
+    "name": "Spell Effect: Blessing of Defiance",
+    "system": {
+        "badge": null,
+        "description": {
+            "value": "<p>Granted by <em>@UUID[Compendium.xprpg.spells-srd.Blessing of Defiance]{Blessing of Defiance}</em></p>\n<p>Choose one saving throw: Fortitude, Reflex, or Will. The target gets a +4 status bonus to that saving throw for 1 round. If you choose Fortitude, the target gains resistance 15 to poison. If you choose Reflex, the target gains a +15-foot status bonus to its Speeds. If you choose Will, the target gains resistance 15 to mental damage.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "rounds",
+            "value": 1
+        },
+        "level": {
+            "value": 5
+        },
+        "rules": [
+            {
+                "choices": [
+                    {
+                        "label": "XPRPG.SavesFortitude",
+                        "value": "fortitude"
+                    },
+                    {
+                        "label": "XPRPG.SavesReflex",
+                        "value": "reflex"
+                    },
+                    {
+                        "label": "XPRPG.SavesWill",
+                        "value": "will"
+                    }
+                ],
+                "flag": "blessingOfDefiance",
+                "key": "ChoiceSet",
+                "prompt": "XPRPG.SpecificRule.BlessingOfDefiance.Prompt"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "{item|flags.xprpg.rulesSelections.blessingOfDefiance}",
+                "type": "status",
+                "value": 4
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Secrets of Magic"
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "effect"
+}

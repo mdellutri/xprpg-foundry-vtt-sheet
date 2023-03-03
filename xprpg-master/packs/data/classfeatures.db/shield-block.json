@@ -1,0 +1,43 @@
+{
+    "_id": "eZNCckLzbH3GyncH",
+    "img": "systems/xprpg/icons/features/classes/shield-block.webp",
+    "name": "Shield Block",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You gain the @UUID[Compendium.xprpg.feats-srd.Shield Block]{Shield Block} general feat, a reaction that lets you reduce damage with your shield.</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.xprpg.feats-srd.Shield Block"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "champion",
+                "druid",
+                "fighter"
+            ]
+        }
+    },
+    "type": "feat"
+}

@@ -1,0 +1,41 @@
+{
+    "_id": "WzJaArukCUf9hpeP",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Hag's Sight",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You've nurtured the supernatural abilities gifted by your hag mother, particularly your sight. You gain @UUID[Compendium.xprpg.ancestryfeatures.Darkvision]{Darkvision}.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "Sense",
+                "selector": "darkvision"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "changeling"
+            ]
+        }
+    },
+    "type": "feat"
+}

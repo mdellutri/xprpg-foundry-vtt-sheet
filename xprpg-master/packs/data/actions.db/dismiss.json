@@ -1,0 +1,40 @@
+{
+    "_id": "AjLSHZSWQ90exdLo",
+    "img": "systems/xprpg/icons/actions/OneAction.webp",
+    "name": "Dismiss",
+    "system": {
+        "actionCategory": {
+            "value": "interaction"
+        },
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "description": {
+            "value": "<p>You end one spell effect or magic item effect. This must be an effect you are allowed to dismiss, as defined by the spell or item. Dismissal might end the effect entirely or might end it just for a certain target or targets, depending on the spell or item.</p>"
+        },
+        "requirements": {
+            "value": ""
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "concentrate",
+                "general"
+            ]
+        },
+        "trigger": {
+            "value": ""
+        },
+        "weapon": {
+            "value": ""
+        }
+    },
+    "type": "action"
+}

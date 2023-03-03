@@ -1,0 +1,45 @@
+{
+    "_id": "zsubK6PaY58fOYCb",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Lucky Keepsake",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You have a @UUID[Compendium.xprpg.equipment-srd.Lucky Keepsake]{Keepsake} that grants you luck. You gain a +1 circumstance bonus to saves against spells and magical effects at all times, not just when you use @UUID[Compendium.xprpg.feats-srd.Leshy Superstition]{Leshy Superstition}. If you lose the keepsake, you lose the bonus until you designate a new keepsake, typically over the course of a week.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 9
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Leshy Superstition"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.xprpg.equipment-srd.Lucky Keepsake"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "leshy"
+            ]
+        }
+    },
+    "type": "feat"
+}

@@ -1,0 +1,149 @@
+{
+    "_id": "VCSpuc3Tf3XWMkd3",
+    "img": "systems/xprpg/icons/spells/favorable-review.webp",
+    "name": "Effect: Follow The Expert",
+    "system": {
+        "badge": null,
+        "description": {
+            "value": ""
+        },
+        "duration": {
+            "expiry": null,
+            "sustained": false,
+            "unit": "unlimited",
+            "value": -1
+        },
+        "level": {
+            "value": 1
+        },
+        "rules": [
+            {
+                "choices": [
+                    {
+                        "label": "XPRPG.SkillAcr",
+                        "value": "acrobatics"
+                    },
+                    {
+                        "label": "XPRPG.SkillArc",
+                        "value": "arcana"
+                    },
+                    {
+                        "label": "XPRPG.SkillAth",
+                        "value": "athletics"
+                    },
+                    {
+                        "label": "XPRPG.SkillCra",
+                        "value": "crafting"
+                    },
+                    {
+                        "label": "XPRPG.SkillDec",
+                        "value": "deception"
+                    },
+                    {
+                        "label": "XPRPG.SkillDip",
+                        "value": "diplomacy"
+                    },
+                    {
+                        "label": "XPRPG.SkillItm",
+                        "value": "intimidation"
+                    },
+                    {
+                        "label": "XPRPG.SkillMed",
+                        "value": "medicine"
+                    },
+                    {
+                        "label": "XPRPG.SkillNat",
+                        "value": "nature"
+                    },
+                    {
+                        "label": "XPRPG.SkillOcc",
+                        "value": "occultism"
+                    },
+                    {
+                        "label": "XPRPG.SkillPrf",
+                        "value": "performance"
+                    },
+                    {
+                        "label": "XPRPG.SkillRel",
+                        "value": "religion"
+                    },
+                    {
+                        "label": "XPRPG.SkillSoc",
+                        "value": "society"
+                    },
+                    {
+                        "label": "XPRPG.SkillSte",
+                        "value": "stealth"
+                    },
+                    {
+                        "label": "XPRPG.SkillSur",
+                        "value": "survival"
+                    },
+                    {
+                        "label": "XPRPG.SkillThi",
+                        "value": "thievery"
+                    },
+                    {
+                        "label": "XPRPG.SkillLore",
+                        "value": "lore"
+                    }
+                ],
+                "flag": "followTheExpertSkill",
+                "key": "ChoiceSet",
+                "prompt": "XPRPG.SpecificRule.Prompt.Skill"
+            },
+            {
+                "choices": [
+                    {
+                        "label": "XPRPG.ProficiencyLevel2",
+                        "sort": 1,
+                        "value": 2
+                    },
+                    {
+                        "label": "XPRPG.ProficiencyLevel3",
+                        "sort": 2,
+                        "value": 3
+                    },
+                    {
+                        "label": "XPRPG.ProficiencyLevel4",
+                        "sort": 3,
+                        "value": 4
+                    }
+                ],
+                "flag": "followTheExpertProficiency",
+                "key": "ChoiceSet",
+                "prompt": "XPRPG.SpecificRule.FollowTheExpert.Prompt"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "{item|flags.xprpg.rulesSelections.followTheExpertSkill}",
+                "slug": "followTheExpertProficiencyModifier",
+                "type": "proficiency",
+                "value": "@actor.level"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "{item|flags.xprpg.rulesSelections.followTheExpertSkill}",
+                "slug": "followTheExpertCircumstanceModifier",
+                "type": "circumstance",
+                "value": "{item|flags.xprpg.rulesSelections.followTheExpertProficiency}"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": false
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "effect"
+}

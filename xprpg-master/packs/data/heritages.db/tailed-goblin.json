@@ -1,0 +1,39 @@
+{
+    "_id": "8wGUh9RsMUamOKjh",
+    "img": "systems/xprpg/icons/features/ancestry/tailed-goblin.webp",
+    "name": "Tailed Goblin",
+    "system": {
+        "ancestry": {
+            "name": "Goblin",
+            "slug": "goblin",
+            "uuid": "Compendium.xprpg.ancestries.sQfjTMDaZbT9DThq"
+        },
+        "description": {
+            "value": "<p>You have a powerful tail, likely because you descend from a community of monkey goblins. You gain a +2 circumstance bonus to Athletics checks to @UUID[Compendium.xprpg.actionsxprpg.Climb]{Climb}, you gain @UUID[Compendium.xprpg.feats-srd.Combat Climber]{Combat Climber} as a bonus feat, and you reduce the number of free hands required to climb or @UUID[Compendium.xprpg.actionsxprpg.Trip]{Trip} by one.</p>"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "label": "Tailed Goblin (Climb)",
+                "predicate": [
+                    "action:climb"
+                ],
+                "selector": "athletics",
+                "type": "circumstance",
+                "value": 2
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.xprpg.feats-srd.Combat Climber"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "heritage"
+}

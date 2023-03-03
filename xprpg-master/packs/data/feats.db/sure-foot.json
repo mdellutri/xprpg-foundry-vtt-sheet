@@ -1,0 +1,47 @@
+{
+    "_id": "HRVCODLOrhjRDtGb",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Sure Foot",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You know the secrets of moving in your @UUID[Compendium.xprpg.feats-srd.Favored Terrain]{Favored Terrain}. You gain a +2 circumstance bonus to skill checks to move within your favored terrain, such as Acrobatics checks to @UUID[Compendium.xprpg.actionsxprpg.Balance]{Balance} on ice, Athletics checks to @UUID[Compendium.xprpg.actionsxprpg.Swim]{Swim} in rough water, Acrobatics checks to @UUID[Compendium.xprpg.actionsxprpg.Fly]{Fly} in windy conditions, and so forth.</p>"
+        },
+        "featType": {
+            "value": "skill"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Horizon Walker Dedication"
+                },
+                {
+                    "value": "expert in Acrobatics"
+                },
+                {
+                    "value": "expert in Athletics"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype",
+                "skill"
+            ]
+        }
+    },
+    "type": "feat"
+}

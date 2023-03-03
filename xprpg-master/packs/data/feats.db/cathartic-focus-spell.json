@@ -1,0 +1,40 @@
+{
+    "_id": "yqMBLt0GUTwiqnZT",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Cathartic Focus Spell",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You learn the focus spell listed under your emotion's entry. You can cast it only while in emotional fervor. If you don't already have one, you gain a focus pool of 1 Focus Point, which you can Refocus while you use @UUID[Compendium.xprpg.actionsxprpg.Settle Emotions]{Settle Emotions}.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Cathartic Mage Dedication"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "type": "feat"
+}

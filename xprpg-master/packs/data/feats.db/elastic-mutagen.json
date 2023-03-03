@@ -1,0 +1,36 @@
+{
+    "_id": "FLQWJ2CIv9mCfSAx",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Elastic Mutagen",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You can cause your body to twist and flow like the quicksilver within your mutagens.</p>\n<p>Whenever you are under the effects of a @UUID[Compendium.xprpg.equipment-srd.Quicksilver Mutagen (Lesser)]{Quicksilver Mutagen}, you can stretch your legs and Step up to 10 feet, and you can squish and compress your body, allowing you to make it through tight spaces as if you were one size smaller, in addition to any effect from @UUID[Compendium.xprpg.actionsxprpg.Squeeze]{Squeezing}.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "alchemist"
+            ]
+        }
+    },
+    "type": "feat"
+}

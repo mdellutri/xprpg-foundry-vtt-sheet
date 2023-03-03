@@ -1,0 +1,11 @@
+{
+    "_id": "WrmaTmOHojfhiENF",
+    "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Dammerich]{Dammerich}, @UUID[Compendium.xprpg.deities.Erecura]{Erecura}, @UUID[Compendium.xprpg.deities.Followers of Fate]{Followers of Fate}, @UUID[Compendium.xprpg.deities.Geryon]{Geryon}, @UUID[Compendium.xprpg.deities.Gruhastha]{Gruhastha}, @UUID[Compendium.xprpg.deities.Iomedae]{Iomedae}, @UUID[Compendium.xprpg.deities.Irori]{Irori}, @UUID[Compendium.xprpg.deities.Kols]{Kols}, @UUID[Compendium.xprpg.deities.Kurgess]{Kurgess}, @UUID[Compendium.xprpg.deities.Ma'at]{Ma'at}, @UUID[Compendium.xprpg.deities.Magdh]{Magdh}, @UUID[Compendium.xprpg.deities.Mahathallah]{Mahathallah}, @UUID[Compendium.xprpg.deities.Monad]{Monad}, @UUID[Compendium.xprpg.deities.Pillars of Knowledge]{Pillars of Knowledge}, @UUID[Compendium.xprpg.deities.Ravithra]{Ravithra}, @UUID[Compendium.xprpg.deities.Sarenrae]{Sarenrae}, @UUID[Compendium.xprpg.deities.Zohls]{Zohls}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Word of Truth]{Word of Truth}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Glimpse the Truth]{Glimpse the Truth}</em></p>\n<p>You pierce lies and discover the truth.</p>",
+    "name": "Truth Domain",
+    "ownership": {
+        "default": 0
+    },
+    "permission": {
+        "default": 0
+    }
+}

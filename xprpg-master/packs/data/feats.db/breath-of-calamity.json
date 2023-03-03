@@ -1,0 +1,36 @@
+{
+    "_id": "rq0lnwZ51AtJ0aux",
+    "img": "systems/xprpg/icons/default-icons/feats.webp",
+    "name": "Breath of Calamity",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your roar shakes the earth and splits the heavens. Once per day, you can cast <em>@UUID[Compendium.xprpg.spells-srd.Chain Lightning]{Chain Lightning}</em> as a 7th-level innate occult spell. Any creature that critically fails its save against the spell is @UUID[Compendium.xprpg.conditionitems.Blinded]{Blinded} and @UUID[Compendium.xprpg.conditionitems.Deafened]{Deafened} for 1 round.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 17
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "nagaji"
+            ]
+        }
+    },
+    "type": "feat"
+}

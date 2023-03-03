@@ -1,0 +1,40 @@
+{
+    "_id": "zgriBCYR4TmBoDqO",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Forest Stealth",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "description": {
+            "value": "<p><strong>Requirements</strong> You are in a forest or jungle environment near an environmental feature that would allow you to Take Cover.</p>\n<hr />\n<p>You are skilled at quickly hiding behind bits of underbrush or foliage. You @UUID[Compendium.xprpg.actionsxprpg.Take Cover]{Take Cover} and then use that cover to @UUID[Compendium.xprpg.actionsxprpg.Hide]{Hide}.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 5
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Expert in Stealth"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "elf"
+            ]
+        }
+    },
+    "type": "feat"
+}

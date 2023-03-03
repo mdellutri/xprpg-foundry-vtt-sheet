@@ -1,0 +1,43 @@
+{
+    "_id": "yZ7EcM9CLddZz8Hl",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Versatile Font",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>As you explore your deity's aspects, you move beyond restrictions on healing or harming. You can prepare either <em>@UUID[Compendium.xprpg.spells-srd.Harm]{Harm}</em> or <em>@UUID[Compendium.xprpg.spells-srd.Heal]{Heal}</em>in the spell slots gained from the harmful font or healing font.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "harmful font or healing font"
+                },
+                {
+                    "value": "deity that allows clerics to have both fonts"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "cleric"
+            ]
+        }
+    },
+    "type": "feat"
+}

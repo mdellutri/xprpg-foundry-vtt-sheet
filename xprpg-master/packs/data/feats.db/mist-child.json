@@ -1,0 +1,36 @@
+{
+    "_id": "CXgTn2sE7Do11rlv",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Mist Child",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You blend in with unnatural subtlety. When you are @UUID[Compendium.xprpg.conditionitems.Concealed]{Concealed} or @UUID[Compendium.xprpg.conditionitems.Hidden]{Hidden}, increase the DC of the flat check to target you to @Check[type:flat|dc:6] if you're concealed or @Check[type:flat|dc:12] if you're hidden.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 5
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "changeling"
+            ]
+        }
+    },
+    "type": "feat"
+}

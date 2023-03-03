@@ -1,0 +1,29 @@
+{
+    "_id": "j1nzBc9Pui7vsJ9o",
+    "img": "systems/xprpg/icons/default-icons/heritage.svg",
+    "name": "Sharpshooter Automaton",
+    "system": {
+        "ancestry": {
+            "name": "Automaton",
+            "slug": "automaton",
+            "uuid": "Compendium.xprpg.ancestries.kYsBAJ103T44agJF"
+        },
+        "description": {
+            "value": "<p>Your lithe, humanoid shape is designed for speed and accuracy suitable for ranged combat. You gain the @UUID[Compendium.xprpg.actionsxprpg.Automaton Aim]{Automaton Aim} action.</p>"
+        },
+        "rules": [
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.xprpg.actionsxprpg.Automaton Aim"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "heritage"
+}

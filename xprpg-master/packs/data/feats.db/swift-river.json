@@ -1,0 +1,36 @@
+{
+    "_id": "IxggfXunfldeVOsQ",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Swift River",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p><strong>Trigger</strong> Your turn ends and you have a status penalty to your Speed or are @UUID[Compendium.xprpg.conditionitems.Immobilized]{Immobilized} or @UUID[Compendium.xprpg.conditionitems.Slowed]{Slowed}</p>\n<hr />\n<p>You flow like water, avoiding all restraints. End one status penalty to your speed, or end one immobilized or slowed condition affecting you.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "monk"
+            ]
+        }
+    },
+    "type": "feat"
+}

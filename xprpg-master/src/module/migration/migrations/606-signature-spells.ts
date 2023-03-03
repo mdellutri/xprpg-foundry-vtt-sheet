@@ -1,0 +1,24 @@
+import { ItemSourceXPRPG } from "@item/data";
+import { SpellcastingEntrySystemSource } from "@item/spellcasting-entry/data";
+import { MigrationBase } from "../base";
+
+export class Migration606SignatureSpells extends MigrationBase {
+    static override version = 0.606;
+
+    override async updateItem(item: ItemSourceXPRPG) {
+        if (item.type === "spellcastingEntry") {
+            const data: SpellcastingEntrySystemDataOld = item.system;
+            if (!data.signatureSpells) {
+                data.signatureSpells = {
+                    value: [],
+                };
+            }
+        }
+    }
+}
+
+interface SpellcastingEntrySystemDataOld extends SpellcastingEntrySystemSource {
+    signatureSpells?: {
+        value: string[];
+    };
+}

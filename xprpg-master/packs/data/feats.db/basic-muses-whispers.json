@@ -1,0 +1,60 @@
+{
+    "_id": "JM0umAUx30mAkuTz",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Basic Muse's Whispers",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You gain a 1st- or 2nd-level bard feat.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Bard Dedication"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "adjustName": false,
+                "allowedDrops": {
+                    "label": "XPRPG.SpecificRule.Prompt.LevelOneOrTwoClassFeat",
+                    "predicate": [
+                        "item:type:feat",
+                        "item:trait:bard"
+                    ]
+                },
+                "choices": {
+                    "query": "{\"system.level.value\":{\"$lte\":2},\"system.traits.value\":{\"$elemMatch\":\"bard\"}}"
+                },
+                "key": "ChoiceSet",
+                "prompt": "XPRPG.SpecificRule.Prompt.LevelOneOrTwoClassFeat"
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "{item|flags.xprpg.rulesSelections.basicMusesWhispers}"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "type": "feat"
+}

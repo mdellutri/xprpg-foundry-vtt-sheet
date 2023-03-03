@@ -1,0 +1,12 @@
+{
+    "_id": "s2sa8lo9dcIA6UGe",
+    "author": "Ooz20ZCUmh0bjKL3",
+    "command": "game.xprpg.compendiumBrowser.rendered ? game.xprpg.compendiumBrowser.close() : game.xprpg.compendiumBrowser.render(true);",
+    "img": "systems/xprpg/icons/equipment/adventuring-gear/advanced-book-of-translation.webp",
+    "name": "Toggle Compendium Browser",
+    "ownership": {
+        "default": 1
+    },
+    "scope": "global",
+    "type": "script"
+}

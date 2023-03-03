@@ -1,0 +1,40 @@
+{
+    "_id": "1JTEWgonWlmeCE3w",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Liberating Stride",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Instead of you taking a Step at the end of your @UUID[Compendium.xprpg.actionsxprpg.Liberating Step]{Liberating Step}, the triggering ally can Stride up to half their Speed.</p>\n<p>Even if you have @UUID[Compendium.xprpg.classfeatures.Exalt]{Exalt}, only the triggering ally gains this benefit.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "liberator cause"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "champion"
+            ]
+        }
+    },
+    "type": "feat"
+}

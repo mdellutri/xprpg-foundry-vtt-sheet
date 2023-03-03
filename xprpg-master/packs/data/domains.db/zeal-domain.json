@@ -1,0 +1,11 @@
+{
+    "_id": "MktBsoHR9HsKrbbr",
+    "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Achaekek]{Achaekek}, @UUID[Compendium.xprpg.deities.Angradd]{Angradd}, @UUID[Compendium.xprpg.deities.Baphomet]{Baphomet}, @UUID[Compendium.xprpg.deities.Belial]{Belial}, @UUID[Compendium.xprpg.deities.Cernunnos]{Cernunnos}, @UUID[Compendium.xprpg.deities.Chaldira]{Chaldira}, @UUID[Compendium.xprpg.deities.Chohar]{Chohar}, @UUID[Compendium.xprpg.deities.Dagon]{Dagon}, @UUID[Compendium.xprpg.deities.Dahak]{Dahak}, @UUID[Compendium.xprpg.deities.Diomazul]{Diomazul}, @UUID[Compendium.xprpg.deities.Eiseth]{Eiseth}, @UUID[Compendium.xprpg.deities.General Susumu]{General Susumu}, @UUID[Compendium.xprpg.deities.Gorum]{Gorum}, @UUID[Compendium.xprpg.deities.Gyronna]{Gyronna}, @UUID[Compendium.xprpg.deities.Iomedae]{Iomedae}, @UUID[Compendium.xprpg.deities.Kostchtchie]{Kostchtchie}, @UUID[Compendium.xprpg.deities.Kurgess]{Kurgess}, @UUID[Compendium.xprpg.deities.Lubaiko]{Lubaiko}, @UUID[Compendium.xprpg.deities.Luhar]{Luhar}, @UUID[Compendium.xprpg.deities.Milani]{Milani}, @UUID[Compendium.xprpg.deities.Ragathiel]{Ragathiel}, @UUID[Compendium.xprpg.deities.Rovagug]{Rovagug}, @UUID[Compendium.xprpg.deities.Tanagaar]{Tanagaar}, @UUID[Compendium.xprpg.deities.The Godclaw]{The Godclaw}, @UUID[Compendium.xprpg.deities.Tlehar]{Tlehar}, @UUID[Compendium.xprpg.deities.Vildeis]{Vildeis}, @UUID[Compendium.xprpg.deities.Wadjet]{Wadjet}, @UUID[Compendium.xprpg.deities.Ydersius]{Ydersius}, @UUID[Compendium.xprpg.deities.Ymeri]{Ymeri}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Weapon Surge]{Weapon Surge}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Zeal for Battle]{Zeal for Battle}</em></p>\n<p>Your inner fire increases your combat prowess.</p>",
+    "name": "Zeal Domain",
+    "ownership": {
+        "default": 0
+    },
+    "permission": {
+        "default": 0
+    }
+}

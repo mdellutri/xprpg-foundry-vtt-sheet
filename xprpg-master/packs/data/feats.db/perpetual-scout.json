@@ -1,0 +1,40 @@
+{
+    "_id": "eHvJqBHYqx7UjpPg",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Perpetual Scout",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You spot anything out of place in the areas you know best. While in your @UUID[Compendium.xprpg.feats-srd.Favored Terrain]{Favored Terrain}, you always gain the benefits of the @UUID[Compendium.xprpg.actionsxprpg.Scout]{Scout} exploration activity, even if you are performing another exploration activity.</p>\n<p>If you're legendary in Survival, you gain these benefits in any terrain.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Horizon Walker Dedication"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "type": "feat"
+}

@@ -1,0 +1,35 @@
+{
+    "_id": "MQx7miBXUmOHycqJ",
+    "img": "systems/xprpg/icons/default-icons/heritage.svg",
+    "name": "Laborer Android",
+    "system": {
+        "ancestry": {
+            "name": "Android",
+            "slug": "android",
+            "uuid": "Compendium.xprpg.ancestries.GfLwE884NoRC7cRi"
+        },
+        "description": {
+            "value": "<p>Your body is adapted to endure physical hardships or perform hard labor for long periods of time. You become trained in Athletics (or another skill if you're already trained in Athletics), and you gain the @UUID[Compendium.xprpg.feats-srd.Hefty Hauler]{Hefty Hauler} skill feat.</p>"
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.skills.ath.rank",
+                "value": 1
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.xprpg.feats-srd.Hefty Hauler"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "heritage"
+}

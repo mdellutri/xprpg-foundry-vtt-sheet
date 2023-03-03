@@ -1,0 +1,47 @@
+{
+    "_id": "ViBlOrd6hno3DiPP",
+    "img": "systems/xprpg/icons/spells/stumbling-curse.webp",
+    "name": "Spell Effect: Stumbling Curse",
+    "system": {
+        "badge": null,
+        "description": {
+            "value": "<p>Granted by <em>@UUID[Compendium.xprpg.spells-srd.Stumbling Curse]{Stumbling Curse}</em></p>\n<p>The target takes a -2 status penalty to Athletics and Acrobatics checks.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": true,
+            "unit": "minutes",
+            "value": 1
+        },
+        "level": {
+            "value": 1
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": [
+                    "acrobatics",
+                    "athletics"
+                ],
+                "type": "status",
+                "value": -2
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Dark Archive"
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "effect"
+}

@@ -1,0 +1,48 @@
+{
+    "_id": "r6hDgfVLod0AmU7J",
+    "img": "systems/xprpg/icons/default-icons/effect.svg",
+    "name": "Effect: Heartripper Blade",
+    "system": {
+        "badge": null,
+        "description": {
+            "value": "<p>Strikes with the <em>heartripper blade</em> inflict an additional [[/r 1d6[negative]]] damage to living creatures.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "minutes",
+            "value": 1
+        },
+        "level": {
+            "value": 1
+        },
+        "rules": [
+            {
+                "damageType": "negative",
+                "diceNumber": 1,
+                "dieSize": "d6",
+                "key": "DamageDice",
+                "predicate": [
+                    "target:living"
+                ],
+                "selector": "{item|_id}-damage"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": false
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "effect"
+}

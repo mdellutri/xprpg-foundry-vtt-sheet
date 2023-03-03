@@ -1,0 +1,35 @@
+{
+    "_id": "1wQY3JYyhMYeeV2G",
+    "flags": {
+        "xprpg": {
+            "condition": true
+        }
+    },
+    "img": "systems/xprpg/icons/conditions/observed.webp",
+    "name": "Observed",
+    "system": {
+        "description": {
+            "value": "<p>Anything in plain view is observed by you. If a creature takes measures to avoid detection, such as by using Stealth to @UUID[Compendium.xprpg.actionsxprpg.Hide]{Hide}, it can become @UUID[Compendium.xprpg.conditionitems.Hidden]{Hidden} or @UUID[Compendium.xprpg.conditionitems.Undetected]{Undetected} instead of observed. If you have another precise sense instead of or in addition to sight, you might be able to observe a creature or object using that sense instead. You can observe a creature only with precise senses. When @UUID[Compendium.xprpg.actionsxprpg.Seek]{Seeking} a creature using only imprecise senses, it remains hidden, rather than observed.</p>"
+        },
+        "duration": {
+            "value": 0
+        },
+        "group": "detection",
+        "overrides": [],
+        "references": {
+            "children": [],
+            "immunityFrom": [],
+            "overriddenBy": [],
+            "overrides": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "value": {
+            "isValued": false,
+            "value": null
+        }
+    },
+    "type": "condition"
+}

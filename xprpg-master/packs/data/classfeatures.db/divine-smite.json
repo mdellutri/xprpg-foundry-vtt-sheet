@@ -1,0 +1,36 @@
+{
+    "_id": "3XK573A7GH1rrLgO",
+    "img": "systems/xprpg/icons/default-icons/feat.svg",
+    "name": "Divine Smite",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your @UUID[Compendium.xprpg.classfeatures.Champion's Reaction]{Champion's Reaction} improves. See your cause for details.</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 9
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "champion"
+            ]
+        }
+    },
+    "type": "feat"
+}

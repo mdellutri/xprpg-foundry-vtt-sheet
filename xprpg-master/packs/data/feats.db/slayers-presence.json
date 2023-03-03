@@ -1,0 +1,60 @@
+{
+    "_id": "qo6oKL8mE32hSjSC",
+    "img": "systems/xprpg/icons/default-icons/feats.webp",
+    "name": "Slayer's Presence",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your very presence strikes fear into the undead. When you use @UUID[Compendium.xprpg.actionsxprpg.Slayer's Identification]{Slayer's Identification} and succeed at your check, you can @UUID[Compendium.xprpg.feats-srd.Frighten Undead]{Frighten Undead} as a free action, targeting the creature you identified. Any time you get a critical success to Frighten Undead, if the target's level is lower than yours, the target is @UUID[Compendium.xprpg.conditionitems.Fleeing]{Fleeing} for 1 round.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Frighten Undead"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "Note",
+                "outcome": [
+                    "criticalSuccess"
+                ],
+                "predicate": [
+                    "action:demoralize",
+                    "target:trait:undead",
+                    {
+                        "gt": [
+                            "self:level",
+                            "target:level"
+                        ]
+                    }
+                ],
+                "selector": "skill-check",
+                "text": "@Localize[XPRPG.SpecificRule.UndeadSlayer.SlayersPresence.Note",
+                "title": "{item|name}"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "type": "feat"
+}

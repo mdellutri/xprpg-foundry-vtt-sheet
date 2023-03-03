@@ -1,0 +1,23 @@
+<form autocomplete="off" onsubmit="event.preventDefault();">
+    <div class="form-group">
+        <label>{{localize "XPRPG.CurrencyPP"}}:</label>
+        <input type="number" name="pp" value="0" data-dtype="Number"/>
+    </div>
+    <div class="form-group">
+        <label>{{localize "XPRPG.CurrencyGP"}}:</label>
+        <input type="number" name="gp" value="0" data-dtype="Number"/>
+    </div>
+    <div class="form-group">
+        <label>{{localize "XPRPG.CurrencySP"}}:</label>
+        <input type="number" name="sp" value="0" data-dtype="Number"/>
+    </div>
+    <div class="form-group">
+        <label>{{localize "XPRPG.CurrencyCP"}}:</label>
+        <input type="number" name="cp" value="0" data-dtype="Number"/>
+    </div>
+    <div class="form-group">
+    <label>{{localize "XPRPG.RemoveCoinsByValueLabel"}}:</label>
+        <input type="checkbox" name="removeByValue" data-dtype="Boolean"/>
+    </div>
+    <button type="submit"><i class="far fa-save"></i>{{localize "XPRPG.RemoveCoinsTitle"}}</button>
+</form>

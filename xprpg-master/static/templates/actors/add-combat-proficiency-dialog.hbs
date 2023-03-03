@@ -1,0 +1,14 @@
+<p>{{message}}</p>
+<p>
+    <select name="proficiency">
+        <option></option>
+        <optgroup label="{{localize "XPRPG.WeaponGroups"}}" />
+        {{#each weaponGroups as |key slug|}}
+            <option value="{{slug}}">{{localize key}}</option>
+        {{/each}}
+        <optgroup label="{{localize "XPRPG.BaseWeapons"}}" />
+        {{#each baseWeapons as |key slug|}}
+            <option value="{{slug}}">{{localize key}}</option>
+        {{/each}}
+    </select>
+</p>

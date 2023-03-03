@@ -1,0 +1,50 @@
+{
+    "_id": "j91X7x0XSomq8d60",
+    "flags": {
+        "xprpg": {
+            "condition": true
+        }
+    },
+    "img": "systems/xprpg/icons/conditions/prone.webp",
+    "name": "Prone",
+    "system": {
+        "description": {
+            "value": "<p>You're lying on the ground. You are @UUID[Compendium.xprpg.conditionitems.Flat-Footed]{Flat-Footed} and take a -2 circumstance penalty to attack rolls. The only move actions you can use while you're prone are @UUID[Compendium.xprpg.actionsxprpg.Crawl]{Crawl} and @UUID[Compendium.xprpg.actionsxprpg.Stand]{Stand}. Standing up ends the prone condition. You can @UUID[Compendium.xprpg.actionsxprpg.Take Cover]{Take Cover} while prone to hunker down and gain cover against ranged attacks, even if you don't have an object to get behind, gaining a +4 circumstance bonus to AC against ranged attacks (but you remain flat-footed).</p>\n<p>If you would be knocked prone while you're @UUID[Compendium.xprpg.actionsxprpg.Climb]{Climbing} or @UUID[Compendium.xprpg.actionsxprpg.Fly]{Flying}, you fall. You can't be knocked prone when @UUID[Compendium.xprpg.actionsxprpg.Swim]{Swimming}.</p>"
+        },
+        "duration": {
+            "value": 0
+        },
+        "group": null,
+        "overrides": [],
+        "references": {
+            "children": [],
+            "immunityFrom": [],
+            "overriddenBy": [],
+            "overrides": []
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "attack-roll",
+                "slug": "prone",
+                "type": "circumstance",
+                "value": -2
+            },
+            {
+                "key": "GrantItem",
+                "onDeleteActions": {
+                    "grantee": "restrict"
+                },
+                "uuid": "Compendium.xprpg.conditionitems.Flat-Footed"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "value": {
+            "isValued": false,
+            "value": null
+        }
+    },
+    "type": "condition"
+}

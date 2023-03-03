@@ -1,0 +1,40 @@
+{
+    "_id": "AKMx0GYKLjy7jTXl",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "No Evidence",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You leave little sign when attempting to remain unseen. When you @UUID[Compendium.xprpg.actionsxprpg.Avoid Notice]{Avoid Notice}, you also gain the benefits of @UUID[Compendium.xprpg.actionsxprpg.Cover Tracks]{Cover Tracks} unless you choose not to.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 9
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "expert in Survival"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "catfolk"
+            ]
+        }
+    },
+    "type": "feat"
+}

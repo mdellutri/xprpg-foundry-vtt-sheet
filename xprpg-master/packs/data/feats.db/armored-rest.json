@@ -1,0 +1,43 @@
+{
+    "_id": "OmjTt8eR1Q3SmkPp",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Armored Rest",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You've slept many nights in your armor and gotten used to it. You can sleep in armor overnight without being fatigued the next day. If you were already fatigued before sleeping, the armor doesn't prevent you from recovering from being fatigued.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Swordmaster Dedication"
+                },
+                {
+                    "value": "trained in light, medium, or heavy armor"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "type": "feat"
+}

@@ -1,0 +1,39 @@
+{
+    "_id": "rCajlx2KjGxzabAJ",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Fiend's Door",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Like many fiends, you have the supernatural ability to teleport yourself to safety. Once per day, you can cast <em>@UUID[Compendium.xprpg.spells-srd.Dimension Door]{Dimension Door}</em> as a 5th-level divine innate spell.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 13
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "selected": {
+                "tiefling": "Tiefling"
+            },
+            "value": [
+                "tiefling"
+            ]
+        }
+    },
+    "type": "feat"
+}

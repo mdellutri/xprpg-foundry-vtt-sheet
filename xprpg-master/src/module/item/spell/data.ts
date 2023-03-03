@@ -1,0 +1,143 @@
+import { SaveType } from "@actor/types";
+import { BaseItemDataXPRPG, BaseItemSourceXPRPG, ItemLevelData, ItemSystemData, ItemSystemSource } from "@item/data/base";
+import { OneToTen, TraitsWithRarity, ValueAndMax } from "@module/data";
+import { MaterialDamageEffect, DamageCategoryUnique, DamageType } from "@system/damage";
+import type { SpellXPRPG } from "./document";
+import { EffectAreaSize, EffectAreaType, MagicSchool, MagicTradition, SpellComponent, SpellTrait } from "./types";
+
+type SpellSource = BaseItemSourceXPRPG<"spell", SpellSystemSource>;
+
+type SpellData = Omit<SpellSource, "system" | "effects" | "flags"> &
+    BaseItemDataXPRPG<SpellXPRPG, "spell", SpellSystemData, SpellSource>;
+
+export type SpellTraits = TraitsWithRarity<SpellTrait>;
+
+export interface SpellDamageType {
+    value: DamageType;
+    subtype?: DamageCategoryUnique;
+    categories: MaterialDamageEffect[];
+}
+
+export interface SpellDamage {
+    value: string;
+    applyMod?: boolean;
+    type: SpellDamageType;
+}
+
+export interface SpellHeighteningInterval {
+    type: "interval";
+    interval: number;
+    damage: Record<string, string>;
+}
+
+export interface SpellHeighteningFixed {
+    type: "fixed";
+    levels: Record<OneToTen, Partial<SpellSystemSource>>;
+}
+
+export interface SpellHeightenLayer {
+    level: number;
+    system: Partial<SpellSystemData>;
+}
+
+interface SpellOverlayOverride {
+    _id: string;
+    system: Partial<SpellSystemSource>;
+    name?: string;
+    overlayType: "override";
+    sort: number;
+}
+
+/** Not implemented */
+interface SpellOverlayDamage {
+    overlayType: "damage";
+    choices: DamageType[];
+}
+
+type SpellOverlay = SpellOverlayOverride | SpellOverlayDamage;
+type SpellOverlayType = SpellOverlay["overlayType"];
+
+interface SpellSystemSource extends ItemSystemSource, ItemLevelData {
+    traits: SpellTraits;
+    level: {
+        value: OneToTen;
+    };
+    spellType: {
+        value: keyof ConfigXPRPG["XPRPG"]["spellTypes"];
+    };
+    category: {
+        value: keyof ConfigXPRPG["XPRPG"]["spellCategories"];
+    };
+    traditions: { value: MagicTradition[] };
+    school: { value: MagicSchool };
+    components: Record<SpellComponent, boolean>;
+    materials: {
+        value: string;
+    };
+    target: {
+        value: string;
+    };
+    range: {
+        value: string;
+    };
+    area: {
+        value: EffectAreaSize;
+        type: EffectAreaType;
+        /**
+         * Legacy text information about spell effect areas:
+         * if present, includes information not representable in a structured way
+         */
+        details?: string;
+    } | null;
+    time: {
+        value: string;
+    };
+    duration: {
+        value: string;
+    };
+    damage: {
+        value: Record<string, SpellDamage>;
+    };
+    heightening?: SpellHeighteningFixed | SpellHeighteningInterval;
+    overlays?: Record<string, SpellOverlay>;
+    save: {
+        basic: string;
+        value: SaveType | "";
+        dc?: number;
+        str?: string;
+    };
+    sustained: {
+        value: false;
+    };
+    cost: {
+        value: string;
+    };
+    hasCounteractCheck: {
+        value: boolean;
+    };
+    location: {
+        value: string | null;
+        signature?: boolean;
+        heightenedLevel?: number;
+
+        /** The level to heighten this spell to if it's a cantrip or focus spell */
+        autoHeightenLevel?: OneToTen | null;
+
+        /** Number of uses if this is an innate spell */
+        uses?: ValueAndMax;
+    };
+}
+
+interface SpellSystemData extends SpellSystemSource, ItemSystemData {
+    traits: SpellTraits;
+}
+
+export {
+    SpellData,
+    SpellSource,
+    SpellSystemData,
+    SpellSystemSource,
+    SpellOverlay,
+    SpellOverlayOverride,
+    SpellOverlayType,
+};

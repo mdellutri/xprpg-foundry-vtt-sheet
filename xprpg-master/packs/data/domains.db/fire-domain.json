@@ -1,0 +1,11 @@
+{
+    "_id": "v4SDXgCuPdZqhMeL",
+    "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Adanye]{Adanye}, @UUID[Compendium.xprpg.deities.Angradd]{Angradd}, @UUID[Compendium.xprpg.deities.Asmodeus]{Asmodeus}, @UUID[Compendium.xprpg.deities.Atreia]{Atreia}, @UUID[Compendium.xprpg.deities.Brigh]{Brigh}, @UUID[Compendium.xprpg.deities.Chohar]{Chohar}, @UUID[Compendium.xprpg.deities.Dahak]{Dahak}, @UUID[Compendium.xprpg.deities.Droskar]{Droskar}, @UUID[Compendium.xprpg.deities.Lady Nanbyo]{Lady Nanbyo}, @UUID[Compendium.xprpg.deities.Lubaiko]{Lubaiko}, @UUID[Compendium.xprpg.deities.Moloch]{Moloch}, @UUID[Compendium.xprpg.deities.Nurgal]{Nurgal}, @UUID[Compendium.xprpg.deities.Ra]{Ra}, @UUID[Compendium.xprpg.deities.Ragathiel]{Ragathiel}, @UUID[Compendium.xprpg.deities.Sarenrae]{Sarenrae}, @UUID[Compendium.xprpg.deities.Szuriel]{Szuriel}, @UUID[Compendium.xprpg.deities.Yamatsumi]{Yamatsumi}, @UUID[Compendium.xprpg.deities.Ymeri]{Ymeri}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Fire Ray]{Fire Ray}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Flame Barrier]{Flame Barrier}</em></p>\n<p>You control flame.</p>",
+    "name": "Fire Domain",
+    "ownership": {
+        "default": 0
+    },
+    "permission": {
+        "default": 0
+    }
+}

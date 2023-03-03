@@ -1,0 +1,71 @@
+{
+    "_id": "ECcFHAeAmh5F3mxg",
+    "img": "systems/xprpg/icons/default-icons/feats.webp",
+    "name": "Azarketi Weapon Expertise",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your mastery with weapons both above and below water is unmatched. Whenever you gain a class feature that grants you expert or greater proficiency in certain weapons, you also gain that proficiency in @UUID[Compendium.xprpg.equipment-srd.Crossbow]{Crossbows}, @UUID[Compendium.xprpg.equipment-srd.Hand Crossbow]{Hand Crossbows}, @UUID[Compendium.xprpg.equipment-srd.Longspear]{Longspears}, @UUID[Compendium.xprpg.equipment-srd.Spear]{Spears}, @UUID[Compendium.xprpg.equipment-srd.Trident]{Tridents}, and all azarketi weapons in which you are trained.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 13
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Azarketi Weapon Familiarity"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.martial.weapon-base-crossbow.rank",
+                "value": "@actor.system.martial.unarmed.rank"
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.martial.weapon-base-hand-crossbow.rank",
+                "value": "@actor.system.martial.unarmed.rank"
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.martial.weapon-base-longspear.rank",
+                "value": "@actor.system.martial.unarmed.rank"
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.martial.weapon-base-spear.rank",
+                "value": "@actor.system.martial.unarmed.rank"
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.martial.weapon-base-trident.rank",
+                "value": "@actor.system.martial.unarmed.rank"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "azarketi"
+            ]
+        }
+    },
+    "type": "feat"
+}

@@ -1,0 +1,42 @@
+{
+    "_id": "3y459uK2qfWtS9q4",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Everstand Strike",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "description": {
+            "value": "<p><strong>Requirements</strong> You are wielding a shield in two hands.</p>\n<hr />\n<p>Your follow-up blow leaves you an opening to set your shield. Make a Strike with the wielded shield. If the Strike hits and deals damage, you also @UUID[Compendium.xprpg.actionsxprpg.Raise a Shield]{Raise your Shield}.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Everstand Stance "
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "uncommon",
+            "value": [
+                "champion",
+                "fighter",
+                "press"
+            ]
+        }
+    },
+    "type": "feat"
+}

@@ -1,0 +1,137 @@
+> section.sheet-sidebar {
+    flex: 0 0 220px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    > * {
+        flex: 1;
+    }
+
+    .item-summary {
+        @include serif-condensed;
+        flex: 0 0 28px;
+        line-height: 28px;
+        text-align: center;
+        font-size: var(--font-size-18);
+        color: #444;
+    }
+
+    ol.item-tags {
+        padding-left: 0;
+        flex: 0;
+        list-style: none;
+
+        .tag {
+            display: block;
+            width: 100%;
+            text-align: center;
+        }
+    }
+
+    .inventory-details, .feat-details {
+        @include scrollbar;
+        padding: 0 4px 0 0;
+
+        label {
+            color: #353535;
+            font-weight: bold;
+            white-space: nowrap;
+            max-width: 6em;
+        }
+
+        .form-group {
+            margin: 3px 0;
+
+            input {
+                text-align: right;
+                &.left-of-select {
+                    min-width: 4ch;
+                    padding-right: 0.5em;
+                }
+            }
+
+            select {
+                max-width: 16em;
+            }
+
+            &.longtext {
+                height: fit-content;
+                align-items: start;
+                margin: 0 0 0.5em 0;
+
+                label {
+                    max-width: 6em;
+                    white-space: normal;
+                    line-height: unset;
+                }
+
+                .editor-content {
+                    min-height: 3em;
+                    > p {
+                        font-weight: 400;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+
+        .price-fields {
+            display: flex;
+            gap: 4px;
+            input[name="system.price.per"] {
+                width: 22px;
+            }
+        }
+    }
+
+    select {
+        font-family: inherit;
+        font-size: 0.8em;
+        height: 18px;
+    }
+
+    button {
+        padding-top: 0;
+        padding-bottom: 0;
+        white-space: nowrap;
+    }
+
+    .badge-label-row {
+        width: 100%;
+        label {
+            cursor: pointer;
+            max-width: unset;
+        }
+
+        input[type=radio] {
+            margin: 0;
+            top: 0;
+        }
+
+        .badge-value {
+            margin-right: 0.1rem;
+            width: 3ch;
+            font-weight: bold;
+            text-align: end;
+        }
+
+        input[type=text] {
+            flex: 1;
+            text-align: end;
+        }
+    }
+
+    .add-badge {
+        display: flex;
+        align-items: center;
+        select {
+            flex: 1;
+            max-width: unset;
+        }
+        button {
+            flex: 0;
+            line-height: 1.2em;
+        }
+    }
+}

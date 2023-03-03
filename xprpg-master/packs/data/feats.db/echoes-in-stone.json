@@ -1,0 +1,37 @@
+{
+    "_id": "nKkbEKbE9vfKWKdd",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Echoes In Stone",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "description": {
+            "value": "<p><strong>Requirements</strong> You are standing on a stone or earthen surface.</p>\n<hr />\n<p>You pause a moment to attune your senses to the stone around you. Until the start of your next turn, you gain a new sense: imprecise  with a range of 20 feet.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 9
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "concentrate",
+                "dwarf"
+            ]
+        }
+    },
+    "type": "feat"
+}

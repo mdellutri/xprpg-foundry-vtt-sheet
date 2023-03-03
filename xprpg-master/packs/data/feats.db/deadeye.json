@@ -1,0 +1,37 @@
+{
+    "_id": "NJyyxInJ743OotKf",
+    "img": "systems/xprpg/icons/default-icons/feats.webp",
+    "name": "Deadeye",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "description": {
+            "value": "<p>You relax your eyes, taking in the smallest movements of objects, stirring of grass and leaves, and other signs of the presence of @UUID[Compendium.xprpg.conditionitems.Hidden]{Hidden} things, granting you the ability to locate @UUID[Compendium.xprpg.conditionitems.Invisible]{Invisible} creatures. Until the start of your next turn, you can see invisible creatures and objects as silhouettes defined by the movement of air, slight depressions in the ground, and other tells that less-keen eyes would overlook, which makes them merely @UUID[Compendium.xprpg.conditionitems.Concealed]{Concealed} from you.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "concentrate",
+                "gunslinger"
+            ]
+        }
+    },
+    "type": "feat"
+}

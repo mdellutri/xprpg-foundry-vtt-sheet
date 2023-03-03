@@ -1,0 +1,36 @@
+{
+    "_id": "j2R64kwUgEJ1TudD",
+    "img": "systems/xprpg/icons/features/classes/natures-end.webp",
+    "name": "Nature's Edge",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You always find the weak points in your foes' defenses when they're on unfavorable terrain. Enemies are @UUID[Compendium.xprpg.conditionitems.Flat-Footed]{Flat-Footed} to you if they're in natural difficult terrain or in difficult terrain resulting from a snare.</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 9
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ranger"
+            ]
+        }
+    },
+    "type": "feat"
+}

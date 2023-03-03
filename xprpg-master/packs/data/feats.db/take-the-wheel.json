@@ -1,0 +1,44 @@
+{
+    "_id": "z3ycxqT1XvjfQ0Oq",
+    "img": "systems/xprpg/icons/default-icons/feats.webp",
+    "name": "Take the Wheel",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "description": {
+            "value": "<p><strong>Requirements</strong> You are adjacent to a vehicle's point of entry.</p>\n<hr />\n<p>Diving into a moving vehicle and seizing the controls is nothing new for you. You @UUID[Compendium.xprpg.actionsxprpg.Board]{Board} and @UUID[Compendium.xprpg.actionsxprpg.Take Control]{Take Control} of the adjacent vehicle.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Trick Driver Dedication"
+                },
+                {
+                    "value": "expert in Driving Lore"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype",
+                "flourish"
+            ]
+        }
+    },
+    "type": "feat"
+}

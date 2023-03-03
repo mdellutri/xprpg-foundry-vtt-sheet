@@ -1,0 +1,40 @@
+{
+    "_id": "d6Vb8D9yOX93mdUI",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Flinging Shove",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Increase the distance you @UUID[Compendium.xprpg.actionsxprpg.Shove]{Shove} your opponent with @UUID[Compendium.xprpg.feats-srd.Aggressive Block]{Aggressive Block} or @UUID[Compendium.xprpg.feats-srd.Brutish Shove]{Brutish Shove} to 10 feet on a success or 20 feet on a critical success.</p>\n<p>When you use Aggressive Block, you can choose whether the target is @UUID[Compendium.xprpg.conditionitems.Flat-Footed]{Flat-Footed} or Shoved. When you make a Brutish Shove, you also Shove the target 5 feet on a failure.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Aggressive Block or Brutish Shove"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fighter"
+            ]
+        }
+    },
+    "type": "feat"
+}

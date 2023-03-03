@@ -1,0 +1,45 @@
+{
+    "_id": "1MqvE1FL2mZRCnzo",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Vestigial Wings",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You possess small, weak wings that aid in balance. You gain the @UUID[Compendium.xprpg.feats-srd.Steady Balance]{Steady Balance} and @UUID[Compendium.xprpg.feats-srd.Cat Fall]{Cat Fall} skill feats as bonus feats, even if you aren't trained in Acrobatics.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.xprpg.feats-srd.Steady Balance"
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.xprpg.feats-srd.Cat Fall"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ganzi"
+            ]
+        }
+    },
+    "type": "feat"
+}

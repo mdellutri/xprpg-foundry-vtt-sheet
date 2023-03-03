@@ -1,0 +1,36 @@
+{
+    "_id": "nnF7RSVlC6swbSw8",
+    "img": "systems/xprpg/icons/spells/brand-the-impenitent.webp",
+    "name": "Effect: Anoint Ally",
+    "system": {
+        "description": {
+            "value": "<p>Granted by @UUID[Compendium.xprpg.feats-srd.Anoint Ally]{Anoint Ally}.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "minutes",
+            "value": 1
+        },
+        "level": {
+            "value": 1
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "effect"
+}

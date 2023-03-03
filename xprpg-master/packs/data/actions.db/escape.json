@@ -1,0 +1,40 @@
+{
+    "_id": "SkZAQRkLLkmBQNB9",
+    "img": "systems/xprpg/icons/actions/OneAction.webp",
+    "name": "Escape",
+    "system": {
+        "actionCategory": {
+            "value": "interaction"
+        },
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "description": {
+            "value": "<p>You attempt to escape from being @UUID[Compendium.xprpg.conditionitems.Grabbed]{Grabbed}, @UUID[Compendium.xprpg.conditionitems.Immobilized]{Immobilized}, or @UUID[Compendium.xprpg.conditionitems.Restrained]{Restrained}. Choose one creature, object, spell effect, hazard, or other impediment imposing any of those conditions on you. Attempt a <span data-xprpg-action=\"escape\" data-xprpg-glyph=\"A\">check</span> using your <span data-xprpg-action=\"escape\" data-xprpg-glyph=\"A\" data-xprpg-skill=\"unarmed\">unarmed attack modifier</span> against the DC of the effect. This is typically the Athletics DC of a creature grabbing you, the Thievery DC of a creature who tied you up, the spell DC for a spell effect, or the listed Escape DC of an object, hazard, or other impediment. You can attempt an <span data-xprpg-action=\"escape\" data-xprpg-glyph=\"A\" data-xprpg-skill=\"acrobatics\">Acrobatics</span> or <span data-xprpg-action=\"escape\" data-xprpg-glyph=\"A\" data-xprpg-skill=\"athletics\">Athletics</span> check instead of using your attack modifier if you choose (but this action still has the attack trait).</p>\n<hr />\n<p><strong>Critical Success</strong> You get free and remove the grabbed, immobilized, and restrained conditions imposed by your chosen target. You can then Stride up to 5 feet.</p>\n<p><strong>Success</strong> You get free and remove the grabbed, immobilized, and restrained conditions imposed by your chosen target.</p>\n<p><strong>Critical Failure</strong> You don't get free, and you can't attempt to Escape again until your next turn.</p>"
+        },
+        "requirements": {
+            "value": ""
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "attack",
+                "general"
+            ]
+        },
+        "trigger": {
+            "value": ""
+        },
+        "weapon": {
+            "value": ""
+        }
+    },
+    "type": "action"
+}

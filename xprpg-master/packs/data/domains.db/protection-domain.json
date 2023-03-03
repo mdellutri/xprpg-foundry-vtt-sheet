@@ -1,0 +1,11 @@
+{
+    "_id": "jWmGQxJvKh5y5zfB",
+    "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Adanye]{Adanye}, @UUID[Compendium.xprpg.deities.Alseta]{Alseta}, @UUID[Compendium.xprpg.deities.Andoletta]{Andoletta}, @UUID[Compendium.xprpg.deities.Angradd]{Angradd}, @UUID[Compendium.xprpg.deities.Anubis]{Anubis}, @UUID[Compendium.xprpg.deities.Apsu]{Apsu}, @UUID[Compendium.xprpg.deities.Arazni]{Arazni}, @UUID[Compendium.xprpg.deities.Arundhat]{Arundhat}, @UUID[Compendium.xprpg.deities.Ashukharma]{Ashukharma}, @UUID[Compendium.xprpg.deities.Atreia]{Atreia}, @UUID[Compendium.xprpg.deities.Balumbdar]{Balumbdar}, @UUID[Compendium.xprpg.deities.Bastet]{Bastet}, @UUID[Compendium.xprpg.deities.Bes]{Bes}, @UUID[Compendium.xprpg.deities.Dwarven Pantheon]{Dwarven Pantheon}, @UUID[Compendium.xprpg.deities.Folgrit]{Folgrit}, @UUID[Compendium.xprpg.deities.Green Man]{Green Man}, @UUID[Compendium.xprpg.deities.Grundinnar]{Grundinnar}, @UUID[Compendium.xprpg.deities.Horus]{Horus}, @UUID[Compendium.xprpg.deities.Jaidz]{Jaidz}, @UUID[Compendium.xprpg.deities.Kazutal]{Kazutal}, @UUID[Compendium.xprpg.deities.Korada]{Korada}, @UUID[Compendium.xprpg.deities.Lymnieris]{Lymnieris}, @UUID[Compendium.xprpg.deities.Ma'at]{Ma'at}, @UUID[Compendium.xprpg.deities.Nethys]{Nethys}, @UUID[Compendium.xprpg.deities.Qi Zhong]{Qi Zhong}, @UUID[Compendium.xprpg.deities.Selket]{Selket}, @UUID[Compendium.xprpg.deities.Shelyn]{Shelyn}, @UUID[Compendium.xprpg.deities.Sobek]{Sobek}, @UUID[Compendium.xprpg.deities.Soralyon]{Soralyon}, @UUID[Compendium.xprpg.deities.The Godclaw]{The Godclaw}, @UUID[Compendium.xprpg.deities.The Prismatic Ray]{The Prismatic Ray}, @UUID[Compendium.xprpg.deities.Torag]{Torag}, @UUID[Compendium.xprpg.deities.Trudd]{Trudd}, @UUID[Compendium.xprpg.deities.Wadjet]{Wadjet}, @UUID[Compendium.xprpg.deities.Wards of the Pharaoh]{Wards of the Pharaoh}, @UUID[Compendium.xprpg.deities.Winlas]{Winlas}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Protector's Sacrifice]{Protector's Sacrifice}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Protector's Sphere]{Protector's Sphere}</em></p>\n<p>You ward yourself and others.</p>",
+    "name": "Protection Domain",
+    "ownership": {
+        "default": 0
+    },
+    "permission": {
+        "default": 0
+    }
+}

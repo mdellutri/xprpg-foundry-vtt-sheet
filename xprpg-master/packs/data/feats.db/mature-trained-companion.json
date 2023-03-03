@@ -1,0 +1,40 @@
+{
+    "_id": "n3eOMWQd4kdR3A0l",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Mature Trained Companion",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your animal companion grows up, becoming a mature animal companion. Increase its proficiency rank in Performance to expert instead of one of the three skill increases for mature. It gains the  advanced maneuver, rather than the normal advanced maneuver for its type.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Animal Trainer Dedication "
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "uncommon",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "type": "feat"
+}

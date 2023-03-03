@@ -1,0 +1,36 @@
+{
+    "_id": "k4QU2edqSoB23foo",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "The Harder They Fall",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You make your foes fall painfully when you trip them. When you successfully @UUID[Compendium.xprpg.actionsxprpg.Trip]{Trip} a @UUID[Compendium.xprpg.conditionitems.Flat-Footed]{Flat-Footed} foe, your target takes [[/r 1d6[bludgeoning]]] damage. On a critical success, the target takes 1d6 bludgeoning damage plus your sneak attack damage.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "rogue"
+            ]
+        }
+    },
+    "type": "feat"
+}

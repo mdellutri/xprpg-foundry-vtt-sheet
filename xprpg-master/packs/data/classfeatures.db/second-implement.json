@@ -1,0 +1,121 @@
+{
+    "_id": "Z8WpDAdAXyefLB7Q",
+    "img": "systems/xprpg/icons/features/classes/second-implement.webp",
+    "name": "Second Implement",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You've added another implement of power to your toolkit. You choose a second implement, which must be a different type of implement than your first. You gain the initiate benefit of your new implement.</p>\n<p>While you're holding an implement in one hand, you can quickly switch it with another implement you're wearing to use an action from the implement you're switching to. To do so, you can Interact as a free action immediately before executing the implement's action. This allows you to meet requirements of having an implement in hand to use its action. For example, if you had your lantern implement in one hand, a weapon in the other, and a chalice implement you were wearing, you could swap your lantern for your chalice to use its reaction.</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 5
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "adjustName": false,
+                "choices": [
+                    {
+                        "predicate": [
+                            {
+                                "not": "feature:amulet"
+                            }
+                        ],
+                        "value": "Compendium.xprpg.classfeatures.Amulet"
+                    },
+                    {
+                        "predicate": [
+                            {
+                                "not": "feature:bell"
+                            }
+                        ],
+                        "value": "Compendium.xprpg.classfeatures.Bell"
+                    },
+                    {
+                        "predicate": [
+                            {
+                                "not": "feature:chalice"
+                            }
+                        ],
+                        "value": "Compendium.xprpg.classfeatures.Chalice"
+                    },
+                    {
+                        "predicate": [
+                            {
+                                "not": "feature:lantern"
+                            }
+                        ],
+                        "value": "Compendium.xprpg.classfeatures.Lantern"
+                    },
+                    {
+                        "predicate": [
+                            {
+                                "not": "feature:mirror"
+                            }
+                        ],
+                        "value": "Compendium.xprpg.classfeatures.Mirror"
+                    },
+                    {
+                        "predicate": [
+                            {
+                                "not": "feature:regalia"
+                            }
+                        ],
+                        "value": "Compendium.xprpg.classfeatures.Regalia"
+                    },
+                    {
+                        "predicate": [
+                            {
+                                "not": "feature:tome"
+                            }
+                        ],
+                        "value": "Compendium.xprpg.classfeatures.Tome"
+                    },
+                    {
+                        "predicate": [
+                            {
+                                "not": "feature:wand"
+                            }
+                        ],
+                        "value": "Compendium.xprpg.classfeatures.Wand"
+                    },
+                    {
+                        "predicate": [
+                            {
+                                "not": "feature:weapon"
+                            }
+                        ],
+                        "value": "Compendium.xprpg.classfeatures.Weapon"
+                    }
+                ],
+                "flag": "implement",
+                "key": "ChoiceSet",
+                "prompt": "XPRPG.SpecificRule.Prompt.SecondImplement"
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "{item|flags.xprpg.rulesSelections.implement}"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "thaumaturge"
+            ]
+        }
+    },
+    "type": "feat"
+}

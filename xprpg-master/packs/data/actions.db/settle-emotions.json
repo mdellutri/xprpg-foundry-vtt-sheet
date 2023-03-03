@@ -1,0 +1,41 @@
+{
+    "_id": "EhLvRWFKhZ3HtrZO",
+    "img": "systems/xprpg/icons/actions/Passive.webp",
+    "name": "Settle Emotions",
+    "system": {
+        "actionCategory": {
+            "value": "interaction"
+        },
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You spend 10 minutes using techniques you've developed to calm your emotions and bring them back under control. This allows you to access your @UUID[Compendium.xprpg.actionsxprpg.Catharsis]{Catharsis} again.</p>"
+        },
+        "requirements": {
+            "value": ""
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "concentrate",
+                "emotion",
+                "mental"
+            ]
+        },
+        "trigger": {
+            "value": ""
+        },
+        "weapon": {
+            "value": ""
+        }
+    },
+    "type": "action"
+}

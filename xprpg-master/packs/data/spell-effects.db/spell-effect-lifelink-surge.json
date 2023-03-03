@@ -1,0 +1,42 @@
+{
+    "_id": "h2JzNunzO8hXiNV3",
+    "img": "systems/xprpg/icons/spells/lifelink-surge.webp",
+    "name": "Spell Effect: Lifelink Surge",
+    "system": {
+        "badge": null,
+        "description": {
+            "value": "<p>Granted by <em>@UUID[Compendium.xprpg.spells-srd.Lifelink Surge]{Lifelink Surge}</em>.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "rounds",
+            "value": 4
+        },
+        "level": {
+            "value": 2
+        },
+        "rules": [
+            {
+                "key": "FastHealing",
+                "value": "@item.level * 2"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Secrets of Magic"
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "effect"
+}

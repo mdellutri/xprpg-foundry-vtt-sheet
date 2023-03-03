@@ -1,0 +1,50 @@
+{
+    "_id": "EEvA4uj8h3zDiAfP",
+    "img": "systems/xprpg/icons/features/ancestry/treedweller-goblin.webp",
+    "name": "Treedweller Goblin",
+    "system": {
+        "ancestry": {
+            "name": "Goblin",
+            "slug": "goblin",
+            "uuid": "Compendium.xprpg.ancestries.sQfjTMDaZbT9DThq"
+        },
+        "description": {
+            "value": "<p>You have adapted particularly well to living in forested environments. As long as you are in a forest or jungle, you gain a +2 circumstance bonus to Stealth checks to @UUID[Compendium.xprpg.actionsxprpg.Hide]{Hide} and @UUID[Compendium.xprpg.actionsxprpg.Sneak]{Sneak}, Survival checks to @UUID[Compendium.xprpg.actionsxprpg.Subsist]{Subsist}, and your Survival DC to @UUID[Compendium.xprpg.actionsxprpg.Cover Tracks]{Cover Tracks}.</p>"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "label": "Treedweller Goblin (Subsist)",
+                "predicate": [
+                    "action:subsist"
+                ],
+                "selector": "survival",
+                "type": "circumstance",
+                "value": 2
+            },
+            {
+                "key": "FlatModifier",
+                "label": "Treedweller Goblin (Hide or Sneak)",
+                "predicate": [
+                    {
+                        "or": [
+                            "action:hide",
+                            "action:sneak"
+                        ]
+                    }
+                ],
+                "selector": "stealth",
+                "type": "circumstance",
+                "value": 2
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "heritage"
+}

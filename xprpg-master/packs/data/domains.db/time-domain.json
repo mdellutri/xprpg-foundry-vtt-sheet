@@ -1,0 +1,11 @@
+{
+    "_id": "udASTZy5jJWFCt5w",
+    "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Alseta]{Alseta}, @UUID[Compendium.xprpg.deities.Brigh]{Brigh}, @UUID[Compendium.xprpg.deities.Pharasma]{Pharasma}, @UUID[Compendium.xprpg.deities.Pillars of Knowledge]{Pillars of Knowledge}, @UUID[Compendium.xprpg.deities.Ra]{Ra}, @UUID[Compendium.xprpg.deities.Shyka]{Shyka}, @UUID[Compendium.xprpg.deities.Yog-Sothoth]{Yog-Sothoth}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Delay Consequence]{Delay Consequence}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Stasis]{Stasis}</em></p>\n<p>You reign over the flow of time.</p>",
+    "name": "Time Domain",
+    "ownership": {
+        "default": 0
+    },
+    "permission": {
+        "default": 0
+    }
+}

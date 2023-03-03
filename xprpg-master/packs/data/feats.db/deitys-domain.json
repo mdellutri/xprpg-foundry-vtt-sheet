@@ -1,0 +1,42 @@
+{
+    "_id": "FXKIALDXAzEBfj5A",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Deity's Domain",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You embody an aspect of your deity. Choose one of your deity's domains. You gain the domain's initial domain spell as a devotion spell.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "choices": "system.details.deities.domains",
+                "key": "ChoiceSet",
+                "prompt": "XPRPG.SpecificRule.Prompt.DeitysDomain"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "champion"
+            ]
+        }
+    },
+    "type": "feat"
+}

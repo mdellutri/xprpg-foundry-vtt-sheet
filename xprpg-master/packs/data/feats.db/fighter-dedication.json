@@ -1,0 +1,91 @@
+{
+    "_id": "mvNa9KfQooHYEXoA",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Fighter Dedication",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You become trained in simple weapons and martial weapons. You become trained in your choice of Acrobatics or Athletics; if you are already trained in both of these skills, you instead become trained in a skill of your choice. You become trained in fighter class DC.</p>\n<p><strong>Special</strong> You cannot select another dedication feat until you have gained two other feats from the @UUID[Compendium.xprpg.journals.vx5FGEG34AxI2dow.JournalEntryPage.inxtk4rYj2UZaytg]{Fighter} archetype.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Strength 14"
+                },
+                {
+                    "value": "Dexterity 14"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.martial.simple.rank",
+                "value": 1
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.martial.martial.rank",
+                "value": 1
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "add",
+                "path": "system.custom.modifiers.fighter-dedication-count",
+                "value": 1
+            },
+            {
+                "adjustName": false,
+                "choices": [
+                    {
+                        "label": "XPRPG.AbilityStr",
+                        "value": "str"
+                    },
+                    {
+                        "label": "XPRPG.AbilityDex",
+                        "value": "dex"
+                    }
+                ],
+                "flag": "keyAbility",
+                "key": "ChoiceSet",
+                "prompt": "XPRPG.SpecificRule.Prompt.ClassDCAbilityScore"
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "override",
+                "path": "system.proficiencies.classDCs.fighter",
+                "priority": 39,
+                "value": {
+                    "ability": "{item|flags.xprpg.rulesSelections.keyAbility}",
+                    "label": "XPRPG.TraitFighter",
+                    "rank": 1
+                }
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype",
+                "dedication",
+                "multiclass"
+            ]
+        }
+    },
+    "type": "feat"
+}

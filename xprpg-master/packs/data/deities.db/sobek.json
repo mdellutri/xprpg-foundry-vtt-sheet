@@ -1,0 +1,51 @@
+{
+    "_id": "TvxsVRztDlGcWpcI",
+    "img": "systems/xprpg/icons/default-icons/deity.svg",
+    "name": "Sobek",
+    "system": {
+        "ability": [
+            "str",
+            "con"
+        ],
+        "alignment": {
+            "follower": [
+                "CG",
+                "N",
+                "CN",
+                "CE"
+            ],
+            "own": "CN"
+        },
+        "category": "deity",
+        "description": {
+            "value": "<p><strong>Edicts</strong> Take what you want, indulge in base desires, feast on luxurious food, kill demons and evil creatures</p>\n<p><strong>Anathema</strong> Cower from fights, despoil the land, kill the innocent</p>"
+        },
+        "domains": {
+            "alternate": [],
+            "primary": [
+                "might",
+                "protection",
+                "water",
+                "wyrmkin"
+            ]
+        },
+        "font": [
+            "harm",
+            "heal"
+        ],
+        "rules": [],
+        "skill": "ath",
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "spells": {
+            "1": "Compendium.xprpg.spells-srd.jfVCuOpzC6mUrf6f",
+            "3": "Compendium.xprpg.spells-srd.RvBlSIJmxiqfCpR9",
+            "4": "Compendium.xprpg.spells-srd.KhM8MhoUgoUjBMIz"
+        },
+        "weapons": [
+            "falchion"
+        ]
+    },
+    "type": "deity"
+}

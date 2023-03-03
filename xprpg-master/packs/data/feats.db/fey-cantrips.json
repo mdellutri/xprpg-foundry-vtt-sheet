@@ -1,0 +1,36 @@
+{
+    "_id": "gozOYxLVx7PQvOSj",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Fey Cantrips",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You've learned the cantrips sprites have used since time immemorial. You gain <em>@UUID[Compendium.xprpg.spells-srd.Dancing Lights]{Dancing Lights}</em> and <em>@UUID[Compendium.xprpg.spells-srd.Ghost Sound]{Ghost Sound}</em> as primal innate cantrips. If you have the grig heritage, you also gain <em>@UUID[Compendium.xprpg.spells-srd.Detect Magic]{Detect Magic}</em>, and if you have the draxie heritage, you gain <em>@UUID[Compendium.xprpg.spells-srd.Prestidigitation]{Prestidigitation}</em>.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "sprite"
+            ]
+        }
+    },
+    "type": "feat"
+}

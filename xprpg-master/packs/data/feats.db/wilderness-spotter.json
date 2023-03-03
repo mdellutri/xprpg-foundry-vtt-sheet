@@ -1,0 +1,85 @@
+{
+    "_id": "BV5jpSifVJsTwoO7",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Wilderness Spotter",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Select one type of terrain from the following list: aquatic, arctic, desert, forest, mountain, plains, sky, swamp, or underground. You can use Survival in place of Perception to roll initiative when in the selected terrain in a natural location (not a structure) even if you weren't tracking or otherwise using Survival before the encounter. You can also use Survival instead of Perception to notice traps in natural locations in the chosen terrain; if you find a snare in this way, you can also use Survival instead of Thievery to Disable the Device.</p>\n<hr />\n<p><strong>Special</strong> You can select this feat more than once. Each time you select it, the feat applies to a new type of terrain.</p>"
+        },
+        "featType": {
+            "value": "skill"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "expert in Survival"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "choices": [
+                    {
+                        "label": "XPRPG.Terrain.Aquatic",
+                        "value": "aquatic"
+                    },
+                    {
+                        "label": "XPRPG.Terrain.Arctic",
+                        "value": "arctic"
+                    },
+                    {
+                        "label": "XPRPG.Terrain.Desert",
+                        "value": "desert"
+                    },
+                    {
+                        "label": "XPRPG.Terrain.Forest",
+                        "value": "forest"
+                    },
+                    {
+                        "label": "XPRPG.Terrain.Mountain",
+                        "value": "mountain"
+                    },
+                    {
+                        "label": "XPRPG.Terrain.Plains",
+                        "value": "plain"
+                    },
+                    {
+                        "label": "XPRPG.Terrain.Sky",
+                        "value": "sky"
+                    },
+                    {
+                        "label": "XPRPG.Terrain.Swamp",
+                        "value": "swamp"
+                    },
+                    {
+                        "label": "XPRPG.Terrain.Underground",
+                        "value": "underground"
+                    }
+                ],
+                "flag": "terrain",
+                "key": "ChoiceSet",
+                "prompt": "XPRPG.SpecificRule.TerrainExpertise.Prompt"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "uncommon",
+            "value": [
+                "general",
+                "skill"
+            ]
+        }
+    },
+    "type": "feat"
+}

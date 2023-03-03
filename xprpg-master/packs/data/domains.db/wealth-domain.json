@@ -1,0 +1,11 @@
+{
+    "_id": "HpZ4NQIqBRcFihyE",
+    "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Abadar]{Abadar}, @UUID[Compendium.xprpg.deities.Besmara]{Besmara}, @UUID[Compendium.xprpg.deities.Dwarven Pantheon]{Dwarven Pantheon}, @UUID[Compendium.xprpg.deities.Erastil]{Erastil}, @UUID[Compendium.xprpg.deities.Falayna]{Falayna}, @UUID[Compendium.xprpg.deities.Hanspur]{Hanspur}, @UUID[Compendium.xprpg.deities.Hastur]{Hastur}, @UUID[Compendium.xprpg.deities.Kofusachi]{Kofusachi}, @UUID[Compendium.xprpg.deities.Mammon]{Mammon}, @UUID[Compendium.xprpg.deities.Nivi Rhombodazzle]{Nivi Rhombodazzle}, @UUID[Compendium.xprpg.deities.Norgorber]{Norgorber}, @UUID[Compendium.xprpg.deities.Raumya]{Raumya}, @UUID[Compendium.xprpg.deities.Sairazul]{Sairazul}, @UUID[Compendium.xprpg.deities.Thamir]{Thamir}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Appearance of Wealth]{Appearance of Wealth}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Precious Metals]{Precious Metals}</em></p>\n<p>You hold power over wealth, trade, and treasure.</p>",
+    "name": "Wealth Domain",
+    "ownership": {
+        "default": 0
+    },
+    "permission": {
+        "default": 0
+    }
+}

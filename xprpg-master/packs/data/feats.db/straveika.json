@@ -1,0 +1,49 @@
+{
+    "_id": "PVkAEBlRSJHe3JCz",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Straveika",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You descend from one of the truly ancient vampires, a nosferatu cursed to eternal life but not eternal youth. People call you straveika, or ancient-born. The vestiges of your forebear's powers of domination have left you with an understanding of how a creature's intentions change its behaviors. You gain a +1 circumstance bonus to Perception checks to @UUID[Compendium.xprpg.actionsxprpg.Sense Motive]{Sense Motive} and Perception DCs against attempts to @UUID[Compendium.xprpg.actionsxprpg.Lie]{Lie} to you.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 1
+        },
+        "onlyLevel1": true,
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "label": "XPRPG.SkillVariant.SenseMotive",
+                "predicate": [
+                    "action:sense-motive"
+                ],
+                "selector": "perception",
+                "type": "circumstance",
+                "value": 1
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "dhampir",
+                "lineage"
+            ]
+        }
+    },
+    "type": "feat"
+}

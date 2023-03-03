@@ -1,0 +1,36 @@
+{
+    "_id": "DtmKrCvsmutVLAhH",
+    "img": "systems/xprpg/icons/spells/needle-of-vengeance.webp",
+    "name": "Lesson of Vengeance",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You gain the <em>@UUID[Compendium.xprpg.spells-srd.Needle of Vengeance]{Needle of Vengeance}</em> hex, and your familiar learns <em>@UUID[Compendium.xprpg.spells-srd.Phantom Pain]{Phantom Pain}</em>.</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "witch"
+            ]
+        }
+    },
+    "type": "feat"
+}

@@ -1,0 +1,38 @@
+{
+    "_id": "fiA3rfqPcCKFCI83",
+    "img": "systems/xprpg/icons/default-icons/feats.webp",
+    "name": "Towering Growth",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You're capable of growing as tall as a pine tree for a short time. You gain 2nd-level <em>@UUID[Compendium.xprpg.spells-srd.Enlarge]{Enlarge}</em> as a primal innate spell. You can cast this spell twice per day and you must target yourself.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 9
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Pine Leshy heritage"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "uncommon",
+            "value": []
+        }
+    },
+    "type": "feat"
+}

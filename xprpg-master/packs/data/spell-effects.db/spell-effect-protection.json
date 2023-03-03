@@ -1,0 +1,96 @@
+{
+    "_id": "RawLEPwyT5CtCZ4D",
+    "img": "systems/xprpg/icons/spells/protection.webp",
+    "name": "Spell Effect: Protection",
+    "system": {
+        "badge": null,
+        "description": {
+            "value": "<p>Granted by <em>@UUID[Compendium.xprpg.spells-srd.Protection]{Protection}</em> or <em>@UUID[Compendium.xprpg.spells-srd.Circle of Protection]{Circle of Protection}</em></p>\n<p>The target gains a +1 status bonus to Armor Class and saving throws against creatures and effects of the chosen alignment.</p>\n<p>This bonus increases to +3 against effects from such creatures that would directly control the target and against attacks made by summoned creatures of the chosen alignment.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "minutes",
+            "value": 1
+        },
+        "level": {
+            "value": 1
+        },
+        "rules": [
+            {
+                "adjustName": true,
+                "choices": [
+                    {
+                        "label": "XPRPG.TraitChaotic",
+                        "value": "chaotic"
+                    },
+                    {
+                        "label": "XPRPG.TraitEvil",
+                        "value": "evil"
+                    },
+                    {
+                        "label": "XPRPG.TraitGood",
+                        "value": "good"
+                    },
+                    {
+                        "label": "XPRPG.TraitLawful",
+                        "value": "lawful"
+                    }
+                ],
+                "flag": "protectionSelection",
+                "key": "ChoiceSet",
+                "prompt": "XPRPG.SpecificRule.SpellEffectProtection.Prompt"
+            },
+            {
+                "domain": "all",
+                "key": "RollOption",
+                "label": "Protection from {item|flags.xprpg.rulesSelections.protectionSelection} (direct control or summoned)",
+                "option": "protection-{item|flags.xprpg.rulesSelections.protectionSelection}-enhanced",
+                "toggleable": true
+            },
+            {
+                "key": "FlatModifier",
+                "label": "Protection from {item|flags.xprpg.rulesSelections.protectionSelection} (direct control or summoned)",
+                "predicate": [
+                    "origin:trait:{item|flags.xprpg.rulesSelections.protectionSelection}",
+                    "protection-{item|flags.xprpg.rulesSelections.protectionSelection}-enhanced"
+                ],
+                "selector": [
+                    "ac",
+                    "saving-throw"
+                ],
+                "type": "status",
+                "value": 3
+            },
+            {
+                "key": "FlatModifier",
+                "label": "Protection from {item|flags.xprpg.rulesSelections.protectionSelection}",
+                "predicate": [
+                    "origin:trait:{item|flags.xprpg.rulesSelections.protectionSelection}"
+                ],
+                "selector": [
+                    "ac",
+                    "saving-throw"
+                ],
+                "type": "status",
+                "value": 1
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "effect"
+}

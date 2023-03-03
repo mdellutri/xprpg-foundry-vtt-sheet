@@ -1,0 +1,40 @@
+{
+    "_id": "gKDRnsBPBdhJB0FI",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Avenge in Glory",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Access</strong> mountain dwarf ethnicity</p>\n<p><strong>Trigger</strong> An ally within 30 feet gains the @UUID[Compendium.xprpg.conditionitems.Dying]{Dying} condition.</p>\n<hr />\n<p>You honor your ally's life, gaining temporary Hit Points equal to your level for 1 minute. As long as you have these temporary Hit Points, you gain a +1 circumstance bonus to attack and damage rolls.</p>\n<p>@UUID[Compendium.xprpg.feat-effects.Effect: Avenge in Glory]{Effect: Avenge in Glory}</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "frequency": {
+            "max": 1,
+            "per": "day"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "uncommon",
+            "value": [
+                "dwarf"
+            ]
+        }
+    },
+    "type": "feat"
+}

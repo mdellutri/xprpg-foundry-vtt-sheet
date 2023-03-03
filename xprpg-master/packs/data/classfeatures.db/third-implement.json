@@ -1,0 +1,121 @@
+{
+    "_id": "zxZzjN2T53wnH4vU",
+    "img": "systems/xprpg/icons/features/classes/third-implement.webp",
+    "name": "Third Implement",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>As you come closer to the culmination of your journey, you gain your final implement, completing your set of three. It must be a different type of implement than your first and second implements. You gain the initiate benefit and intensify vulnerability benefit of your new implement.</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 15
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "adjustName": false,
+                "choices": [
+                    {
+                        "predicate": [
+                            {
+                                "not": "feature:amulet"
+                            }
+                        ],
+                        "value": "Compendium.xprpg.classfeatures.Amulet"
+                    },
+                    {
+                        "predicate": [
+                            {
+                                "not": "feature:bell"
+                            }
+                        ],
+                        "value": "Compendium.xprpg.classfeatures.Bell"
+                    },
+                    {
+                        "predicate": [
+                            {
+                                "not": "feature:chalice"
+                            }
+                        ],
+                        "value": "Compendium.xprpg.classfeatures.Chalice"
+                    },
+                    {
+                        "predicate": [
+                            {
+                                "not": "feature:lantern"
+                            }
+                        ],
+                        "value": "Compendium.xprpg.classfeatures.Lantern"
+                    },
+                    {
+                        "predicate": [
+                            {
+                                "not": "feature:mirror"
+                            }
+                        ],
+                        "value": "Compendium.xprpg.classfeatures.Mirror"
+                    },
+                    {
+                        "predicate": [
+                            {
+                                "not": "feature:regalia"
+                            }
+                        ],
+                        "value": "Compendium.xprpg.classfeatures.Regalia"
+                    },
+                    {
+                        "predicate": [
+                            {
+                                "not": "feature:tome"
+                            }
+                        ],
+                        "value": "Compendium.xprpg.classfeatures.Tome"
+                    },
+                    {
+                        "predicate": [
+                            {
+                                "not": "feature:wand"
+                            }
+                        ],
+                        "value": "Compendium.xprpg.classfeatures.Wand"
+                    },
+                    {
+                        "predicate": [
+                            {
+                                "not": "feature:weapon"
+                            }
+                        ],
+                        "value": "Compendium.xprpg.classfeatures.Weapon"
+                    }
+                ],
+                "flag": "implement",
+                "key": "ChoiceSet",
+                "prompt": "XPRPG.SpecificRule.Prompt.ThirdImplement"
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "{item|flags.xprpg.rulesSelections.implement}"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "thaumaturge"
+            ]
+        }
+    },
+    "type": "feat"
+}

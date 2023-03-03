@@ -1,0 +1,40 @@
+{
+    "_id": "LQ5YW01UD9hGKk0l",
+    "img": "systems/xprpg/icons/default-icons/feats.webp",
+    "name": "Corpse Tender's Font",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You easily tend to the wounds of the dead. You can cast <em>@UUID[Compendium.xprpg.spells-srd.Harm]{Harm}</em> as a divine innate spell once per day. This spell is heightened to half your level, rounded up. You can target only mindless undead with this spell.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Corpse Tender Dedication"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "uncommon",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "type": "feat"
+}

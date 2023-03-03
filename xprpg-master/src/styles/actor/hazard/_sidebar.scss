@@ -1,0 +1,110 @@
+.sidebar {
+    border-right: 1px solid #888;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    height: 100%;
+    padding: 10px 8px 8px 8px;
+    width: 220px;
+    @include scrollbar;
+
+    .sidebar-title {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid black;
+        margin-bottom: 4px;
+        h2 {
+            font-size: var(--font-size-15);
+        }
+    }
+
+    .valued-icon {
+        display: flex;
+        align-items: baseline;
+        i {
+            margin-right: 4px;
+        }
+        i + input {
+            // simulate similar appearance for spans and inputs (that have a border)
+            margin-left: -1px;
+        }
+    }
+
+    .health {
+        input {
+            width: 34px;
+            &.current {
+                text-align: end;
+            }
+        }
+    }
+
+    .armor-class input {
+        width: 25px;
+        text-align: right;
+    }
+
+    .health-line {
+        display: flex;
+        justify-content: space-between;
+        font-size: var(--font-size-18);
+    }
+
+    .hp-details {
+        width: 100%;
+        text-align: right;
+    }
+
+    .initiative {
+        display: flex;
+        font-size: var(--font-size-18);
+        .roll-init {
+            cursor: pointer;
+        }
+        .attribute-name {
+            margin-left: auto;
+        }
+    }
+
+    .sidebar-saves {
+        display: flex;
+        justify-content: space-between;
+        h2 {
+            font-size: var(--font-size-18);
+        }
+
+        .save {
+            align-items: center;
+            display: flex;
+            flex: 1;
+            flex-direction: column;
+            font-size: var(--font-size-18);
+        }
+
+        input {
+            max-width: 50px;
+            text-align: center;
+        }
+    }
+
+    .emits-sound {
+        .hint:hover {
+            text-shadow: 0 0 8px var(--color-shadow-primary);
+        }
+
+        select {
+            font-size: var(--font-size-12);
+        }
+    }
+
+    .rollable {
+        cursor: pointer;
+        &:hover {
+            text-shadow: 0 0 8px var(--color-shadow-primary);
+            i {
+                animation: rotation 2s infinite linear;
+            }
+        }
+    }
+}

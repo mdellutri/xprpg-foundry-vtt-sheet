@@ -1,0 +1,47 @@
+{
+    "_id": "p353WH847errsNvh",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Apex Companion",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You can call upon the essence of every individual animal of a particular species to temporarily transform your animal into an exemplar of its kind. You learn the <em>@UUID[Compendium.xprpg.spells-srd.Apex Companion]{Apex Companion}</em> order spell. Increase the number of Focus Points in your focus pool by 1.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Animal Companion"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "add",
+                "path": "system.resources.focus.max",
+                "value": 1
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "uncommon",
+            "value": [
+                "druid"
+            ]
+        }
+    },
+    "type": "feat"
+}

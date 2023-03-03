@@ -1,0 +1,43 @@
+{
+    "_id": "lqhhvDJAjPw6LZy5",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Smokesoul",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You have a connection to smoke and haze. You gain the @UUID[Compendium.xprpg.actionsxprpg.Smoke Blending]{Smoke Blending} reaction.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 1
+        },
+        "onlyLevel1": true,
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.xprpg.actionsxprpg.Smoke Blending"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "lineage",
+                "sylph"
+            ]
+        }
+    },
+    "type": "feat"
+}

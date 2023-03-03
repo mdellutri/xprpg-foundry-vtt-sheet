@@ -1,0 +1,11 @@
+{
+    "_id": "fqr2OnTww3bAq0ae",
+    "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Atreia]{Atreia}, @UUID[Compendium.xprpg.deities.Chohar]{Chohar}, @UUID[Compendium.xprpg.deities.Hathor]{Hathor}, @UUID[Compendium.xprpg.deities.Horus]{Horus}, @UUID[Compendium.xprpg.deities.Jaidi]{Jaidi}, @UUID[Compendium.xprpg.deities.Luhar]{Luhar}, @UUID[Compendium.xprpg.deities.Nurgal]{Nurgal}, @UUID[Compendium.xprpg.deities.Ra]{Ra}, @UUID[Compendium.xprpg.deities.Sarenrae]{Sarenrae}, @UUID[Compendium.xprpg.deities.Shizuru]{Shizuru}, @UUID[Compendium.xprpg.deities.Sturovenen]{Sturovenen}, @UUID[Compendium.xprpg.deities.The Path of the Heavens]{The Path of the Heavens}, @UUID[Compendium.xprpg.deities.The Prismatic Ray]{The Prismatic Ray}, @UUID[Compendium.xprpg.deities.Tlehar]{Tlehar}, @UUID[Compendium.xprpg.deities.Walkena]{Walkena}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Dazzling Flash]{Dazzling Flash}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Positive Luminance]{Positive Luminance}</em></p>\n<p>You harness the power of the sun and other light sources, and punish undead.</p>",
+    "name": "Sun Domain",
+    "ownership": {
+        "default": 0
+    },
+    "permission": {
+        "default": 0
+    }
+}

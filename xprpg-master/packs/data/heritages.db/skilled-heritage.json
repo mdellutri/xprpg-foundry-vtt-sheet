@@ -1,0 +1,24 @@
+{
+    "_id": "zVf0Hlp5xG0Q7kmc",
+    "img": "systems/xprpg/icons/features/ancestry/skilled-heritage.webp",
+    "name": "Skilled Heritage",
+    "system": {
+        "ancestry": {
+            "name": "Human",
+            "slug": "human",
+            "uuid": "Compendium.xprpg.ancestries.IiG7DgeLWYrSNXuX"
+        },
+        "description": {
+            "value": "<p>Your ingenuity allows you to train in a wide variety of skills. You become trained in one skill of your choice. At 5th level, you become an expert in the chosen skill.</p>"
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "heritage"
+}

@@ -1,0 +1,49 @@
+{
+    "_id": "AWd7uZBfba5mNXeT",
+    "img": "systems/xprpg/icons/default-icons/feats.webp",
+    "name": "Syu Tak-nwa's Deadly Hair",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your hair unarmed attack deals 1d6 bludgeoning damage and gains the grapple trait.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Living Hair"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "diceNumber": 0,
+                "key": "DamageDice",
+                "override": {
+                    "dieSize": "d6"
+                },
+                "selector": "hair-damage"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "uncommon",
+            "value": [
+                "witch"
+            ]
+        }
+    },
+    "type": "feat"
+}

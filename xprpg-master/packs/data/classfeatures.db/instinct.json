@@ -1,0 +1,74 @@
+{
+    "_id": "dU7xRpg4kFd01hwZ",
+    "img": "systems/xprpg/icons/features/classes/choice-feature.webp",
+    "name": "Instinct",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You channel your rage through an instinct. You decide what your instinct means to you. It could be a creature or symbol beloved by your clan, or a purely internal source or filter of your rage, such as a belief, curse, heritage, or state of mind. Each instinct grants an instinct ability, plus more abilities you can gain via feats that list that instinct as a prerequisite. It also determines what damage you resist with raging resistance and, at higher levels, increases the additional damage you deal when you @UUID[Compendium.xprpg.classfeatures.Rage]{Rage}.</p>\n<p>Each instinct lists acts that are anathema to it. Whenever you perform such acts, you lose the instinct's abilities and any feats that list your instinct as a prerequisite until you spend 1 day of downtime re-centering yourself, though you keep all of your other barbarian abilities.</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "adjustName": false,
+                "allowedDrops": {
+                    "label": "level 1 barbarian class feature",
+                    "predicate": [
+                        "item:level:1",
+                        "item:trait:barbarian",
+                        "item:type:feature"
+                    ]
+                },
+                "choices": [
+                    {
+                        "value": "Compendium.xprpg.classfeatures.Animal Instinct"
+                    },
+                    {
+                        "value": "Compendium.xprpg.classfeatures.Dragon Instinct"
+                    },
+                    {
+                        "value": "Compendium.xprpg.classfeatures.Fury Instinct"
+                    },
+                    {
+                        "value": "Compendium.xprpg.classfeatures.Giant Instinct"
+                    },
+                    {
+                        "value": "Compendium.xprpg.classfeatures.Spirit Instinct"
+                    },
+                    {
+                        "value": "Compendium.xprpg.classfeatures.Superstition Instinct"
+                    }
+                ],
+                "key": "ChoiceSet",
+                "prompt": "XPRPG.SpecificRule.Barbarian.Instinct.Prompt"
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "{item|flags.xprpg.rulesSelections.instinct}"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "barbarian"
+            ]
+        }
+    },
+    "type": "feat"
+}

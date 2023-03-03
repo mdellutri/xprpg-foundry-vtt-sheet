@@ -1,0 +1,11 @@
+{
+    "_id": "mBvjWSvg7UYdS9TL",
+    "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Ashava]{Ashava}, @UUID[Compendium.xprpg.deities.Cosmic Caravan]{Cosmic Caravan}, @UUID[Compendium.xprpg.deities.Desna]{Desna}, @UUID[Compendium.xprpg.deities.Findeladlara]{Findeladlara}, @UUID[Compendium.xprpg.deities.Horus]{Horus}, @UUID[Compendium.xprpg.deities.Ketephys]{Ketephys}, @UUID[Compendium.xprpg.deities.The Path of the Heavens]{The Path of the Heavens}, @UUID[Compendium.xprpg.deities.The Prismatic Ray]{The Prismatic Ray}, @UUID[Compendium.xprpg.deities.Thoth]{Thoth}, @UUID[Compendium.xprpg.deities.Tsukiyo]{Tsukiyo}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Moonbeam]{Moonbeam}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Touch of the Moon]{Touch of the Moon}</em></p>\n<p>You command powers associated with the moon.</p>",
+    "name": "Moon Domain",
+    "ownership": {
+        "default": 0
+    },
+    "permission": {
+        "default": 0
+    }
+}

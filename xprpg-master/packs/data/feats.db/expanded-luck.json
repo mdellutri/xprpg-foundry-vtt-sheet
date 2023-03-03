@@ -1,0 +1,40 @@
+{
+    "_id": "69h9D3syUYLgIPr7",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Expanded Luck",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You are luckier even than most catfolk. You can trigger @UUID[Compendium.xprpg.feats-srd.Cat's Luck]{Cat's Luck} when you fail or critically fail a Fortitude or Will saving throw in addition to Reflex saving throws.</p>\n<p>You still can use Cat's Luck only once per day.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 5
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Cat's Luck"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "catfolk"
+            ]
+        }
+    },
+    "type": "feat"
+}

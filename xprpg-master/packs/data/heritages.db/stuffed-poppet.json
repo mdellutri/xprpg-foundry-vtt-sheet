@@ -1,0 +1,24 @@
+{
+    "_id": "7kHg780SAsu2FNfP",
+    "img": "systems/xprpg/icons/default-icons/heritage.svg",
+    "name": "Stuffed Poppet",
+    "system": {
+        "ancestry": {
+            "name": "Poppet",
+            "slug": "poppet",
+            "uuid": "Compendium.xprpg.ancestries.6F2fSFC1Eo1JdpY4"
+        },
+        "description": {
+            "value": "<p>You have little inside you other than cotton, sawdust, or dried leaves. You take no damage from falling, regardless of the distance you fall.</p>"
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "heritage"
+}

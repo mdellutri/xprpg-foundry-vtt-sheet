@@ -1,0 +1,34 @@
+{
+    "_id": "zGxO2cETUsXuvqRu",
+    "img": "systems/xprpg/icons/default-icons/feat.svg",
+    "name": "Order of the Pyre",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p><strong>Favored Weapon</strong> @UUID[Compendium.xprpg.equipment-srd.Glaive]{Glaive}</p>\n<p>The Order of the Pyre is dedicated to eliminating those faiths and beliefs they consider to be a threat to the Inner Sea region. They are particularly keen on stamping out dangerous cults.</p>\n<hr />\n<p><strong>Lesser Benefit</strong> @UUID[Compendium.xprpg.feats-srd.Righteous Resistance]{Righteous Resistance}</p>\n<p><strong>Greater Benefit</strong> @UUID[Compendium.xprpg.feats-srd.Spiritual Disruption]{Spiritual Disruption}</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 0
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "feat"
+}

@@ -1,0 +1,40 @@
+{
+    "_id": "jNeIaFUFSGUXoSON",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Divine Wall",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p><strong>Requirements</strong> You are wielding a shield.</p>\n<hr />\n<p>You use your shield to harry your enemies, preventing them from stepping away from or around you. All spaces adjacent to you are difficult terrain for your enemies.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "You are wielding a shield"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "champion"
+            ]
+        }
+    },
+    "type": "feat"
+}

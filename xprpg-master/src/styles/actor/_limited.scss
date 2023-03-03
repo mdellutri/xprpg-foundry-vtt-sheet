@@ -1,0 +1,72 @@
+.sidebar {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .profile-img {
+        display: flex;
+        align-items: flex-end;
+        margin: 1rem 0;
+        min-width: 124px;
+        height: 200px;
+        background-color: var(--tertiary);
+        background-size: cover;
+        background-position: top center;
+        @include frame-silver;
+    }
+
+    .plaque {
+        color: var(--sidebar-title);
+        font-size: 1rem;
+        font-weight: 500;
+        margin-bottom: 0.25rem;
+        display: flex;
+
+        &::before,
+        &::after {
+            display: block;
+            content: url("../assets/icons/xenos-paragon-orn.svg");
+            height: 100%;
+            width: 25px;
+        }
+        &::after {
+            transform: scaleX(-1);
+            margin-left: 4px;
+        }
+        &::before {
+            margin-right: 4px;
+        }
+    }
+
+    ul.stats {
+        @include p-reset;
+        list-style: none;
+        text-align: center;
+
+        li {
+            @include p-reset;
+        }
+    }
+}
+
+.tab {
+    &.character {
+        .character-bio {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+
+            footer {
+                margin-top: auto;
+                text-align: left;
+                @include p-reset;
+                margin-top: auto;
+                margin-bottom: 8px;
+
+                p {
+                    color: var(--alt);
+                }
+            }
+        }
+    }
+}

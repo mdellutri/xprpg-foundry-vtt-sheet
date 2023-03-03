@@ -1,0 +1,29 @@
+{
+    "_id": "yL6944LrPo2HNdEJ",
+    "img": "systems/xprpg/icons/features/ancestry/ancient-blooded-dwarf.webp",
+    "name": "Ancient-Blooded Dwarf",
+    "system": {
+        "ancestry": {
+            "name": "Dwarf",
+            "slug": "dwarf",
+            "uuid": "Compendium.xprpg.ancestries.BYj5ZvlXZdpaEgA6"
+        },
+        "description": {
+            "value": "<p>Dwarven heroes of old could shrug off their enemies' magic, and some of that resistance manifests in you. You gain the @UUID[Compendium.xprpg.actionsxprpg.Call on Ancient Blood]{Call on Ancient Blood} reaction.</p>"
+        },
+        "rules": [
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.xprpg.actionsxprpg.Call on Ancient Blood"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "heritage"
+}

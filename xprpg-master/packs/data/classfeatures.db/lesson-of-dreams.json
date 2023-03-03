@@ -1,0 +1,36 @@
+{
+    "_id": "evKUM58ymuuypRn9",
+    "img": "systems/xprpg/icons/spells/veil-of-dreams.webp",
+    "name": "Lesson of Dreams",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You gain the <em>@UUID[Compendium.xprpg.spells-srd.Veil of Dreams]{Veil of Dreams}</em> hex, and your familiar learns <em>@UUID[Compendium.xprpg.spells-srd.Sleep]{Sleep}</em>.</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "witch"
+            ]
+        }
+    },
+    "type": "feat"
+}

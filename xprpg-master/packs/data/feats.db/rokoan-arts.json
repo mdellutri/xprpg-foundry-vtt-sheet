@@ -1,0 +1,36 @@
+{
+    "_id": "Xwk41o4fERfM07NR",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Rokoan Arts",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Ancestral spirits have begun to bond themselves to you, granting you powers characteristic of a rokoa. You can cast <em>@UUID[Compendium.xprpg.spells-srd.Speak with Animals]{Speak with Animals}</em> and <em>@UUID[Compendium.xprpg.spells-srd.Status]{Status}</em><em> </em>as primal innate spells once per day each.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 9
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "strix"
+            ]
+        }
+    },
+    "type": "feat"
+}

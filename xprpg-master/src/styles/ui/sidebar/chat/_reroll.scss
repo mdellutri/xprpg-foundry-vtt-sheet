@@ -1,0 +1,17 @@
+.flavor-text {
+    .xprpg-reroll-indicator {
+        float: right;
+    }
+}
+
+.message-content {
+    .xprpg-reroll-discard {
+        .dice-total, .dice-tooltip {
+            opacity: 0.3;
+        }
+    }
+
+    .xprpg-reroll-second .dice-formula {
+        display: none;
+    }
+}

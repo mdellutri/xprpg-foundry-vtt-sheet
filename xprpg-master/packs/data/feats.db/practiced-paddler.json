@@ -1,0 +1,46 @@
+{
+    "_id": "I3EMC4pqkEWrodpq",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Practiced Paddler",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You're skilled at navigating bogs and marshes, even for a paddler shoony. You gain a swim Speed of 15 feet.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 5
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "paddler shoony"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "BaseSpeed",
+                "selector": "swim",
+                "value": 15
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "shoony"
+            ]
+        }
+    },
+    "type": "feat"
+}

@@ -1,0 +1,36 @@
+{
+    "_id": "NIzHfVcVMhDmvA49",
+    "img": "systems/xprpg/icons/features/classes/eidolon-unarmed-mastery.webp",
+    "name": "Eidolon Unarmed Mastery",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your eidolon truly masters its unarmed attacks, reaching greater heights. Its proficiency rank for unarmed attacks increases to master.</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 13
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "summoner"
+            ]
+        }
+    },
+    "type": "feat"
+}

@@ -1,0 +1,50 @@
+{
+    "_id": "t8CAK8ylu23PUxbn",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Master Spotter (Investigator)",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your proficiency rank in Perception increases to master.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Investigator Dedication"
+                },
+                {
+                    "value": "expert in Perception"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.attributes.perception.rank",
+                "value": 3
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "type": "feat"
+}

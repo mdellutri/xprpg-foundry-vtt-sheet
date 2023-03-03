@@ -1,0 +1,40 @@
+{
+    "_id": "sFAqKrzqXQhtrfqN",
+    "img": "systems/xprpg/icons/default-icons/feats.webp",
+    "name": "Sixth Pillar Mastery",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your greater discipline aligns your magical and physical potential. If your proficiency rank in unarmed attacks is at least master, your proficiency rank in spell attacks increases to master. Likewise, if your proficiency rank in spell attacks is at least master, your proficiency rank in unarmed attacks improves to master.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Sixth Pillar Dedication"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "type": "feat"
+}

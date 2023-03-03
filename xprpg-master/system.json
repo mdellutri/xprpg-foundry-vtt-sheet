@@ -1,0 +1,293 @@
+{
+    "id": "xprpg",
+    "title": "Xenos Paragon: Roleplaying Game",
+    "description": "A community contributed game system for Xenos Paragon: Roleplaying Game",
+    "license": "./LICENSE",
+    "version": "0.1-custom",
+    "compatibility": {
+        "minimum": "10.291",
+        "verified": "10.291",
+        "maximum": "10"
+    },
+    "authors": [
+        {
+            "name": "The XPRPG System Developers",
+            "flags": {}
+        }
+    ],
+    "esmodules": [
+        "vendor.bundle.js",
+        "main.bundle.js"
+    ],
+    "scripts": [
+        "greensock/dist/gsap.min.js",
+        "lib/tooltipster.bundle.min.js"
+    ],
+    "styles": [
+        "styles/main.css"
+    ],
+    "packs": [
+        {
+            "name": "hazards",
+            "label": "Hazards (Rulebooks)",
+            "system": "xprpg",
+            "path": "packs/hazards.db",
+            "type": "Actor",
+            "private": true,
+            "flags": {}
+        },
+        {
+            "name": "vehicles",
+            "label": "Vehicles",
+            "system": "xprpg",
+            "path": "packs/vehicles.db",
+            "type": "Actor",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "actionsxprpg",
+            "label": "Actions",
+            "system": "xprpg",
+            "path": "packs/actions.db",
+            "type": "Item",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "ancestries",
+            "label": "Ancestries",
+            "system": "xprpg",
+            "path": "packs/ancestries.db",
+            "type": "Item",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "ancestryfeatures",
+            "label": "Ancestry Features",
+            "path": "packs/ancestryfeatures.db",
+            "type": "Item",
+            "system": "xprpg",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "backgrounds",
+            "label": "Backgrounds",
+            "path": "packs/backgrounds.db",
+            "type": "Item",
+            "system": "xprpg",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "classes",
+            "label": "Classes",
+            "system": "xprpg",
+            "path": "packs/classes.db",
+            "type": "Item",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "classfeatures",
+            "label": "Class Features",
+            "path": "packs/classfeatures.db",
+            "type": "Item",
+            "system": "xprpg",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "familiar-abilities",
+            "label": "Familiar Abilities",
+            "system": "xprpg",
+            "path": "packs/familiar-abilities.db",
+            "type": "Item",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "feats-srd",
+            "label": "Feats",
+            "system": "xprpg",
+            "path": "packs/feats.db",
+            "type": "Item",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "heritages",
+            "label": "Heritages",
+            "system": "xprpg",
+            "path": "packs/heritages.db",
+            "type": "Item",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "spells-srd",
+            "label": "Spells",
+            "system": "xprpg",
+            "path": "packs/spells.db",
+            "type": "Item",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "domains",
+            "label": "Domains",
+            "system": "xprpg",
+            "path": "packs/domains.db",
+            "type": "JournalEntry",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "conditionitems",
+            "label": "Conditions",
+            "system": "xprpg",
+            "path": "packs/conditions.db",
+            "type": "Item",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "equipment-effects",
+            "label": "Equipment Effects",
+            "system": "xprpg",
+            "path": "packs/equipment-effects.db",
+            "type": "Item",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "other-effects",
+            "label": "Other Effects",
+            "system": "xprpg",
+            "path": "packs/other-effects.db",
+            "type": "Item",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "feat-effects",
+            "label": "Feat/Feature Effects",
+            "system": "xprpg",
+            "path": "packs/feat-effects.db",
+            "type": "Item",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "spell-effects",
+            "label": "Spell Effects",
+            "system": "xprpg",
+            "path": "packs/spell-effects.db",
+            "type": "Item",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "equipment-srd",
+            "label": "Equipment",
+            "system": "xprpg",
+            "path": "packs/equipment.db",
+            "type": "Item",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "deities",
+            "label": "Deities",
+            "system": "xprpg",
+            "path": "packs/deities.db",
+            "type": "Item",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "iconics",
+            "label": "Iconics",
+            "system": "xprpg",
+            "path": "packs/iconics.db",
+            "type": "Actor",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "rollable-tables",
+            "label": "Rollable Tables",
+            "path": "packs/rollable-tables.db",
+            "type": "RollTable",
+            "system": "xprpg",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "hero-point-deck",
+            "label": "Hero Point Deck",
+            "system": "xprpg",
+            "path": "packs/hero-point-deck.db",
+            "type": "JournalEntry",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "journals",
+            "label": "XPRPG Journals",
+            "system": "xprpg",
+            "path": "packs/journals.db",
+            "type": "JournalEntry",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "gmg-srd",
+            "label": "Game Mastery Guide",
+            "system": "xprpg",
+            "path": "packs/gmg-srd.db",
+            "type": "JournalEntry",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "action-macros",
+            "label": "Action Macros",
+            "system": "xprpg",
+            "path": "packs/action-macros.db",
+            "type": "Macro",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "xprpg-macros",
+            "label": "XPRPG Macros",
+            "system": "xprpg",
+            "path": "packs/macros.db",
+            "type": "Macro",
+            "private": false,
+            "flags": {}
+        }
+    ],
+    "languages": [
+        {
+            "lang": "en",
+            "name": "Main (English)",
+            "path": "lang/en.json",
+            "flags": {}
+        },
+        {
+            "lang": "en",
+            "name": "Rules Elements (English)",
+            "path": "lang/re-en.json",
+            "flags": {}
+        }
+    ],
+    "socket": true,
+    "initiative": "1d20 + @attributes.perception.value + (@abilities.wis.value / 100)",
+    "gridDistance": 5,
+    "gridUnits": "ft",
+    "primaryTokenAttribute": "attributes.hp"
+}

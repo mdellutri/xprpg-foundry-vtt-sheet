@@ -1,0 +1,49 @@
+{
+    "_id": "zZsdex5orF5Odpus",
+    "img": "systems/xprpg/icons/equipment/worn-items/apex-items/mask-of-allure.webp",
+    "name": "Effect: Mask of Allure",
+    "system": {
+        "badge": null,
+        "description": {
+            "value": "<p>Granted by @UUID[Compendium.xprpg.equipment-srd.Mask of Allure]{Mask of Allure}</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "rounds",
+            "value": 1
+        },
+        "level": {
+            "value": 18
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": [
+                    "deception",
+                    "diplomacy",
+                    "intimidation",
+                    "performance"
+                ],
+                "type": "status",
+                "value": 4
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "effect"
+}

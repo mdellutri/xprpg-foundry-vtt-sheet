@@ -1,0 +1,52 @@
+{
+    "_id": "0nQItOlce5ua6Eaf",
+    "img": "systems/xprpg/icons/default-icons/deity.svg",
+    "name": "Sekhmet",
+    "system": {
+        "ability": [
+            "str",
+            "wis"
+        ],
+        "alignment": {
+            "follower": [
+                "CG",
+                "N",
+                "CN",
+                "CE"
+            ],
+            "own": "CN"
+        },
+        "category": "deity",
+        "description": {
+            "value": "<p><strong>Edicts</strong> Slaughter your enemies, drink the blood of defeated foes, heal battle injuries</p>\n<p><strong>Anathema</strong> Spare an evil fiend, fail to placate Sekhmet with daily rituals</p>"
+        },
+        "domains": {
+            "alternate": [],
+            "primary": [
+                "destruction",
+                "healing",
+                "indulgence",
+                "might"
+            ]
+        },
+        "font": [
+            "harm",
+            "heal"
+        ],
+        "rules": [],
+        "skill": "med",
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "spells": {
+            "1": "Compendium.xprpg.spells-srd.Gb7SeieEvd0pL2Eh",
+            "4": "Compendium.xprpg.spells-srd.IarZrgCeaiUqOuRu",
+            "5": "Compendium.xprpg.spells-srd.YtesyvfAIwXOqISq"
+        },
+        "weapons": [
+            "claw",
+            "battle-axe"
+        ]
+    },
+    "type": "deity"
+}

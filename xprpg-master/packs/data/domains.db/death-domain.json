@@ -1,0 +1,11 @@
+{
+    "_id": "HYe7Yv1fYUANVVI3",
+    "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Achaekek]{Achaekek}, @UUID[Compendium.xprpg.deities.Ahriman]{Ahriman}, @UUID[Compendium.xprpg.deities.Barzahk]{Barzahk}, @UUID[Compendium.xprpg.deities.Charon]{Charon}, @UUID[Compendium.xprpg.deities.Dammerich]{Dammerich}, @UUID[Compendium.xprpg.deities.Hanspur]{Hanspur}, @UUID[Compendium.xprpg.deities.Imot]{Imot}, @UUID[Compendium.xprpg.deities.Kalekot]{Kalekot}, @UUID[Compendium.xprpg.deities.Magrim]{Magrim}, @UUID[Compendium.xprpg.deities.Mother Vulture]{Mother Vulture}, @UUID[Compendium.xprpg.deities.Naderi]{Naderi}, @UUID[Compendium.xprpg.deities.Narakaas]{Narakaas}, @UUID[Compendium.xprpg.deities.Norgorber]{Norgorber}, @UUID[Compendium.xprpg.deities.Pharasma]{Pharasma}, @UUID[Compendium.xprpg.deities.Saloc]{Saloc}, @UUID[Compendium.xprpg.deities.Shax]{Shax}, @UUID[Compendium.xprpg.deities.Yaezhing]{Yaezhing}, @UUID[Compendium.xprpg.deities.Zyphus]{Zyphus}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Death's Call]{Death's Call}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Eradicate Undeath]{Eradicate Undeath}</em></p>\n<p>You have the power to end lives and destroy undead.</p>",
+    "name": "Death Domain",
+    "ownership": {
+        "default": 0
+    },
+    "permission": {
+        "default": 0
+    }
+}

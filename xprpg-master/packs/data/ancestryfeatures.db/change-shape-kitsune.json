@@ -1,0 +1,41 @@
+{
+    "_id": "Ymg6WqeJqOyLJLEr",
+    "img": "systems/xprpg/icons/spells/fey-disapperance.webp",
+    "name": "Change Shape (Kitsune)",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>As a kitsune, you gain the @UUID[Compendium.xprpg.actionsxprpg.Change Shape (Kitsune)]{Change Shape (Kitsune)} ability.</p>"
+        },
+        "featType": {
+            "value": "ancestryfeature"
+        },
+        "level": {
+            "value": 0
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.xprpg.actionsxprpg.Change Shape (Kitsune)"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "kitsune"
+            ]
+        }
+    },
+    "type": "feat"
+}

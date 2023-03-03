@@ -1,0 +1,38 @@
+{
+    "_id": "3hhCDWPm021hvicR",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Renewed Vigor",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "description": {
+            "value": "<p>You pause to recover your raging vigor. You gain temporary Hit Points equal to half your level plus your Constitution modifier.</p>\n<p>@UUID[Compendium.xprpg.feat-effects.Effect: Renewed Vigor]{Effect: Renewed Vigor}</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "barbarian",
+                "concentrate",
+                "rage"
+            ]
+        }
+    },
+    "type": "feat"
+}

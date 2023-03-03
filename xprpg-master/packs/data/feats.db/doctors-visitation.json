@@ -1,0 +1,41 @@
+{
+    "_id": "1fBHZpM3Z3MQtzvi",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Doctor's Visitation",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "description": {
+            "value": "<p>You move to provide immediate care to those who need it. Stride, then use one of the following: @UUID[Compendium.xprpg.feats-srd.Battle Medicine]{Battle Medicine} or @UUID[Compendium.xprpg.actionsxprpg.Treat Poison]{Treat Poison}. You can spend a second action to instead Stride and then @UUID[Compendium.xprpg.actionsxprpg.Administer First Aid]{Administer First Aid} or @UUID[Compendium.xprpg.feats-srd.Treat Condition]{Treat a Condition}.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Medic Dedication"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype",
+                "flourish"
+            ]
+        }
+    },
+    "type": "feat"
+}

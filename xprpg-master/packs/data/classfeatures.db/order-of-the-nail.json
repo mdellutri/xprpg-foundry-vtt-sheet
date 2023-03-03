@@ -1,0 +1,34 @@
+{
+    "_id": "ub9gwFXnMuKvhnPL",
+    "img": "systems/xprpg/icons/default-icons/feat.svg",
+    "name": "Order of the Nail",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p><strong>Favored Weapons</strong> @UUID[Compendium.xprpg.equipment-srd.Halberd]{Halberd}, @UUID[Compendium.xprpg.equipment-srd.Lance]{Lance}</p>\n<p>Members of the Order of the Nail see civilized society as an ideal and seek to unite all people within their cultural baseline. They also seek to destroy anyone who does not accept Chelaxian culture along with the wild beasts that threaten the safety of civilization.</p>\n<hr />\n<p><strong>Lesser Benefit</strong> @UUID[Compendium.xprpg.feats-srd.Trailblazing Stride]{Trailblazing Stride}</p>\n<p><strong>Greater Benefit</strong> @UUID[Compendium.xprpg.feats-srd.Reveal Beasts]{Reveal Beasts}</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 0
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "feat"
+}

@@ -1,0 +1,108 @@
+{
+    "_id": "Obm4ItMIIr0whYeO",
+    "img": "systems/xprpg/icons/features/classes/implement-adept.webp",
+    "name": "Implement Adept",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You have deepened your connection to one of your implements, unlocking its adept power. Choose one of your implements and gain the adept benefit for that implement.</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 7
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "adjustName": false,
+                "choices": [
+                    {
+                        "label": "XPRPG.SpecificRule.Thaumaturge.Implement.Amulet",
+                        "predicate": [
+                            "feature:amulet"
+                        ],
+                        "value": "amulet"
+                    },
+                    {
+                        "label": "XPRPG.SpecificRule.Thaumaturge.Implement.Bell",
+                        "predicate": [
+                            "feature:bell"
+                        ],
+                        "value": "bell"
+                    },
+                    {
+                        "label": "XPRPG.SpecificRule.Thaumaturge.Implement.Chalice",
+                        "predicate": [
+                            "feature:chalice"
+                        ],
+                        "value": "chalice"
+                    },
+                    {
+                        "label": "XPRPG.SpecificRule.Thaumaturge.Implement.Lantern",
+                        "predicate": [
+                            "feature:lantern"
+                        ],
+                        "value": "lantern"
+                    },
+                    {
+                        "label": "XPRPG.SpecificRule.Thaumaturge.Implement.Mirror",
+                        "predicate": [
+                            "feature:mirror"
+                        ],
+                        "value": "mirror"
+                    },
+                    {
+                        "label": "XPRPG.SpecificRule.Thaumaturge.Implement.Regalia",
+                        "predicate": [
+                            "feature:regalia"
+                        ],
+                        "value": "regalia"
+                    },
+                    {
+                        "label": "XPRPG.SpecificRule.Thaumaturge.Implement.Tome",
+                        "predicate": [
+                            "feature:tome"
+                        ],
+                        "value": "tome"
+                    },
+                    {
+                        "label": "XPRPG.SpecificRule.Thaumaturge.Implement.Wand",
+                        "predicate": [
+                            "feature:wand"
+                        ],
+                        "value": "wand"
+                    },
+                    {
+                        "label": "XPRPG.SpecificRule.Thaumaturge.Implement.Weapon",
+                        "predicate": [
+                            "feature:weapon"
+                        ],
+                        "value": "weapon"
+                    }
+                ],
+                "key": "ChoiceSet",
+                "prompt": "XPRPG.UI.RuleElements.ChoiceSet.Prompt",
+                "rollOption": "adept"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "thaumaturge"
+            ]
+        }
+    },
+    "type": "feat"
+}

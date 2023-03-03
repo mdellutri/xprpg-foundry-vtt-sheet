@@ -1,0 +1,95 @@
+{
+    "_id": "4tTkRyOQ0VuRBac3",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Terrain Expertise",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your experience in navigating a certain type of terrain makes you supremely confident while doing so. You gain a +1 circumstance bonus to Survival checks in one of the following types of terrain, chosen when you select this feat: aquatic, arctic, desert, forest, mountain, plains, sky, swamp, or underground.</p>\n<hr />\n<p><strong>Special</strong> You can select this feat more than once, choosing a different type of terrain each time.</p>"
+        },
+        "featType": {
+            "value": "skill"
+        },
+        "level": {
+            "value": 1
+        },
+        "maxTakable": null,
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "trained in Survival"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "choices": [
+                    {
+                        "label": "XPRPG.Terrain.Aquatic",
+                        "value": "aquatic"
+                    },
+                    {
+                        "label": "XPRPG.Terrain.Arctic",
+                        "value": "arctic"
+                    },
+                    {
+                        "label": "XPRPG.Terrain.Desert",
+                        "value": "desert"
+                    },
+                    {
+                        "label": "XPRPG.Terrain.Forest",
+                        "value": "forest"
+                    },
+                    {
+                        "label": "XPRPG.Terrain.Mountain",
+                        "value": "mountain"
+                    },
+                    {
+                        "label": "XPRPG.Terrain.Plains",
+                        "value": "plain"
+                    },
+                    {
+                        "label": "XPRPG.Terrain.Sky",
+                        "value": "sky"
+                    },
+                    {
+                        "label": "XPRPG.Terrain.Swamp",
+                        "value": "swamp"
+                    },
+                    {
+                        "label": "XPRPG.Terrain.Underground",
+                        "value": "underground"
+                    }
+                ],
+                "flag": "terrain",
+                "key": "ChoiceSet",
+                "prompt": "XPRPG.SpecificRule.TerrainExpertise.Prompt"
+            },
+            {
+                "key": "FlatModifier",
+                "predicate": [
+                    "terrain:{item|flags.xprpg.rulesSelections.terrain}"
+                ],
+                "selector": "survival",
+                "type": "circumstance",
+                "value": 1
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "general",
+                "skill"
+            ]
+        }
+    },
+    "type": "feat"
+}

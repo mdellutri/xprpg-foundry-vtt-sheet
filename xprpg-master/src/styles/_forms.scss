@@ -1,0 +1,115 @@
+.crb-style {
+    display: flex;
+
+    .details-label {
+        font-family: var(--sans-serif);
+        font-size: 0.625rem;
+        font-weight: 800;
+        line-height: 1;
+        text-transform: uppercase;
+        color: var(--primary);
+
+        margin-right: 2px;
+        white-space: nowrap;
+    }
+
+    .details-input {
+        color: var(--text-dark);
+        font-family: var(--body-serif);
+        font-weight: bold;
+        width: calc(100% - 6px);
+        border-bottom: 1px solid #d3ccbc;
+        background-color: rgba($text-dark-color, 0.1);
+
+        &::placeholder {
+            filter: opacity(0.5);
+        }
+        &:focus {
+            border-bottom: 1px solid var(--alt);
+        }
+        &[type="number"] {
+            padding-bottom: 0;
+            padding-left: 4px;
+        }
+    }
+
+    input {
+        border: none;
+        border-radius: 0;
+        &:focus {
+            box-shadow: none;
+            &::placeholder {
+                color: transparent;
+            }
+        }
+        &::placeholder {
+            color: inherit;
+        }
+        &::-webkit-outer-spin-button,
+        &::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+        }
+        &[type='number'] {
+            -moz-appearance: textfield;
+        }
+    }
+
+    select {
+        font-size: var(--font-size-14);
+        font-family: var(--serif);
+        font-weight: 500;
+        color: var(--text-light);
+        position: relative;
+        background-color: var(--alt);
+        border-radius: 2px;
+        line-height: 1;
+        cursor: pointer;
+        padding: 4px 18px 3px 5px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        text-overflow: ellipsis;
+        background-image: url('../assets/icons/chevron-down.svg');
+        background-repeat: no-repeat;
+        background-position: right 0.25em top 50%;
+        background-size: 1em auto;
+        height: auto;
+        border: 1px solid #53422a;
+
+        option {
+            background-color: var(--alt);
+        }
+    }
+
+    .dots span {
+        cursor: pointer;
+    }
+}
+
+// Disabled range input
+input[type="range"]:disabled {
+    &::-webkit-slider-runnable-track {
+        background: rgba(0, 0, 0, 0.1);
+        border: rgba(0, 0, 0, 0.1);
+        box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1), 0px 0px 1px rgba(0, 0, 0, 0.1);
+        cursor: default;
+    }
+    &::-moz-range-track {
+        background: rgba(0, 0, 0, 0.1);
+        border: rgba(0, 0, 0, 0.1);
+        box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1), 0px 0px 1px rgba(0, 0, 0, 0.1);
+        cursor: default;
+    }
+    &::-webkit-slider-thumb {
+        background: var(--color-text-light-1);
+        border: var(--color-text-light-1);
+        box-shadow: 1px 1px 1px var(--color-text-light-1), 0px 0px 1px var(--color-text-light-1);
+        cursor: default;
+    }
+    &::-moz-range-thumb {
+        background: var(--color-text-light-1);
+        border: var(--color-text-light-1);
+        box-shadow: 1px 1px 1px var(--color-text-light-1), 0px 0px 1px var(--color-text-light-1);
+        cursor: default;
+    }
+}

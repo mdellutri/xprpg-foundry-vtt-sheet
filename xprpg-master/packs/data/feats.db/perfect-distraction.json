@@ -1,0 +1,40 @@
+{
+    "_id": "MjhCcwGKyI5dpNIY",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Perfect Distraction",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "description": {
+            "value": "<p>You use clever tactics to mislead your foes as you sneak away. You @UUID[Compendium.xprpg.actionsxprpg.Sneak]{Sneak} while leaving a decoy behind.</p>\n<p>The decoy acts as the spell <em>@UUID[Compendium.xprpg.spells-srd.Mislead]{Mislead}</em>, though you aren't @UUID[Compendium.xprpg.conditionitems.Invisible]{Invisible}, just @UUID[Compendium.xprpg.conditionitems.Undetected]{Undetected}. You can continue to concentrate to move your decoy, as with the spell, whether or not you remain @UUID[Compendium.xprpg.conditionitems.Hidden]{Hidden} throughout the duration.</p>\n<p>Once you use Perfect Distraction, you need to spend 10 minutes to set up another decoy before you can use it again.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "legendary in Deception"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "rogue"
+            ]
+        }
+    },
+    "type": "feat"
+}

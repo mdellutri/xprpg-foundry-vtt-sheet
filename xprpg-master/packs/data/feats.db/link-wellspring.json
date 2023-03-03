@@ -1,0 +1,40 @@
+{
+    "_id": "5fd95NhJJ55hm0Qt",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Link Wellspring",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your bond replenishes your focus. If you have spent at least 3 Focus Points since the last time you @UUID[Compendium.xprpg.actionsxprpg.Refocus]{Refocused}, you recover 3 Focus Points when you Refocus instead of 1.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Link Focus"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "summoner"
+            ]
+        }
+    },
+    "type": "feat"
+}

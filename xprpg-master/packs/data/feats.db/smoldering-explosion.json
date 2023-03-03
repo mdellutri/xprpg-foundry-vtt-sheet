@@ -1,0 +1,43 @@
+{
+    "_id": "sCkzwTBLyE8FdzWI",
+    "img": "systems/xprpg/icons/default-icons/feats.webp",
+    "name": "Smoldering Explosion",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>When you cast fireball heightened to at least 4th level, you can modify the spell to add the following to its standard effects: Your fireball leaves behind a brief cloud of smoke in its area. While it's smoke instead of mist, this cloud otherwise has the effects of obscuring mist, except that it lasts only 1 round.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Spell Trickster Dedication"
+                },
+                {
+                    "value": "ability to cast fireball"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "type": "feat"
+}

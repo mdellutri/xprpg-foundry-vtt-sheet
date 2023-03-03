@@ -1,0 +1,40 @@
+{
+    "_id": "IZFw3Do0kBdgwZX0",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Expert Cathartic Spellcasting",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You gain the expert spellcasting benefits.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Basic Cathartic Spellcasting"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "type": "feat"
+}

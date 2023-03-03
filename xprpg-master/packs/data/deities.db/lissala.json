@@ -1,0 +1,48 @@
+{
+    "_id": "w66gCNiZ7dslqG8K",
+    "img": "systems/xprpg/icons/default-icons/deity.svg",
+    "name": "Lissala",
+    "system": {
+        "ability": [
+            "int",
+            "wis"
+        ],
+        "alignment": {
+            "follower": [
+                "LN",
+                "LE"
+            ],
+            "own": "LE"
+        },
+        "category": "deity",
+        "description": {
+            "value": "<p><strong>Edicts</strong> Work hard and demand others do so as well, cooperate or avoid conflict with ophidian creatures</p>\n<p><strong>Anathema</strong> Disobey a superior, shirk your duties, destroy a book</p>"
+        },
+        "domains": {
+            "alternate": [],
+            "primary": [
+                "fate",
+                "glyph",
+                "magic",
+                "toil"
+            ]
+        },
+        "font": [
+            "harm"
+        ],
+        "rules": [],
+        "skill": "arc",
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "spells": {
+            "1": "Compendium.xprpg.spells-srd.Z7N5IxJCwrAdIgSg",
+            "3": "Compendium.xprpg.spells-srd.VVAZPCvd4d90qVA1",
+            "6": "Compendium.xprpg.spells-srd.OsOhx3TGIZ7AhD0P"
+        },
+        "weapons": [
+            "whip"
+        ]
+    },
+    "type": "deity"
+}

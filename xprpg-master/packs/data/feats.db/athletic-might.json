@@ -1,0 +1,67 @@
+{
+    "_id": "Wwr8VilSybQgVtin",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Athletic Might",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Surviving in hostile terrain has given you a great talent for mobility. Whenever you roll a success on an Athletics check to @UUID[Compendium.xprpg.actionsxprpg.Climb]{Climb} or @UUID[Compendium.xprpg.actionsxprpg.Swim]{Swim}, you get a critical success instead.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 5
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "adjustment": {
+                    "success": "one-degree-better"
+                },
+                "key": "AdjustDegreeOfSuccess",
+                "predicate": [
+                    {
+                        "or": [
+                            "action:climb",
+                            "action:swim"
+                        ]
+                    }
+                ],
+                "selector": "athletics",
+                "type": "skill"
+            },
+            {
+                "key": "Note",
+                "predicate": [
+                    {
+                        "or": [
+                            "action:climb",
+                            "action:swim"
+                        ]
+                    }
+                ],
+                "selector": "athletics",
+                "text": "Whenever you roll a success on an Athletics check to Climb or Swim, you get a critical success instead.",
+                "title": "{item|name}"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "orc"
+            ]
+        }
+    },
+    "type": "feat"
+}

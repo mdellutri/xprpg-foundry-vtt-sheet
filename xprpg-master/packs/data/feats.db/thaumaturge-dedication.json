@@ -1,0 +1,89 @@
+{
+    "_id": "gQAQRHxpFKEkNQFs",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Thaumaturge Dedication",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You've uncovered basic thaumaturgy. You become trained in thaumaturge class DC. Choose an implement; you can use it to Glimpse Vulnerability, but don't gain its benefits. You also gain a few esoterica, allowing you to use esoterica actions. You become trained in your choice of Arcana, Nature, Occultism, or Religion; if you were already trained in these, you become trained in a skill of your choice. You gain the @UUID[Compendium.xprpg.actionsxprpg.Glimpse Vulnerability]{Glimpse Vulnerability} action.</p>\n<hr />\n<p><strong>Special</strong> You can't select another dedication feat until you have gained two other feats from the @UUID[Compendium.xprpg.journals.vx5FGEG34AxI2dow.JournalEntryPage.K9Krytj8OtUvQxoc]{Thaumaturge} archetype.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Charisma 14"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "adjustName": false,
+                "choices": [
+                    {
+                        "label": "XPRPG.SkillArc",
+                        "value": "arc"
+                    },
+                    {
+                        "label": "XPRPG.SkillNat",
+                        "value": "nat"
+                    },
+                    {
+                        "label": "XPRPG.SkillOcc",
+                        "value": "occ"
+                    },
+                    {
+                        "label": "XPRPG.SkillRel",
+                        "value": "rel"
+                    }
+                ],
+                "flag": "skill",
+                "key": "ChoiceSet",
+                "prompt": "XPRPG.SpecificRule.Prompt.Skill",
+                "rollOption": "thaumaturge-dedication"
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.skills.{item|flags.xprpg.rulesSelections.skill}.rank",
+                "value": 1
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.xprpg.actionsxprpg.Glimpse Vulnerability"
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "override",
+                "path": "system.proficiencies.classDCs.thaumaturge",
+                "priority": 39,
+                "value": {
+                    "ability": "cha",
+                    "label": "XPRPG.TraitThaumaturge",
+                    "rank": 1
+                }
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype",
+                "dedication",
+                "multiclass"
+            ]
+        }
+    },
+    "type": "feat"
+}

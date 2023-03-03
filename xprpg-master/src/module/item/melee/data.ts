@@ -1,0 +1,66 @@
+import {
+    BaseItemDataXPRPG,
+    BaseItemSourceXPRPG,
+    ItemFlagsXPRPG,
+    ItemSystemData,
+    ItemSystemSource,
+    ItemTraits,
+} from "@item/data/base";
+import { PreciousMaterialGrade } from "@item/physical/types";
+import { WeaponMaterialType } from "@item/weapon/types";
+import { DamageType } from "@system/damage";
+import type { MeleeXPRPG } from ".";
+
+type MeleeSource = BaseItemSourceXPRPG<"melee", MeleeSystemSource> & {
+    flags: DeepPartial<MeleeFlags>;
+};
+
+type MeleeData = Omit<MeleeSource, "system" | "effects" | "flags"> &
+    BaseItemDataXPRPG<MeleeXPRPG, "melee", MeleeSystemData, MeleeSource> & {
+        flags: MeleeFlags;
+    };
+
+type MeleeFlags = ItemFlagsXPRPG & {
+    xprpg: {
+        linkedWeapon?: string;
+    };
+};
+
+interface MeleeSystemSource extends ItemSystemSource {
+    traits: NPCAttackTraits;
+    attack: {
+        value: string;
+    };
+    damageRolls: Record<string, NPCAttackDamage>;
+    bonus: {
+        value: number;
+    };
+    attackEffects: {
+        value: string[];
+    };
+    weaponType: {
+        value: "melee" | "ranged";
+    };
+}
+
+interface MeleeSystemData extends MeleeSystemSource, Omit<ItemSystemData, "traits"> {
+    material: {
+        precious: {
+            type: WeaponMaterialType;
+            grade: PreciousMaterialGrade;
+        } | null;
+    };
+}
+
+interface NPCAttackDamageSource {
+    damage: string;
+    damageType: DamageType;
+    category?: "persistent" | "precision" | "splash" | null;
+}
+
+type NPCAttackDamage = Required<NPCAttackDamageSource>;
+
+export type NPCAttackTrait = keyof ConfigXPRPG["XPRPG"]["npcAttackTraits"];
+export type NPCAttackTraits = ItemTraits<NPCAttackTrait>;
+
+export { NPCAttackDamage, MeleeData, MeleeSource, MeleeSystemData, MeleeSystemSource };

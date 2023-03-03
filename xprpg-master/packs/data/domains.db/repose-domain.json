@@ -1,0 +1,11 @@
+{
+    "_id": "ZAx1RUB376BjNdlF",
+    "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Adanye]{Adanye}, @UUID[Compendium.xprpg.deities.Ashava]{Ashava}, @UUID[Compendium.xprpg.deities.Ashukharma]{Ashukharma}, @UUID[Compendium.xprpg.deities.Doloras]{Doloras}, @UUID[Compendium.xprpg.deities.Folgrit]{Folgrit}, @UUID[Compendium.xprpg.deities.Lady Jingxi]{Lady Jingxi}, @UUID[Compendium.xprpg.deities.Lymnieris]{Lymnieris}, @UUID[Compendium.xprpg.deities.Sarenrae]{Sarenrae}, @UUID[Compendium.xprpg.deities.Shelyn]{Shelyn}, @UUID[Compendium.xprpg.deities.The Lost Prince]{The Lost Prince}, @UUID[Compendium.xprpg.deities.Tsukiyo]{Tsukiyo}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Share Burden]{Share Burden}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Font of Serenity]{Font of Serenity}</em></p>\n<p>You ease mental burdens.</p>",
+    "name": "Repose Domain",
+    "ownership": {
+        "default": 0
+    },
+    "permission": {
+        "default": 0
+    }
+}

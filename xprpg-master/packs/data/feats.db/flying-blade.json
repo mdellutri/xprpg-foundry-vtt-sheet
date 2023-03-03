@@ -1,0 +1,48 @@
+{
+    "_id": "qgNc5XwjsaWET0Op",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Flying Blade",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You've learned to apply your flashy techniques to thrown weapons as easily as melee attacks.</p>\n<p>When you have @UUID[Compendium.xprpg.classfeatures.Panache]{Panache}, you apply your @UUID[Compendium.xprpg.classfeatures.Precise Strike]{Precise Strike} damage on ranged Strikes you make with a thrown weapon within that weapon's first range increment. The thrown weapon must be an agile or finesse weapon.</p>\n<p>This also allows you to make a thrown weapon ranged Strike for @UUID[Compendium.xprpg.classfeatures.Confident Finisher]{Confident Finisher} and any other finisher that includes a Strike that can benefit from your precise strike.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "precise strike"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "domain": "all",
+                "key": "RollOption",
+                "label": "XPRPG.SpecificRule.TOTMToggle.FirstRangeIncrement",
+                "option": "target:range-increment:1",
+                "toggleable": "totm"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "swashbuckler"
+            ]
+        }
+    },
+    "type": "feat"
+}

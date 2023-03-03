@@ -1,0 +1,38 @@
+{
+    "_id": "87h0jepQuzIbN7jN",
+    "img": "systems/xprpg/icons/features/ancestry/fungus-leshy.webp",
+    "name": "Fungus Leshy",
+    "system": {
+        "ancestry": {
+            "name": "Leshy",
+            "slug": "leshy",
+            "uuid": "Compendium.xprpg.ancestries.cdhgByGG1WtuaK73"
+        },
+        "description": {
+            "value": "<p>Your body was made from fungi that grows in the shade of caves and trees, and you are at home in dark caverns and warrens. You gain @UUID[Compendium.xprpg.ancestryfeatures.Darkvision]{Darkvision}. You lose the plant trait and gain the fungus trait.</p>"
+        },
+        "rules": [
+            {
+                "add": [
+                    "fungus"
+                ],
+                "key": "ActorTraits",
+                "remove": [
+                    "plant"
+                ]
+            },
+            {
+                "key": "Sense",
+                "selector": "darkvision"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "heritage"
+}

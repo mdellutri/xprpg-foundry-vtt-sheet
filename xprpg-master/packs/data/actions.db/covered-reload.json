@@ -1,0 +1,36 @@
+{
+    "_id": "gBhWEy3ToxQeCLQm",
+    "img": "systems/xprpg/icons/actions/OneAction.webp",
+    "name": "Covered Reload",
+    "system": {
+        "actionCategory": {
+            "value": "offensive"
+        },
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "description": {
+            "value": "<p>You duck into a safe position or minimize your profile while reloading to make your next attack. Either @UUID[Compendium.xprpg.actionsxprpg.Take Cover]{Take Cover} or attempt to @UUID[Compendium.xprpg.actionsxprpg.Hide]{Hide}, then Interact to reload. As normal, you must meet the requirements to Take Cover or Hide; you must be @UUID[Compendium.xprpg.conditionitems.Prone]{Prone}, benefiting from cover, or near a feature that allows you to Take Cover, and you need to be benefiting from cover or @UUID[Compendium.xprpg.conditionitems.Concealed]{Concealed} to a creature to Hide from that creature.</p>"
+        },
+        "requirements": {
+            "value": ""
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "gunslinger"
+            ]
+        },
+        "trigger": {
+            "value": ""
+        }
+    },
+    "type": "action"
+}

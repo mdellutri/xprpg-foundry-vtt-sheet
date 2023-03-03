@@ -1,0 +1,41 @@
+{
+    "_id": "KxaYlC50zzHysJj8",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Titan Wrestler",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You can attempt to @UUID[Compendium.xprpg.actionsxprpg.Disarm]{Disarm}, @UUID[Compendium.xprpg.actionsxprpg.Grapple]{Grapple}, @UUID[Compendium.xprpg.actionsxprpg.Shove]{Shove}, or @UUID[Compendium.xprpg.actionsxprpg.Trip]{Trip} creatures up to two sizes larger than you, or up to three sizes larger than you if you're legendary in Athletics.</p>"
+        },
+        "featType": {
+            "value": "skill"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "trained in Athletics"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "general",
+                "skill"
+            ]
+        }
+    },
+    "type": "feat"
+}

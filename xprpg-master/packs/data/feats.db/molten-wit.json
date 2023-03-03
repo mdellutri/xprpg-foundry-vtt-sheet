@@ -1,0 +1,106 @@
+{
+    "_id": "OqGNcUTqaZTp2YND",
+    "img": "systems/xprpg/icons/default-icons/feats.webp",
+    "name": "Molten Wit",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your elemental soul has sparked not just your body but also your mind. You either become trained in Deception and gain the @UUID[Compendium.xprpg.feats-srd.Charming Liar]{Charming Liar} skill feat, or you become trained in Diplomacy and gain the @UUID[Compendium.xprpg.feats-srd.Group Impression]{Group Impression} skill feat. If you're already trained in one of these skills, you must take the other and can choose from either skill feat. If you're trained in both skills, you become trained in a different skill of your choice instead and can choose from either skill feat.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "adjustName": false,
+                "choices": [
+                    {
+                        "label": "XPRPG.SkillDec",
+                        "predicate": [
+                            "skill:dec:rank:0"
+                        ],
+                        "value": "dec"
+                    },
+                    {
+                        "label": "XPRPG.SkillDip",
+                        "predicate": [
+                            "skill:dip:rank:0"
+                        ],
+                        "value": "dip"
+                    }
+                ],
+                "flag": "skill",
+                "key": "ChoiceSet",
+                "predicate": [
+                    {
+                        "or": [
+                            "skill:dip:rank:0",
+                            "skill:dec:rank:0"
+                        ]
+                    }
+                ],
+                "prompt": "XPRPG.SpecificRule.Prompt.Skill",
+                "rollOption": "molten-wit"
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.skills.{item|flags.xprpg.rulesSelections.skill}.rank",
+                "predicate": [
+                    {
+                        "or": [
+                            "molten-wit:dec",
+                            "molten-wit:dip"
+                        ]
+                    }
+                ],
+                "value": 1
+            },
+            {
+                "adjustName": false,
+                "choices": [
+                    {
+                        "predicate": [
+                            "molten-wit:dec"
+                        ],
+                        "value": "Compendium.xprpg.feats-srd.Charming Liar"
+                    },
+                    {
+                        "predicate": [
+                            "molten-wit:dip"
+                        ],
+                        "value": "Compendium.xprpg.feats-srd.Group Impression"
+                    }
+                ],
+                "flag": "feat",
+                "key": "ChoiceSet",
+                "prompt": "XPRPG.SpecificRule.Prompt.SkillFeat"
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "{item|flags.xprpg.rulesSelections.feat}"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ifrit"
+            ]
+        }
+    },
+    "type": "feat"
+}

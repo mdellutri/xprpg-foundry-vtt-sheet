@@ -1,0 +1,52 @@
+{
+    "_id": "JndhOIHnQoMwnsw3",
+    "img": "systems/xprpg/icons/default-icons/deity.svg",
+    "name": "The Godclaw",
+    "system": {
+        "ability": [
+            "str",
+            "int"
+        ],
+        "alignment": {
+            "follower": [
+                "LG",
+                "LN",
+                "LE"
+            ],
+            "own": "LN"
+        },
+        "category": "pantheon",
+        "description": {
+            "value": "<p>The Hellknight Order of the Godclaw reveres a pantheon of five deities: Iomedae and Torag are seen as Hellknights (concerned with offensive and defensive combat, respectively), Irori as the epitome of emotionless discipline, Abadar as a keeper of laws, and Asmodeus as a strategist king. Depictions of these deities as part of the Godclaw differ from traditional images, with the deities portrayed as stern, armored paragons of law. Though some members of the Order of the Godclaw dedicate themselves to individual gods, many take the whole pantheon as their patron, receiving spells despite their unorthodox (perhaps even heretical) beliefs.</p>\n<p><strong>Edicts</strong> eliminate chaos at its root, be an exemplar of order (worthy of not one, but five), seek the universal laws that transcend individual faiths</p>\n<p><strong>Anathema</strong> rest when there is lawlessness to fight, believe you know or understand more than the pantheon</p>\n<p><strong>Areas of Concern</strong> discipline, laws, order, strategy</p>\n<p><strong>Pantheon Members</strong> <u></u>@UUID[Compendium.xprpg.deities.Abadar]{Abadar}, @UUID[Compendium.xprpg.deities.Asmodeus]{Asmodeus}, @UUID[Compendium.xprpg.deities.Iomedae]{Iomedae}, @UUID[Compendium.xprpg.deities.Irori]{Irori}, @UUID[Compendium.xprpg.deities.Torag]{Torag}</p>"
+        },
+        "domains": {
+            "alternate": [
+                "duty"
+            ],
+            "primary": [
+                "perfection",
+                "protection",
+                "tyranny",
+                "zeal"
+            ]
+        },
+        "font": [
+            "harm",
+            "heal"
+        ],
+        "rules": [],
+        "skill": "soc",
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "spells": {
+            "1": "Compendium.xprpg.spells-srd.R8bqnYiThB6MYTxD",
+            "4": "Compendium.xprpg.spells-srd.YrzBLPLd3r9m6t1p",
+            "6": "Compendium.xprpg.spells-srd.OsOhx3TGIZ7AhD0P"
+        },
+        "weapons": [
+            "morningstar"
+        ]
+    },
+    "type": "deity"
+}

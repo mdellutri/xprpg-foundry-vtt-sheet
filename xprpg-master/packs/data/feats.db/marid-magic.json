@@ -1,0 +1,36 @@
+{
+    "_id": "hgfRHSS5BsoyQ9Fj",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Marid Magic",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You channel the magic of marids. You can cast <em>@UUID[Compendium.xprpg.spells-srd.Hydraulic Push]{Hydraulic Push}</em> and <em>@UUID[Compendium.xprpg.spells-srd.Obscuring Mist]{Obscuring Mist}</em> each once per day as 2nd-level arcane innate spells.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 9
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "undine"
+            ]
+        }
+    },
+    "type": "feat"
+}

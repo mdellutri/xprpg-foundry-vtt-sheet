@@ -1,0 +1,41 @@
+{
+    "_id": "VXA50vhIRCBt4vvP",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Unbalancing Finisher",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "description": {
+            "value": "<p>You attack with a flashy assault that leaves your target off balance. Make a melee Strike. If you hit and deal damage, the target is @UUID[Compendium.xprpg.conditionitems.Flat-Footed]{Flat-Footed} until the end of your next turn.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "selected": {
+                "finisher": "Finisher",
+                "swashbuckler": "Swashbuckler"
+            },
+            "value": [
+                "finisher",
+                "swashbuckler"
+            ]
+        }
+    },
+    "type": "feat"
+}

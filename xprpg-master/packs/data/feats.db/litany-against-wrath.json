@@ -1,0 +1,50 @@
+{
+    "_id": "YhpR5bOquHx2JuIj",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Litany Against Wrath",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You excoriate a foe for its wrath against goodly creatures.</p>\n<p>You can cast the <em>@UUID[Compendium.xprpg.spells-srd.Litany against Wrath]{Litany against Wrath}</em> devotion spell. Increase the number of Focus Points in your focus pool by 1.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "devotion spells"
+                },
+                {
+                    "value": "tenets of good"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "add",
+                "path": "system.resources.focus.max",
+                "value": 1
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "champion"
+            ]
+        }
+    },
+    "type": "feat"
+}

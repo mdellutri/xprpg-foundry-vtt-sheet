@@ -1,0 +1,36 @@
+{
+    "_id": "Qe9IUDVo7gsowMHq",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Fey Magic",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You can use faerie magic to hide yourself and expose hidden foes. You can cast <em>@UUID[Compendium.xprpg.spells-srd.Faerie Fire]{Faerie Fire}</em> and <em>@UUID[Compendium.xprpg.spells-srd.Invisibility]{Invisibility}</em> each once per day as primal innate spells.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 9
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "sprite"
+            ]
+        }
+    },
+    "type": "feat"
+}

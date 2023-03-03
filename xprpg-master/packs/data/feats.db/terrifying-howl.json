@@ -1,0 +1,42 @@
+{
+    "_id": "HjinlKihkadhkQ4Z",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Terrifying Howl",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "description": {
+            "value": "<p>You unleash a terrifying howl. Attempt <span data-xprpg-action=\"demoralize\" data-xprpg-glyph=\"A\">Intimidation</span> checks to Demoralize each enemy within 30 feet. Regardless of the results of your checks, each enemy is then temporarily immune to Terrifying Howl for 1 minute.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Intimidating Glare"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "auditory",
+                "barbarian",
+                "rage"
+            ]
+        }
+    },
+    "type": "feat"
+}

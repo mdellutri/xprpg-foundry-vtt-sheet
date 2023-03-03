@@ -1,0 +1,53 @@
+{
+    "_id": "rQV8Azb3FeUJJ3fG",
+    "img": "systems/xprpg/icons/default-icons/effect.svg",
+    "name": "Effect: Delve Scale",
+    "system": {
+        "badge": null,
+        "description": {
+            "value": "<p>You gain a burrow Speed of 15 feet and a +2 item bonus to Athletics checks to @UUID[Compendium.xprpg.actionsxprpg.High Jump]{High Jump} or @UUID[Compendium.xprpg.actionsxprpg.Long Jump]{Long Jump}.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "minutes",
+            "value": 1
+        },
+        "level": {
+            "value": 10
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "predicate": [
+                    {
+                        "or": [
+                            "action:high-jump",
+                            "action:long-jump"
+                        ]
+                    }
+                ],
+                "selector": "athletics",
+                "type": "item",
+                "value": 2
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "unidentified": false
+    },
+    "type": "effect"
+}

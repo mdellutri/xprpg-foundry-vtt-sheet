@@ -1,0 +1,43 @@
+{
+    "_id": "rXM6njevpwqSMNRt",
+    "img": "systems/xprpg/icons/default-icons/effect.svg",
+    "name": "Effect: Tallowheart Mass",
+    "system": {
+        "badge": null,
+        "description": {
+            "value": "<p>Granted by @UUID[Compendium.xprpg.equipment-srd.Tallowheart Mass]{Tallowheart Mass}</p>\n<p>You gain resistance 10 to fire damage.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "minutes",
+            "value": 1
+        },
+        "level": {
+            "value": 8
+        },
+        "rules": [
+            {
+                "key": "Resistance",
+                "type": "fire",
+                "value": 10
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": false
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "effect"
+}

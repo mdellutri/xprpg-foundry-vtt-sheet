@@ -1,0 +1,11 @@
+{
+    "_id": "6Vnr4v3SspJH87lQ",
+    "content": "<p>Play after taking two consecutive Stride actions.</p>\n<hr />\n<p>Make a melee Strike. You are @UUID[Compendium.xprpg.conditionitems.Flat-Footed]{Flat-Footed} until the start of your next turn.</p>",
+    "name": "Reckless Charge",
+    "ownership": {
+        "default": 0
+    },
+    "permission": {
+        "default": 0
+    }
+}

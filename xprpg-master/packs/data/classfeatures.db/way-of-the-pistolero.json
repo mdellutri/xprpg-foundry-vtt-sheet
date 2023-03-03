@@ -1,0 +1,73 @@
+{
+    "_id": "qRLRrHf0kzaJ7xt0",
+    "img": "systems/xprpg/icons/features/classes/way-of-the-pistolero.webp",
+    "name": "Way of the Pistolero",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Whether you're a professional duelist or a pistol-twirling entertainer, you have quick feet and quicker hands that never seem to let you down, and an equally sharp wit and tongue that jab your foes. You might leave a hand free or cultivate the ambidexterity for twin weapons. Either way, you stay close enough to your enemies to leverage your superior reflexes while leaving enough space to safely fire.</p>\n<p><strong>Slinger's Reload</strong> @UUID[Compendium.xprpg.actionsxprpg.Raconteur's Reload]{Raconteur's Reload}</p>\n<p><strong>Deeds</strong> <em>Initial</em> @UUID[Compendium.xprpg.actionsxprpg.Ten Paces]{Ten Paces}; <em>Advanced</em> @UUID[Compendium.xprpg.actionsxprpg.Pistolero's Retort]{Pistolero's Retort}; <em>Greater</em> @UUID[Compendium.xprpg.actionsxprpg.Grim Swagger]{Grim Swagger}</p>\n<p><strong>Way Skill</strong> choose Deception or Intimidation</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "GrantItem",
+                "predicate": [
+                    "class:gunslinger"
+                ],
+                "uuid": "Compendium.xprpg.actionsxprpg.Raconteur's Reload"
+            },
+            {
+                "key": "GrantItem",
+                "predicate": [
+                    "class:gunslinger"
+                ],
+                "uuid": "Compendium.xprpg.actionsxprpg.Ten Paces"
+            },
+            {
+                "adjustName": false,
+                "choices": [
+                    {
+                        "label": "XPRPG.SkillDec",
+                        "value": "dec"
+                    },
+                    {
+                        "label": "XPRPG.SkillItm",
+                        "value": "itm"
+                    }
+                ],
+                "flag": "skill",
+                "key": "ChoiceSet",
+                "prompt": "XPRPG.SpecificRule.Prompt.Skill"
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.skills.{item|flags.xprpg.rulesSelections.skill}.rank",
+                "value": 1
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "gunslinger"
+            ]
+        }
+    },
+    "type": "feat"
+}

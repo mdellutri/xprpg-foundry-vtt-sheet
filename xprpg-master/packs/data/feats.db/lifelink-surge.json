@@ -1,0 +1,43 @@
+{
+    "_id": "YYTZFBT2WZMU14om",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Lifelink Surge",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You learn the <em>lifelink surge</em> link spell. Increase the number of Focus Points in your focus pool by 1.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "add",
+                "path": "system.resources.focus.max",
+                "value": 1
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "summoner"
+            ]
+        }
+    },
+    "type": "feat"
+}

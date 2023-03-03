@@ -1,0 +1,37 @@
+{
+    "_id": "nrPl3Dz7fbnmas7T",
+    "img": "systems/xprpg/icons/actions/Passive.webp",
+    "name": "Spirit Touch",
+    "system": {
+        "badge": null,
+        "description": {
+            "value": "<p>Your familiar can touch incorporeal creatures. If you have the spell delivery master ability from your familiar, any spell the familiar delivers with it gains the benefits of the <em>@UUID[Compendium.xprpg.equipment-srd.Ghost Touch]{Ghost Touch}</em> property rune.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "unlimited",
+            "value": -1
+        },
+        "level": {
+            "value": 1
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": false
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "effect"
+}

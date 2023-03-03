@@ -1,0 +1,1 @@
+export { VehicleXPRPG } from "./document";

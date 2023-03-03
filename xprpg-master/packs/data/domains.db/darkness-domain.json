@@ -1,0 +1,11 @@
+{
+    "_id": "8pPvbTMZLIsvCwQk",
+    "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Ahriman]{Ahriman}, @UUID[Compendium.xprpg.deities.Ardad Lili]{Ardad Lili}, @UUID[Compendium.xprpg.deities.Ashava]{Ashava}, @UUID[Compendium.xprpg.deities.Cosmic Caravan]{Cosmic Caravan}, @UUID[Compendium.xprpg.deities.Count Ranalc]{Count Ranalc}, @UUID[Compendium.xprpg.deities.Grandmother Spider]{Grandmother Spider}, @UUID[Compendium.xprpg.deities.Groetus]{Groetus}, @UUID[Compendium.xprpg.deities.Kalekot]{Kalekot}, @UUID[Compendium.xprpg.deities.Kerkamoth]{Kerkamoth}, @UUID[Compendium.xprpg.deities.Ketephys]{Ketephys}, @UUID[Compendium.xprpg.deities.Lao Shu Po]{Lao Shu Po}, @UUID[Compendium.xprpg.deities.Luhar]{Luhar}, @UUID[Compendium.xprpg.deities.Nocticula]{Nocticula}, @UUID[Compendium.xprpg.deities.Nyarlathotep (Haunter in the Dark)]{Nyarlathotep (Haunter in the Dark)}, @UUID[Compendium.xprpg.deities.Nyarlathotep (The Crawling Chaos)]{Nyarlathotep (The Crawling Chaos)}, @UUID[Compendium.xprpg.deities.Pulura]{Pulura}, @UUID[Compendium.xprpg.deities.Tanagaar]{Tanagaar}, @UUID[Compendium.xprpg.deities.Zon-Kuthon]{Zon-Kuthon}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Cloak of Shadow]{Cloak of Shadow}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Darkened Eyes]{Darkened Eyes}</em></p>\n<p>You operate in the darkness and take away the light.</p>",
+    "name": "Darkness Domain",
+    "ownership": {
+        "default": 0
+    },
+    "permission": {
+        "default": 0
+    }
+}

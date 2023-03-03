@@ -1,0 +1,40 @@
+{
+    "_id": "nWxNV9pFeBHV671W",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Pristine Weapon",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your verdant weapon can cut through the resistances of magical creatures. The weapon is treated as cold iron and silver. If you critically hit a creature that has a weakness to cold iron or silver, the target takes @Localize[XPRPG.PersistentDamage.Bleed1d6.success] as the primal energies within your weapon slow its natural healing.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Verdant Weapon"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "druid"
+            ]
+        }
+    },
+    "type": "feat"
+}

@@ -1,0 +1,56 @@
+{
+    "_id": "bbSc1VU1LiQqReKd",
+    "img": "systems/xprpg/icons/equipment/adventuring-gear/xenos-paragon-chronicle.webp",
+    "name": "Paragon Chronicle",
+    "system": {
+        "baseItem": null,
+        "containerId": null,
+        "description": {
+            "value": "<p>Numerous volumes and editions of the Paragon Chronicles exist, each cataloging different adventures. Paragon Chronicles are a type of scholarly journal that specifically devotes topics to Paragon discoveries, rather than more theoretical academic topics. Because Paragons have better access to these chronicles than other scholarly journals, they are particularly common among Paragon agents building a library of reference texts.</p>"
+        },
+        "equippedBulk": {
+            "value": ""
+        },
+        "hardness": 0,
+        "hp": {
+            "brokenThreshold": 0,
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 3
+        },
+        "negateBulk": {
+            "value": ""
+        },
+        "preciousMaterial": {
+            "value": ""
+        },
+        "preciousMaterialGrade": {
+            "value": ""
+        },
+        "price": {
+            "value": {
+                "gp": 6
+            }
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "stackGroup": null,
+        "traits": {
+            "rarity": "uncommon",
+            "value": []
+        },
+        "usage": {
+            "value": "held-in-one-hand"
+        },
+        "weight": {
+            "value": "L"
+        }
+    },
+    "type": "equipment"
+}

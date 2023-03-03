@@ -1,0 +1,50 @@
+{
+    "_id": "q0DGOuLuJNLzgM8d",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Unending Emptiness",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You pool the power of shadow within your eyes, gaining the ability to gather darkness into a turbulent orb of crushing emptiness within your line of sight. You gain the <em>@UUID[Compendium.xprpg.spells-srd.Darklight]{Darklight}</em> domain spell. Increase the number of Focus Points in your focus pool by 1.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "focus pool"
+                },
+                {
+                    "value": "Shadowcaster Dedication"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "add",
+                "path": "system.resources.focus.max",
+                "value": 1
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "type": "feat"
+}

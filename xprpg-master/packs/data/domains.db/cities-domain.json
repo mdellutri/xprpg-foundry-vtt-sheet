@@ -1,0 +1,11 @@
+{
+    "_id": "MRHDhBQvgJhDZ1zq",
+    "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Abadar]{Abadar}, @UUID[Compendium.xprpg.deities.Cayden Cailean]{Cayden Cailean}, @UUID[Compendium.xprpg.deities.Chohar]{Chohar}, @UUID[Compendium.xprpg.deities.Dispater]{Dispater}, @UUID[Compendium.xprpg.deities.Findeladlara]{Findeladlara}, @UUID[Compendium.xprpg.deities.Folgrit]{Folgrit}, @UUID[Compendium.xprpg.deities.Kazutal]{Kazutal}, @UUID[Compendium.xprpg.deities.Luhar]{Luhar}, @UUID[Compendium.xprpg.deities.Matravash]{Matravash}, @UUID[Compendium.xprpg.deities.Mazludeh]{Mazludeh}, @UUID[Compendium.xprpg.deities.Tlehar]{Tlehar}, @UUID[Compendium.xprpg.deities.Zohls]{Zohls}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Face in the Crowd]{Face in the Crowd}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Pulse of the City]{Pulse of the City}</em></p>\n<p>You have powers over urban environments and denizens.</p>",
+    "name": "Cities Domain",
+    "ownership": {
+        "default": 0
+    },
+    "permission": {
+        "default": 0
+    }
+}

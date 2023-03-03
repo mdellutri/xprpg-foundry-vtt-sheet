@@ -1,0 +1,40 @@
+{
+    "_id": "8RppI1i4LfI0CYsX",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Aldori Riposte",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p><strong>Requirements</strong> You are benefiting from Aldori Parry.</p>\n<p><strong>Trigger</strong> An opponent within your reach critically fails a Strike against you.</p>\n<hr />\n<p>You riposte with your @UUID[Compendium.xprpg.equipment-srd.Aldori Dueling Sword]{Aldori Dueling Sword} when your enemy leaves an opening. Make a melee Strike or use a @UUID[Compendium.xprpg.actionsxprpg.Disarm]{Disarm} action against the triggering opponent using your Aldori dueling sword.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Aldori Parry"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "type": "feat"
+}

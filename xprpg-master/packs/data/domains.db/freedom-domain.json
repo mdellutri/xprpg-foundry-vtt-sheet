@@ -1,0 +1,11 @@
+{
+    "_id": "J7K7kHoIE69558Su",
+    "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Arazni]{Arazni}, @UUID[Compendium.xprpg.deities.Arshea]{Arshea}, @UUID[Compendium.xprpg.deities.Black Butterfly]{Black Butterfly}, @UUID[Compendium.xprpg.deities.Casandalee]{Casandalee}, @UUID[Compendium.xprpg.deities.Cayden Cailean]{Cayden Cailean}, @UUID[Compendium.xprpg.deities.Cosmic Caravan]{Cosmic Caravan}, @UUID[Compendium.xprpg.deities.Falayna]{Falayna}, @UUID[Compendium.xprpg.deities.Kazutal]{Kazutal}, @UUID[Compendium.xprpg.deities.Milani]{Milani}, @UUID[Compendium.xprpg.deities.Narriseminek]{Narriseminek}, @UUID[Compendium.xprpg.deities.Ranginori]{Ranginori}, @UUID[Compendium.xprpg.deities.Saloc]{Saloc}, @UUID[Compendium.xprpg.deities.Shei]{Shei}, @UUID[Compendium.xprpg.deities.Walkena]{Walkena}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Unimpeded Stride]{Unimpeded Stride}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Word of Freedom]{Word of Freedom}</em></p>\n<p>You liberate yourself and others from shackles and constraints.</p>",
+    "name": "Freedom Domain",
+    "ownership": {
+        "default": 0
+    },
+    "permission": {
+        "default": 0
+    }
+}

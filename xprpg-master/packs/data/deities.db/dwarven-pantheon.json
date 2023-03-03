@@ -1,0 +1,53 @@
+{
+    "_id": "6mgCX7lvKtaEYoa9",
+    "img": "systems/xprpg/icons/default-icons/deity.svg",
+    "name": "Dwarven Pantheon",
+    "system": {
+        "ability": [
+            "con",
+            "wis"
+        ],
+        "alignment": {
+            "follower": [
+                "LG",
+                "NG",
+                "LN",
+                "N"
+            ],
+            "own": "LG"
+        },
+        "category": "pantheon",
+        "description": {
+            "value": "<p>The dwarven gods are one large family, with @UUID[Compendium.xprpg.deities.Torag]{Torag} as its patriarch. He is joined by his brothers @UUID[Compendium.xprpg.deities.Magrim]{Magrim} (the Taskmaster) and @UUID[Compendium.xprpg.deities.Angradd]{Angradd} (the Forge Fire), his half-sister @UUID[Compendium.xprpg.deities.Dranngvit]{Dranngvit} (the Debt Minder), and his wife @UUID[Compendium.xprpg.deities.Folgrit]{Folgrit} (the Watchful Mother). His children are @UUID[Compendium.xprpg.deities.Bolka]{Bolka} (the Golden Gift), @UUID[Compendium.xprpg.deities.Grundinnar]{Grundinnar} (the Peacemaker), @UUID[Compendium.xprpg.deities.Kols]{Kols} (the Oath-Keeper), and @UUID[Compendium.xprpg.deities.Trudd]{Trudd} (the Mighty). Torag's evil former student @UUID[Compendium.xprpg.deities.Droskar]{Droskar} (the Dark Smith), though technically part of the dwarven pantheon, is rarely invoked by any save duergars.</p>\n<p><strong>Edicts</strong> develop skills useful to your community (especially crafting, mining, and trading), honor your ancestors through traditions and rituals</p>\n<p><strong>Anathema</strong> dishonor your family, willingly break a contract or oath, irreparably damage an ancestral relic</p>\n<p><strong>Areas of Concern</strong> ancestry, crafting, dwarves, relationships</p>"
+        },
+        "domains": {
+            "alternate": [
+                "duty",
+                "glyph"
+            ],
+            "primary": [
+                "creation",
+                "family",
+                "protection",
+                "wealth"
+            ]
+        },
+        "font": [
+            "heal"
+        ],
+        "rules": [],
+        "skill": "dip",
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "spells": {
+            "1": "Compendium.xprpg.spells-srd.X9dkmh23lFwMjrYd",
+            "4": "Compendium.xprpg.spells-srd.TUj8eugNqAvB1vVR",
+            "7": "Compendium.xprpg.spells-srd.rsZ5c0AUyywe5yoK"
+        },
+        "weapons": [
+            "warhammer"
+        ]
+    },
+    "type": "deity"
+}

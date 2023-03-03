@@ -1,0 +1,49 @@
+{
+    "_id": "0nIOGpHQNHsKSFKT",
+    "img": "systems/xprpg/icons/features/classes/hunt-prey.webp",
+    "name": "Hunt Prey",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>When you focus your attention on a single foe, you become unstoppable in your pursuit. You gain the @UUID[Compendium.xprpg.actionsxprpg.Hunt Prey]{Hunt Prey} action.</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "allowDuplicate": false,
+                "key": "GrantItem",
+                "uuid": "Compendium.xprpg.actionsxprpg.Hunt Prey"
+            },
+            {
+                "count": true,
+                "domain": "all",
+                "key": "RollOption",
+                "option": "grants-hunt-prey",
+                "priority": 99
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ranger"
+            ]
+        }
+    },
+    "type": "feat"
+}

@@ -1,0 +1,57 @@
+{
+    "_id": "UZabiyynJWuUblMk",
+    "img": "systems/xprpg/icons/effects/critical-effect.webp",
+    "name": "Effect: -2 circumstance penalty to attack rolls with this weapon",
+    "system": {
+        "badge": null,
+        "description": {
+            "value": "<p><strong>Effect applied by , </strong></p>\n<p>-2 circumstance penalty to attack rolls with this weapon</p>"
+        },
+        "duration": {
+            "expiry": "turn-end",
+            "sustained": false,
+            "unit": "rounds",
+            "value": 1
+        },
+        "level": {
+            "value": 1
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "label": "",
+                "selector": "{item|flags.xprpg.rulesSelections.effect2CircumstancePenaltyToAttackRollsWithThisWeapon}-attack",
+                "slug": "critical-effect-penalty-to-attack-with-weapon",
+                "type": "circumstance",
+                "value": -2
+            },
+            {
+                "choices": {
+                    "ownedItems": true,
+                    "types": [
+                        "weapon"
+                    ]
+                },
+                "key": "ChoiceSet",
+                "prompt": "XPRPG.SpecificRule.Prompt.Weapon"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "unidentified": false
+    },
+    "type": "effect"
+}

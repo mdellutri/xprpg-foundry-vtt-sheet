@@ -1,0 +1,46 @@
+{
+    "_id": "NHheDmNB7L4REmlr",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Swaggering Initiative",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p><strong>Trigger</strong> You are about to roll initiative.</p>\n<hr />\n<p>You swagger readily into any fight-even an ambush. You gain a +2 circumstance bonus to your initiative roll and can @UUID[Compendium.xprpg.actionsxprpg.Interact]{Interact} to draw a weapon.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "predicate": [
+                    "swaggering-initiative"
+                ],
+                "selector": "initiative",
+                "type": "circumstance",
+                "value": 2
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "swashbuckler"
+            ]
+        }
+    },
+    "type": "feat"
+}

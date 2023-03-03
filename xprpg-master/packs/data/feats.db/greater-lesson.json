@@ -1,0 +1,97 @@
+{
+    "_id": "qDfTqetM9UEpp8ty",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Greater Lesson",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your patron grants you greater knowledge.</p>\n<p>Choose a greater or basic lesson from the list of witch lessons. You gain its associated hex, and your familiar learns the associated spell. Increase the number of Focus Points in your focus pool by 1.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "add",
+                "path": "system.resources.focus.max",
+                "value": 1
+            },
+            {
+                "adjustName": false,
+                "allowedDrops": {
+                    "predicate": [
+                        "item:trait:witch",
+                        "item:type:feature",
+                        {
+                            "or": [
+                                "item:level:6",
+                                "item:level:2"
+                            ]
+                        }
+                    ]
+                },
+                "choices": [
+                    {
+                        "value": "Compendium.xprpg.classfeatures.Lesson of Mischief"
+                    },
+                    {
+                        "value": "Compendium.xprpg.classfeatures.Lesson of Shadow"
+                    },
+                    {
+                        "value": "Compendium.xprpg.classfeatures.Lesson of Snow"
+                    },
+                    {
+                        "value": "Compendium.xprpg.classfeatures.Lesson of Calamity"
+                    },
+                    {
+                        "value": "Compendium.xprpg.classfeatures.Lesson of Dreams"
+                    },
+                    {
+                        "value": "Compendium.xprpg.classfeatures.Lesson of Life"
+                    },
+                    {
+                        "value": "Compendium.xprpg.classfeatures.Lesson of Protection"
+                    },
+                    {
+                        "value": "Compendium.xprpg.classfeatures.Lesson of Elements"
+                    },
+                    {
+                        "value": "Compendium.xprpg.classfeatures.Lesson of Vengeance"
+                    },
+                    {
+                        "value": "Compendium.xprpg.classfeatures.Lesson of Favors"
+                    }
+                ],
+                "flag": "lesson",
+                "key": "ChoiceSet",
+                "prompt": "XPRPG.SpecificRule.Prompt.Lesson"
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "{item|flags.xprpg.rulesSelections.lesson}"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "witch"
+            ]
+        }
+    },
+    "type": "feat"
+}

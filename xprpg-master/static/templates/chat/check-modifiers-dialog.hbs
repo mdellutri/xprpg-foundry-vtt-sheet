@@ -1,0 +1,95 @@
+<form class="check-modifiers-content" autocomplete="off" spellcheck="off">
+    {{#if substitutions}}
+        <div class="dialog-row header">
+            <span class="mod">Substitution</span>
+            <span class="type">Roll</span>
+            <span class="exclude">Utilize?</span>
+        </div>
+        <div class="substitutions">
+            {{#each substitutions as |sub idx|}}
+                <div class="dialog-row{{#if sub.ignored}} disabled{{/if}}">
+                    <span class="mod">{{sub.label}}</span>
+                    <span class="type">{{sub.value}}</span>
+                    <label class="exclude toggle">
+                        <input type="checkbox" id="{{@root.appId}}-sub-{{idx}}" data-sub-index="{{idx}}" {{checked (not sub.ignored)}} />
+                        <label for="{{@root.appId}}-sub-{{idx}}"></label>
+                    </label>
+                </div>
+            {{/each}}
+        </div>
+    {{/if}}
+    <hr />
+    <div class="dialog-row header">
+        <span class="type">{{localize "XPRPG.Roll.Type"}}</span>
+        <span class="mod">{{localize "XPRPG.Roll.Modifier"}}</span>
+        <span class="exclude"></span>
+    </div>
+    <div class="modifier-container">
+        {{#each modifiers as |modifier idx|}}
+            <div class="dialog-row{{#unless modifier.enabled}} disabled{{#if modifier.hideIfDisabled}} hidden{{/if}}{{/unless}}">
+                <span class="type tag">{{localize (concat "XPRPG.ModifierType." modifier.type)}}</span>
+                <span class="mod">{{modifier.label}}</span>
+                <span class="value">{{numberFormat modifier.modifier decimals=0 sign=true}}</span>
+                <label class="exclude toggle">
+                    <input type="checkbox" id="{{@root.appId}}-modifier-{{idx}}" data-modifier-index="{{idx}}" {{checked (not modifier.ignored)}} />
+                    <label for="{{@root.appId}}-modifier-{{idx}}"></label>
+                </label>
+            </div>
+        {{/each}}
+    </div>
+    <hr />
+    <div class="add-modifier-panel">
+        <input type="text" class="add-modifier-name" placeholder={{localize "XPRPG.ModifierTitle"}}>
+        <select class="add-modifier-type">
+            <option value="circumstance" selected>{{localize "XPRPG.ModifierType.circumstance"}}</option>
+            <option value="item">{{localize "XPRPG.ModifierType.item"}}</option>
+            <option value="status">{{localize "XPRPG.ModifierType.status"}}</option>
+            <option value="untyped">{{localize "XPRPG.ModifierType.untyped"}}</option>
+            <option value="ability">{{localize "XPRPG.ModifierType.ability"}}</option>
+            <option value="proficiency">{{localize "XPRPG.ModifierType.proficiency"}}</option>
+        </select>
+        <input type="number" class="add-modifier-value" placeholder="+1">
+        <button type="button" class="add-modifier">+{{localize "XPRPG.Roll.Add"}}</button>
+    </div>
+    <hr/>
+
+    <div class="fate">
+        <label>
+            <input type="radio" name="rollTwice" value="keep-higher" {{checked fortune}} />
+            {{localize "XPRPG.Roll.KeepHigher"}}
+        </label>
+        <label>
+            <input type="radio" name="rollTwice" value="" {{checked none}} />
+            {{localize "XPRPG.Roll.Normal"}}
+        </label>
+        <label>
+            <input type="radio" name="rollTwice" value="keep-lower" {{checked misfortune}} />
+            {{localize "XPRPG.Roll.KeepLower"}}
+        </label>
+    </div>
+    <hr/>
+
+    <div class="roll-mode-panel">
+        <span class="label">{{localize "XPRPG.RollModeLabel"}}</span>
+        <select name="rollmode">
+            {{#select rollMode}}
+                {{#each rollModes as |label key|}}
+                    <option value="{{key}}">{{localize label}}</option>
+                {{/each}}
+            {{/select}}
+        </select>
+    </div>
+    <hr/>
+
+    <button type="button" class="roll">{{localize "XPRPG.Roll.Roll"}} ({{numberFormat totalModifier decimals=0 sign=true}})</button>
+
+    <!-- Settings Menu -->
+    <div class="hover-content" id="{{appId}}-settings">
+        <ul class="modifier-list settings-list">
+            <li class="item">
+                <span class="label">{{localize "XPRPG.SETTINGS.Player.QuickRolls.DialogHint"}}</span>
+                <input class="quick-rolls-submit" type="checkbox" {{checked showRollDialogs}} />
+            </li>
+        </ul>
+    </div>
+</form>

@@ -1,0 +1,36 @@
+{
+    "_id": "Oo3yRbmrgqi8dmVs",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Panache Paragon",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You find opportunities to perform stylish feats in the moments between others' heartbeats and eye blinks. You are permanently @UUID[Compendium.xprpg.conditionitems.Quickened]{Quickened}.</p>\n<p>You can use the extra action only to @UUID[Compendium.xprpg.actionsxprpg.Tumble Through]{Tumble Through} or perform the skill action listed in your swashbuckler's style as one that allows you to gain @UUID[Compendium.xprpg.classfeatures.Panache]{Panache}, or other actions that would allow you to gain panache at the GM's discretion.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "swashbuckler"
+            ]
+        }
+    },
+    "type": "feat"
+}

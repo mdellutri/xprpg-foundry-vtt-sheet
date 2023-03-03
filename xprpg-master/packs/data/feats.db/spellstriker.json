@@ -1,0 +1,40 @@
+{
+    "_id": "16QBDinolgG2M66d",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Spellstriker",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You gain the magus's @UUID[Compendium.xprpg.actionsxprpg.Spellstrike]{Spellstrike} activity. You can recharge it only as an activity that takes 1 minute. This restriction applies even if you gain another ability that recharges Spellstrike.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Magus Dedication"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "type": "feat"
+}

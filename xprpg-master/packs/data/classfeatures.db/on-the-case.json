@@ -1,0 +1,45 @@
+{
+    "_id": "6FasgIXUJ1X8ekRn",
+    "img": "systems/xprpg/icons/features/classes/on-the-case.webp",
+    "name": "On the Case",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>As an investigator, you think of your adventures as cases waiting to be solved. You gain one activity and one reaction you can use to investigate cases: @UUID[Compendium.xprpg.actionsxprpg.Pursue a Lead]{Pursue a Lead} and @UUID[Compendium.xprpg.actionsxprpg.Clue In]{Clue In}.</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.xprpg.actionsxprpg.Pursue a Lead"
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.xprpg.actionsxprpg.Clue In"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "investigator"
+            ]
+        }
+    },
+    "type": "feat"
+}

@@ -1,0 +1,11 @@
+{
+    "_id": "1BU8deh48XZFclWl",
+    "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Arundhat]{Arundhat}, @UUID[Compendium.xprpg.deities.Atreia]{Atreia}, @UUID[Compendium.xprpg.deities.Bolka]{Bolka}, @UUID[Compendium.xprpg.deities.Chamidu]{Chamidu}, @UUID[Compendium.xprpg.deities.Green Man]{Green Man}, @UUID[Compendium.xprpg.deities.Isis]{Isis}, @UUID[Compendium.xprpg.deities.Korada]{Korada}, @UUID[Compendium.xprpg.deities.Osiris]{Osiris}, @UUID[Compendium.xprpg.deities.Pharasma]{Pharasma}, @UUID[Compendium.xprpg.deities.Qi Zhong]{Qi Zhong}, @UUID[Compendium.xprpg.deities.Sarenrae]{Sarenrae}, @UUID[Compendium.xprpg.deities.Sekhmet]{Sekhmet}, @UUID[Compendium.xprpg.deities.Selket]{Selket}, @UUID[Compendium.xprpg.deities.Shei]{Shei}, @UUID[Compendium.xprpg.deities.Stag Mother of the Forest of Stones]{Stag Mother of the Forest of Stones}, @UUID[Compendium.xprpg.deities.The Prismatic Ray]{The Prismatic Ray}, @UUID[Compendium.xprpg.deities.Tlehar]{Tlehar}, @UUID[Compendium.xprpg.deities.Uvuko]{Uvuko}, @UUID[Compendium.xprpg.deities.Wards of the Pharaoh]{Wards of the Pharaoh}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Healer's Blessing]{Healer's Blessing}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Rebuke Death]{Rebuke Death}</em></p>\n<p>Your healing magic is particularly potent.</p>",
+    "name": "Healing Domain",
+    "ownership": {
+        "default": 0
+    },
+    "permission": {
+        "default": 0
+    }
+}

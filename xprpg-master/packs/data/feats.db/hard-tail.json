@@ -1,0 +1,58 @@
+{
+    "_id": "0qeYP84FfQueggkx",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Hard Tail",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your tail is much stronger than most, and you can lash out with it with the strength of a whip. You gain a tail unarmed attack that deals 1d6 bludgeoning damage.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "tailed goblin heritage"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "category": "unarmed",
+                "damage": {
+                    "base": {
+                        "damageType": "bludgeoning",
+                        "dice": 1,
+                        "die": "d6"
+                    }
+                },
+                "group": "brawling",
+                "img": "systems/xprpg/icons/unarmed-attacks/tail.webp",
+                "key": "Strike",
+                "label": "XPRPG.BattleForm.Attack.Tail",
+                "traits": [
+                    "unarmed"
+                ]
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "goblin"
+            ]
+        }
+    },
+    "type": "feat"
+}

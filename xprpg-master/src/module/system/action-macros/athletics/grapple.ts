@@ -1,0 +1,38 @@
+import { ActionMacroHelpers, SkillActionOptions } from "..";
+import { WeaponXPRPG } from "@item";
+
+export function grapple(options: SkillActionOptions) {
+    const slug = options?.skill ?? "athletics";
+    const rollOptions = ["action:grapple"];
+    ActionMacroHelpers.simpleRollActionCheck<Embedded<WeaponXPRPG>>({
+        actors: options.actors,
+        actionGlyph: options.glyph ?? "A",
+        title: "XPRPG.Actions.Grapple.Title",
+        checkContext: (opts) => {
+            // weapon
+            const item = (ActionMacroHelpers.getApplicableEquippedWeapons(opts.actor, "grapple") ?? []).shift();
+
+            // modifier
+            const modifiers = options.modifiers?.length ? [...options.modifiers] : [];
+            if (item && item.traits.has("grapple")) {
+                const modifier = ActionMacroHelpers.getWeaponPotencyModifier(item, slug);
+                if (modifier) {
+                    modifiers.push(modifier);
+                }
+            }
+
+            return ActionMacroHelpers.defaultCheckContext(opts, { item, modifiers, rollOptions, slug });
+        },
+        traits: ["attack"],
+        event: options.event,
+        callback: options.callback,
+        difficultyClass: options.difficultyClass,
+        difficultyClassStatistic: (target) => target.saves.fortitude,
+        extraNotes: (selector: string) => [
+            ActionMacroHelpers.note(selector, "XPRPG.Actions.Grapple", "criticalSuccess"),
+            ActionMacroHelpers.note(selector, "XPRPG.Actions.Grapple", "success"),
+            ActionMacroHelpers.note(selector, "XPRPG.Actions.Grapple", "failure"),
+            ActionMacroHelpers.note(selector, "XPRPG.Actions.Grapple", "criticalFailure"),
+        ],
+    });
+}

@@ -1,0 +1,41 @@
+{
+    "_id": "GZba7ped7ZxYHchf",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Legendary Professional",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your fame has spread throughout the lands (for instance, if you have Warfare Lore, you might be a legendary general or tactician). This works as @UUID[Compendium.xprpg.feats-srd.Legendary Performer]{Legendary Performer}, except you gain higher-level jobs when you Earn Income with Lore.</p>"
+        },
+        "featType": {
+            "value": "skill"
+        },
+        "level": {
+            "value": 15
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "legendary in Lore"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "general",
+                "skill"
+            ]
+        }
+    },
+    "type": "feat"
+}

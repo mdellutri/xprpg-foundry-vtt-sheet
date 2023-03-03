@@ -1,0 +1,36 @@
+{
+    "_id": "JEFPufbvaCeiA0Zo",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Weapon Supremacy",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your skill with weapons lets you attack swiftly at all times. You're permanently @UUID[Compendium.xprpg.conditionitems.Quickened]{Quickened}. You can use your extra action only to Strike.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fighter"
+            ]
+        }
+    },
+    "type": "feat"
+}

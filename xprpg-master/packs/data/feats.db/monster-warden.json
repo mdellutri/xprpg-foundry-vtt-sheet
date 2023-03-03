@@ -1,0 +1,40 @@
+{
+    "_id": "2yq3l8e2Vzz34yRV",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Monster Warden",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You understand how to defend yourself and others against your prey. When you grant bonuses from @UUID[Compendium.xprpg.feats-srd.Monster Hunter]{Monster Hunter}, you and your allies also each gain a +1 circumstance bonus to your next saving throw against that particular creature and to your AC against that creature's next attack against you.</p>\n<p>@UUID[Compendium.xprpg.feat-effects.Effect: Monster Warden]{Effect: Monster Warden}</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Monster Hunter"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ranger"
+            ]
+        }
+    },
+    "type": "feat"
+}

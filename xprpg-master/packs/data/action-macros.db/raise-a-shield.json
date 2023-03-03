@@ -1,0 +1,13 @@
+{
+    "_id": "4hfQEMiEOBbqelAh",
+    "actorIds": [],
+    "author": "uAvrJeywnWLwQIhl",
+    "command": "game.xprpg.actions.raiseAShield({ actors: [token?.actor ?? actor ?? game.user.character].filter((actor) => actor) })",
+    "img": "systems/xprpg/icons/actions/raise-a-shield.webp",
+    "name": "Raise a Shield",
+    "ownership": {
+        "default": 1
+    },
+    "scope": "global",
+    "type": "script"
+}

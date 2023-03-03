@@ -1,0 +1,53 @@
+{
+    "_id": "eD3KZJV8ACLt2xns",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Elven Verve",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>While all elves are immune to the paralyzing touch of ghouls, you can shake off flesh-numbing magic of all kinds. You gain a +1 circumstance bonus to saves against effects that would impose the @UUID[Compendium.xprpg.conditionitems.Immobilized]{Immobilized}, @UUID[Compendium.xprpg.conditionitems.Paralyzed]{Paralyzed}, or @UUID[Compendium.xprpg.conditionitems.Slowed]{Slowed} conditions. When you would be immobilized, paralyzed, or slowed for at least 2 rounds, reduce that duration by 1 round.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "label": "Against effects that would make you Immobilized, Paralyzed, or Slowed",
+                "predicate": [
+                    {
+                        "or": [
+                            "effect:slowed",
+                            "effect:immobilized",
+                            "effect:paralyzed"
+                        ]
+                    }
+                ],
+                "selector": "saving-throw",
+                "type": "circumstance",
+                "value": 1
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "elf"
+            ]
+        }
+    },
+    "type": "feat"
+}

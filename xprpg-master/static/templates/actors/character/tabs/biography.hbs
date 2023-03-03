@@ -1,0 +1,84 @@
+<div class="tab biography" data-group="primary" data-tab="biography">
+    <section class="biography-details">
+        <div class="bio appearance">
+            <label class="details-label">{{localize "XPRPG.BiographyAppearance"}}</label>
+            <span title="{{localize "XPRPG.BiographyAppearanceTitle"}}" class="biography-content" style="min-height: 200px;" >
+                {{editor enrichedContent.appearance target="system.details.biography.appearance" button=true owner=owner editable=editable}}
+            </span>
+        </div>
+        <div class="bio backstory">
+            <label class="details-label">{{localize "XPRPG.BiographyBackStory"}}</label>
+            <span title="{{localize "XPRPG.BiographyBackStoryTitle"}}" class="biography-content" style="min-height: 200px;" >
+                {{editor enrichedContent.backstory target="system.details.biography.backstory" button=true owner=owner editable=editable}}
+            </span>
+        </div>
+        <div class="bio birth-place">
+            <label class="details-label" for="{{options.id}}-birth-place">{{localize "XPRPG.BiographyBirthPlace"}}</label>
+            <span title="{{localize "XPRPG.BiographyBirthPlaceTitle"}}">
+                <input type="text" id="{{options.id}}-birth-place" name="system.details.biography.birthPlace" value="{{data.details.biography.birthPlace}}" />
+            </span>
+        </div>
+    </section>
+
+    <h3 class="core-title"> {{localize "XPRPG.BiographyPersonalityHeader"}}</h3>
+    <section class="biography-personality">
+        <div class="bio attitude">
+            <label class="details-label" for="{{options.id}}-attitude">{{localize "XPRPG.BiographyAttitude"}}</label>
+            <span title="{{localize "XPRPG.BiographyAttitudeTitle"}}">
+                <input type="text" id="{{options.id}}-attitude" name="system.details.biography.attitude" value="{{data.details.biography.attitude}}" />
+            </span>
+        </div>
+        <div class="bio beliefs">
+            <label class="details-label" for="{{options.id}}-beliefs">{{localize "XPRPG.BiographyBeliefs"}}</label>
+            <span title="{{localize "XPRPG.BiographyBeliefsTitle"}}">
+                <input type="text" id="{{options.id}}-beliefs" name="system.details.biography.beliefs" value="{{data.details.biography.beliefs}}" />
+            </span>
+        </div>
+        <div class="bio likes">
+            <label class="details-label" for="{{options.id}}-likes">{{localize "XPRPG.BiographyLikes"}}</label>
+            <span title="{{localize "XPRPG.BiographyLikesTitle"}}">
+                <input type="text" id="{{options.id}}-likes" name="system.details.biography.likes" value="{{data.details.biography.likes}}" />
+            </span>
+        </div>
+        <div class="bio dislikes">
+            <label class="details-label" for="{{options.id}}-dislikes">{{localize "XPRPG.BiographyDislikes"}}</label>
+            <span title="{{localize "XPRPG.BiographyDislikesTitle"}}">
+                <input type="text" id="{{options.id}}-dislikes" name="system.details.biography.dislikes" value="{{data.details.biography.dislikes}}" />
+            </span>
+        </div>
+        <div class="bio catchphrases">
+            <label class="details-label" for="{{options.id}}-catchphrases">{{localize "XPRPG.BiographyCatchphrases"}}</label>
+            <span title="{{localize "XPRPG.BiographyCatchphrasesTitle"}}">
+                <input type="text" id="{{options.id}}-catchphrases" name="system.details.biography.catchphrases" value="{{data.details.biography.catchphrases}}" />
+            </span>
+        </div>
+    </section>
+
+    <h3 class="core-title"> {{localize "XPRPG.BiographyCampaignNotesHeader"}}</h3>
+    <section class="biography-campaign-notes">
+        <div class="bio campaign-notes">
+            <label class="details-label">{{localize "XPRPG.BiographyCampaignNotes"}}</label>
+            <span title="{{localize "XPRPG.BiographyCampaignNotesTitle"}}" class="biography-content" style="min-height: 200px;" >
+                {{editor enrichedContent.campaignNotes target="system.details.biography.campaignNotes" button=true owner=owner editable=editable}}
+            </span>
+        </div>
+        <div class="bio allies">
+            <label class="details-label">{{localize "XPRPG.BiographyAllies"}}</label>
+            <span title="{{localize "XPRPG.BiographyAlliesTitle"}}" class="biography-content" style="min-height: 200px;" >
+                {{editor enrichedContent.allies target="system.details.biography.allies" button=true owner=owner editable=editable}}
+            </span>
+        </div>
+        <div class="bio enemies">
+            <label class="details-label">{{localize "XPRPG.BiographyEnemies"}}</label>
+            <span title="{{localize "XPRPG.BiographyEnemiesTitle"}}" class="biography-content" style="min-height: 200px;" >
+                {{editor enrichedContent.enemies target="system.details.biography.enemies" button=true owner=owner editable=editable}}
+            </span>
+        </div>
+        <div class="bio organizations">
+            <label class="details-label">{{localize "XPRPG.BiographyOrganizations"}}</label>
+            <span title="{{localize "XPRPG.BiographyOrganizationsTitle"}}" class="biography-content" style="min-height: 200px;" >
+                {{editor enrichedContent.organaizations target="system.details.biography.organaizations" button=true owner=owner editable=editable}}
+            </span>
+        </div>
+    </section>
+</div>

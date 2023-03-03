@@ -1,0 +1,56 @@
+{
+    "_id": "HoZWmT4yvGso7pHM",
+    "img": "systems/xprpg/icons/equipment/other/spellhearts/flaming-star.webp",
+    "name": "Effect: Flaming Star - Weapon (Greater)",
+    "system": {
+        "badge": null,
+        "description": {
+            "value": "<p>Granted by @UUID[Compendium.xprpg.equipment-srd.Flaming Star (Greater)]{Flaming Star (Greater)}</p>\n<p>After you cast a fire spell by Activating the <em>star</em>, your Strikes with the weapon deal an additional 1d6 fire damage until the end of your next turn.</p>"
+        },
+        "duration": {
+            "expiry": "turn-end",
+            "sustained": false,
+            "unit": "rounds",
+            "value": 1
+        },
+        "level": {
+            "value": 8
+        },
+        "rules": [
+            {
+                "choices": {
+                    "ownedItems": true,
+                    "types": [
+                        "weapon"
+                    ]
+                },
+                "key": "ChoiceSet",
+                "prompt": "XPRPG.SpecificRule.Prompt.Weapon"
+            },
+            {
+                "damageType": "fire",
+                "diceNumber": 1,
+                "dieSize": "d6",
+                "key": "DamageDice",
+                "selector": "{item|flags.xprpg.rulesSelections.effectFlamingStarWeaponGreater}-damage"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "unidentified": false
+    },
+    "type": "effect"
+}

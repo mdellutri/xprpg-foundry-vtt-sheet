@@ -1,0 +1,45 @@
+{
+    "_id": "NlEZ0piDxg9buXCL",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Quick Alchemy",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You gain the @UUID[Compendium.xprpg.actionsxprpg.Quick Alchemy]{Quick Alchemy} action.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Alchemist Dedication"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.xprpg.actionsxprpg.Quick Alchemy"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "type": "feat"
+}

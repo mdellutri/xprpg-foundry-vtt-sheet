@@ -1,0 +1,40 @@
+{
+    "_id": "pfBVx5xBfwKd1iVL",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Spiritual Explorer",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You're familiar with the danger that lingering spirits can pose to an unwary adventurer, and you're particularly attuned to their presence. Even if you aren't Searching in exploration mode, you can attempt a check to find haunts that normally require you to Search for them. You still need to meet any other requirements to find a particular haunt.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Xenos Paragon Core Rulebook"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "type": "feat"
+}

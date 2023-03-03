@@ -1,0 +1,11 @@
+{
+    "_id": "wPtGuF1bh4wvKE6Q",
+    "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Adanye]{Adanye}, @UUID[Compendium.xprpg.deities.Arazni]{Arazni}, @UUID[Compendium.xprpg.deities.Arshea]{Arshea}, @UUID[Compendium.xprpg.deities.Asmodeus]{Asmodeus}, @UUID[Compendium.xprpg.deities.Bolka]{Bolka}, @UUID[Compendium.xprpg.deities.Chaldira]{Chaldira}, @UUID[Compendium.xprpg.deities.Count Ranalc]{Count Ranalc}, @UUID[Compendium.xprpg.deities.Dispater]{Dispater}, @UUID[Compendium.xprpg.deities.Eritrice]{Eritrice}, @UUID[Compendium.xprpg.deities.General Susumu]{General Susumu}, @UUID[Compendium.xprpg.deities.Gorum]{Gorum}, @UUID[Compendium.xprpg.deities.Grundinnar]{Grundinnar}, @UUID[Compendium.xprpg.deities.Iomedae]{Iomedae}, @UUID[Compendium.xprpg.deities.Jaidz]{Jaidz}, @UUID[Compendium.xprpg.deities.Nivi Rhombodazzle]{Nivi Rhombodazzle}, @UUID[Compendium.xprpg.deities.Ragdya]{Ragdya}, @UUID[Compendium.xprpg.deities.Raumya]{Raumya}, @UUID[Compendium.xprpg.deities.Sturovenen]{Sturovenen}, @UUID[Compendium.xprpg.deities.Thamir]{Thamir}, @UUID[Compendium.xprpg.deities.Trudd]{Trudd}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Veil of Confidence]{Veil of Confidence}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Delusional Pride]{Delusional Pride}</em></p>\n<p>You overcome your fear and project pride.</p>",
+    "name": "Confidence Domain",
+    "ownership": {
+        "default": 0
+    },
+    "permission": {
+        "default": 0
+    }
+}

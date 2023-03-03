@@ -1,0 +1,60 @@
+{
+    "_id": "QOAjwtH9gycbDZCY",
+    "img": "systems/xprpg/icons/equipment/worn-items/other-worn-items/backfire-mantle.webp",
+    "name": "Jack's Tattered Cape",
+    "system": {
+        "baseItem": null,
+        "containerId": "null",
+        "description": {
+            "value": "<p>This ragged, mud-stained cape closes with a single black button engraved with a leering devil's face. When you @UUID[Compendium.xprpg.actionsxprpg.Leap]{Leap}, @UUID[Compendium.xprpg.actionsxprpg.High Jump]{High Jump}, or @UUID[Compendium.xprpg.actionsxprpg.Long Jump]{Long Jump} (or Vault, if you're Spring-Heeled Jack), you gain a +1 item bonus to Stealth checks to @UUID[Compendium.xprpg.actionsxprpg.Hide]{Hide} or @UUID[Compendium.xprpg.actionsxprpg.Sneak]{Sneak} until the start of your next turn.</p>\n<p>@UUID[Compendium.xprpg.equipment-effects.Effect: Jack's Tattered Cape]{Effect: Jack's Tattered Cape}</p>"
+        },
+        "equippedBulk": {
+            "value": ""
+        },
+        "hardness": 0,
+        "hp": {
+            "brokenThreshold": 0,
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 2
+        },
+        "negateBulk": {
+            "value": "0"
+        },
+        "preciousMaterial": {
+            "value": null
+        },
+        "preciousMaterialGrade": {
+            "value": null
+        },
+        "price": {
+            "value": {
+                "gp": 30
+            }
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "stackGroup": null,
+        "traits": {
+            "rarity": "rare",
+            "value": [
+                "illusion",
+                "invested",
+                "magical"
+            ]
+        },
+        "usage": {
+            "value": "worncloak"
+        },
+        "weight": {
+            "value": "-"
+        }
+    },
+    "type": "equipment"
+}

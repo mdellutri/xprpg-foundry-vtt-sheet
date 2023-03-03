@@ -1,0 +1,40 @@
+{
+    "_id": "ZXLbIgL3NNplgnuB",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Shared Dream",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You've learned to create a shared dreamscape to communicate with others. You can cast <em>@UUID[Compendium.xprpg.spells-srd.Dream Council]{Dream Council}</em> as an innate occult spell.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Sleepwalker Dedication"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "type": "feat"
+}

@@ -1,0 +1,37 @@
+{
+    "_id": "kKZ4gnT7okaWS6tB",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Metamagic Mastery",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Altering your spells doesn't take any longer than casting them normally. You can use metamagic single actions as free actions.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "sorcerer",
+                "wizard"
+            ]
+        }
+    },
+    "type": "feat"
+}

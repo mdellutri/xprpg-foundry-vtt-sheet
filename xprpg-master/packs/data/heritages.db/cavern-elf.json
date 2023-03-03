@@ -1,0 +1,29 @@
+{
+    "_id": "NfIAGatB1KIzt8G7",
+    "img": "systems/xprpg/icons/features/ancestry/caveren-elf.webp",
+    "name": "Cavern Elf",
+    "system": {
+        "ancestry": {
+            "name": "Elf",
+            "slug": "elf",
+            "uuid": "Compendium.xprpg.ancestries.PgKmsA2aKdbLU6O0"
+        },
+        "description": {
+            "value": "<p>You were born or spent many years in underground tunnels or caverns where light is scarce. You gain @UUID[Compendium.xprpg.ancestryfeatures.Darkvision]{Darkvision}.</p>"
+        },
+        "rules": [
+            {
+                "key": "Sense",
+                "selector": "darkvision"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "heritage"
+}

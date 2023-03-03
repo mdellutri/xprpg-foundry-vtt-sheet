@@ -1,0 +1,69 @@
+{
+    "_id": "YQLWR9cCXQY5xaaG",
+    "img": "systems/xprpg/icons/equipment/adventuring-gear/cartographers-kit.webp",
+    "name": "Cartographer's Kit",
+    "system": {
+        "description": {
+            "value": "<p>This kit includes a writing set, a compass, a standard astrolabe, a ruler, and a survey map.</p>"
+        },
+        "equippedBulk": {
+            "value": ""
+        },
+        "items": {
+            "5z6qg": {
+                "img": "systems/xprpg/icons/equipment/adventuring-gear/compass.webp",
+                "isContainer": false,
+                "items": {},
+                "name": "Compass",
+                "quantity": 1,
+                "uuid": "Compendium.xprpg.equipment-srd.wob6DB1FFdWs0mbp"
+            },
+            "aftjc": {
+                "img": "systems/xprpg/icons/default-icons/mystery-man.svg",
+                "isContainer": false,
+                "items": {},
+                "name": "Standard Astrolabe",
+                "quantity": 1,
+                "uuid": "Compendium.xprpg.equipment-srd.n8nmqJdfHrDfuG1J"
+            },
+            "b2zsf": {
+                "img": "systems/xprpg/icons/equipment/adventuring-gear/writing-set.webp",
+                "isContainer": false,
+                "items": {},
+                "name": "Writing Set",
+                "quantity": 1,
+                "uuid": "Compendium.xprpg.equipment-srd.QJb8S927Yj81EgHH"
+            },
+            "lfmi2": {
+                "img": "systems/xprpg/icons/default-icons/mystery-man.svg",
+                "isContainer": false,
+                "items": {},
+                "name": "Ruler",
+                "quantity": 1,
+                "uuid": "Compendium.xprpg.equipment-srd.fti8z0JYDxH63n0J"
+            },
+            "lnvy6": {
+                "img": "systems/xprpg/icons/equipment/adventuring-gear/survey-map.webp",
+                "isContainer": false,
+                "items": {},
+                "name": "Survey Map",
+                "quantity": 1,
+                "uuid": "Compendium.xprpg.equipment-srd.UhcRWtnjU2WLSClx"
+            }
+        },
+        "price": {
+            "value": {
+                "gp": 42
+            }
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "uncommon",
+            "value": []
+        }
+    },
+    "type": "kit"
+}

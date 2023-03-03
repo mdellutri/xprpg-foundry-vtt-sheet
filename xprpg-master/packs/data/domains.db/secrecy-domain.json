@@ -1,0 +1,11 @@
+{
+    "_id": "KzuJAIWdjwoPjHkc",
+    "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Ayrzul]{Ayrzul}, @UUID[Compendium.xprpg.deities.Baphomet]{Baphomet}, @UUID[Compendium.xprpg.deities.Black Butterfly]{Black Butterfly}, @UUID[Compendium.xprpg.deities.Calistria]{Calistria}, @UUID[Compendium.xprpg.deities.Dhalavei]{Dhalavei}, @UUID[Compendium.xprpg.deities.Erecura]{Erecura}, @UUID[Compendium.xprpg.deities.Hastur]{Hastur}, @UUID[Compendium.xprpg.deities.Kalekot]{Kalekot}, @UUID[Compendium.xprpg.deities.Ketephys]{Ketephys}, @UUID[Compendium.xprpg.deities.Mephistopheles]{Mephistopheles}, @UUID[Compendium.xprpg.deities.Ng]{Ng}, @UUID[Compendium.xprpg.deities.Norgorber]{Norgorber}, @UUID[Compendium.xprpg.deities.Pillars of Knowledge]{Pillars of Knowledge}, @UUID[Compendium.xprpg.deities.Sivanah]{Sivanah}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Forced Quiet]{Forced Quiet}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Safeguard Secret]{Safeguard Secret}</em></p>\n<p>You protect secrets and keep them hidden.</p>",
+    "name": "Secrecy Domain",
+    "ownership": {
+        "default": 0
+    },
+    "permission": {
+        "default": 0
+    }
+}

@@ -1,0 +1,69 @@
+{
+    "_id": "bJzANqEGTkho1bv6",
+    "img": "systems/xprpg/icons/default-icons/feats.webp",
+    "name": "Arcane Safeguards",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>The magic powering you makes it difficult for outside magic to affect you. You gain the @UUID[Compendium.xprpg.actionsxprpg.Resist Magic]{Resist Magic} reaction.</p>\n<p><strong>Enhancement</strong> Your safeguards improve. When you Resist Magic, you gain a number of temporary Hit Points equal to the spell level of the triggering effect.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 5
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.xprpg.actionsxprpg.Resist Magic"
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "add",
+                "path": "flags.xprpg.automaton.enhancements.lesser",
+                "value": {
+                    "label": "XPRPG.SpecificRule.Automaton.EnhanceableFeats.ArcaneSafeguards",
+                    "predicate": [
+                        {
+                            "not": "enhancement:arcane-safeguards"
+                        }
+                    ],
+                    "value": "arcane-safeguards"
+                }
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "add",
+                "path": "flags.xprpg.automaton.enhancements.greater",
+                "value": {
+                    "label": "XPRPG.SpecificRule.Automaton.EnhanceableFeats.ArcaneSafeguards",
+                    "predicate": [
+                        {
+                            "not": "enhancement:arcane-safeguards"
+                        }
+                    ],
+                    "value": "arcane-safeguards"
+                }
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "automaton"
+            ]
+        }
+    },
+    "type": "feat"
+}

@@ -1,0 +1,36 @@
+{
+    "_id": "CAfrSLaDM0OBaNtp",
+    "img": "systems/xprpg/icons/default-icons/feats.webp",
+    "name": "See the Unseen",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You notice things that others can't see at all. While you're adjacent to an @UUID[Compendium.xprpg.conditionitems.Undetected]{Undetected} creature of your level or lower, it is instead only @UUID[Compendium.xprpg.conditionitems.Hidden]{Hidden} from you. You only need a successful @Check[type:flat|dc:5] to target a hidden creature.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 13
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "goloma"
+            ]
+        }
+    },
+    "type": "feat"
+}

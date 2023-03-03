@@ -1,0 +1,38 @@
+{
+    "_id": "Kz4E8heU12IGcYoi",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Righteous Resistance",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You can cast <em>@UUID[Compendium.xprpg.spells-srd.Resist Energy]{Resist Energy}</em> twice per day as a divine innate spell, except you can target only yourself. If you grant yourself resistance to fire damage, the resistance is equal to either the spell's normal value or to your level, whichever is higher.</p>"
+        },
+        "featType": {
+            "value": "bonus"
+        },
+        "level": {
+            "value": 0
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Order of the Pyre"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "feat"
+}

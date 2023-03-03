@@ -1,0 +1,23 @@
+import { ItemSourceXPRPG, WeaponSource } from "@item/data";
+import { MigrationBase } from "../base";
+
+/** Ensure "backpack" weapons and alchemical bombs have correct reload times */
+export class Migration753WeaponReloadTimes extends MigrationBase {
+    static override version = 0.753;
+
+    #hasThrownTrait(source: WeaponSource): boolean {
+        return source.system.traits.value.some((t) => t.startsWith("thrown"));
+    }
+
+    override async updateItem(source: ItemSourceXPRPG): Promise<void> {
+        if (source.type !== "weapon") return;
+
+        const slug = source.system.slug ?? "";
+
+        if (["backpack-catapult", "backpack-catapult"].includes(slug)) {
+            source.system.reload.value = "10";
+        } else if (source.system.baseItem === "alchemical-bomb" || this.#hasThrownTrait(source)) {
+            source.system.reload.value = "-";
+        }
+    }
+}

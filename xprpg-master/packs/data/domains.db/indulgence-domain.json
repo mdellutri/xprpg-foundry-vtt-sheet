@@ -1,0 +1,11 @@
+{
+    "_id": "8ITGLquhimrr9CNv",
+    "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Baphomet]{Baphomet}, @UUID[Compendium.xprpg.deities.Cayden Cailean]{Cayden Cailean}, @UUID[Compendium.xprpg.deities.Gogunta]{Gogunta}, @UUID[Compendium.xprpg.deities.Halcamora]{Halcamora}, @UUID[Compendium.xprpg.deities.Hei Feng]{Hei Feng}, @UUID[Compendium.xprpg.deities.Kabriri]{Kabriri}, @UUID[Compendium.xprpg.deities.Lahkgya]{Lahkgya}, @UUID[Compendium.xprpg.deities.Sekhmet]{Sekhmet}, @UUID[Compendium.xprpg.deities.Sun Wukong]{Sun Wukong}, @UUID[Compendium.xprpg.deities.The Green Mother]{The Green Mother}, @UUID[Compendium.xprpg.deities.Urgathoa]{Urgathoa}, @UUID[Compendium.xprpg.deities.Ydersius]{Ydersius}, @UUID[Compendium.xprpg.deities.Zura]{Zura}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Overstuff]{Overstuff}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Take its Course]{Take its Course}</em></p>\n<p>You feast mightily and can shake off the effects of overindulging.</p>",
+    "name": "Indulgence Domain",
+    "ownership": {
+        "default": 0
+    },
+    "permission": {
+        "default": 0
+    }
+}

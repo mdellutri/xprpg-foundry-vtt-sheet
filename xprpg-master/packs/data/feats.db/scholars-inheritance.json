@@ -1,0 +1,47 @@
+{
+    "_id": "KRMdfPcNCE7AVsEo",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Scholar's Inheritance",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your parents devoted themselves to alchemical experiments involving elemental energy. You gain the trained proficiency rank in Crafting. If you would automatically become trained in Crafting (from your background or class, for example), you instead become trained in a skill of your choice. You also gain the @UUID[Compendium.xprpg.feats-srd.Alchemical Crafting]{Alchemical Crafting} skill feat.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.skills.cra.rank",
+                "value": 1
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.xprpg.feats-srd.Alchemical Crafting"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "suli"
+            ]
+        }
+    },
+    "type": "feat"
+}

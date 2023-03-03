@@ -1,0 +1,40 @@
+{
+    "_id": "BqcAwmNjDlKEI84X",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Shadow Master",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>The shadows protect you better than any armor can, and they give you power to plunge others into darkness.</p>\n<p>Whenever you are in an area of dim light or darkness, you gain resistance 5 to all damage except force and damage from @UUID[Compendium.xprpg.actionsxprpg.Strike]{Strikes} with the @UUID[Compendium.xprpg.equipment-srd.Ghost Touch]{Ghost Touch} property rune.</p>\n<p>When you attempt a Reflex saving throw in an area of dim light or darkness, you can roll twice and take the higher result; this is a fortune effect.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Shadowdancer Dedication"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "type": "feat"
+}

@@ -1,0 +1,60 @@
+{
+    "_id": "sE7x3QAel4VGdkgn",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Basic Flair",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You gain a 1st- or 2nd-level swashbuckler feat of your choice.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Swashbuckler Dedication"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "adjustName": false,
+                "allowedDrops": {
+                    "label": "XPRPG.SpecificRule.Prompt.LevelOneOrTwoClassFeat",
+                    "predicate": [
+                        "item:type:feat",
+                        "item:trait:swashbuckler"
+                    ]
+                },
+                "choices": {
+                    "query": "{\"system.level.value\":{\"$lte\":2},\"system.traits.value\":{\"$elemMatch\":\"swashbuckler\"}}"
+                },
+                "key": "ChoiceSet",
+                "prompt": "XPRPG.SpecificRule.Prompt.LevelOneOrTwoClassFeat"
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "{item|flags.xprpg.rulesSelections.basicFlair}"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "type": "feat"
+}

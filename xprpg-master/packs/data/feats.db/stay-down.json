@@ -1,0 +1,40 @@
+{
+    "_id": "2KBKXkRthBXpw48X",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Stay Down!",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p><strong>Trigger</strong> A @UUID[Compendium.xprpg.conditionitems.Prone]{Prone} foe within your reach @UUID[Compendium.xprpg.actionsxprpg.Stand]{Stands}.</p>\n<hr />\n<p>You have ways of keeping your foes down. Attempt an Athletics check against the triggering foe's Fortitude DC. On a success, they don't stand up and remain prone. On a critical success, they can't Stand until their next turn.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "master in Athletics"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "rogue"
+            ]
+        }
+    },
+    "type": "feat"
+}

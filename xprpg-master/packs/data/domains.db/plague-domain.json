@@ -1,0 +1,11 @@
+{
+    "_id": "9blxcDLIRPWenK5f",
+    "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Apollyon]{Apollyon}, @UUID[Compendium.xprpg.deities.Cyth-V'sug]{Cyth-V'sug}, @UUID[Compendium.xprpg.deities.Ghlaunder]{Ghlaunder}, @UUID[Compendium.xprpg.deities.Lady Nanbyo]{Lady Nanbyo}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Divine Plagues]{Divine Plagues}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Foul Miasma]{Foul Miasma}</em></p>\n<p>You wield disease and pestilence like a weapon.</p>",
+    "name": "Plague Domain",
+    "ownership": {
+        "default": 0
+    },
+    "permission": {
+        "default": 0
+    }
+}

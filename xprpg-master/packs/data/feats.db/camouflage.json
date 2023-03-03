@@ -1,0 +1,40 @@
+{
+    "_id": "qqe5VmcO1s8iTOfd",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Camouflage",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You alter your appearance to blend in to the wilderness. In natural terrain, you can @UUID[Compendium.xprpg.actionsxprpg.Hide]{Hide} and @UUID[Compendium.xprpg.actionsxprpg.Sneak]{Sneak} even without cover or being @UUID[Compendium.xprpg.conditionitems.Concealed]{Concealed}.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "master in Stealth"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ranger"
+            ]
+        }
+    },
+    "type": "feat"
+}

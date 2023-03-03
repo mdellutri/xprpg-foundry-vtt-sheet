@@ -1,0 +1,66 @@
+{
+    "_id": "mV911W6MTGMvHPbE",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Basic Hunter's Trick",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You gain a 1st- or 2nd-level ranger feat.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Ranger Dedication"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "add",
+                "path": "system.custom.modifiers.ranger-dedication-count",
+                "value": 1
+            },
+            {
+                "adjustName": false,
+                "allowedDrops": {
+                    "label": "XPRPG.SpecificRule.Prompt.LevelOneOrTwoClassFeat",
+                    "predicate": [
+                        "item:type:feat",
+                        "item:trait:ranger"
+                    ]
+                },
+                "choices": {
+                    "query": "{\"system.level.value\":{\"$lte\":2},\"system.traits.value\":{\"$elemMatch\":\"ranger\"}}"
+                },
+                "key": "ChoiceSet",
+                "prompt": "XPRPG.SpecificRule.Prompt.LevelOneOrTwoClassFeat"
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "{item|flags.xprpg.rulesSelections.basicHuntersTrick}"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "type": "feat"
+}

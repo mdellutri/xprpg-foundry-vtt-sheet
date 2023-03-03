@@ -1,0 +1,45 @@
+{
+    "_id": "0vaeOoECfVD5EGbq",
+    "img": "systems/xprpg/icons/features/ancestry/warrenbred-hobgoblin.webp",
+    "name": "Warrenbred Hobgoblin",
+    "system": {
+        "ancestry": {
+            "name": "Hobgoblin",
+            "slug": "hobgoblin",
+            "uuid": "Compendium.xprpg.ancestries.piNLXUrm9iaGqD2i"
+        },
+        "description": {
+            "value": "<p>Your ancestors lived underground. Your ears are larger than those of other hobgoblins and sensitive to echoes. When you are underground, you can use the @UUID[Compendium.xprpg.actionsxprpg.Seek]{Seek} action to sense @UUID[Compendium.xprpg.conditionitems.Undetected]{Undetected} creatures within a @Template[type:burst|distance:30] instead of a @Template[type:burst|distance:15]. In addition, if you roll a success on an Acrobatics check to @UUID[Compendium.xprpg.actionsxprpg.Squeeze]{Squeeze}, you get a critical success instead.</p>"
+        },
+        "rules": [
+            {
+                "key": "Note",
+                "predicate": [
+                    "action:squeeze"
+                ],
+                "selector": "acrobatics",
+                "text": "When you roll a success to Squeeze, you get a critical success instead.",
+                "title": "{item|name}"
+            },
+            {
+                "adjustment": {
+                    "success": "one-degree-better"
+                },
+                "key": "AdjustDegreeOfSuccess",
+                "predicate": [
+                    "action:squeeze"
+                ],
+                "selector": "acrobatics",
+                "type": "skill"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "heritage"
+}

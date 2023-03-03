@@ -1,0 +1,40 @@
+{
+    "_id": "WQa6PxkOgyvRpaaM",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Predator's Growl",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p><strong>Trigger</strong> You successfully @UUID[Compendium.xprpg.actionsxprpg.Seek]{Seek} a hidden or undetected creature.</p>\n<hr />\n<p>You give a throaty growl to attempt to @UUID[Compendium.xprpg.actionsxprpg.Demoralize]{Demoralize} a creature you just found. You don't take the -4 penalty for not sharing a language with the creature.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 9
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "expert in Intimidation"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "catfolk"
+            ]
+        }
+    },
+    "type": "feat"
+}

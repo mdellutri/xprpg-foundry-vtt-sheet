@@ -1,0 +1,1227 @@
+{
+    "_id": "EEZvDB1Z7ezwaxIr",
+    "name": "Domains",
+    "ownership": {
+        "default": 0
+    },
+    "pages": [
+        {
+            "_id": "qMS6QepvY7UQQjcr",
+            "image": {},
+            "name": "Abomination Domain",
+            "sort": 200000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Nhimbaloth]{Nhimbaloth}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Lift Nature's Caul]{Lift Nature's Caul}</em><u></u>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Fearful Feast]{Fearful Feast}</em></p>\n<p>You seek to instill abhorrence and horror in those around you.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        },
+        {
+            "_id": "T2y0vuYibZCL7CH0",
+            "image": {},
+            "name": "Air Domain",
+            "sort": 400000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Apollyon]{Apollyon}, @UUID[Compendium.xprpg.deities.Baalzebul]{Baalzebul}, @UUID[Compendium.xprpg.deities.Ghlaunder]{Ghlaunder}, @UUID[Compendium.xprpg.deities.Gozreh]{Gozreh},@UUID[Compendium.xprpg.deities.Hei Feng]{Hei Feng},@UUID[Compendium.xprpg.deities.Horus]{Horus},@UUID[Compendium.xprpg.deities.Hshurha]{Hshurha},@UUID[Compendium.xprpg.deities.Pazuzu]{Pazuzu},@UUID[Compendium.xprpg.deities.Ragdya]{Ragdya},@UUID[Compendium.xprpg.deities.Ranginori]{Ranginori},@UUID[Compendium.xprpg.deities.Rovagug]{Rovagug},@UUID[Compendium.xprpg.deities.Sturovenen]{Sturovenen},@UUID[Compendium.xprpg.deities.Uvuko]{Uvuko},@UUID[Compendium.xprpg.deities.Ylimancha]{Ylimancha}</p>\n<p><strong>Domain Spell</strong><em>@UUID[Compendium.xprpg.spells-srd.Pushing Gust]{Pushing Gust}</em>;<strong>Advanced Domain Spell</strong><em>@UUID[Compendium.xprpg.spells-srd.Disperse into Air]{Disperse into Air}</em></p>\n<p>You can control winds and the weather.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        },
+        {
+            "_id": "yaMJsfYZmWJLqbFE",
+            "image": {},
+            "name": "Ambition Domain",
+            "sort": 600000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Baalzebul]{Baalzebul}, @UUID[Compendium.xprpg.deities.Casandalee]{Casandalee}, @UUID[Compendium.xprpg.deities.Eiseth]{Eiseth}, @UUID[Compendium.xprpg.deities.Fumeiyoshi]{Fumeiyoshi}, @UUID[Compendium.xprpg.deities.Gyronna]{Gyronna}, @UUID[Compendium.xprpg.deities.Lubaiko]{Lubaiko}, @UUID[Compendium.xprpg.deities.Mammon]{Mammon}, @UUID[Compendium.xprpg.deities.Ravithra]{Ravithra}, @UUID[Compendium.xprpg.deities.Shax]{Shax}, @UUID[Compendium.xprpg.deities.Szuriel]{Szuriel}, @UUID[Compendium.xprpg.deities.Thamir]{Thamir}, @UUID[Compendium.xprpg.deities.Ydersius]{Ydersius}, @UUID[Compendium.xprpg.deities.Zohls]{Zohls}, @UUID[Compendium.xprpg.deities.Zon-Kuthon]{Zon-Kuthon}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Blind Ambition]{Blind Ambition}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Competitive Edge]{Competitive Edge}</em></p>\n<p>You strive to keep up with and outpace the competition.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        },
+        {
+            "_id": "7xrNAgAnBqBgE3yM",
+            "image": {},
+            "name": "Change Domain",
+            "sort": 800000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Alseta]{Alseta}, @UUID[Compendium.xprpg.deities.Belial]{Belial}, @UUID[Compendium.xprpg.deities.Cyth-V'sug]{Cyth-V'sug}, @UUID[Compendium.xprpg.deities.Dagon]{Dagon}, @UUID[Compendium.xprpg.deities.Daikitsu]{Daikitsu}, @UUID[Compendium.xprpg.deities.Grandmother Spider]{Grandmother Spider}, @UUID[Compendium.xprpg.deities.Irori]{Irori}, @UUID[Compendium.xprpg.deities.Korada]{Korada}, @UUID[Compendium.xprpg.deities.Lamashtu]{Lamashtu}, @UUID[Compendium.xprpg.deities.Lubaiko]{Lubaiko}, @UUID[Compendium.xprpg.deities.Lymnieris]{Lymnieris}, @UUID[Compendium.xprpg.deities.Milani]{Milani}, @UUID[Compendium.xprpg.deities.Mother Vulture]{Mother Vulture}, @UUID[Compendium.xprpg.deities.Narakaas]{Narakaas}, @UUID[Compendium.xprpg.deities.Nocticula]{Nocticula}, @UUID[Compendium.xprpg.deities.Osiris]{Osiris}, @UUID[Compendium.xprpg.deities.Saloc]{Saloc}, @UUID[Compendium.xprpg.deities.The Lantern King]{The Lantern King}, @UUID[Compendium.xprpg.deities.Tlehar]{Tlehar}, @UUID[Compendium.xprpg.deities.Tsukiyo]{Tsukiyo}, @UUID[Compendium.xprpg.deities.Uvuko]{Uvuko}, @UUID[Compendium.xprpg.deities.Xhamen-Dor]{Xhamen-Dor}, @UUID[Compendium.xprpg.deities.Ydajisk]{Ydajisk}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Adapt Self]{Adapt Self}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Adaptive Ablation]{Adaptive Ablation}</em></p>\n<p>You can restructure the physical and metaphysical.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        },
+        {
+            "_id": "QSk78hQR3zskMlq2",
+            "image": {},
+            "name": "Cities Domain",
+            "sort": 1000000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Abadar]{Abadar}, @UUID[Compendium.xprpg.deities.Cayden Cailean]{Cayden Cailean}, @UUID[Compendium.xprpg.deities.Chohar]{Chohar}, @UUID[Compendium.xprpg.deities.Dispater]{Dispater}, @UUID[Compendium.xprpg.deities.Findeladlara]{Findeladlara}, @UUID[Compendium.xprpg.deities.Folgrit]{Folgrit}, @UUID[Compendium.xprpg.deities.Kazutal]{Kazutal}, @UUID[Compendium.xprpg.deities.Luhar]{Luhar}, @UUID[Compendium.xprpg.deities.Matravash]{Matravash}, @UUID[Compendium.xprpg.deities.Mazludeh]{Mazludeh}, @UUID[Compendium.xprpg.deities.Tlehar]{Tlehar}, @UUID[Compendium.xprpg.deities.Zohls]{Zohls}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Face in the Crowd]{Face in the Crowd}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Pulse of the City]{Pulse of the City}</em></p>\n<p>You have powers over urban environments and denizens.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        },
+        {
+            "_id": "jq9O1tl76g2AzLOh",
+            "image": {},
+            "name": "Cold Domain",
+            "sort": 1200000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Alglenweis]{Alglenweis}, @UUID[Compendium.xprpg.deities.Gozreh]{Gozreh}, @UUID[Compendium.xprpg.deities.Hshurha]{Hshurha}, @UUID[Compendium.xprpg.deities.Kostchtchie]{Kostchtchie}, @UUID[Compendium.xprpg.deities.Pulura]{Pulura}, @UUID[Compendium.xprpg.deities.Uvuko]{Uvuko}, @UUID[Compendium.xprpg.deities.Yamatsumi]{Yamatsumi}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Winter Bolt]{Winter Bolt}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Diamond Dust]{Diamond Dust}</em></p>\n<p>You control ice, snow, and freezing temperatures.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        },
+        {
+            "_id": "flmxRzGxN2rRNyxZ",
+            "image": {},
+            "name": "Confidence Domain",
+            "sort": 1400000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Adanye]{Adanye}, @UUID[Compendium.xprpg.deities.Arazni]{Arazni}, @UUID[Compendium.xprpg.deities.Arshea]{Arshea}, @UUID[Compendium.xprpg.deities.Asmodeus]{Asmodeus}, @UUID[Compendium.xprpg.deities.Bolka]{Bolka}, @UUID[Compendium.xprpg.deities.Chaldira]{Chaldira}, @UUID[Compendium.xprpg.deities.Count Ranalc]{Count Ranalc}, @UUID[Compendium.xprpg.deities.Dispater]{Dispater}, @UUID[Compendium.xprpg.deities.Eritrice]{Eritrice}, @UUID[Compendium.xprpg.deities.General Susumu]{General Susumu}, @UUID[Compendium.xprpg.deities.Gorum]{Gorum}, @UUID[Compendium.xprpg.deities.Grundinnar]{Grundinnar}, @UUID[Compendium.xprpg.deities.Iomedae]{Iomedae}, @UUID[Compendium.xprpg.deities.Jaidz]{Jaidz}, @UUID[Compendium.xprpg.deities.Nivi Rhombodazzle]{Nivi Rhombodazzle}, @UUID[Compendium.xprpg.deities.Ragdya]{Ragdya}, @UUID[Compendium.xprpg.deities.Raumya]{Raumya}, @UUID[Compendium.xprpg.deities.Sturovenen]{Sturovenen}, @UUID[Compendium.xprpg.deities.Thamir]{Thamir}, @UUID[Compendium.xprpg.deities.Trudd]{Trudd}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Veil of Confidence]{Veil of Confidence}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Delusional Pride]{Delusional Pride}</em></p>\n<p>You overcome your fear and project pride.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        },
+        {
+            "_id": "ydbCjJ9PPmRzZhDN",
+            "image": {},
+            "name": "Creation Domain",
+            "sort": 1600000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Alglenweis]{Alglenweis}, @UUID[Compendium.xprpg.deities.Apsu]{Apsu}, @UUID[Compendium.xprpg.deities.Ardad Lili]{Ardad Lili}, @UUID[Compendium.xprpg.deities.Brigh]{Brigh}, @UUID[Compendium.xprpg.deities.Casandalee]{Casandalee}, @UUID[Compendium.xprpg.deities.Daikitsu]{Daikitsu}, @UUID[Compendium.xprpg.deities.Doloras]{Doloras}, @UUID[Compendium.xprpg.deities.Dwarven Pantheon]{Dwarven Pantheon}, @UUID[Compendium.xprpg.deities.Elven Pantheon]{Elven Pantheon}, @UUID[Compendium.xprpg.deities.Falayna]{Falayna}, @UUID[Compendium.xprpg.deities.Findeladlara]{Findeladlara}, @UUID[Compendium.xprpg.deities.Grandmother Spider]{Grandmother Spider}, @UUID[Compendium.xprpg.deities.Lady Jingxi]{Lady Jingxi}, @UUID[Compendium.xprpg.deities.Likha]{Likha}, @UUID[Compendium.xprpg.deities.Mammon]{Mammon}, @UUID[Compendium.xprpg.deities.Monad]{Monad}, @UUID[Compendium.xprpg.deities.Nocticula]{Nocticula}, @UUID[Compendium.xprpg.deities.Otolmens]{Otolmens}, @UUID[Compendium.xprpg.deities.Pillars of Knowledge]{Pillars of Knowledge}, @UUID[Compendium.xprpg.deities.Shelyn]{Shelyn}, @UUID[Compendium.xprpg.deities.Soralyon]{Soralyon}, @UUID[Compendium.xprpg.deities.The Prismatic Ray]{The Prismatic Ray}, @UUID[Compendium.xprpg.deities.Tlehar]{Tlehar}, @UUID[Compendium.xprpg.deities.Torag]{Torag}, @UUID[Compendium.xprpg.deities.Uvuko]{Uvuko}, @UUID[Compendium.xprpg.deities.Yuelral]{Yuelral}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Splash of Art]{Splash of Art}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Artistic Flourish]{Artistic Flourish}</em></p>\n<p>You have divine abilities related to crafting and art.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        },
+        {
+            "_id": "CM9ZqWwl7myKn2X1",
+            "image": {},
+            "name": "Darkness Domain",
+            "sort": 1800000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Ahriman]{Ahriman}, @UUID[Compendium.xprpg.deities.Ardad Lili]{Ardad Lili}, @UUID[Compendium.xprpg.deities.Ashava]{Ashava}, @UUID[Compendium.xprpg.deities.Cosmic Caravan]{Cosmic Caravan}, @UUID[Compendium.xprpg.deities.Count Ranalc]{Count Ranalc}, @UUID[Compendium.xprpg.deities.Grandmother Spider]{Grandmother Spider}, @UUID[Compendium.xprpg.deities.Groetus]{Groetus}, @UUID[Compendium.xprpg.deities.Kalekot]{Kalekot}, @UUID[Compendium.xprpg.deities.Kerkamoth]{Kerkamoth}, @UUID[Compendium.xprpg.deities.Ketephys]{Ketephys}, @UUID[Compendium.xprpg.deities.Lao Shu Po]{Lao Shu Po}, @UUID[Compendium.xprpg.deities.Luhar]{Luhar}, @UUID[Compendium.xprpg.deities.Nocticula]{Nocticula}, @UUID[Compendium.xprpg.deities.Nyarlathotep (Haunter in the Dark)]{Nyarlathotep (Haunter in the Dark)}, @UUID[Compendium.xprpg.deities.Nyarlathotep (The Crawling Chaos)]{Nyarlathotep (The Crawling Chaos)}, @UUID[Compendium.xprpg.deities.Pulura]{Pulura}, @UUID[Compendium.xprpg.deities.Tanagaar]{Tanagaar}, @UUID[Compendium.xprpg.deities.Zon-Kuthon]{Zon-Kuthon}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Cloak of Shadow]{Cloak of Shadow}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Darkened Eyes]{Darkened Eyes}</em></p>\n<p>You operate in the darkness and take away the light.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        },
+        {
+            "_id": "798PFdS8FmefcOl0",
+            "image": {},
+            "name": "Death Domain",
+            "sort": 2000000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Achaekek]{Achaekek}, @UUID[Compendium.xprpg.deities.Ahriman]{Ahriman}, @UUID[Compendium.xprpg.deities.Barzahk]{Barzahk}, @UUID[Compendium.xprpg.deities.Charon]{Charon}, @UUID[Compendium.xprpg.deities.Dammerich]{Dammerich}, @UUID[Compendium.xprpg.deities.Hanspur]{Hanspur}, @UUID[Compendium.xprpg.deities.Imot]{Imot}, @UUID[Compendium.xprpg.deities.Kalekot]{Kalekot}, @UUID[Compendium.xprpg.deities.Magrim]{Magrim}, @UUID[Compendium.xprpg.deities.Mother Vulture]{Mother Vulture}, @UUID[Compendium.xprpg.deities.Naderi]{Naderi}, @UUID[Compendium.xprpg.deities.Narakaas]{Narakaas}, @UUID[Compendium.xprpg.deities.Norgorber]{Norgorber}, @UUID[Compendium.xprpg.deities.Pharasma]{Pharasma}, @UUID[Compendium.xprpg.deities.Saloc]{Saloc}, @UUID[Compendium.xprpg.deities.Shax]{Shax}, @UUID[Compendium.xprpg.deities.Yaezhing]{Yaezhing}, @UUID[Compendium.xprpg.deities.Zyphus]{Zyphus}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Death's Call]{Death's Call}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Eradicate Undeath]{Eradicate Undeath}</em></p>\n<p>You have the power to end lives and destroy undead.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        },
+        {
+            "_id": "cAxBEZsej32riaY5",
+            "image": {},
+            "name": "Decay Domain",
+            "sort": 2200000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Apollyon]{Apollyon}, @UUID[Compendium.xprpg.deities.Azathoth]{Azathoth}, @UUID[Compendium.xprpg.deities.Cyth-V'sug]{Cyth-V'sug}, @UUID[Compendium.xprpg.deities.Ghlaunder]{Ghlaunder}, @UUID[Compendium.xprpg.deities.Groetus]{Groetus}, @UUID[Compendium.xprpg.deities.Kerkamoth]{Kerkamoth}, @UUID[Compendium.xprpg.deities.Mother Vulture]{Mother Vulture}, @UUID[Compendium.xprpg.deities.Nhimbaloth]{Nhimbaloth}, @UUID[Compendium.xprpg.deities.Shyka]{Shyka}, @UUID[Compendium.xprpg.deities.The Green Mother]{The Green Mother}, @UUID[Compendium.xprpg.deities.Trelmarixian]{Trelmarixian}, @UUID[Compendium.xprpg.deities.Urgathoa]{Urgathoa}, @UUID[Compendium.xprpg.deities.Xhamen-Dor]{Xhamen-Dor}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Withering Grasp]{Withering Grasp}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Fallow Field]{Fallow Field}</em></p>\n<p>You have the power to spoil and deteriorate matter.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        },
+        {
+            "_id": "tuThzOCvMLbRVba8",
+            "image": {},
+            "name": "Delirium Domain",
+            "sort": 2400000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Narriseminek]{Narriseminek}, @UUID[Compendium.xprpg.deities.Nhimbaloth]{Nhimbaloth}, @UUID[Compendium.xprpg.deities.Shyka]{Shyka}, @UUID[Compendium.xprpg.deities.Sivanah]{Sivanah}, @UUID[Compendium.xprpg.deities.The Lantern King]{The Lantern King}, @UUID[Compendium.xprpg.deities.Tsukiyo]{Tsukiyo}, @UUID[Compendium.xprpg.deities.Zura]{Zura}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Hyperfocus]{Hyperfocus}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Ephemeral Hazards]{Ephemeral Hazards}</em></p>\n<p>You can bring about hallucinations and restlessness.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        },
+        {
+            "_id": "AOQZjqgfafqqtHOB",
+            "image": {},
+            "name": "Destruction Domain",
+            "sort": 2600000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Abraxas]{Abraxas}, @UUID[Compendium.xprpg.deities.Ahriman]{Ahriman}, @UUID[Compendium.xprpg.deities.Angazhan]{Angazhan}, @UUID[Compendium.xprpg.deities.Ayrzul]{Ayrzul}, @UUID[Compendium.xprpg.deities.Azathoth]{Azathoth}, @UUID[Compendium.xprpg.deities.Besmara]{Besmara}, @UUID[Compendium.xprpg.deities.Dagon]{Dagon}, @UUID[Compendium.xprpg.deities.Dahak]{Dahak}, @UUID[Compendium.xprpg.deities.Dhalavei]{Dhalavei}, @UUID[Compendium.xprpg.deities.Diomazul]{Diomazul}, @UUID[Compendium.xprpg.deities.Eiseth]{Eiseth}, @UUID[Compendium.xprpg.deities.Fumeiyoshi]{Fumeiyoshi}, @UUID[Compendium.xprpg.deities.General Susumu]{General Susumu}, @UUID[Compendium.xprpg.deities.Gorum]{Gorum}, @UUID[Compendium.xprpg.deities.Groetus]{Groetus}, @UUID[Compendium.xprpg.deities.Hei Feng]{Hei Feng}, @UUID[Compendium.xprpg.deities.Hshurha]{Hshurha}, @UUID[Compendium.xprpg.deities.Imot]{Imot}, @UUID[Compendium.xprpg.deities.Kelizandri]{Kelizandri}, @UUID[Compendium.xprpg.deities.Kerkamoth]{Kerkamoth}, @UUID[Compendium.xprpg.deities.Kostchtchie]{Kostchtchie}, @UUID[Compendium.xprpg.deities.Lady Nanbyo]{Lady Nanbyo}, @UUID[Compendium.xprpg.deities.Lubaiko]{Lubaiko}, @UUID[Compendium.xprpg.deities.Milani]{Milani}, @UUID[Compendium.xprpg.deities.Moloch]{Moloch}, @UUID[Compendium.xprpg.deities.Nethys]{Nethys}, @UUID[Compendium.xprpg.deities.Nurgal]{Nurgal}, @UUID[Compendium.xprpg.deities.Ragadahn]{Ragadahn}, @UUID[Compendium.xprpg.deities.Ragathiel]{Ragathiel}, @UUID[Compendium.xprpg.deities.Rovagug]{Rovagug}, @UUID[Compendium.xprpg.deities.Sekhmet]{Sekhmet}, @UUID[Compendium.xprpg.deities.Szuriel]{Szuriel}, @UUID[Compendium.xprpg.deities.Treerazer]{Treerazer}, @UUID[Compendium.xprpg.deities.Ymeri]{Ymeri}, @UUID[Compendium.xprpg.deities.Zevgavizeb]{Zevgavizeb}, @UUID[Compendium.xprpg.deities.Zon-Kuthon]{Zon-Kuthon}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Cry of Destruction]{Cry of Destruction}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Destructive Aura]{Destructive Aura}</em></p>\n<p>You are a conduit for divine devastation.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        },
+        {
+            "_id": "0wCEUwABKPdKPj8e",
+            "image": {},
+            "name": "Dreams Domain",
+            "sort": 2800000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Desna]{Desna}, @UUID[Compendium.xprpg.deities.Imbrex]{Imbrex}, @UUID[Compendium.xprpg.deities.Luhar]{Luhar}, @UUID[Compendium.xprpg.deities.Xhamen-Dor]{Xhamen-Dor}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Sweet Dream]{Sweet Dream}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Dreamer's Call]{Dreamer's Call}</em></p>\n<p>You have the power to enter and manipulate dreams.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        },
+        {
+            "_id": "6qTjtFWaBO5b60zJ",
+            "image": {},
+            "name": "Dust Domain",
+            "sort": 3000000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Hshurha]{Hshurha}, @UUID[Compendium.xprpg.deities.Nurgal]{Nurgal}, @UUID[Compendium.xprpg.deities.Trelmarixian]{Trelmarixian}, @UUID[Compendium.xprpg.deities.Ymeri]{Ymeri}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Parch]{Parch}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Dust Storm]{Dust Storm}</em></p>\n<p>You have the power to dry and crumble what opposes you.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        },
+        {
+            "_id": "uGQKjk2w4whzomky",
+            "image": {},
+            "name": "Duty Domain",
+            "sort": 3200000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Abadar]{Abadar}, @UUID[Compendium.xprpg.deities.Adanye]{Adanye}, @UUID[Compendium.xprpg.deities.Asmodeus]{Asmodeus}, @UUID[Compendium.xprpg.deities.Chohar]{Chohar}, @UUID[Compendium.xprpg.deities.Dammerich]{Dammerich}, @UUID[Compendium.xprpg.deities.Dispater]{Dispater}, @UUID[Compendium.xprpg.deities.Droskar]{Droskar}, @UUID[Compendium.xprpg.deities.Dwarven Pantheon]{Dwarven Pantheon}, @UUID[Compendium.xprpg.deities.Erastil]{Erastil}, @UUID[Compendium.xprpg.deities.Iomedae]{Iomedae}, @UUID[Compendium.xprpg.deities.Kols]{Kols}, @UUID[Compendium.xprpg.deities.Magrim]{Magrim}, @UUID[Compendium.xprpg.deities.Moloch]{Moloch}, @UUID[Compendium.xprpg.deities.Ragathiel]{Ragathiel}, @UUID[Compendium.xprpg.deities.Shizuru]{Shizuru}, @UUID[Compendium.xprpg.deities.Tanagaar]{Tanagaar}, @UUID[Compendium.xprpg.deities.The Godclaw]{The Godclaw}, @UUID[Compendium.xprpg.deities.Torag]{Torag}, @UUID[Compendium.xprpg.deities.Trudd]{Trudd}, @UUID[Compendium.xprpg.deities.Vildeis]{Vildeis}, @UUID[Compendium.xprpg.deities.Yaezhing]{Yaezhing}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Oathkeeper's Insignia]{Oathkeeper's Insignia}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Dutiful Challenge]{Dutiful Challenge}</em></p>\n<p>You defend oaths and carry out your divine missions with great dedication.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        },
+        {
+            "_id": "zkiLWWYzzqoxmN2J",
+            "image": {},
+            "name": "Earth Domain",
+            "sort": 3400000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Abadar]{Abadar}, @UUID[Compendium.xprpg.deities.Ashukharma]{Ashukharma}, @UUID[Compendium.xprpg.deities.Ayrzul]{Ayrzul}, @UUID[Compendium.xprpg.deities.Bes]{Bes}, @UUID[Compendium.xprpg.deities.Brigh]{Brigh}, @UUID[Compendium.xprpg.deities.Diomazul]{Diomazul}, @UUID[Compendium.xprpg.deities.Droskar]{Droskar}, @UUID[Compendium.xprpg.deities.Erastil]{Erastil}, @UUID[Compendium.xprpg.deities.Fumeiyoshi]{Fumeiyoshi}, @UUID[Compendium.xprpg.deities.Gendowyn]{Gendowyn}, @UUID[Compendium.xprpg.deities.Imbrex]{Imbrex}, @UUID[Compendium.xprpg.deities.Nivi Rhombodazzle]{Nivi Rhombodazzle}, @UUID[Compendium.xprpg.deities.Rovagug]{Rovagug}, @UUID[Compendium.xprpg.deities.Sairazul]{Sairazul}, @UUID[Compendium.xprpg.deities.Soralyon]{Soralyon}, @UUID[Compendium.xprpg.deities.Torag]{Torag}, @UUID[Compendium.xprpg.deities.Trelmarixian]{Trelmarixian}, @UUID[Compendium.xprpg.deities.Yamatsumi]{Yamatsumi}, @UUID[Compendium.xprpg.deities.Yuelral]{Yuelral}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Hurtling Stone]{Hurtling Stone}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Localized Quake]{Localized Quake}</em></p>\n<p>You control soil and stone.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        },
+        {
+            "_id": "SAnmegCTIqGW9S7S",
+            "image": {},
+            "name": "Family Domain",
+            "sort": 3600000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Adanye]{Adanye}, @UUID[Compendium.xprpg.deities.Andoletta]{Andoletta}, @UUID[Compendium.xprpg.deities.Bes]{Bes}, @UUID[Compendium.xprpg.deities.Bolka]{Bolka}, @UUID[Compendium.xprpg.deities.Chohar]{Chohar}, @UUID[Compendium.xprpg.deities.Daikitsu]{Daikitsu}, @UUID[Compendium.xprpg.deities.Dwarven Pantheon]{Dwarven Pantheon}, @UUID[Compendium.xprpg.deities.Erastil]{Erastil}, @UUID[Compendium.xprpg.deities.Findeladlara]{Findeladlara}, @UUID[Compendium.xprpg.deities.Folgrit]{Folgrit}, @UUID[Compendium.xprpg.deities.Followers of Fate]{Followers of Fate}, @UUID[Compendium.xprpg.deities.Gendowyn]{Gendowyn}, @UUID[Compendium.xprpg.deities.Grandmother Spider]{Grandmother Spider}, @UUID[Compendium.xprpg.deities.Grundinnar]{Grundinnar}, @UUID[Compendium.xprpg.deities.Hathor]{Hathor}, @UUID[Compendium.xprpg.deities.Imbrex]{Imbrex}, @UUID[Compendium.xprpg.deities.Isis]{Isis}, @UUID[Compendium.xprpg.deities.Jaidi]{Jaidi}, @UUID[Compendium.xprpg.deities.Kazutal]{Kazutal}, @UUID[Compendium.xprpg.deities.Lamashtu]{Lamashtu}, @UUID[Compendium.xprpg.deities.Mazludeh]{Mazludeh}, @UUID[Compendium.xprpg.deities.Nivi Rhombodazzle]{Nivi Rhombodazzle}, @UUID[Compendium.xprpg.deities.Sairazul]{Sairazul}, @UUID[Compendium.xprpg.deities.Shei]{Shei}, @UUID[Compendium.xprpg.deities.Shelyn]{Shelyn}, @UUID[Compendium.xprpg.deities.Stag Mother of the Forest of Stones]{Stag Mother of the Forest of Stones}, @UUID[Compendium.xprpg.deities.The Prismatic Ray]{The Prismatic Ray}, @UUID[Compendium.xprpg.deities.Torag]{Torag}, @UUID[Compendium.xprpg.deities.Walkena]{Walkena}, @UUID[Compendium.xprpg.deities.Wards of the Pharaoh]{Wards of the Pharaoh}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Soothing Words]{Soothing Words}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Unity]{Unity}</em></p>\n<p>You aid and protect your family and community more effectively.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        },
+        {
+            "_id": "EC2eB0JglDG5j1gT",
+            "image": {},
+            "name": "Fate Domain",
+            "sort": 3800000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Angradd]{Angradd}, @UUID[Compendium.xprpg.deities.Cosmic Caravan]{Cosmic Caravan}, @UUID[Compendium.xprpg.deities.Erecura]{Erecura}, @UUID[Compendium.xprpg.deities.Followers of Fate]{Followers of Fate}, @UUID[Compendium.xprpg.deities.Grandmother Spider]{Grandmother Spider}, @UUID[Compendium.xprpg.deities.Imot]{Imot}, @UUID[Compendium.xprpg.deities.Irez]{Irez}, @UUID[Compendium.xprpg.deities.Lissala]{Lissala}, @UUID[Compendium.xprpg.deities.Luhar]{Luhar}, @UUID[Compendium.xprpg.deities.Lysianassa]{Lysianassa}, @UUID[Compendium.xprpg.deities.Magdh]{Magdh}, @UUID[Compendium.xprpg.deities.Magrim]{Magrim}, @UUID[Compendium.xprpg.deities.Mahathallah]{Mahathallah}, @UUID[Compendium.xprpg.deities.Otolmens]{Otolmens}, @UUID[Compendium.xprpg.deities.Pharasma]{Pharasma}, @UUID[Compendium.xprpg.deities.Ravithra]{Ravithra}, @UUID[Compendium.xprpg.deities.Shyka]{Shyka}, @UUID[Compendium.xprpg.deities.Valmallos]{Valmallos}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Read Fate]{Read Fate}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Tempt Fate]{Tempt Fate}</em></p>\n<p>You see and understand hidden inevitabilities.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        },
+        {
+            "_id": "egSErNozlL3HRK1y",
+            "image": {},
+            "name": "Fire Domain",
+            "sort": 4000000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Adanye]{Adanye}, @UUID[Compendium.xprpg.deities.Angradd]{Angradd}, @UUID[Compendium.xprpg.deities.Asmodeus]{Asmodeus}, @UUID[Compendium.xprpg.deities.Atreia]{Atreia}, @UUID[Compendium.xprpg.deities.Brigh]{Brigh}, @UUID[Compendium.xprpg.deities.Chohar]{Chohar}, @UUID[Compendium.xprpg.deities.Dahak]{Dahak}, @UUID[Compendium.xprpg.deities.Droskar]{Droskar}, @UUID[Compendium.xprpg.deities.Lady Nanbyo]{Lady Nanbyo}, @UUID[Compendium.xprpg.deities.Lubaiko]{Lubaiko}, @UUID[Compendium.xprpg.deities.Moloch]{Moloch}, @UUID[Compendium.xprpg.deities.Nurgal]{Nurgal}, @UUID[Compendium.xprpg.deities.Ra]{Ra}, @UUID[Compendium.xprpg.deities.Ragathiel]{Ragathiel}, @UUID[Compendium.xprpg.deities.Sarenrae]{Sarenrae}, @UUID[Compendium.xprpg.deities.Szuriel]{Szuriel}, @UUID[Compendium.xprpg.deities.Yamatsumi]{Yamatsumi}, @UUID[Compendium.xprpg.deities.Ymeri]{Ymeri}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Fire Ray]{Fire Ray}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Flame Barrier]{Flame Barrier}</em></p>\n<p>You control flame.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        },
+        {
+            "_id": "5MjSsuKOLBoiL8FB",
+            "image": {},
+            "name": "Freedom Domain",
+            "sort": 4200000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Arazni]{Arazni}, @UUID[Compendium.xprpg.deities.Arshea]{Arshea}, @UUID[Compendium.xprpg.deities.Black Butterfly]{Black Butterfly}, @UUID[Compendium.xprpg.deities.Casandalee]{Casandalee}, @UUID[Compendium.xprpg.deities.Cayden Cailean]{Cayden Cailean}, @UUID[Compendium.xprpg.deities.Cosmic Caravan]{Cosmic Caravan}, @UUID[Compendium.xprpg.deities.Falayna]{Falayna}, @UUID[Compendium.xprpg.deities.Kazutal]{Kazutal}, @UUID[Compendium.xprpg.deities.Milani]{Milani}, @UUID[Compendium.xprpg.deities.Narriseminek]{Narriseminek}, @UUID[Compendium.xprpg.deities.Ranginori]{Ranginori}, @UUID[Compendium.xprpg.deities.Saloc]{Saloc}, @UUID[Compendium.xprpg.deities.Shei]{Shei}, @UUID[Compendium.xprpg.deities.Walkena]{Walkena}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Unimpeded Stride]{Unimpeded Stride}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Word of Freedom]{Word of Freedom}</em></p>\n<p>You liberate yourself and others from shackles and constraints.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        },
+        {
+            "_id": "9g1dNytABTpmmGkG",
+            "image": {},
+            "name": "Glyph Domain",
+            "sort": 4400000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Asmodeus]{Asmodeus}, @UUID[Compendium.xprpg.deities.Dwarven Pantheon]{Dwarven Pantheon}, @UUID[Compendium.xprpg.deities.Eritrice]{Eritrice}, @UUID[Compendium.xprpg.deities.Gruhastha]{Gruhastha}, @UUID[Compendium.xprpg.deities.Hastur]{Hastur}, @UUID[Compendium.xprpg.deities.Imot]{Imot}, @UUID[Compendium.xprpg.deities.Irez]{Irez}, @UUID[Compendium.xprpg.deities.Lady Jingxi]{Lady Jingxi}, @UUID[Compendium.xprpg.deities.Lissala]{Lissala}, @UUID[Compendium.xprpg.deities.Magdh]{Magdh}, @UUID[Compendium.xprpg.deities.Magrim]{Magrim}, @UUID[Compendium.xprpg.deities.Mephistopheles]{Mephistopheles}, @UUID[Compendium.xprpg.deities.Nalinivati]{Nalinivati}, @UUID[Compendium.xprpg.deities.Nethys]{Nethys}, @UUID[Compendium.xprpg.deities.Pillars of Knowledge]{Pillars of Knowledge}, @UUID[Compendium.xprpg.deities.Sivanah]{Sivanah}, @UUID[Compendium.xprpg.deities.Thoth]{Thoth}, @UUID[Compendium.xprpg.deities.Valmallos]{Valmallos}, @UUID[Compendium.xprpg.deities.Wards of the Pharaoh]{Wards of the Pharaoh}, @UUID[Compendium.xprpg.deities.Winlas]{Winlas}, @UUID[Compendium.xprpg.deities.Ydajisk]{Ydajisk}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Redact]{Redact}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Ghostly Transcription]{Ghostly Transcription}</em></p>\n<p>You wield power over written words and symbols.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        },
+        {
+            "_id": "A7vErdGAweYsFcW8",
+            "image": {},
+            "name": "Healing Domain",
+            "sort": 4600000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Arundhat]{Arundhat}, @UUID[Compendium.xprpg.deities.Atreia]{Atreia}, @UUID[Compendium.xprpg.deities.Bolka]{Bolka}, @UUID[Compendium.xprpg.deities.Chamidu]{Chamidu}, @UUID[Compendium.xprpg.deities.Green Man]{Green Man}, @UUID[Compendium.xprpg.deities.Isis]{Isis}, @UUID[Compendium.xprpg.deities.Korada]{Korada}, @UUID[Compendium.xprpg.deities.Osiris]{Osiris}, @UUID[Compendium.xprpg.deities.Pharasma]{Pharasma}, @UUID[Compendium.xprpg.deities.Qi Zhong]{Qi Zhong}, @UUID[Compendium.xprpg.deities.Sarenrae]{Sarenrae}, @UUID[Compendium.xprpg.deities.Sekhmet]{Sekhmet}, @UUID[Compendium.xprpg.deities.Selket]{Selket}, @UUID[Compendium.xprpg.deities.Shei]{Shei}, @UUID[Compendium.xprpg.deities.Stag Mother of the Forest of Stones]{Stag Mother of the Forest of Stones}, @UUID[Compendium.xprpg.deities.The Prismatic Ray]{The Prismatic Ray}, @UUID[Compendium.xprpg.deities.Tlehar]{Tlehar}, @UUID[Compendium.xprpg.deities.Uvuko]{Uvuko}, @UUID[Compendium.xprpg.deities.Wards of the Pharaoh]{Wards of the Pharaoh}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Healer's Blessing]{Healer's Blessing}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Rebuke Death]{Rebuke Death}</em></p>\n<p>Your healing magic is particularly potent.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        },
+        {
+            "_id": "GiuzDTtkQAgtGW6n",
+            "image": {},
+            "name": "Indulgence Domain",
+            "sort": 4800000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Baphomet]{Baphomet}, @UUID[Compendium.xprpg.deities.Cayden Cailean]{Cayden Cailean}, @UUID[Compendium.xprpg.deities.Gogunta]{Gogunta}, @UUID[Compendium.xprpg.deities.Halcamora]{Halcamora}, @UUID[Compendium.xprpg.deities.Hei Feng]{Hei Feng}, @UUID[Compendium.xprpg.deities.Kabriri]{Kabriri}, @UUID[Compendium.xprpg.deities.Lahkgya]{Lahkgya}, @UUID[Compendium.xprpg.deities.Sekhmet]{Sekhmet}, @UUID[Compendium.xprpg.deities.Sun Wukong]{Sun Wukong}, @UUID[Compendium.xprpg.deities.The Green Mother]{The Green Mother}, @UUID[Compendium.xprpg.deities.Urgathoa]{Urgathoa}, @UUID[Compendium.xprpg.deities.Ydersius]{Ydersius}, @UUID[Compendium.xprpg.deities.Zura]{Zura}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Overstuff]{Overstuff}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Take its Course]{Take its Course}</em></p>\n<p>You feast mightily and can shake off the effects of overindulging.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        },
+        {
+            "_id": "0GwpYEjCHWyfQvgg",
+            "image": {},
+            "name": "Knowledge Domain",
+            "sort": 5000000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Abraxas]{Abraxas}, @UUID[Compendium.xprpg.deities.Andoletta]{Andoletta}, @UUID[Compendium.xprpg.deities.Barzahk]{Barzahk}, @UUID[Compendium.xprpg.deities.Brigh]{Brigh}, @UUID[Compendium.xprpg.deities.Casandalee]{Casandalee}, @UUID[Compendium.xprpg.deities.Charon]{Charon}, @UUID[Compendium.xprpg.deities.Dhalavei]{Dhalavei}, @UUID[Compendium.xprpg.deities.Dranngvit]{Dranngvit}, @UUID[Compendium.xprpg.deities.Eritrice]{Eritrice}, @UUID[Compendium.xprpg.deities.Followers of Fate]{Followers of Fate}, @UUID[Compendium.xprpg.deities.Gruhastha]{Gruhastha}, @UUID[Compendium.xprpg.deities.Irori]{Irori}, @UUID[Compendium.xprpg.deities.Kabriri]{Kabriri}, @UUID[Compendium.xprpg.deities.Kols]{Kols}, @UUID[Compendium.xprpg.deities.Lady Jingxi]{Lady Jingxi}, @UUID[Compendium.xprpg.deities.Likha]{Likha}, @UUID[Compendium.xprpg.deities.Ma'at]{Ma'at}, @UUID[Compendium.xprpg.deities.Magdh]{Magdh}, @UUID[Compendium.xprpg.deities.Mazludeh]{Mazludeh}, @UUID[Compendium.xprpg.deities.Mephistopheles]{Mephistopheles}, @UUID[Compendium.xprpg.deities.Monad]{Monad}, @UUID[Compendium.xprpg.deities.Narriseminek]{Narriseminek}, @UUID[Compendium.xprpg.deities.Nethys]{Nethys}, @UUID[Compendium.xprpg.deities.Ng]{Ng}, @UUID[Compendium.xprpg.deities.Nyarlathotep (Haunter in the Dark)]{Nyarlathotep (Haunter in the Dark)}, @UUID[Compendium.xprpg.deities.Nyarlathotep (The Crawling Chaos)]{Nyarlathotep (The Crawling Chaos)}, @UUID[Compendium.xprpg.deities.Otolmens]{Otolmens}, @UUID[Compendium.xprpg.deities.Pharasma]{Pharasma}, @UUID[Compendium.xprpg.deities.Pillars of Knowledge]{Pillars of Knowledge}, @UUID[Compendium.xprpg.deities.Qi Zhong]{Qi Zhong}, @UUID[Compendium.xprpg.deities.Raumya]{Raumya}, @UUID[Compendium.xprpg.deities.Saloc]{Saloc}, @UUID[Compendium.xprpg.deities.The Lost Prince]{The Lost Prince}, @UUID[Compendium.xprpg.deities.Valmallos]{Valmallos}, @UUID[Compendium.xprpg.deities.Wards of the Pharaoh]{Wards of the Pharaoh}, @UUID[Compendium.xprpg.deities.Winlas]{Winlas}, @UUID[Compendium.xprpg.deities.Ydajisk]{Ydajisk}, @UUID[Compendium.xprpg.deities.Yog-Sothoth]{Yog-Sothoth}, @UUID[Compendium.xprpg.deities.Yuelral]{Yuelral}, @UUID[Compendium.xprpg.deities.Zohls]{Zohls}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Scholarly Recollection]{Scholarly Recollection}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Know the Enemy]{Know the Enemy}</em></p>\n<p>You receive divine insights.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        },
+        {
+            "_id": "Kca7UPuMm44tOo9n",
+            "image": {},
+            "name": "Lightning Domain",
+            "sort": 5200000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Casandalee]{Casandalee}, @UUID[Compendium.xprpg.deities.Cernunnos]{Cernunnos}, @UUID[Compendium.xprpg.deities.Chamidu]{Chamidu}, @UUID[Compendium.xprpg.deities.Gozreh]{Gozreh}, @UUID[Compendium.xprpg.deities.Hei Feng]{Hei Feng}, @UUID[Compendium.xprpg.deities.Lubaiko]{Lubaiko}, @UUID[Compendium.xprpg.deities.Ranginori]{Ranginori}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Charged Javelin]{Charged Javelin}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Bottle the Storm]{Bottle the Storm}</em></p>\n<p>You control electricity, thunder, and storms.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        },
+        {
+            "_id": "L11XsA5G89xVKlDw",
+            "image": {},
+            "name": "Luck Domain",
+            "sort": 5400000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Bes]{Bes}, @UUID[Compendium.xprpg.deities.Desna]{Desna}, @UUID[Compendium.xprpg.deities.Gendowyn]{Gendowyn}, @UUID[Compendium.xprpg.deities.Halcamora]{Halcamora}, @UUID[Compendium.xprpg.deities.Irez]{Irez}, @UUID[Compendium.xprpg.deities.Kofusachi]{Kofusachi}, @UUID[Compendium.xprpg.deities.Lao Shu Po]{Lao Shu Po}, @UUID[Compendium.xprpg.deities.Nivi Rhombodazzle]{Nivi Rhombodazzle}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Bit of Luck]{Bit of Luck}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Lucky Break]{Lucky Break}</em></p>\n<p>You're unnaturally lucky and keep out of harm's way.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        },
+        {
+            "_id": "DS95vr2zmTsjsMhU",
+            "image": {},
+            "name": "Magic Domain",
+            "sort": 5600000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Abraxas]{Abraxas}, @UUID[Compendium.xprpg.deities.Alseta]{Alseta}, @UUID[Compendium.xprpg.deities.Arundhat]{Arundhat}, @UUID[Compendium.xprpg.deities.Baalzebul]{Baalzebul}, @UUID[Compendium.xprpg.deities.Barbatos]{Barbatos}, @UUID[Compendium.xprpg.deities.Elven Pantheon]{Elven Pantheon}, @UUID[Compendium.xprpg.deities.Irez]{Irez}, @UUID[Compendium.xprpg.deities.Isis]{Isis}, @UUID[Compendium.xprpg.deities.Korada]{Korada}, @UUID[Compendium.xprpg.deities.Lissala]{Lissala}, @UUID[Compendium.xprpg.deities.Nalinivati]{Nalinivati}, @UUID[Compendium.xprpg.deities.Nethys]{Nethys}, @UUID[Compendium.xprpg.deities.Ng]{Ng}, @UUID[Compendium.xprpg.deities.Nyarlathotep (The Crawling Chaos)]{Nyarlathotep (The Crawling Chaos)}, @UUID[Compendium.xprpg.deities.Qi Zhong]{Qi Zhong}, @UUID[Compendium.xprpg.deities.Selket]{Selket}, @UUID[Compendium.xprpg.deities.Sivanah]{Sivanah}, @UUID[Compendium.xprpg.deities.Soralyon]{Soralyon}, @UUID[Compendium.xprpg.deities.Urgathoa]{Urgathoa}, @UUID[Compendium.xprpg.deities.Valmallos]{Valmallos}, @UUID[Compendium.xprpg.deities.Wards of the Pharaoh]{Wards of the Pharaoh}, @UUID[Compendium.xprpg.deities.Yuelral]{Yuelral}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Magic's Vessel]{Magic's Vessel}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Mystic Beacon]{Mystic Beacon}</em></p>\n<p>You perform the unexpected and inexplicable.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        },
+        {
+            "_id": "MOVMHZU1SfkhNN1K",
+            "image": {},
+            "name": "Might Domain",
+            "sort": 5800000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Achaekek]{Achaekek}, @UUID[Compendium.xprpg.deities.Alglenweis]{Alglenweis}, @UUID[Compendium.xprpg.deities.Angazhan]{Angazhan}, @UUID[Compendium.xprpg.deities.Ashukharma]{Ashukharma}, @UUID[Compendium.xprpg.deities.Ayrzul]{Ayrzul}, @UUID[Compendium.xprpg.deities.Balumbdar]{Balumbdar}, @UUID[Compendium.xprpg.deities.Baphomet]{Baphomet}, @UUID[Compendium.xprpg.deities.Cayden Cailean]{Cayden Cailean}, @UUID[Compendium.xprpg.deities.Dranngvit]{Dranngvit}, @UUID[Compendium.xprpg.deities.Eiseth]{Eiseth}, @UUID[Compendium.xprpg.deities.Falayna]{Falayna}, @UUID[Compendium.xprpg.deities.General Susumu]{General Susumu}, @UUID[Compendium.xprpg.deities.Geryon]{Geryon}, @UUID[Compendium.xprpg.deities.Gogunta]{Gogunta}, @UUID[Compendium.xprpg.deities.Gorum]{Gorum}, @UUID[Compendium.xprpg.deities.Green Man]{Green Man}, @UUID[Compendium.xprpg.deities.Imbrex]{Imbrex}, @UUID[Compendium.xprpg.deities.Iomedae]{Iomedae}, @UUID[Compendium.xprpg.deities.Irori]{Irori}, @UUID[Compendium.xprpg.deities.Jaidi]{Jaidi}, @UUID[Compendium.xprpg.deities.Kazutal]{Kazutal}, @UUID[Compendium.xprpg.deities.Kols]{Kols}, @UUID[Compendium.xprpg.deities.Kostchtchie]{Kostchtchie}, @UUID[Compendium.xprpg.deities.Kurgess]{Kurgess}, @UUID[Compendium.xprpg.deities.Lamashtu]{Lamashtu}, @UUID[Compendium.xprpg.deities.Moloch]{Moloch}, @UUID[Compendium.xprpg.deities.Ragdya]{Ragdya}, @UUID[Compendium.xprpg.deities.Raumya]{Raumya}, @UUID[Compendium.xprpg.deities.Sekhmet]{Sekhmet}, @UUID[Compendium.xprpg.deities.Sobek]{Sobek}, @UUID[Compendium.xprpg.deities.Sun Wukong]{Sun Wukong}, @UUID[Compendium.xprpg.deities.Szuriel]{Szuriel}, @UUID[Compendium.xprpg.deities.Trudd]{Trudd}, @UUID[Compendium.xprpg.deities.Urgathoa]{Urgathoa}, @UUID[Compendium.xprpg.deities.Yamatsumi]{Yamatsumi}, @UUID[Compendium.xprpg.deities.Ydersius]{Ydersius}, @UUID[Compendium.xprpg.deities.Zevgavizeb]{Zevgavizeb}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Athletic Rush]{Athletic Rush}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Enduring Might]{Enduring Might}</em></p>\n<p>Your physical power is bolstered by divine strength.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        },
+        {
+            "_id": "Y3DFBCWiM9GBIlfl",
+            "image": {},
+            "name": "Moon Domain",
+            "sort": 6000000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Ashava]{Ashava}, @UUID[Compendium.xprpg.deities.Cosmic Caravan]{Cosmic Caravan}, @UUID[Compendium.xprpg.deities.Desna]{Desna}, @UUID[Compendium.xprpg.deities.Findeladlara]{Findeladlara}, @UUID[Compendium.xprpg.deities.Horus]{Horus}, @UUID[Compendium.xprpg.deities.Ketephys]{Ketephys}, @UUID[Compendium.xprpg.deities.The Path of the Heavens]{The Path of the Heavens}, @UUID[Compendium.xprpg.deities.The Prismatic Ray]{The Prismatic Ray}, @UUID[Compendium.xprpg.deities.Thoth]{Thoth}, @UUID[Compendium.xprpg.deities.Tsukiyo]{Tsukiyo}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Moonbeam]{Moonbeam}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Touch of the Moon]{Touch of the Moon}</em></p>\n<p>You command powers associated with the moon.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        },
+        {
+            "_id": "QzsUe3Rt3SifTQvb",
+            "image": {},
+            "name": "Naga Domain",
+            "sort": 6200000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Ravithra]{Ravithra}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Split the Tongue]{Split the Tongue}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Ordained Purpose]{Ordained Purpose}</em></p>\n<p>Like the serpentine nagas, you're in tune with cosmic forces that Ravithra once controlled.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        },
+        {
+            "_id": "wBhgIgt47v9uspp3",
+            "image": {},
+            "name": "Nature Domain",
+            "sort": 6400000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Angazhan]{Angazhan}, @UUID[Compendium.xprpg.deities.Arundhat]{Arundhat}, @UUID[Compendium.xprpg.deities.Balumbdar]{Balumbdar}, @UUID[Compendium.xprpg.deities.Barbatos]{Barbatos}, @UUID[Compendium.xprpg.deities.Bastet]{Bastet}, @UUID[Compendium.xprpg.deities.Cernunnos]{Cernunnos}, @UUID[Compendium.xprpg.deities.Chamidu]{Chamidu}, @UUID[Compendium.xprpg.deities.Cyth-V'sug]{Cyth-V'sug}, @UUID[Compendium.xprpg.deities.Daikitsu]{Daikitsu}, @UUID[Compendium.xprpg.deities.Elven Pantheon]{Elven Pantheon}, @UUID[Compendium.xprpg.deities.Erastil]{Erastil}, @UUID[Compendium.xprpg.deities.Gendowyn]{Gendowyn}, @UUID[Compendium.xprpg.deities.Gozreh]{Gozreh}, @UUID[Compendium.xprpg.deities.Green Man]{Green Man}, @UUID[Compendium.xprpg.deities.Gruhastha]{Gruhastha}, @UUID[Compendium.xprpg.deities.Halcamora]{Halcamora}, @UUID[Compendium.xprpg.deities.Jaidi]{Jaidi}, @UUID[Compendium.xprpg.deities.Kalekot]{Kalekot}, @UUID[Compendium.xprpg.deities.Ketephys]{Ketephys}, @UUID[Compendium.xprpg.deities.Lahkgya]{Lahkgya}, @UUID[Compendium.xprpg.deities.Lysianassa]{Lysianassa}, @UUID[Compendium.xprpg.deities.Matravash]{Matravash}, @UUID[Compendium.xprpg.deities.Mazludeh]{Mazludeh}, @UUID[Compendium.xprpg.deities.Mother Vulture]{Mother Vulture}, @UUID[Compendium.xprpg.deities.Nhimbaloth]{Nhimbaloth}, @UUID[Compendium.xprpg.deities.Osiris]{Osiris}, @UUID[Compendium.xprpg.deities.Ra]{Ra}, @UUID[Compendium.xprpg.deities.Selket]{Selket}, @UUID[Compendium.xprpg.deities.Stag Mother of the Forest of Stones]{Stag Mother of the Forest of Stones}, @UUID[Compendium.xprpg.deities.Sun Wukong]{Sun Wukong}, @UUID[Compendium.xprpg.deities.Tanagaar]{Tanagaar}, @UUID[Compendium.xprpg.deities.The Green Mother]{The Green Mother}, @UUID[Compendium.xprpg.deities.Treerazer]{Treerazer}, @UUID[Compendium.xprpg.deities.Xhamen-Dor]{Xhamen-Dor}, @UUID[Compendium.xprpg.deities.Ylimancha]{Ylimancha}, @UUID[Compendium.xprpg.deities.Zevgavizeb]{Zevgavizeb}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Vibrant Thorns]{Vibrant Thorns}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Nature's Bounty]{Nature's Bounty}</em></p>\n<p>You hold power over animals and plants.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        },
+        {
+            "_id": "R20JXF43vU5RQyUj",
+            "image": {},
+            "name": "Nightmares Domain",
+            "sort": 6600000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Azathoth]{Azathoth}, @UUID[Compendium.xprpg.deities.Chamidu]{Chamidu}, @UUID[Compendium.xprpg.deities.Groetus]{Groetus}, @UUID[Compendium.xprpg.deities.Gyronna]{Gyronna}, @UUID[Compendium.xprpg.deities.Jaidz]{Jaidz}, @UUID[Compendium.xprpg.deities.Kalekot]{Kalekot}, @UUID[Compendium.xprpg.deities.Kelizandri]{Kelizandri}, @UUID[Compendium.xprpg.deities.Lamashtu]{Lamashtu}, @UUID[Compendium.xprpg.deities.Nyarlathotep (Haunter in the Dark)]{Nyarlathotep (Haunter in the Dark)}, @UUID[Compendium.xprpg.deities.Nyarlathotep (The Crawling Chaos)]{Nyarlathotep (The Crawling Chaos)}, @UUID[Compendium.xprpg.deities.Sifkesh]{Sifkesh}, @UUID[Compendium.xprpg.deities.Treerazer]{Treerazer}, @UUID[Compendium.xprpg.deities.Trelmarixian]{Trelmarixian}, @UUID[Compendium.xprpg.deities.Zura]{Zura}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Waking Nightmare]{Waking Nightmare}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Shared Nightmare]{Shared Nightmare}</em></p>\n<p>You fill minds with horror and dread.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        },
+        {
+            "_id": "FtW1gtbHgO0KofPl",
+            "image": {},
+            "name": "Pain Domain",
+            "sort": 6800000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Arazni]{Arazni}, @UUID[Compendium.xprpg.deities.Calistria]{Calistria}, @UUID[Compendium.xprpg.deities.Doloras]{Doloras}, @UUID[Compendium.xprpg.deities.Gyronna]{Gyronna}, @UUID[Compendium.xprpg.deities.Narakaas]{Narakaas}, @UUID[Compendium.xprpg.deities.Shax]{Shax}, @UUID[Compendium.xprpg.deities.Sifkesh]{Sifkesh}, @UUID[Compendium.xprpg.deities.Stag Mother of the Forest of Stones]{Stag Mother of the Forest of Stones}, @UUID[Compendium.xprpg.deities.Vildeis]{Vildeis}, @UUID[Compendium.xprpg.deities.Yaezhing]{Yaezhing}, @UUID[Compendium.xprpg.deities.Zon-Kuthon]{Zon-Kuthon}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Savor the Sting]{Savor the Sting}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Retributive Pain]{Retributive Pain}</em></p>\n<p>You punish those who displease you with the sharp sting of pain.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        },
+        {
+            "_id": "ajCEExOaxuB4C1tY",
+            "image": {},
+            "name": "Passion Domain",
+            "sort": 7000000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Ardad Lili]{Ardad Lili}, @UUID[Compendium.xprpg.deities.Arshea]{Arshea}, @UUID[Compendium.xprpg.deities.Bastet]{Bastet}, @UUID[Compendium.xprpg.deities.Belial]{Belial}, @UUID[Compendium.xprpg.deities.Bolka]{Bolka}, @UUID[Compendium.xprpg.deities.Calistria]{Calistria}, @UUID[Compendium.xprpg.deities.Cernunnos]{Cernunnos}, @UUID[Compendium.xprpg.deities.Hathor]{Hathor}, @UUID[Compendium.xprpg.deities.Isis]{Isis}, @UUID[Compendium.xprpg.deities.Kofusachi]{Kofusachi}, @UUID[Compendium.xprpg.deities.Likha]{Likha}, @UUID[Compendium.xprpg.deities.Lymnieris]{Lymnieris}, @UUID[Compendium.xprpg.deities.Naderi]{Naderi}, @UUID[Compendium.xprpg.deities.Nalinivati]{Nalinivati}, @UUID[Compendium.xprpg.deities.Shelyn]{Shelyn}, @UUID[Compendium.xprpg.deities.The Green Mother]{The Green Mother}, @UUID[Compendium.xprpg.deities.The Lantern King]{The Lantern King}, @UUID[Compendium.xprpg.deities.Tlehar]{Tlehar}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Charming Touch]{Charming Touch}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Captivating Adoration]{Captivating Adoration}</em></p>\n<p>You evoke passion, whether as love or lust.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        },
+        {
+            "_id": "Czi3XXuNOSE7ISpd",
+            "image": {},
+            "name": "Perfection Domain",
+            "sort": 7200000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Arshea]{Arshea}, @UUID[Compendium.xprpg.deities.Balumbdar]{Balumbdar}, @UUID[Compendium.xprpg.deities.Casandalee]{Casandalee}, @UUID[Compendium.xprpg.deities.Gruhastha]{Gruhastha}, @UUID[Compendium.xprpg.deities.Irori]{Irori}, @UUID[Compendium.xprpg.deities.Mazludeh]{Mazludeh}, @UUID[Compendium.xprpg.deities.Narriseminek]{Narriseminek}, @UUID[Compendium.xprpg.deities.Otolmens]{Otolmens}, @UUID[Compendium.xprpg.deities.Pillars of Knowledge]{Pillars of Knowledge}, @UUID[Compendium.xprpg.deities.Ragdya]{Ragdya}, @UUID[Compendium.xprpg.deities.Shei]{Shei}, @UUID[Compendium.xprpg.deities.Shizuru]{Shizuru}, @UUID[Compendium.xprpg.deities.The Godclaw]{The Godclaw}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Perfected Mind]{Perfected Mind}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Perfected Form]{Perfected Form}</em></p>\n<p>You strive to perfect your mind, body, and spirit.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        },
+        {
+            "_id": "hGoWOjdsUz16oJUm",
+            "image": {},
+            "name": "Plague Domain",
+            "sort": 7400000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Apollyon]{Apollyon}, @UUID[Compendium.xprpg.deities.Cyth-V'sug]{Cyth-V'sug}, @UUID[Compendium.xprpg.deities.Ghlaunder]{Ghlaunder}, @UUID[Compendium.xprpg.deities.Lady Nanbyo]{Lady Nanbyo}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Divine Plagues]{Divine Plagues}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Foul Miasma]{Foul Miasma}</em></p>\n<p>You wield disease and pestilence like a weapon.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        },
+        {
+            "_id": "Dx47K8wpx8KZUa9S",
+            "image": {},
+            "name": "Protection Domain",
+            "sort": 7600000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Adanye]{Adanye}, @UUID[Compendium.xprpg.deities.Alseta]{Alseta}, @UUID[Compendium.xprpg.deities.Andoletta]{Andoletta}, @UUID[Compendium.xprpg.deities.Angradd]{Angradd}, @UUID[Compendium.xprpg.deities.Anubis]{Anubis}, @UUID[Compendium.xprpg.deities.Apsu]{Apsu}, @UUID[Compendium.xprpg.deities.Arazni]{Arazni}, @UUID[Compendium.xprpg.deities.Arundhat]{Arundhat}, @UUID[Compendium.xprpg.deities.Ashukharma]{Ashukharma}, @UUID[Compendium.xprpg.deities.Atreia]{Atreia}, @UUID[Compendium.xprpg.deities.Balumbdar]{Balumbdar}, @UUID[Compendium.xprpg.deities.Bastet]{Bastet}, @UUID[Compendium.xprpg.deities.Bes]{Bes}, @UUID[Compendium.xprpg.deities.Dwarven Pantheon]{Dwarven Pantheon}, @UUID[Compendium.xprpg.deities.Folgrit]{Folgrit}, @UUID[Compendium.xprpg.deities.Green Man]{Green Man}, @UUID[Compendium.xprpg.deities.Grundinnar]{Grundinnar}, @UUID[Compendium.xprpg.deities.Horus]{Horus}, @UUID[Compendium.xprpg.deities.Jaidz]{Jaidz}, @UUID[Compendium.xprpg.deities.Kazutal]{Kazutal}, @UUID[Compendium.xprpg.deities.Korada]{Korada}, @UUID[Compendium.xprpg.deities.Lymnieris]{Lymnieris}, @UUID[Compendium.xprpg.deities.Ma'at]{Ma'at}, @UUID[Compendium.xprpg.deities.Nethys]{Nethys}, @UUID[Compendium.xprpg.deities.Qi Zhong]{Qi Zhong}, @UUID[Compendium.xprpg.deities.Selket]{Selket}, @UUID[Compendium.xprpg.deities.Shelyn]{Shelyn}, @UUID[Compendium.xprpg.deities.Sobek]{Sobek}, @UUID[Compendium.xprpg.deities.Soralyon]{Soralyon}, @UUID[Compendium.xprpg.deities.The Godclaw]{The Godclaw}, @UUID[Compendium.xprpg.deities.The Prismatic Ray]{The Prismatic Ray}, @UUID[Compendium.xprpg.deities.Torag]{Torag}, @UUID[Compendium.xprpg.deities.Trudd]{Trudd}, @UUID[Compendium.xprpg.deities.Wadjet]{Wadjet}, @UUID[Compendium.xprpg.deities.Wards of the Pharaoh]{Wards of the Pharaoh}, @UUID[Compendium.xprpg.deities.Winlas]{Winlas}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Protector's Sacrifice]{Protector's Sacrifice}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Protector's Sphere]{Protector's Sphere}</em></p>\n<p>You ward yourself and others.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        },
+        {
+            "_id": "CbsAiY68e8n5vVVN",
+            "image": {},
+            "name": "Repose Domain",
+            "sort": 7800000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Adanye]{Adanye}, @UUID[Compendium.xprpg.deities.Ashava]{Ashava}, @UUID[Compendium.xprpg.deities.Ashukharma]{Ashukharma}, @UUID[Compendium.xprpg.deities.Doloras]{Doloras}, @UUID[Compendium.xprpg.deities.Folgrit]{Folgrit}, @UUID[Compendium.xprpg.deities.Lady Jingxi]{Lady Jingxi}, @UUID[Compendium.xprpg.deities.Lymnieris]{Lymnieris}, @UUID[Compendium.xprpg.deities.Sarenrae]{Sarenrae}, @UUID[Compendium.xprpg.deities.Shelyn]{Shelyn}, @UUID[Compendium.xprpg.deities.The Lost Prince]{The Lost Prince}, @UUID[Compendium.xprpg.deities.Tsukiyo]{Tsukiyo}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Share Burden]{Share Burden}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Font of Serenity]{Font of Serenity}</em></p>\n<p>You ease mental burdens.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        },
+        {
+            "_id": "S1gyomjojgtCdxc3",
+            "image": {},
+            "name": "Secrecy Domain",
+            "sort": 8000000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Ayrzul]{Ayrzul}, @UUID[Compendium.xprpg.deities.Baphomet]{Baphomet}, @UUID[Compendium.xprpg.deities.Black Butterfly]{Black Butterfly}, @UUID[Compendium.xprpg.deities.Calistria]{Calistria}, @UUID[Compendium.xprpg.deities.Dhalavei]{Dhalavei}, @UUID[Compendium.xprpg.deities.Erecura]{Erecura}, @UUID[Compendium.xprpg.deities.Hastur]{Hastur}, @UUID[Compendium.xprpg.deities.Kalekot]{Kalekot}, @UUID[Compendium.xprpg.deities.Ketephys]{Ketephys}, @UUID[Compendium.xprpg.deities.Mephistopheles]{Mephistopheles}, @UUID[Compendium.xprpg.deities.Ng]{Ng}, @UUID[Compendium.xprpg.deities.Norgorber]{Norgorber}, @UUID[Compendium.xprpg.deities.Pillars of Knowledge]{Pillars of Knowledge}, @UUID[Compendium.xprpg.deities.Sivanah]{Sivanah}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Forced Quiet]{Forced Quiet}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Safeguard Secret]{Safeguard Secret}</em></p>\n<p>You protect secrets and keep them hidden.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        },
+        {
+            "_id": "5TqEbLR9QT3gJGe3",
+            "image": {},
+            "name": "Sorrow Domain",
+            "sort": 8200000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Andoletta]{Andoletta}, @UUID[Compendium.xprpg.deities.Arazni]{Arazni}, @UUID[Compendium.xprpg.deities.Count Ranalc]{Count Ranalc}, @UUID[Compendium.xprpg.deities.Doloras]{Doloras}, @UUID[Compendium.xprpg.deities.Likha]{Likha}, @UUID[Compendium.xprpg.deities.Naderi]{Naderi}, @UUID[Compendium.xprpg.deities.Narakaas]{Narakaas}, @UUID[Compendium.xprpg.deities.Pulura]{Pulura}, @UUID[Compendium.xprpg.deities.Ravithra]{Ravithra}, @UUID[Compendium.xprpg.deities.Shizuru]{Shizuru}, @UUID[Compendium.xprpg.deities.Sifkesh]{Sifkesh}, @UUID[Compendium.xprpg.deities.The Lost Prince]{The Lost Prince}, @UUID[Compendium.xprpg.deities.Vildeis]{Vildeis}, @UUID[Compendium.xprpg.deities.Zyphus]{Zyphus}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Lament]{Lament}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Overflowing Sorrow]{Overflowing Sorrow}</em></p>\n<p>You have a painful connection to melancholy and sadness.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        },
+        {
+            "_id": "rtobUemb6vF2Yu3Y",
+            "image": {},
+            "name": "Soul Domain",
+            "sort": 8400000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Alglenweis]{Alglenweis}, @UUID[Compendium.xprpg.deities.Anubis]{Anubis}, @UUID[Compendium.xprpg.deities.Ashava]{Ashava}, @UUID[Compendium.xprpg.deities.Charon]{Charon}, @UUID[Compendium.xprpg.deities.Luhar]{Luhar}, @UUID[Compendium.xprpg.deities.Pharasma]{Pharasma}, @UUID[Compendium.xprpg.deities.Ravithra]{Ravithra}, @UUID[Compendium.xprpg.deities.Tsukiyo]{Tsukiyo}, @UUID[Compendium.xprpg.deities.Zyphus]{Zyphus}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Eject Soul]{Eject Soul}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Ectoplasmic Interstice]{Ectoplasmic Interstice}</em></p>\n<p>You wield power over the spiritual.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        },
+        {
+            "_id": "6bDpXy7pQdGrd2og",
+            "image": {},
+            "name": "Star Domain",
+            "sort": 8600000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Black Butterfly]{Black Butterfly}, @UUID[Compendium.xprpg.deities.Cosmic Caravan]{Cosmic Caravan}, @UUID[Compendium.xprpg.deities.Desna]{Desna}, @UUID[Compendium.xprpg.deities.Findeladlara]{Findeladlara}, @UUID[Compendium.xprpg.deities.Luhar]{Luhar}, @UUID[Compendium.xprpg.deities.Ma'at]{Ma'at}, @UUID[Compendium.xprpg.deities.Pulura]{Pulura}, @UUID[Compendium.xprpg.deities.The Path of the Heavens]{The Path of the Heavens}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Zenith Star]{Zenith Star}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Asterism]{Asterism}</em></p>\n<p>You command the power of the stars.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        },
+        {
+            "_id": "CkBvj5y1lAm1jnsc",
+            "image": {},
+            "name": "Sun Domain",
+            "sort": 8800000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Atreia]{Atreia}, @UUID[Compendium.xprpg.deities.Chohar]{Chohar}, @UUID[Compendium.xprpg.deities.Hathor]{Hathor}, @UUID[Compendium.xprpg.deities.Horus]{Horus}, @UUID[Compendium.xprpg.deities.Jaidi]{Jaidi}, @UUID[Compendium.xprpg.deities.Luhar]{Luhar}, @UUID[Compendium.xprpg.deities.Nurgal]{Nurgal}, @UUID[Compendium.xprpg.deities.Ra]{Ra}, @UUID[Compendium.xprpg.deities.Sarenrae]{Sarenrae}, @UUID[Compendium.xprpg.deities.Shizuru]{Shizuru}, @UUID[Compendium.xprpg.deities.Sturovenen]{Sturovenen}, @UUID[Compendium.xprpg.deities.The Path of the Heavens]{The Path of the Heavens}, @UUID[Compendium.xprpg.deities.The Prismatic Ray]{The Prismatic Ray}, @UUID[Compendium.xprpg.deities.Tlehar]{Tlehar}, @UUID[Compendium.xprpg.deities.Walkena]{Walkena}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Dazzling Flash]{Dazzling Flash}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Positive Luminance]{Positive Luminance}</em></p>\n<p>You harness the power of the sun and other light sources, and punish undead.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        },
+        {
+            "_id": "rd0jQwvTK4jpv95o",
+            "image": {},
+            "name": "Swarm Domain",
+            "sort": 9000000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Apollyon]{Apollyon}, @UUID[Compendium.xprpg.deities.Ghlaunder]{Ghlaunder}, @UUID[Compendium.xprpg.deities.Halcamora]{Halcamora}, @UUID[Compendium.xprpg.deities.Lahkgya]{Lahkgya}, @UUID[Compendium.xprpg.deities.Lao Shu Po]{Lao Shu Po}, @UUID[Compendium.xprpg.deities.Pazuzu]{Pazuzu}, @UUID[Compendium.xprpg.deities.Rovagug]{Rovagug}, @UUID[Compendium.xprpg.deities.Urgathoa]{Urgathoa}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Swarmsense]{Swarmsense}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Swarm Form]{Swarm Form}</em></p>\n<p>You exert control over masses of creatures.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        },
+        {
+            "_id": "3P0NWwP3s7bIiidH",
+            "image": {},
+            "name": "Time Domain",
+            "sort": 9200000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Alseta]{Alseta}, @UUID[Compendium.xprpg.deities.Brigh]{Brigh}, @UUID[Compendium.xprpg.deities.Pharasma]{Pharasma}, @UUID[Compendium.xprpg.deities.Pillars of Knowledge]{Pillars of Knowledge}, @UUID[Compendium.xprpg.deities.Ra]{Ra}, @UUID[Compendium.xprpg.deities.Shyka]{Shyka}, @UUID[Compendium.xprpg.deities.Yog-Sothoth]{Yog-Sothoth}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Delay Consequence]{Delay Consequence}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Stasis]{Stasis}</em></p>\n<p>You reign over the flow of time.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        },
+        {
+            "_id": "EQfZepZX6rxxBRqG",
+            "image": {},
+            "name": "Toil Domain",
+            "sort": 9400000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Chohar]{Chohar}, @UUID[Compendium.xprpg.deities.Droskar]{Droskar}, @UUID[Compendium.xprpg.deities.Lissala]{Lissala}, @UUID[Compendium.xprpg.deities.Mammon]{Mammon}, @UUID[Compendium.xprpg.deities.Sairazul]{Sairazul}, @UUID[Compendium.xprpg.deities.The Path of the Heavens]{The Path of the Heavens}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Practice Makes Perfect]{Practice Makes Perfect}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Tireless Worker]{Tireless Worker}</em></p>\n<p>You work constantly and refuse to let anything stand in your way.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        },
+        {
+            "_id": "bTujFcUut9RX4GCy",
+            "image": {},
+            "name": "Travel Domain",
+            "sort": 9600000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Abadar]{Abadar}, @UUID[Compendium.xprpg.deities.Apsu]{Apsu}, @UUID[Compendium.xprpg.deities.Barbatos]{Barbatos}, @UUID[Compendium.xprpg.deities.Count Ranalc]{Count Ranalc}, @UUID[Compendium.xprpg.deities.Desna]{Desna}, @UUID[Compendium.xprpg.deities.Dranngvit]{Dranngvit}, @UUID[Compendium.xprpg.deities.Gozreh]{Gozreh}, @UUID[Compendium.xprpg.deities.Gruhastha]{Gruhastha}, @UUID[Compendium.xprpg.deities.Hanspur]{Hanspur}, @UUID[Compendium.xprpg.deities.Hei Feng]{Hei Feng}, @UUID[Compendium.xprpg.deities.Jaidz]{Jaidz}, @UUID[Compendium.xprpg.deities.Kelizandri]{Kelizandri}, @UUID[Compendium.xprpg.deities.Kofusachi]{Kofusachi}, @UUID[Compendium.xprpg.deities.Matravash]{Matravash}, @UUID[Compendium.xprpg.deities.Ng]{Ng}, @UUID[Compendium.xprpg.deities.Nocticula]{Nocticula}, @UUID[Compendium.xprpg.deities.Ranginori]{Ranginori}, @UUID[Compendium.xprpg.deities.The Path of the Heavens]{The Path of the Heavens}, @UUID[Compendium.xprpg.deities.The Prismatic Ray]{The Prismatic Ray}, @UUID[Compendium.xprpg.deities.Wadjet]{Wadjet}, @UUID[Compendium.xprpg.deities.Ylimancha]{Ylimancha}, @UUID[Compendium.xprpg.deities.Yog-Sothoth]{Yog-Sothoth}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Agile Feet]{Agile Feet}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Traveler's Transit]{Traveler's Transit}</em></p>\n<p>You have power over movement and journeys.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        },
+        {
+            "_id": "xJtbGqoz3BcCjUik",
+            "image": {},
+            "name": "Trickery Domain",
+            "sort": 9800000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Achaekek]{Achaekek}, @UUID[Compendium.xprpg.deities.Ahriman]{Ahriman}, @UUID[Compendium.xprpg.deities.Asmodeus]{Asmodeus}, @UUID[Compendium.xprpg.deities.Baalzebul]{Baalzebul}, @UUID[Compendium.xprpg.deities.Bastet]{Bastet}, @UUID[Compendium.xprpg.deities.Belial]{Belial}, @UUID[Compendium.xprpg.deities.Besmara]{Besmara}, @UUID[Compendium.xprpg.deities.Calistria]{Calistria}, @UUID[Compendium.xprpg.deities.Chaldira]{Chaldira}, @UUID[Compendium.xprpg.deities.Dhalavei]{Dhalavei}, @UUID[Compendium.xprpg.deities.Droskar]{Droskar}, @UUID[Compendium.xprpg.deities.Erecura]{Erecura}, @UUID[Compendium.xprpg.deities.Grandmother Spider]{Grandmother Spider}, @UUID[Compendium.xprpg.deities.Lahkgya]{Lahkgya}, @UUID[Compendium.xprpg.deities.Lamashtu]{Lamashtu}, @UUID[Compendium.xprpg.deities.Lao Shu Po]{Lao Shu Po}, @UUID[Compendium.xprpg.deities.Mahathallah]{Mahathallah}, @UUID[Compendium.xprpg.deities.Nivi Rhombodazzle]{Nivi Rhombodazzle}, @UUID[Compendium.xprpg.deities.Norgorber]{Norgorber}, @UUID[Compendium.xprpg.deities.Nyarlathotep (Haunter in the Dark)]{Nyarlathotep (Haunter in the Dark)}, @UUID[Compendium.xprpg.deities.Nyarlathotep (The Crawling Chaos)]{Nyarlathotep (The Crawling Chaos)}, @UUID[Compendium.xprpg.deities.Pazuzu]{Pazuzu}, @UUID[Compendium.xprpg.deities.Shax]{Shax}, @UUID[Compendium.xprpg.deities.Sifkesh]{Sifkesh}, @UUID[Compendium.xprpg.deities.Sivanah]{Sivanah}, @UUID[Compendium.xprpg.deities.Sun Wukong]{Sun Wukong}, @UUID[Compendium.xprpg.deities.Thamir]{Thamir}, @UUID[Compendium.xprpg.deities.The Lantern King]{The Lantern King}, @UUID[Compendium.xprpg.deities.Yaezhing]{Yaezhing}, @UUID[Compendium.xprpg.deities.Ydajisk]{Ydajisk}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Sudden Shift]{Sudden Shift}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Trickster's Twin]{Trickster's Twin}</em></p>\n<p>You deceive others and cause mischief.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        },
+        {
+            "_id": "lgsJz7mZ1OTe340e",
+            "image": {},
+            "name": "Truth Domain",
+            "sort": 10000000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Dammerich]{Dammerich}, @UUID[Compendium.xprpg.deities.Erecura]{Erecura}, @UUID[Compendium.xprpg.deities.Followers of Fate]{Followers of Fate}, @UUID[Compendium.xprpg.deities.Geryon]{Geryon}, @UUID[Compendium.xprpg.deities.Gruhastha]{Gruhastha}, @UUID[Compendium.xprpg.deities.Iomedae]{Iomedae}, @UUID[Compendium.xprpg.deities.Irori]{Irori}, @UUID[Compendium.xprpg.deities.Kols]{Kols}, @UUID[Compendium.xprpg.deities.Kurgess]{Kurgess}, @UUID[Compendium.xprpg.deities.Ma'at]{Ma'at}, @UUID[Compendium.xprpg.deities.Magdh]{Magdh}, @UUID[Compendium.xprpg.deities.Mahathallah]{Mahathallah}, @UUID[Compendium.xprpg.deities.Monad]{Monad}, @UUID[Compendium.xprpg.deities.Pillars of Knowledge]{Pillars of Knowledge}, @UUID[Compendium.xprpg.deities.Ravithra]{Ravithra}, @UUID[Compendium.xprpg.deities.Sarenrae]{Sarenrae}, @UUID[Compendium.xprpg.deities.Zohls]{Zohls}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Word of Truth]{Word of Truth}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Glimpse the Truth]{Glimpse the Truth}</em></p>\n<p>You pierce lies and discover the truth.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        },
+        {
+            "_id": "T0JHj79aGphlZ4Mt",
+            "image": {},
+            "name": "Tyranny Domain",
+            "sort": 10200000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Angazhan]{Angazhan}, @UUID[Compendium.xprpg.deities.Asmodeus]{Asmodeus}, @UUID[Compendium.xprpg.deities.Barbatos]{Barbatos}, @UUID[Compendium.xprpg.deities.Dispater]{Dispater}, @UUID[Compendium.xprpg.deities.Droskar]{Droskar}, @UUID[Compendium.xprpg.deities.Gogunta]{Gogunta}, @UUID[Compendium.xprpg.deities.Mephistopheles]{Mephistopheles}, @UUID[Compendium.xprpg.deities.Pazuzu]{Pazuzu}, @UUID[Compendium.xprpg.deities.The Godclaw]{The Godclaw}, @UUID[Compendium.xprpg.deities.Treerazer]{Treerazer}, @UUID[Compendium.xprpg.deities.Walkena]{Walkena}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Touch of Obedience]{Touch of Obedience}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Commanding Lash]{Commanding Lash}</em></p>\n<p>You wield power to rule and enslave others.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        },
+        {
+            "_id": "RIlgBuWGfHC1rzYu",
+            "image": {},
+            "name": "Undeath Domain",
+            "sort": 10400000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Fumeiyoshi]{Fumeiyoshi}, @UUID[Compendium.xprpg.deities.Kabriri]{Kabriri}, @UUID[Compendium.xprpg.deities.Mahathallah]{Mahathallah}, @UUID[Compendium.xprpg.deities.Nhimbaloth]{Nhimbaloth}, @UUID[Compendium.xprpg.deities.Urgathoa]{Urgathoa}, @UUID[Compendium.xprpg.deities.Zura]{Zura}, @UUID[Compendium.xprpg.deities.Zyphus]{Zyphus}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Touch of Undeath]{Touch of Undeath}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Malignant Sustenance]{Malignant Sustenance}</em></p>\n<p>Your magic carries close ties to the undead.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        },
+        {
+            "_id": "StXN6IHR6evRaeXF",
+            "image": {},
+            "name": "Vigil Domain",
+            "sort": 10600000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Anubis]{Anubis}, @UUID[Compendium.xprpg.deities.Barzahk]{Barzahk}, @UUID[Compendium.xprpg.deities.Chohar]{Chohar}, @UUID[Compendium.xprpg.deities.Dammerich]{Dammerich}, @UUID[Compendium.xprpg.deities.Dranngvit]{Dranngvit}, @UUID[Compendium.xprpg.deities.Irori]{Irori}, @UUID[Compendium.xprpg.deities.Kabriri]{Kabriri}, @UUID[Compendium.xprpg.deities.Pharasma]{Pharasma}, @UUID[Compendium.xprpg.deities.Ragadahn]{Ragadahn}, @UUID[Compendium.xprpg.deities.Shizuru]{Shizuru}, @UUID[Compendium.xprpg.deities.The Lost Prince]{The Lost Prince}, @UUID[Compendium.xprpg.deities.Tlehar]{Tlehar}, @UUID[Compendium.xprpg.deities.Winlas]{Winlas}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Object Memory]{Object Memory}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Remember the Lost]{Remember the Lost}</em></p>\n<p>You watch over those long passed and guard their secrets.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        },
+        {
+            "_id": "xLxrtbsj4acqgsyC",
+            "image": {},
+            "name": "Void Domain",
+            "sort": 10800000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Azathoth]{Azathoth}, @UUID[Compendium.xprpg.deities.Black Butterfly]{Black Butterfly}, @UUID[Compendium.xprpg.deities.Cosmic Caravan]{Cosmic Caravan}, @UUID[Compendium.xprpg.deities.Desna]{Desna}, @UUID[Compendium.xprpg.deities.Groetus]{Groetus}, @UUID[Compendium.xprpg.deities.Hastur]{Hastur}, @UUID[Compendium.xprpg.deities.Kerkamoth]{Kerkamoth}, @UUID[Compendium.xprpg.deities.Monad]{Monad}, @UUID[Compendium.xprpg.deities.Nhimbaloth]{Nhimbaloth}, @UUID[Compendium.xprpg.deities.Rovagug]{Rovagug}, @UUID[Compendium.xprpg.deities.The Path of the Heavens]{The Path of the Heavens}, @UUID[Compendium.xprpg.deities.Yog-Sothoth]{Yog-Sothoth}, @UUID[Compendium.xprpg.deities.Zon-Kuthon]{Zon-Kuthon}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Empty Inside]{Empty Inside}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Door to Beyond]{Door to Beyond}</em></p>\n<p>You draw power from emptiness.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        },
+        {
+            "_id": "U8WVR6EDfmUaMCbu",
+            "image": {},
+            "name": "Water Domain",
+            "sort": 11000000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Besmara]{Besmara}, @UUID[Compendium.xprpg.deities.Charon]{Charon}, @UUID[Compendium.xprpg.deities.Dagon]{Dagon}, @UUID[Compendium.xprpg.deities.Diomazul]{Diomazul}, @UUID[Compendium.xprpg.deities.Geryon]{Geryon}, @UUID[Compendium.xprpg.deities.Gogunta]{Gogunta}, @UUID[Compendium.xprpg.deities.Gozreh]{Gozreh}, @UUID[Compendium.xprpg.deities.Hanspur]{Hanspur}, @UUID[Compendium.xprpg.deities.Hei Feng]{Hei Feng}, @UUID[Compendium.xprpg.deities.Kelizandri]{Kelizandri}, @UUID[Compendium.xprpg.deities.Lady Nanbyo]{Lady Nanbyo}, @UUID[Compendium.xprpg.deities.Lysianassa]{Lysianassa}, @UUID[Compendium.xprpg.deities.Matravash]{Matravash}, @UUID[Compendium.xprpg.deities.Naderi]{Naderi}, @UUID[Compendium.xprpg.deities.Ragadahn]{Ragadahn}, @UUID[Compendium.xprpg.deities.Sobek]{Sobek}, @UUID[Compendium.xprpg.deities.Wadjet]{Wadjet}, @UUID[Compendium.xprpg.deities.Ylimancha]{Ylimancha}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Tidal Surge]{Tidal Surge}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Downpour]{Downpour}</em></p>\n<p>You control water and bodies of water.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        },
+        {
+            "_id": "mJBp4KIszuqrmnp5",
+            "image": {},
+            "name": "Wealth Domain",
+            "sort": 11200000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Abadar]{Abadar}, @UUID[Compendium.xprpg.deities.Besmara]{Besmara}, @UUID[Compendium.xprpg.deities.Dwarven Pantheon]{Dwarven Pantheon}, @UUID[Compendium.xprpg.deities.Erastil]{Erastil}, @UUID[Compendium.xprpg.deities.Falayna]{Falayna}, @UUID[Compendium.xprpg.deities.Hanspur]{Hanspur}, @UUID[Compendium.xprpg.deities.Hastur]{Hastur}, @UUID[Compendium.xprpg.deities.Kofusachi]{Kofusachi}, @UUID[Compendium.xprpg.deities.Mammon]{Mammon}, @UUID[Compendium.xprpg.deities.Nivi Rhombodazzle]{Nivi Rhombodazzle}, @UUID[Compendium.xprpg.deities.Norgorber]{Norgorber}, @UUID[Compendium.xprpg.deities.Raumya]{Raumya}, @UUID[Compendium.xprpg.deities.Sairazul]{Sairazul}, @UUID[Compendium.xprpg.deities.Thamir]{Thamir}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Appearance of Wealth]{Appearance of Wealth}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Precious Metals]{Precious Metals}</em></p>\n<p>You hold power over wealth, trade, and treasure.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        },
+        {
+            "_id": "nuywscaiVGXLQpZ1",
+            "image": {},
+            "name": "Wyrmkin Domain",
+            "sort": 11400000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Abraxas]{Abraxas}, @UUID[Compendium.xprpg.deities.Apsu]{Apsu}, @UUID[Compendium.xprpg.deities.Ardad Lili]{Ardad Lili}, @UUID[Compendium.xprpg.deities.Dahak]{Dahak}, @UUID[Compendium.xprpg.deities.Geryon]{Geryon}, @UUID[Compendium.xprpg.deities.Kalekot]{Kalekot}, @UUID[Compendium.xprpg.deities.Nalinivati]{Nalinivati}, @UUID[Compendium.xprpg.deities.Ragadahn]{Ragadahn}, @UUID[Compendium.xprpg.deities.Sobek]{Sobek}, @UUID[Compendium.xprpg.deities.Uvuko]{Uvuko}, @UUID[Compendium.xprpg.deities.Zevgavizeb]{Zevgavizeb}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Draconic Barrage]{Draconic Barrage}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Roar of the Wyrm]{Roar of the Wyrm}</em></p>\n<p>You draw on the power of dragons, linnorms, and other powerful reptilian creatures.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        },
+        {
+            "_id": "DI3MYGIK8iEycanU",
+            "image": {},
+            "name": "Zeal Domain",
+            "sort": 11600000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Achaekek]{Achaekek}, @UUID[Compendium.xprpg.deities.Angradd]{Angradd}, @UUID[Compendium.xprpg.deities.Baphomet]{Baphomet}, @UUID[Compendium.xprpg.deities.Belial]{Belial}, @UUID[Compendium.xprpg.deities.Cernunnos]{Cernunnos}, @UUID[Compendium.xprpg.deities.Chaldira]{Chaldira}, @UUID[Compendium.xprpg.deities.Chohar]{Chohar}, @UUID[Compendium.xprpg.deities.Dagon]{Dagon}, @UUID[Compendium.xprpg.deities.Dahak]{Dahak}, @UUID[Compendium.xprpg.deities.Diomazul]{Diomazul}, @UUID[Compendium.xprpg.deities.Eiseth]{Eiseth}, @UUID[Compendium.xprpg.deities.General Susumu]{General Susumu}, @UUID[Compendium.xprpg.deities.Gorum]{Gorum}, @UUID[Compendium.xprpg.deities.Gyronna]{Gyronna}, @UUID[Compendium.xprpg.deities.Iomedae]{Iomedae}, @UUID[Compendium.xprpg.deities.Kostchtchie]{Kostchtchie}, @UUID[Compendium.xprpg.deities.Kurgess]{Kurgess}, @UUID[Compendium.xprpg.deities.Lubaiko]{Lubaiko}, @UUID[Compendium.xprpg.deities.Luhar]{Luhar}, @UUID[Compendium.xprpg.deities.Milani]{Milani}, @UUID[Compendium.xprpg.deities.Ragathiel]{Ragathiel}, @UUID[Compendium.xprpg.deities.Rovagug]{Rovagug}, @UUID[Compendium.xprpg.deities.Tanagaar]{Tanagaar}, @UUID[Compendium.xprpg.deities.The Godclaw]{The Godclaw}, @UUID[Compendium.xprpg.deities.Tlehar]{Tlehar}, @UUID[Compendium.xprpg.deities.Vildeis]{Vildeis}, @UUID[Compendium.xprpg.deities.Wadjet]{Wadjet}, @UUID[Compendium.xprpg.deities.Ydersius]{Ydersius}, @UUID[Compendium.xprpg.deities.Ymeri]{Ymeri}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Weapon Surge]{Weapon Surge}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Zeal for Battle]{Zeal for Battle}</em></p>\n<p>Your inner fire increases your combat prowess.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        }
+    ]
+}

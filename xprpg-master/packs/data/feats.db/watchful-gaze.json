@@ -1,0 +1,37 @@
+{
+    "_id": "KKUDZUbX3nDdME4K",
+    "img": "systems/xprpg/icons/default-icons/feats.webp",
+    "name": "Watchful Gaze",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "description": {
+            "value": "<p>You use your many eyes to look in all directions at once, making you extremely observant for a short period of time. You gain  until the start of your next turn. This lets you see in all directions and prevents you from being flanked.</p>\n<p>@UUID[Compendium.xprpg.feat-effects.Effect: Watchful Gaze]{Effect: Watchful Gaze}</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "concentrate",
+                "goloma"
+            ]
+        }
+    },
+    "type": "feat"
+}

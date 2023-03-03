@@ -1,0 +1,51 @@
+{
+    "_id": "urBGOPrUwBmkixAo",
+    "img": "systems/xprpg/icons/features/classes/choice-feature.webp",
+    "name": "Final Doctrine",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You gain the final benefit of your doctrine:</p>\n<ul>\n<li>@UUID[Compendium.xprpg.classfeatures.Final Doctrine (Cloistered Cleric)]{Cloistered Cleric}</li>\n<li>@UUID[Compendium.xprpg.classfeatures.Final Doctrine (Warpriest)]{Warpriest}</li>\n</ul>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 19
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "GrantItem",
+                "predicate": [
+                    "feature:cloistered-cleric"
+                ],
+                "uuid": "Compendium.xprpg.classfeatures.Final Doctrine (Cloistered Cleric)"
+            },
+            {
+                "key": "GrantItem",
+                "predicate": [
+                    "feature:warpriest"
+                ],
+                "uuid": "Compendium.xprpg.classfeatures.Final Doctrine (Warpriest)"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "cleric"
+            ]
+        }
+    },
+    "type": "feat"
+}

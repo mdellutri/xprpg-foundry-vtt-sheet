@@ -1,0 +1,36 @@
+{
+    "_id": "vFaNE7s7vFs9BxJW",
+    "img": "systems/xprpg/icons/actions/Reaction.webp",
+    "name": "Set Free",
+    "system": {
+        "actionCategory": {
+            "value": "defensive"
+        },
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Trigger</strong> You attempt a check to remove or counteract an effect with the @UUID[Compendium.xprpg.conditionitems.Confused]{Confused}, @UUID[Compendium.xprpg.conditionitems.Controlled]{Controlled}, @UUID[Compendium.xprpg.conditionitems.Fascinated]{Fascinated}, @UUID[Compendium.xprpg.conditionitems.Immobilized]{Immobilized}, @UUID[Compendium.xprpg.conditionitems.Paralyzed]{Paralyzed}, or @UUID[Compendium.xprpg.conditionitems.Restrained]{Restrained} conditions</p>\n<hr />\n<p><strong>Effect</strong> You roll twice and use the better result.</p>"
+        },
+        "requirements": {
+            "value": ""
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fortune"
+            ]
+        },
+        "trigger": {
+            "value": ""
+        }
+    },
+    "type": "action"
+}

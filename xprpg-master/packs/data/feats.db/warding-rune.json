@@ -1,0 +1,85 @@
+{
+    "_id": "u4idmXH5dd2gU9uA",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Warding Rune",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your runes provide a warding effect that protects you against a specific school of magic. Choose a school of magic other than divination. You gain a rune on your body corresponding to that school, and you gain a +2 circumstance bonus to all saving throws against effects of that school.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Runescarred Dedication"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "choices": [
+                    {
+                        "label": "XPRPG.TraitAbjuration",
+                        "value": "abjuration"
+                    },
+                    {
+                        "label": "XPRPG.TraitConjuration",
+                        "value": "conjuration"
+                    },
+                    {
+                        "label": "XPRPG.TraitEnchantment",
+                        "value": "enchantment"
+                    },
+                    {
+                        "label": "XPRPG.TraitEvocation",
+                        "value": "evocation"
+                    },
+                    {
+                        "label": "XPRPG.TraitIllusion",
+                        "value": "illusion"
+                    },
+                    {
+                        "label": "XPRPG.TraitNecromancy",
+                        "value": "necromancy"
+                    },
+                    {
+                        "label": "XPRPG.TraitTransmutation",
+                        "value": "transmutation"
+                    }
+                ],
+                "flag": "school",
+                "key": "ChoiceSet",
+                "prompt": "XPRPG.SpecificRule.WardingRune.Prompt"
+            },
+            {
+                "key": "FlatModifier",
+                "predicate": [
+                    "{item|flags.xprpg.rulesSelections.school}"
+                ],
+                "selector": "saving-throw",
+                "type": "circumstance",
+                "value": 2
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "type": "feat"
+}

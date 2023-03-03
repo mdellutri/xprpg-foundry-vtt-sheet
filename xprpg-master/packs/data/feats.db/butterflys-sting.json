@@ -1,0 +1,64 @@
+{
+    "_id": "i5LtFOpsUR5S74pC",
+    "img": "systems/xprpg/icons/default-icons/feats.webp",
+    "name": "Butterfly's Sting",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You gain the @UUID[Compendium.xprpg.classfeatures.Sneak Attack]{Sneak Attack} class feature. You don't increase the number of dice as you gain levels.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Butterfly Blade Dedication"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "override",
+                "path": "flags.xprpg.sneakAttackDamage.number",
+                "value": 1
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "override",
+                "path": "flags.xprpg.sneakAttackDamage.faces",
+                "value": 6
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.xprpg.classfeatures.Sneak Attack"
+            },
+            {
+                "domain": "all",
+                "key": "RollOption",
+                "label": "XPRPG.SpecificRule.TOTMToggle.FlatFooted",
+                "option": "target:condition:flat-footed",
+                "toggleable": "totm"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "type": "feat"
+}

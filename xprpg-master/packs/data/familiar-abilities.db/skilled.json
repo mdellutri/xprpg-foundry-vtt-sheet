@@ -1,0 +1,105 @@
+{
+    "_id": "jevzf9JbJJibpqaI",
+    "img": "systems/xprpg/icons/actions/Passive.webp",
+    "name": "Skilled",
+    "system": {
+        "badge": null,
+        "description": {
+            "value": "<p>Choose a skill other than Acrobatics or Stealth. Your familiar's modifier for that skill is equal to your level plus your key spellcasting ability modifier, rather than just your level. You can select this ability repeatedly, choosing a different skill each time.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "unlimited",
+            "value": -1
+        },
+        "level": {
+            "value": 1
+        },
+        "rules": [
+            {
+                "choices": [
+                    {
+                        "label": "XPRPG.SkillArcana",
+                        "value": "arcana"
+                    },
+                    {
+                        "label": "XPRPG.SkillAthletics",
+                        "value": "athletics"
+                    },
+                    {
+                        "label": "XPRPG.SkillCrafting",
+                        "value": "crafting"
+                    },
+                    {
+                        "label": "XPRPG.SkillDeception",
+                        "value": "deception"
+                    },
+                    {
+                        "label": "XPRPG.SkillDiplomacy",
+                        "value": "diplomacy"
+                    },
+                    {
+                        "label": "XPRPG.SkillIntimidation",
+                        "value": "intimidation"
+                    },
+                    {
+                        "label": "XPRPG.SkillMedicine",
+                        "value": "medicine"
+                    },
+                    {
+                        "label": "XPRPG.SkillNature",
+                        "value": "nature"
+                    },
+                    {
+                        "label": "XPRPG.SkillOccultism",
+                        "value": "occultism"
+                    },
+                    {
+                        "label": "XPRPG.SkillPerformance",
+                        "value": "performance"
+                    },
+                    {
+                        "label": "XPRPG.SkillReligion",
+                        "value": "religion"
+                    },
+                    {
+                        "label": "XPRPG.SkillSociety",
+                        "value": "society"
+                    },
+                    {
+                        "label": "XPRPG.SkillSurvival",
+                        "value": "survival"
+                    },
+                    {
+                        "label": "XPRPG.SkillThievery",
+                        "value": "thievery"
+                    }
+                ],
+                "flag": "skill",
+                "key": "ChoiceSet"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "{item|flags.xprpg.rulesSelections.skill}",
+                "value": "@actor.masterAbilityModifier"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": false
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "effect"
+}

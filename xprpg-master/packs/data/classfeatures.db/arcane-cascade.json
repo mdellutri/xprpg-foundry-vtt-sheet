@@ -1,0 +1,48 @@
+{
+    "_id": "09iL38CZZEa0q0Mt",
+    "img": "systems/xprpg/icons/features/classes/arcane-cascade.webp",
+    "name": "Arcane Cascade",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>After you wield magic, you can enter a special stance to make your attacks more effective.</p>\n<p>@UUID[Compendium.xprpg.actionsxprpg.Arcane Cascade]{Arcane Cascade}</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.xprpg.actionsxprpg.Arcane Cascade"
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "override",
+                "path": "flags.xprpg.arcaneCascade.damageType",
+                "priority": -100,
+                "value": ""
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "magus"
+            ]
+        }
+    },
+    "type": "feat"
+}

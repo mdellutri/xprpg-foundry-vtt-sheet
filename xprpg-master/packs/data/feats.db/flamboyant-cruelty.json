@@ -1,0 +1,39 @@
+{
+    "_id": "SAOtGk9k8veaX3Ww",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Flamboyant Cruelty",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You love to kick your enemies when they're down, and you look fabulous when you do.</p>\n<p>When you make a melee weapon Strike against a foe that has at least two of the following conditions, you gain a circumstance bonus to your damage roll equal to the number of these conditions the foe has.</p>\n<p>The qualifying conditions are @UUID[Compendium.xprpg.conditionitems.Clumsy]{Clumsy}, @UUID[Compendium.xprpg.conditionitems.Drained]{Drained}, @UUID[Compendium.xprpg.conditionitems.Enfeebled]{Enfeebled}, @UUID[Compendium.xprpg.conditionitems.Frightened]{Frightened}, @UUID[Compendium.xprpg.conditionitems.Sickened]{Sickened}, and @UUID[Compendium.xprpg.conditionitems.Stupefied]{Stupefied}.</p>\n<p>If you hit such a foe, you gain a +1 circumstance bonus to skill checks to @UUID[Compendium.xprpg.actionsxprpg.Tumble Through]{Tumble Through} and to perform your style's Panache-granting actions until the end of your turn.</p>\n<p>@UUID[Compendium.xprpg.feat-effects.Effect: Flamboyant Cruelty]{Effect: Flamboyant Cruelty}</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "rare",
+            "selected": {
+                "swashbuckler": "Swashbuckler"
+            },
+            "value": [
+                "swashbuckler"
+            ]
+        }
+    },
+    "type": "feat"
+}

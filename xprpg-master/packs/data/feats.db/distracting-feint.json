@@ -1,0 +1,40 @@
+{
+    "_id": "hLYoIjH8gPEVXyWG",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Distracting Feint",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your @UUID[Compendium.xprpg.actionsxprpg.Feint]{Feints} are far more distracting than normal, drawing your foes' attention and allowing you and your allies to take greater advantage.</p>\n<p>While a creature is @UUID[Compendium.xprpg.conditionitems.Flat-Footed]{Flat-Footed} by your Feint, it also takes a -2 circumstance penalty to Perception checks and Reflex saves.</p>\n<p>@UUID[Compendium.xprpg.feat-effects.Effect: Distracting Feint]{Effect: Distracting Feint}</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "scoundrel racket"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "rogue"
+            ]
+        }
+    },
+    "type": "feat"
+}

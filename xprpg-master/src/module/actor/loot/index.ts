@@ -1,0 +1,1 @@
+export { LootXPRPG } from "./document";

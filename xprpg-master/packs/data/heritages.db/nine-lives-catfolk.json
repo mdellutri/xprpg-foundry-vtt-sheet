@@ -1,0 +1,24 @@
+{
+    "_id": "hOPOyyt7qZXYYCOU",
+    "img": "systems/xprpg/icons/features/ancestry/nine-lives-catfolk.webp",
+    "name": "Nine Lives Catfolk",
+    "system": {
+        "ancestry": {
+            "name": "Catfolk",
+            "slug": "catfolk",
+            "uuid": "Compendium.xprpg.ancestries.972EkpJOPv9KkQIW"
+        },
+        "description": {
+            "value": "<p>Your family has always seemed to bound back from disaster, not through physical hardiness or specialized skill, but from sheer luck. Other catfolk whisper that you have nine lives.</p>\n<p>If you are reduced to 0 Hit Points by a critical hit on an attack roll, you become @UUID[Compendium.xprpg.conditionitems.Dying]{Dying 1} instead of dying 2.</p>"
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "heritage"
+}

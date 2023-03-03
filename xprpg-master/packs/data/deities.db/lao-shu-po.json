@@ -1,0 +1,50 @@
+{
+    "_id": "MbJ93Nw39h2cBYi5",
+    "img": "systems/xprpg/icons/deity/Lao%20Shu%20Po.webp",
+    "name": "Lao Shu Po",
+    "system": {
+        "ability": [
+            "dex",
+            "int"
+        ],
+        "alignment": {
+            "follower": [
+                "N",
+                "LE",
+                "NE",
+                "CE"
+            ],
+            "own": "NE"
+        },
+        "category": "deity",
+        "description": {
+            "value": "<p><strong>Edicts</strong> Work quietly toward your goals in the shadows, steal what you need, keep an ear among the ignored and downtrodden</p>\n<p><strong>Anathema</strong> Work honestly for something you could steal instead, risk too much for another creature</p>"
+        },
+        "domains": {
+            "alternate": [],
+            "primary": [
+                "darkness",
+                "luck",
+                "swarm",
+                "trickery"
+            ]
+        },
+        "font": [
+            "harm"
+        ],
+        "rules": [],
+        "skill": "thi",
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "spells": {
+            "1": "Compendium.xprpg.spells-srd.4YnON9JHYqtLzccu",
+            "2": "Compendium.xprpg.spells-srd.6Ot4N22t5tPD51BO",
+            "3": "Compendium.xprpg.spells-srd.EoKBlgf6Smt8opaU"
+        },
+        "weapons": [
+            "dagger"
+        ]
+    },
+    "type": "deity"
+}

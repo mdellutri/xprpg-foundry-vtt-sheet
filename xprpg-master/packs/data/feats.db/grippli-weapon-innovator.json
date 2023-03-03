@@ -1,0 +1,55 @@
+{
+    "_id": "j1620BT5t0RLVB0C",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Grippli Weapon Innovator",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You've learned devious ways to make the most of your grippli weapons. Whenever you critically hit using a @UUID[Compendium.xprpg.equipment-srd.Blowgun]{Blowgun}, @UUID[Compendium.xprpg.equipment-srd.Hatchet]{Hatchet}, @UUID[Compendium.xprpg.equipment-srd.Scythe]{Scythe}, @UUID[Compendium.xprpg.equipment-srd.Shortbow]{Shortbow}, and @UUID[Compendium.xprpg.equipment-srd.Composite Shortbow]{Composite Shortbow}, or grippli weapon, you apply the weapon's critical specialization effect.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 5
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Grippli Weapon Familiarity"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "CriticalSpecialization",
+                "predicate": [
+                    {
+                        "or": [
+                            "item:trait:grippli",
+                            "item:base:blowgun",
+                            "item:base:hatchet",
+                            "item:base:scythe",
+                            "item:base:shortbow"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "grippli"
+            ]
+        }
+    },
+    "type": "feat"
+}

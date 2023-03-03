@@ -1,0 +1,246 @@
+{
+    "_id": "AmFv3ClkAVRowHLI",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Tengu Weapon Familiarity",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You've trained with a blade and other tengu weapons ever since you hatched. You gain access to @UUID[Compendium.xprpg.equipment-srd.Khakkhara]{Khakkharas}.</p>\n<p>Additionally, choose two weapons from the sword group. You can choose from among all common martial swords, plus the @UUID[Compendium.xprpg.equipment-srd.Katana]{Katana}, @UUID[Compendium.xprpg.equipment-srd.Temple Sword]{Temple Sword}, and @UUID[Compendium.xprpg.equipment-srd.Wakizashi]{Wakizashi}. For the purpose of determining your proficiency, that weapon is a simple weapon, and if the weapon isn't common, you gain access to it. If you are trained in all martial weapons, you add common advanced swords to the swords you can choose from.</p>\n<p>You also gain access to all uncommon tengu weapons. For the purpose of determining your proficiency, martial tengu weapons are simple weapons, and advanced tengu weapons are martial weapons.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "definition": [
+                    "item:trait:tengu",
+                    "item:category:advanced"
+                ],
+                "key": "MartialProficiency",
+                "label": "XPRPG.SpecificRule.MartialProficiency.AdvancedTenguWeapons",
+                "sameAs": "martial",
+                "slug": "advanced-tengu-weapons"
+            },
+            {
+                "definition": [
+                    "item:trait:tengu",
+                    "item:category:martial"
+                ],
+                "key": "MartialProficiency",
+                "label": "XPRPG.SpecificRule.MartialProficiency.MartialTenguWeapons",
+                "sameAs": "simple",
+                "slug": "martial-tengu-weapons"
+            },
+            {
+                "choices": [
+                    {
+                        "label": "XPRPG.Weapon.Base.bastard-sword",
+                        "value": "bastard-sword"
+                    },
+                    {
+                        "label": "XPRPG.Weapon.Base.exquisite-sword-cane",
+                        "value": "exquisite-sword-cane"
+                    },
+                    {
+                        "label": "XPRPG.Weapon.Base.falchion",
+                        "value": "falchion"
+                    },
+                    {
+                        "label": "XPRPG.Weapon.Base.greatsword",
+                        "value": "greatsword"
+                    },
+                    {
+                        "label": "XPRPG.Weapon.Base.longsword",
+                        "value": "longsword"
+                    },
+                    {
+                        "label": "XPRPG.Weapon.Base.machete",
+                        "value": "machete"
+                    },
+                    {
+                        "label": "XPRPG.Weapon.Base.rapier",
+                        "value": "rapier"
+                    },
+                    {
+                        "label": "XPRPG.Weapon.Base.scimitar",
+                        "value": "scimitar"
+                    },
+                    {
+                        "label": "XPRPG.Weapon.Base.shortsword",
+                        "value": "shortsword"
+                    },
+                    {
+                        "label": "XPRPG.Weapon.Base.katana",
+                        "value": "katana"
+                    },
+                    {
+                        "label": "XPRPG.Weapon.Base.temple-sword",
+                        "value": "temple-sword"
+                    },
+                    {
+                        "label": "XPRPG.Weapon.Base.wakizashi",
+                        "value": "wakizashi"
+                    }
+                ],
+                "flag": "tenguWeaponFamiliarityFirst",
+                "key": "ChoiceSet",
+                "prompt": "XPRPG.SpecificRule.Prompt.Weapon",
+                "rollOption": "first-weapon"
+            },
+            {
+                "choices": [
+                    {
+                        "label": "XPRPG.Weapon.Base.bastard-sword",
+                        "predicate": [
+                            {
+                                "not": "first-weapon:bastard-sword"
+                            }
+                        ],
+                        "value": "bastard-sword"
+                    },
+                    {
+                        "label": "XPRPG.Weapon.Base.exquisite-sword-cane",
+                        "predicate": [
+                            {
+                                "not": "first-weapon:exquisite-sword-cane"
+                            }
+                        ],
+                        "value": "exquisite-sword-cane"
+                    },
+                    {
+                        "label": "XPRPG.Weapon.Base.falchion",
+                        "predicate": [
+                            {
+                                "not": "first-weapon:falchion"
+                            }
+                        ],
+                        "value": "falchion"
+                    },
+                    {
+                        "label": "XPRPG.Weapon.Base.greatsword",
+                        "predicate": [
+                            {
+                                "not": "first-weapon:greatsword"
+                            }
+                        ],
+                        "value": "greatsword"
+                    },
+                    {
+                        "label": "XPRPG.Weapon.Base.longsword",
+                        "predicate": [
+                            {
+                                "not": "first-weapon:longsword"
+                            }
+                        ],
+                        "value": "longsword"
+                    },
+                    {
+                        "label": "XPRPG.Weapon.Base.machete",
+                        "predicate": [
+                            {
+                                "not": "first-weapon:machete"
+                            }
+                        ],
+                        "value": "machete"
+                    },
+                    {
+                        "label": "XPRPG.Weapon.Base.rapier",
+                        "predicate": [
+                            {
+                                "not": "first-weapon:rapier"
+                            }
+                        ],
+                        "value": "rapier"
+                    },
+                    {
+                        "label": "XPRPG.Weapon.Base.scimitar",
+                        "predicate": [
+                            {
+                                "not": "first-weapon:scimitar"
+                            }
+                        ],
+                        "value": "scimitar"
+                    },
+                    {
+                        "label": "XPRPG.Weapon.Base.shortsword",
+                        "predicate": [
+                            {
+                                "not": "first-weapon:shortsword"
+                            }
+                        ],
+                        "value": "shortsword"
+                    },
+                    {
+                        "label": "XPRPG.Weapon.Base.katana",
+                        "predicate": [
+                            {
+                                "not": "first-weapon:katana"
+                            }
+                        ],
+                        "value": "katana"
+                    },
+                    {
+                        "label": "XPRPG.Weapon.Base.temple-sword",
+                        "predicate": [
+                            {
+                                "not": "first-weapon:temple-sword"
+                            }
+                        ],
+                        "value": "temple-sword"
+                    },
+                    {
+                        "label": "XPRPG.Weapon.Base.wakizashi",
+                        "predicate": [
+                            {
+                                "not": "first-weapon:wakizashi"
+                            }
+                        ],
+                        "value": "wakizashi"
+                    }
+                ],
+                "flag": "tenguWeaponFamiliaritySecond",
+                "key": "ChoiceSet",
+                "prompt": "XPRPG.SpecificRule.Prompt.Weapon"
+            },
+            {
+                "definition": [
+                    "item:base:{item|flags.xprpg.rulesSelections.tenguWeaponFamiliarityFirst}"
+                ],
+                "key": "MartialProficiency",
+                "label": "XPRPG.Weapon.Base.{item|flags.xprpg.rulesSelections.tenguWeaponFamiliarityFirst}",
+                "sameAs": "simple",
+                "slug": "familiar-tengu-weapon-one"
+            },
+            {
+                "definition": [
+                    "item:base:{item|flags.xprpg.rulesSelections.tenguWeaponFamiliaritySecond}"
+                ],
+                "key": "MartialProficiency",
+                "label": "XPRPG.Weapon.Base.{item|flags.xprpg.rulesSelections.tenguWeaponFamiliaritySecond}",
+                "sameAs": "simple",
+                "slug": "familiar-tengu-weapon-two"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "tengu"
+            ]
+        }
+    },
+    "type": "feat"
+}

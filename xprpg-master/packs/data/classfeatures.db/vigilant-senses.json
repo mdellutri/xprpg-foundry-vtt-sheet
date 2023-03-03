@@ -1,0 +1,41 @@
+{
+    "_id": "0npO4rPscGm0dX13",
+    "img": "systems/xprpg/icons/features/classes/vigilant-senses.webp",
+    "name": "Vigilant Senses",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Through your adventures, you've developed keen awareness and attention to detail. Your proficiency rank in Perception increases to master.</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 7
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.attributes.perception.rank",
+                "value": 3
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "feat"
+}

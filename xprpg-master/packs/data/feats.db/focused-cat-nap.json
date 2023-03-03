@@ -1,0 +1,43 @@
+{
+    "_id": "O89mwKPRg0up0J0I",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Focused Cat Nap",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>When you @UUID[Compendium.xprpg.feats-srd.Cat Nap]{Cat Nap}, you can also @UUID[Compendium.xprpg.actionsxprpg.Refocus]{Refocus} as you dream of a relevant activity.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 5
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Cat Nap"
+                },
+                {
+                    "value": "Focus Pool"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "catfolk"
+            ]
+        }
+    },
+    "type": "feat"
+}

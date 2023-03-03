@@ -1,0 +1,46 @@
+{
+    "_id": "a5H6dJSQgWfviUHU",
+    "img": "systems/xprpg/icons/default-icons/feats.webp",
+    "name": "Nothing But Fluff",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your fluffy interior lacks specific organs and struts, with few weak spots to injure. You gain resistance to precision damage equal to half your level.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 5
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Stuffed poppet heritage"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "Resistance",
+                "type": "precision",
+                "value": "max(1,floor(@actor.level/2))"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "poppet"
+            ]
+        }
+    },
+    "type": "feat"
+}

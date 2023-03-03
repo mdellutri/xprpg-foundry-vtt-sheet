@@ -1,0 +1,54 @@
+{
+    "_id": "mrSulUdNbwzGSwfu",
+    "img": "systems/xprpg/icons/spells/gluttons-jaw.webp",
+    "name": "Spell Effect: Glutton's Jaw",
+    "system": {
+        "description": {
+            "value": "<p>Granted by <em>@UUID[Compendium.xprpg.spells-srd.Glutton's Jaw]{Glutton's Jaw}</em></p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "minutes",
+            "value": 1
+        },
+        "level": {
+            "value": 1
+        },
+        "rules": [
+            {
+                "category": "unarmed",
+                "damage": {
+                    "base": {
+                        "damageType": "piercing",
+                        "dice": 1,
+                        "die": "d8"
+                    }
+                },
+                "group": "brawling",
+                "key": "Strike",
+                "range": null,
+                "traits": [
+                    "forceful",
+                    "unarmed"
+                ]
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "effect"
+}

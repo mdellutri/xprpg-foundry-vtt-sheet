@@ -1,0 +1,161 @@
+{
+    "_id": "CMf0qluB0LXWReew",
+    "img": "systems/xprpg/icons/default-icons/heritage.svg",
+    "name": "Ancient Ash",
+    "system": {
+        "ancestry": {
+            "name": "Ghoran",
+            "slug": "ghoran",
+            "uuid": "Compendium.xprpg.ancestries.tSurOqRcfumadTfr"
+        },
+        "description": {
+            "value": "<p>Your memory is sharp and clear, and you remember so much. You remember the calm before the storm and the soil after the rain, the acrid tang of magic and the whisper of a song. You remember it all. You become trained in one skill of your choice. At 5th level, you become an expert in that skill.</p>"
+        },
+        "rules": [
+            {
+                "choices": [
+                    {
+                        "label": "XPRPG.SkillAcr",
+                        "predicate": [
+                            "skill:acr:rank:0"
+                        ],
+                        "value": "acr"
+                    },
+                    {
+                        "label": "XPRPG.SkillArc",
+                        "predicate": [
+                            "skill:arc:rank:0"
+                        ],
+                        "value": "arc"
+                    },
+                    {
+                        "label": "XPRPG.SkillAth",
+                        "predicate": [
+                            "skill:ath:rank:0"
+                        ],
+                        "value": "ath"
+                    },
+                    {
+                        "label": "XPRPG.SkillCra",
+                        "predicate": [
+                            "skill:cra:rank:0"
+                        ],
+                        "value": "cra"
+                    },
+                    {
+                        "label": "XPRPG.SkillDec",
+                        "predicate": [
+                            "skill:dec:rank:0"
+                        ],
+                        "value": "dec"
+                    },
+                    {
+                        "label": "XPRPG.SkillDip",
+                        "predicate": [
+                            "skill:dip:rank:0"
+                        ],
+                        "value": "dip"
+                    },
+                    {
+                        "label": "XPRPG.SkillItm",
+                        "predicate": [
+                            "skill:itm:rank:0"
+                        ],
+                        "value": "itm"
+                    },
+                    {
+                        "label": "XPRPG.SkillMed",
+                        "predicate": [
+                            "skill:med:rank:0"
+                        ],
+                        "value": "med"
+                    },
+                    {
+                        "label": "XPRPG.SkillNat",
+                        "predicate": [
+                            "skill:nat:rank:0"
+                        ],
+                        "value": "nat"
+                    },
+                    {
+                        "label": "XPRPG.SkillOcc",
+                        "predicate": [
+                            "skill:occ:rank:0"
+                        ],
+                        "value": "occ"
+                    },
+                    {
+                        "label": "XPRPG.SkillPrf",
+                        "predicate": [
+                            "skill:prf:rank:0"
+                        ],
+                        "value": "prf"
+                    },
+                    {
+                        "label": "XPRPG.SkillRel",
+                        "predicate": [
+                            "skill:rel:rank:0"
+                        ],
+                        "value": "rel"
+                    },
+                    {
+                        "label": "XPRPG.SkillSoc",
+                        "predicate": [
+                            "skill:soc:rank:0"
+                        ],
+                        "value": "soc"
+                    },
+                    {
+                        "label": "XPRPG.SkillSte",
+                        "predicate": [
+                            "skill:ste:rank:0"
+                        ],
+                        "value": "ste"
+                    },
+                    {
+                        "label": "XPRPG.SkillSur",
+                        "predicate": [
+                            "skill:sur:rank:0"
+                        ],
+                        "value": "sur"
+                    },
+                    {
+                        "label": "XPRPG.SkillThi",
+                        "predicate": [
+                            "skill:thi:rank:0"
+                        ],
+                        "value": "thi"
+                    }
+                ],
+                "flag": "skill",
+                "key": "ChoiceSet",
+                "prompt": "XPRPG.SpecificRule.Prompt.Skill"
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "add",
+                "path": "system.skills.{item|flags.xprpg.rulesSelections.skill}.rank",
+                "value": {
+                    "brackets": [
+                        {
+                            "end": 4,
+                            "value": 1
+                        },
+                        {
+                            "start": 5,
+                            "value": 2
+                        }
+                    ]
+                }
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "heritage"
+}

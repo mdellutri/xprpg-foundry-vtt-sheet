@@ -1,0 +1,47 @@
+{
+    "_id": "WEUFs37Ids3ZRrqa",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Litany Of Depravity",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You undercut your enemy's vain moralism, opening their heart to evil. You can cast the <em>@UUID[Compendium.xprpg.spells-srd.Litany of Depravity]{Litany of Depravity}</em> focus spell. Increase the number of Focus Points in your focus pool by 1.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "tenets of evil"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "add",
+                "path": "system.resources.focus.max",
+                "value": 1
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "uncommon",
+            "value": [
+                "champion"
+            ]
+        }
+    },
+    "type": "feat"
+}

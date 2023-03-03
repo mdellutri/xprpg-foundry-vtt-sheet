@@ -1,0 +1,48 @@
+{
+    "_id": "NdfhpKCjSS80LiUz",
+    "img": "systems/xprpg/icons/equipment/held-items/nosoi-charm.webp",
+    "name": "Effect: Nosoi Charm (Greater) (Diplomacy)",
+    "system": {
+        "badge": null,
+        "description": {
+            "value": "<p>You gain a +3 item bonus to Diplomacy checks to make a request.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "unlimited",
+            "value": -1
+        },
+        "level": {
+            "value": 18
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "label": "XPRPG.SpecificRule.Equipment.NosoiCharm.RequestLabel",
+                "predicate": [
+                    "action:request"
+                ],
+                "selector": "diplomacy",
+                "type": "item",
+                "value": 3
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": false
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "effect"
+}

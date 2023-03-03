@@ -1,0 +1,42 @@
+{
+    "_id": "fvIlSZPwojixVvyZ",
+    "img": "systems/xprpg/icons/spells/lucky-number.webp",
+    "name": "Spell Effect: Lucky Number",
+    "system": {
+        "badge": null,
+        "description": {
+            "value": "<p>Granted by <em>@UUID[Compendium.xprpg.spells-srd.Lucky Number]{Lucky Number}</em>.</p>\n<p>You gain the @UUID[Compendium.xprpg.actionsxprpg.That's My Number]{That's My Number} reaction; once you use the reaction, the spell ends.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "unlimited",
+            "value": -1
+        },
+        "level": {
+            "value": 2
+        },
+        "rules": [
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.xprpg.actionsxprpg.That's My Number"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Secrets of Magic"
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "effect"
+}

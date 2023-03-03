@@ -1,0 +1,44 @@
+{
+    "_id": "e6s2nIvlTycuzlR9",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Fabricated Connections",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You can @UUID[Compendium.xprpg.actionsxprpg.Lie]{Lie} about having taken an action so convincingly that you acquire all the tangible benefits of having successfully completed it.</p>\n<p>You can roll Deception in place of a different skill when attempting to @UUID[Compendium.xprpg.actionsxprpg.Earn Income]{Earn Income}, @UUID[Compendium.xprpg.actionsxprpg.Make an Impression]{Make an Impression}, @UUID[Compendium.xprpg.actionsxprpg.Request]{Request}, or @UUID[Compendium.xprpg.actionsxprpg.Subsist]{Subsist}.</p>\n<p>You can use Fabricated Connections to Make an Impression or Request once per day, and you can also use it once per week to Earn Income or Subsist.</p>"
+        },
+        "featType": {
+            "value": "skill"
+        },
+        "level": {
+            "value": 7
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Dandy Dedication"
+                },
+                {
+                    "value": "master in Deception"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype",
+                "skill"
+            ]
+        }
+    },
+    "type": "feat"
+}

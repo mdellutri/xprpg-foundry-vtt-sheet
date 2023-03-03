@@ -1,0 +1,75 @@
+{
+    "_id": "g3mNzNphtVxyR9Xr",
+    "img": "systems/xprpg/icons/features/classes/empiricism-methodology.webp",
+    "name": "Empiricism Methodology",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Everything comes down to data. Calculating statistics, running numbers, and using inductive reasoning allows you to determine the most likely outcome of any scenario, and anything out of place draws your keen attention.</p>\n<p>You are trained in one Intelligence-based skill of your choice. You gain the @UUID[Compendium.xprpg.feats-srd.That's Odd]{That's Odd} investigator feat, and you gain the @UUID[Compendium.xprpg.actionsxprpg.Expeditious Inspection]{Expeditious Inspection} free action.</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.xprpg.feats-srd.That's Odd"
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.xprpg.actionsxprpg.Expeditious Inspection"
+            },
+            {
+                "adjustName": false,
+                "choices": [
+                    {
+                        "label": "XPRPG.SkillArc",
+                        "value": "arc"
+                    },
+                    {
+                        "label": "XPRPG.SkillCra",
+                        "value": "cra"
+                    },
+                    {
+                        "label": "XPRPG.SkillOcc",
+                        "value": "occ"
+                    },
+                    {
+                        "label": "XPRPG.SkillSoc",
+                        "value": "soc"
+                    }
+                ],
+                "flag": "skill",
+                "key": "ChoiceSet",
+                "prompt": "XPRPG.SpecificRule.Prompt.Skill"
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.skills.{item|flags.xprpg.rulesSelections.skill}.rank",
+                "value": 1
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "investigator"
+            ]
+        }
+    },
+    "type": "feat"
+}

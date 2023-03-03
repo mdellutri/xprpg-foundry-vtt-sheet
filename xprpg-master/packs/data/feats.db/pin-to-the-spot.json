@@ -1,0 +1,40 @@
+{
+    "_id": "ZTxiM8NExDmxHJDf",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Pin to the Spot",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 2
+        },
+        "description": {
+            "value": "<p>You Strike a target within reach. If you hit and deal damage, the target is also @UUID[Compendium.xprpg.conditionitems.Restrained]{Restrained} as if you had critically succeeded at an Athletics check to @UUID[Compendium.xprpg.actionsxprpg.Grapple]{Grapple}.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Provocator Dedication"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "type": "feat"
+}

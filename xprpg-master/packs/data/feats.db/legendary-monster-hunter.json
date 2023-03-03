@@ -1,0 +1,43 @@
+{
+    "_id": "Veyt4x2Kb5YcPGTv",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Legendary Monster Hunter",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your knowledge of monsters is so incredible that it reveals glaring flaws in your prey. Your bonus from @UUID[Compendium.xprpg.feats-srd.Monster Hunter]{Monster Hunter} (and the bonus from @UUID[Compendium.xprpg.feats-srd.Monster Warden]{Monster Warden} if you have it) increases from +1 to +2 for you and any allies who benefit.</p>\n<p>@UUID[Compendium.xprpg.feat-effects.Effect: Legendary Monster Hunter]{Effect: Legendary Monster Hunter}</p>\n<p>@UUID[Compendium.xprpg.feat-effects.Effect: Legendary Monster Warden]{Effect: Legendary Monster Warden}</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "legendary in Nature"
+                },
+                {
+                    "value": "Master Monster Hunter"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ranger"
+            ]
+        }
+    },
+    "type": "feat"
+}

@@ -1,0 +1,69 @@
+{
+    "_id": "3zr5Gt5LgHsMNpSO",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Gnome Weapon Familiarity",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You favor unusual weapons tied to your people, such as blades with curved and peculiar shapes. You are trained with the @UUID[Compendium.xprpg.equipment-srd.Glaive]{Glaive} and @UUID[Compendium.xprpg.equipment-srd.Kukri]{Kukri}.</p>\n<p>In addition, you gain access to kukris and all uncommon gnome weapons. For the purpose of determining your proficiency, martial gnome weapons are simple weapons and advanced gnome weapons are martial weapons.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.martial.weapon-base-glaive.rank",
+                "value": 1
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.martial.weapon-base-kukri.rank",
+                "value": 1
+            },
+            {
+                "definition": [
+                    "item:trait:gnome",
+                    "item:category:advanced"
+                ],
+                "key": "MartialProficiency",
+                "label": "XPRPG.SpecificRule.MartialProficiency.AdvancedGnomeWeapons",
+                "sameAs": "martial",
+                "slug": "advanced-gnome-weapons"
+            },
+            {
+                "definition": [
+                    "item:trait:gnome",
+                    "item:category:martial"
+                ],
+                "key": "MartialProficiency",
+                "label": "XPRPG.SpecificRule.MartialProficiency.MartialGnomeWeapons",
+                "sameAs": "simple",
+                "slug": "martial-gnome-weapons"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "gnome"
+            ]
+        }
+    },
+    "type": "feat"
+}

@@ -1,0 +1,11 @@
+{
+    "_id": "rIDXRIdb9m2E3qC6",
+    "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Abadar]{Abadar}, @UUID[Compendium.xprpg.deities.Ashukharma]{Ashukharma}, @UUID[Compendium.xprpg.deities.Ayrzul]{Ayrzul}, @UUID[Compendium.xprpg.deities.Bes]{Bes}, @UUID[Compendium.xprpg.deities.Brigh]{Brigh}, @UUID[Compendium.xprpg.deities.Diomazul]{Diomazul}, @UUID[Compendium.xprpg.deities.Droskar]{Droskar}, @UUID[Compendium.xprpg.deities.Erastil]{Erastil}, @UUID[Compendium.xprpg.deities.Fumeiyoshi]{Fumeiyoshi}, @UUID[Compendium.xprpg.deities.Gendowyn]{Gendowyn}, @UUID[Compendium.xprpg.deities.Imbrex]{Imbrex}, @UUID[Compendium.xprpg.deities.Nivi Rhombodazzle]{Nivi Rhombodazzle}, @UUID[Compendium.xprpg.deities.Rovagug]{Rovagug}, @UUID[Compendium.xprpg.deities.Sairazul]{Sairazul}, @UUID[Compendium.xprpg.deities.Soralyon]{Soralyon}, @UUID[Compendium.xprpg.deities.Torag]{Torag}, @UUID[Compendium.xprpg.deities.Trelmarixian]{Trelmarixian}, @UUID[Compendium.xprpg.deities.Yamatsumi]{Yamatsumi}, @UUID[Compendium.xprpg.deities.Yuelral]{Yuelral}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Hurtling Stone]{Hurtling Stone}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Localized Quake]{Localized Quake}</em></p>\n<p>You control soil and stone.</p>",
+    "name": "Earth Domain",
+    "ownership": {
+        "default": 0
+    },
+    "permission": {
+        "default": 0
+    }
+}

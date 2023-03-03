@@ -1,0 +1,41 @@
+{
+    "_id": "aiwxBj5MjnafCMyn",
+    "img": "systems/xprpg/icons/features/classes/cloistered-cleric.webp",
+    "name": "First Doctrine (Cloistered Cleric)",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You gain the @UUID[Compendium.xprpg.feats-srd.Domain Initiate]{Domain Initiate} cleric feat.</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.xprpg.feats-srd.Domain Initiate"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "cleric"
+            ]
+        }
+    },
+    "type": "feat"
+}

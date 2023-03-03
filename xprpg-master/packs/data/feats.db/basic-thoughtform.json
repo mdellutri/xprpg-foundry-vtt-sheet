@@ -1,0 +1,60 @@
+{
+    "_id": "sHS5LQfBHdCsv6vZ",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Basic Thoughtform",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You gain a 1st- or 2nd-level psychic feat of your choice.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Psychic Dedication"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "adjustName": false,
+                "allowedDrops": {
+                    "label": "XPRPG.SpecificRule.Prompt.LevelOneOrTwoClassFeat",
+                    "predicate": [
+                        "item:type:feat",
+                        "item:trait:psychic"
+                    ]
+                },
+                "choices": {
+                    "query": "{\"system.level.value\":{\"$lte\":2},\"system.traits.value\":{\"$elemMatch\":\"psychic\"}}"
+                },
+                "key": "ChoiceSet",
+                "prompt": "XPRPG.SpecificRule.Prompt.LevelOneOrTwoClassFeat"
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "{item|flags.xprpg.rulesSelections.basicThoughtform}"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "type": "feat"
+}

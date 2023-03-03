@@ -1,0 +1,36 @@
+{
+    "_id": "2kAyZ3LB28BDhXKa",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Bark and Tendril",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You wield primal magic. You can cast <em>@UUID[Compendium.xprpg.spells-srd.Barkskin]{Barkskin}</em> and <em>@UUID[Compendium.xprpg.spells-srd.Entangle]{Entangle}</em> as 2nd-level primal innate spells once per day each.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 9
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "leshy"
+            ]
+        }
+    },
+    "type": "feat"
+}

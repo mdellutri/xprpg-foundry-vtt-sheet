@@ -1,0 +1,30 @@
+{
+    "_id": "dJeiekfqGQ8dkwsO",
+    "img": "systems/xprpg/icons/features/ancestry/wetlander-lizardfolk.webp",
+    "name": "Wetlander Lizardfolk",
+    "system": {
+        "ancestry": {
+            "name": "Lizardfolk",
+            "slug": "lizardfolk",
+            "uuid": "Compendium.xprpg.ancestries.HWEgF7Gmoq55VhTL"
+        },
+        "description": {
+            "value": "<p>Your family is descended from the most common lizardfolk heritage, and you are accustomed to aquatic environments. You gain a 15-foot @UUID[Compendium.xprpg.actionsxprpg.Swim]{Swim} Speed.</p>"
+        },
+        "rules": [
+            {
+                "key": "BaseSpeed",
+                "selector": "swim",
+                "value": 15
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "heritage"
+}

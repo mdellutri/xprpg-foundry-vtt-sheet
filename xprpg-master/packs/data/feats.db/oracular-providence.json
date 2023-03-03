@@ -1,0 +1,40 @@
+{
+    "_id": "PExiZZTSP4p7TZaW",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Oracular Providence",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your mystery grants you access to deep reserves of truly miraculous divine power. You gain an additional 10th-level spell slot.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "oracular clarity"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "oracle"
+            ]
+        }
+    },
+    "type": "feat"
+}

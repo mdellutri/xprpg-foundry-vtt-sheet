@@ -1,0 +1,46 @@
+{
+    "_id": "6Ev2ytJZfr2t33iy",
+    "img": "systems/xprpg/icons/spells/evolution-surge.webp",
+    "name": "Spell Effect: Evolution Surge (Sight)",
+    "system": {
+        "badge": null,
+        "description": {
+            "value": "<p>Granted by <em>@UUID[Compendium.xprpg.spells-srd.Evolution Surge]{Evolution Surge}</em></p>\n<p>You flood your eidolon with power, creating a temporary evolution in your eidolon's capabilities. Choose one of the following effects:</p>\n<ul>\n<li>Your eidolon gains @UUID[Compendium.xprpg.ancestryfeatures.Low-Light Vision]{Low-Light Vision} and @UUID[Compendium.xprpg.ancestryfeatures.Darkvision]{Darkvision}.</li>\n</ul>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "minutes",
+            "value": 1
+        },
+        "level": {
+            "value": 1
+        },
+        "rules": [
+            {
+                "key": "Sense",
+                "selector": "lowLightVision"
+            },
+            {
+                "key": "Sense",
+                "selector": "darkvision"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Secrets of Magic"
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "effect"
+}

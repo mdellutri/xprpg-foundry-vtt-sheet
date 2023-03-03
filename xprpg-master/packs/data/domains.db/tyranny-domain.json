@@ -1,0 +1,11 @@
+{
+    "_id": "Xs6XznYHOZyQ0hJl",
+    "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Angazhan]{Angazhan}, @UUID[Compendium.xprpg.deities.Asmodeus]{Asmodeus}, @UUID[Compendium.xprpg.deities.Barbatos]{Barbatos}, @UUID[Compendium.xprpg.deities.Dispater]{Dispater}, @UUID[Compendium.xprpg.deities.Droskar]{Droskar}, @UUID[Compendium.xprpg.deities.Gogunta]{Gogunta}, @UUID[Compendium.xprpg.deities.Mephistopheles]{Mephistopheles}, @UUID[Compendium.xprpg.deities.Pazuzu]{Pazuzu}, @UUID[Compendium.xprpg.deities.The Godclaw]{The Godclaw}, @UUID[Compendium.xprpg.deities.Treerazer]{Treerazer}, @UUID[Compendium.xprpg.deities.Walkena]{Walkena}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Touch of Obedience]{Touch of Obedience}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Commanding Lash]{Commanding Lash}</em></p>\n<p>You wield power to rule and enslave others.</p>",
+    "name": "Tyranny Domain",
+    "ownership": {
+        "default": 0
+    },
+    "permission": {
+        "default": 0
+    }
+}

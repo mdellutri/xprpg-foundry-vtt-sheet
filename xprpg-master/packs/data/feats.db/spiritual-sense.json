@@ -1,0 +1,38 @@
+{
+    "_id": "HB0jvWCdim1p91q1",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Spiritual Sense",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You have a vague connection to the Ethereal Plane that enables you to notice spirits. While you're exploring but not @UUID[Compendium.xprpg.actionsxprpg.Search]{Searching}, the GM rolls a secret check for you to find haunts that usually require Searching, as well as spirits, creatures on the Ethereal Plane, and beings made entirely of spiritual essence such as celestials, fiends, and monitors.</p>\n<p>You can also potentially notice ethereal creatures and spirits inside solid objects, provided they are within 30 feet of you. This applies while Searching, while @UUID[Compendium.xprpg.actionsxprpg.Seek]{Seeking}, and on the automatic secret check you gain while exploring even if you aren't Searching. You can still notice spirits only on a successful check, and you can't see them if they're more than 5 feet inside an object.</p>\n<p>When you notice a creature with your Spiritual Sense, you also learn its location, making it @UUID[Compendium.xprpg.conditionitems.Hidden]{Hidden} to you if it had been @UUID[Compendium.xprpg.conditionitems.Undetected]{Undetected}.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "divination",
+                "divine",
+                "oracle"
+            ]
+        }
+    },
+    "type": "feat"
+}

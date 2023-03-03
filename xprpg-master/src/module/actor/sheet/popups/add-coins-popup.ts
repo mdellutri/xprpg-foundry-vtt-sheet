@@ -1,0 +1,27 @@
+import { ActorXPRPG } from "@actor/base";
+import { Coins } from "@item/physical/data";
+
+interface AddCoinsFormData extends Coins {
+    combineStacks: boolean;
+}
+
+/**
+ * @category Other
+ */
+export class AddCoinsPopup extends FormApplication<ActorXPRPG> {
+    static override get defaultOptions(): FormApplicationOptions {
+        const options = super.defaultOptions;
+        options.id = "add-coins";
+        options.classes = [];
+        options.title = "Add Coins";
+        options.template = "systems/xprpg/templates/actors/add-coins.hbs";
+        options.width = "auto";
+        return options;
+    }
+
+    override async _updateObject(_event: Event, formData: Record<string, unknown> & AddCoinsFormData): Promise<void> {
+        const combineStacks = formData.combineStacks;
+        const coins = { pp: formData.pp, gp: formData.gp, sp: formData.sp, cp: formData.cp };
+        this.object.inventory.addCoins(coins, { combineStacks });
+    }
+}

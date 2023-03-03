@@ -1,0 +1,34 @@
+{
+    "_id": "t01K3DB2qHnbt1q3",
+    "img": "systems/xprpg/icons/default-icons/feat.svg",
+    "name": "Order of the Scourge",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p><strong>Favored Weapons</strong> @UUID[Compendium.xprpg.equipment-srd.Mace]{Mace}, @UUID[Compendium.xprpg.equipment-srd.Scourge]{Scourge}, @UUID[Compendium.xprpg.equipment-srd.Whip]{Whip}</p>\n<p>Hellknights of the Order of the Scourge hunt those who pervert the law for their own selfish ends. They seek to destroy corruption and those who hide behind unjust laws and bureaucracy.</p>\n<hr />\n<p><strong>Lesser Benefit</strong> @UUID[Compendium.xprpg.feats-srd.Fear No Law, Fear No One]{Fear No Law, Fear No One}</p>\n<p><strong>Greater Benefit</strong> @UUID[Compendium.xprpg.feats-srd.Seek Injustice]{Seek Injustice}</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 0
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "feat"
+}

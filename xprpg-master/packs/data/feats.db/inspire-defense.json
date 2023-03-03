@@ -1,0 +1,40 @@
+{
+    "_id": "sahJHnojXO9eEXVE",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Inspire Defense",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You learn the <em>@UUID[Compendium.xprpg.spells-srd.Inspire Defense]{Inspire Defense}</em> composition cantrip, which protects you and allies.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "maestro muse"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "bard"
+            ]
+        }
+    },
+    "type": "feat"
+}

@@ -1,0 +1,24 @@
+&.emote {
+    > .message-content {
+        font-style: italic;
+
+        p {
+            &.action-content {
+                display: flex;
+                align-items: center;
+                font-weight: normal;
+
+                img {
+                    height: 2.33em;
+                    width: 2.33em;
+                    float: left;
+                    margin-right: 0.5em;
+                }
+            }
+        }
+
+        hr.action-divider {
+            margin: 0;
+        }
+    }
+}

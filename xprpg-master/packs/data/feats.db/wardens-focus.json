@@ -1,0 +1,40 @@
+{
+    "_id": "2aFtxqRPnC4OXUGC",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Warden's Focus",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your connection with your surroundings grows deeper as you focus. If you have spent at least 2 Focus Points since the last time you @UUID[Compendium.xprpg.actionsxprpg.Refocus]{Refocused}, you recover 2 Focus Points when you Refocus instead of 1.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "warden spells"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ranger"
+            ]
+        }
+    },
+    "type": "feat"
+}

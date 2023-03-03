@@ -1,0 +1,23 @@
+import { ActionMacroHelpers, SkillActionOptions } from "..";
+
+export function feint(options: SkillActionOptions) {
+    const slug = options?.skill ?? "deception";
+    const rollOptions = ["action:feint"];
+    const modifiers = options?.modifiers;
+    ActionMacroHelpers.simpleRollActionCheck({
+        actors: options.actors,
+        actionGlyph: options.glyph ?? "A",
+        title: "XPRPG.Actions.Feint.Title",
+        checkContext: (opts) => ActionMacroHelpers.defaultCheckContext(opts, { modifiers, rollOptions, slug }),
+        traits: ["mental"],
+        event: options.event,
+        callback: options.callback,
+        difficultyClass: options.difficultyClass,
+        difficultyClassStatistic: (target) => target.perception,
+        extraNotes: (selector: string) => [
+            ActionMacroHelpers.note(selector, "XPRPG.Actions.Feint", "criticalSuccess"),
+            ActionMacroHelpers.note(selector, "XPRPG.Actions.Feint", "success"),
+            ActionMacroHelpers.note(selector, "XPRPG.Actions.Feint", "criticalFailure"),
+        ],
+    });
+}

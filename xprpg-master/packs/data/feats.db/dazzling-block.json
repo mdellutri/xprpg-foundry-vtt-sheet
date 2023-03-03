@@ -1,0 +1,46 @@
+{
+    "_id": "9uvymmdphxsD3yEd",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Dazzling Block",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p><strong>Requirements</strong> You are in Arcane Cascade stance.</p>\n<hr />\n<p>When you use @UUID[Compendium.xprpg.feats-srd.Shield Block]{Shield Block}, you can create a flash of brilliant, multicolored light in a @Template[type:cone|distance:15]. Each creature in the area must attempt a @Check[type:fortitude] save, with the following effects.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.xprpg.conditionitems.Dazzled]{Dazzled} for 1 round.</p>\n<p><strong>Failure</strong> The creature is @UUID[Compendium.xprpg.conditionitems.Blinded]{Blinded} for 1 round and dazzled for 1 minute. The creature can spend an Interact action rubbing its eyes to end this blinded condition.</p>\n<p><strong>Critical Failure</strong> The creature is blinded for 1 round and dazzled for 1 hour.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Arcane Cascade"
+                },
+                {
+                    "value": "sparkling targe hybrid study"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "evocation",
+                "light",
+                "magus",
+                "visual"
+            ]
+        }
+    },
+    "type": "feat"
+}

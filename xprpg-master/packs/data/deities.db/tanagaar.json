@@ -1,0 +1,48 @@
+{
+    "_id": "DFxbPmQLOqcmbPTz",
+    "img": "systems/xprpg/icons/default-icons/deity.svg",
+    "name": "Tanagaar",
+    "system": {
+        "ability": [
+            "str",
+            "wis"
+        ],
+        "alignment": {
+            "follower": [
+                "LG",
+                "LN"
+            ],
+            "own": "LG"
+        },
+        "category": "deity",
+        "description": {
+            "value": "<p><strong>Edicts</strong> Defend lawful borders, scout or patrol for evil, wait to strike until you have the advantage</p>\n<p><strong>Anathema</strong> Abandon your post, tolerate poaching, torment animals</p>"
+        },
+        "domains": {
+            "alternate": [],
+            "primary": [
+                "darkness",
+                "duty",
+                "nature",
+                "zeal"
+            ]
+        },
+        "font": [
+            "heal"
+        ],
+        "rules": [],
+        "skill": "ste",
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "spells": {
+            "1": "Compendium.xprpg.spells-srd.zlnXpME1T2uvn8Lr",
+            "3": "Compendium.xprpg.spells-srd.1HfusQ8NDWutGvMx",
+            "4": "Compendium.xprpg.spells-srd.NzXpEzcZAjuDTZjK"
+        },
+        "weapons": [
+            "kukri"
+        ]
+    },
+    "type": "deity"
+}

@@ -1,0 +1,55 @@
+{
+    "_id": "BjkhK1nFUw3vNKg2",
+    "img": "systems/xprpg/icons/effects/critical-effect.webp",
+    "name": "Effect: -2 circumstance penalty to spell attack rolls and spell DC's",
+    "system": {
+        "badge": null,
+        "description": {
+            "value": "<p><strong>Effect applied by </strong></p>\n<p>-2 circumstance penalty to spell attack rolls and spell DC's</p>"
+        },
+        "duration": {
+            "expiry": "turn-end",
+            "sustained": false,
+            "unit": "rounds",
+            "value": 1
+        },
+        "level": {
+            "value": 1
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "label": "",
+                "selector": "spell-attack",
+                "slug": "critical-effect-penalty-to-spell-attacks",
+                "type": "circumstance",
+                "value": -2
+            },
+            {
+                "key": "FlatModifier",
+                "label": "",
+                "selector": "spell-dc",
+                "slug": "critical-effect-penalty-to-spell-dc",
+                "type": "circumstance",
+                "value": -2
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "unidentified": false
+    },
+    "type": "effect"
+}

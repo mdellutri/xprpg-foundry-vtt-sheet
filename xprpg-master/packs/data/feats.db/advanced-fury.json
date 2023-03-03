@@ -1,0 +1,48 @@
+{
+    "_id": "lt9bQDI7ZXPA7wPw",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Advanced Fury",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You gain one barbarian feat. For the purpose of meeting its prerequisites, your barbarian level is equal to half your character level.</p>\n<hr />\n<p><strong>Special</strong> You can select this feat more than once. Each time you select it, you gain another barbarian feat.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 6
+        },
+        "maxTakable": null,
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Basic Fury"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "add",
+                "path": "system.custom.modifiers.barbarian-dedication-count",
+                "value": 1
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "type": "feat"
+}

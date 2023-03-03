@@ -1,0 +1,35 @@
+{
+    "_id": "iY2CCqoMc2bRdoas",
+    "img": "systems/xprpg/icons/default-icons/heritage.svg",
+    "name": "Created Fleshwarp",
+    "system": {
+        "ancestry": {
+            "name": "Fleshwarp",
+            "slug": "fleshwarp",
+            "uuid": "Compendium.xprpg.ancestries.FXlXmNBFiiz9oasi"
+        },
+        "description": {
+            "value": "<p>You were created through occult or alchemical processes, such as being grown in a vat or stitched together from the body parts of other creatures by a scientist in Ustalav. Your manufactured body is durable; you don't need to eat and can't starve. You gain a +2 circumstance bonus to saving throws against diseases.</p>"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "label": "XPRPG.SkillVariant.VsDiseases",
+                "predicate": [
+                    "disease"
+                ],
+                "selector": "saving-throw",
+                "type": "circumstance",
+                "value": 2
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "heritage"
+}

@@ -1,0 +1,41 @@
+{
+    "_id": "bJTcHDqHOI6xD4AT",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Unyielding Disguise",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>When you cast <em>@UUID[Compendium.xprpg.spells-srd.Humanoid Form]{Humanoid Form}</em> or <em>@UUID[Compendium.xprpg.spells-srd.Illusory Disguise]{Illusory Disguise}</em> to alter your appearance, the spell's duration is 2 hours. At the end of the duration, you can extend the spell's duration for another hour, but doing so is taxing, making you @UUID[Compendium.xprpg.conditionitems.Drained]{Drained 1}. You can keep extending it in this way, increasing your drained condition by 1 each time, to a maximum duration of 6 hours.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 9
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "ability to cast humanoid form or illusory disguise"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "reflection",
+                "transmutation"
+            ]
+        }
+    },
+    "type": "feat"
+}

@@ -1,0 +1,36 @@
+{
+    "_id": "mK3mAUWiRLZZYNdz",
+    "img": "systems/xprpg/icons/actions/Passive.webp",
+    "name": "Damage Avoidance: Fortitude",
+    "system": {
+        "description": {
+            "value": "<p>It takes no damage when it succeeds at Fortitude saves; this doesn't prevent effects other than damage.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "unlimited",
+            "value": -1
+        },
+        "level": {
+            "value": 1
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": false
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "effect"
+}

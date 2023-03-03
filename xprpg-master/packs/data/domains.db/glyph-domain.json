@@ -1,0 +1,11 @@
+{
+    "_id": "0cbxczrql4MwAHwV",
+    "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Asmodeus]{Asmodeus}, @UUID[Compendium.xprpg.deities.Dwarven Pantheon]{Dwarven Pantheon}, @UUID[Compendium.xprpg.deities.Eritrice]{Eritrice}, @UUID[Compendium.xprpg.deities.Gruhastha]{Gruhastha}, @UUID[Compendium.xprpg.deities.Hastur]{Hastur}, @UUID[Compendium.xprpg.deities.Imot]{Imot}, @UUID[Compendium.xprpg.deities.Irez]{Irez}, @UUID[Compendium.xprpg.deities.Lady Jingxi]{Lady Jingxi}, @UUID[Compendium.xprpg.deities.Lissala]{Lissala}, @UUID[Compendium.xprpg.deities.Magdh]{Magdh}, @UUID[Compendium.xprpg.deities.Magrim]{Magrim}, @UUID[Compendium.xprpg.deities.Mephistopheles]{Mephistopheles}, @UUID[Compendium.xprpg.deities.Nalinivati]{Nalinivati}, @UUID[Compendium.xprpg.deities.Nethys]{Nethys}, @UUID[Compendium.xprpg.deities.Pillars of Knowledge]{Pillars of Knowledge}, @UUID[Compendium.xprpg.deities.Sivanah]{Sivanah}, @UUID[Compendium.xprpg.deities.Thoth]{Thoth}, @UUID[Compendium.xprpg.deities.Valmallos]{Valmallos}, @UUID[Compendium.xprpg.deities.Wards of the Pharaoh]{Wards of the Pharaoh}, @UUID[Compendium.xprpg.deities.Winlas]{Winlas}, @UUID[Compendium.xprpg.deities.Ydajisk]{Ydajisk}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Redact]{Redact}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Ghostly Transcription]{Ghostly Transcription}</em></p>\n<p>You wield power over written words and symbols.</p>",
+    "name": "Glyph Domain",
+    "ownership": {
+        "default": 0
+    },
+    "permission": {
+        "default": 0
+    }
+}

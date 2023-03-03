@@ -1,0 +1,36 @@
+{
+    "_id": "RXbfq6oqzVnW6xOV",
+    "img": "systems/xprpg/icons/equipment/weapons/shuriken.webp",
+    "name": "Stance: Shooting Stars Stance",
+    "system": {
+        "description": {
+            "value": "<p>Granted by @UUID[Compendium.xprpg.feats-srd.Shooting Stars Stance]{Shooting Stars Stance}</p>\n<p>You enter a stance that lets you throw shuriken with lightning speed.</p>\n<p>While in this stance, you can use your monk feats or monk abilities that normally require unarmed attacks with shuriken instead.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "encounter",
+            "value": -1
+        },
+        "level": {
+            "value": 0
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "effect"
+}

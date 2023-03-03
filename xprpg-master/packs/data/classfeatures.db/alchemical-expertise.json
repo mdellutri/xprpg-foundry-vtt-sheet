@@ -1,0 +1,43 @@
+{
+    "_id": "3e1PlMXmlSwKoc6d",
+    "img": "systems/xprpg/icons/features/classes/alchemical-expertise.webp",
+    "name": "Alchemical Expertise",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Constant practice has increased the effectiveness of your concoctions. Your proficiency rank for your alchemist class DC increases to expert.</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 9
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.proficiencies.classDCs.alchemist.rank",
+                "value": 2
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "alchemist"
+            ]
+        }
+    },
+    "type": "feat"
+}

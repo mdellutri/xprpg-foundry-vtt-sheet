@@ -1,0 +1,57 @@
+{
+    "_id": "J7BtszszVxpETMD7",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Retractable Claws",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You gain a claw unarmed attack that deals [[/r 1d4[slashing]]] damage. Your claws are in the brawling group and have the agile, finesse, and unarmed traits.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "category": "unarmed",
+                "damage": {
+                    "base": {
+                        "damageType": "slashing",
+                        "dice": 1,
+                        "die": "d4"
+                    }
+                },
+                "group": "brawling",
+                "img": "systems/xprpg/icons/unarmed-attacks/claw.webp",
+                "key": "Strike",
+                "label": "XPRPG.Weapon.Base.claw",
+                "range": null,
+                "traits": [
+                    "agile",
+                    "finesse",
+                    "unarmed"
+                ]
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "kitsune"
+            ]
+        }
+    },
+    "type": "feat"
+}

@@ -1,0 +1,11 @@
+{
+    "_id": "p5Q5RGl1lKgs5DZZ",
+    "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Alglenweis]{Alglenweis}, @UUID[Compendium.xprpg.deities.Anubis]{Anubis}, @UUID[Compendium.xprpg.deities.Ashava]{Ashava}, @UUID[Compendium.xprpg.deities.Charon]{Charon}, @UUID[Compendium.xprpg.deities.Luhar]{Luhar}, @UUID[Compendium.xprpg.deities.Pharasma]{Pharasma}, @UUID[Compendium.xprpg.deities.Ravithra]{Ravithra}, @UUID[Compendium.xprpg.deities.Tsukiyo]{Tsukiyo}, @UUID[Compendium.xprpg.deities.Zyphus]{Zyphus}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Eject Soul]{Eject Soul}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Ectoplasmic Interstice]{Ectoplasmic Interstice}</em></p>\n<p>You wield power over the spiritual.</p>",
+    "name": "Soul Domain",
+    "ownership": {
+        "default": 0
+    },
+    "permission": {
+        "default": 0
+    }
+}

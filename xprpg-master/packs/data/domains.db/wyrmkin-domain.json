@@ -1,0 +1,11 @@
+{
+    "_id": "OsM8NfP408uB6yTi",
+    "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Abraxas]{Abraxas}, @UUID[Compendium.xprpg.deities.Apsu]{Apsu}, @UUID[Compendium.xprpg.deities.Ardad Lili]{Ardad Lili}, @UUID[Compendium.xprpg.deities.Dahak]{Dahak}, @UUID[Compendium.xprpg.deities.Geryon]{Geryon}, @UUID[Compendium.xprpg.deities.Kalekot]{Kalekot}, @UUID[Compendium.xprpg.deities.Nalinivati]{Nalinivati}, @UUID[Compendium.xprpg.deities.Ragadahn]{Ragadahn}, @UUID[Compendium.xprpg.deities.Sobek]{Sobek}, @UUID[Compendium.xprpg.deities.Uvuko]{Uvuko}, @UUID[Compendium.xprpg.deities.Zevgavizeb]{Zevgavizeb}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Draconic Barrage]{Draconic Barrage}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Roar of the Wyrm]{Roar of the Wyrm}</em></p>\n<p>You draw on the power of dragons, linnorms, and other powerful reptilian creatures.</p>",
+    "name": "Wyrmkin Domain",
+    "ownership": {
+        "default": 0
+    },
+    "permission": {
+        "default": 0
+    }
+}

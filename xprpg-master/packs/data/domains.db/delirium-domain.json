@@ -1,0 +1,11 @@
+{
+    "_id": "i4UU3qCjIMwejIQF",
+    "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Narriseminek]{Narriseminek}, @UUID[Compendium.xprpg.deities.Nhimbaloth]{Nhimbaloth}, @UUID[Compendium.xprpg.deities.Shyka]{Shyka}, @UUID[Compendium.xprpg.deities.Sivanah]{Sivanah}, @UUID[Compendium.xprpg.deities.The Lantern King]{The Lantern King}, @UUID[Compendium.xprpg.deities.Tsukiyo]{Tsukiyo}, @UUID[Compendium.xprpg.deities.Zura]{Zura}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Hyperfocus]{Hyperfocus}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Ephemeral Hazards]{Ephemeral Hazards}</em></p>\n<p>You can bring about hallucinations and restlessness.</p>",
+    "name": "Delirium Domain",
+    "ownership": {
+        "default": 0
+    },
+    "permission": {
+        "default": 0
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "_id": "QrShJGrvmWPBj4oN",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Arcane School Spell",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You gain your school's initial school spell. If you don't already have one, you gain a focus pool of 1 Focus Point, which you can @UUID[Compendium.xprpg.actionsxprpg.Refocus]{Refocus} by studying.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Wizard Dedication"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "add",
+                "path": "system.resources.focus.max",
+                "value": 1
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "type": "feat"
+}

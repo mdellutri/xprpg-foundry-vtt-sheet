@@ -1,0 +1,40 @@
+{
+    "_id": "HxTqYtXRqFkkLfDQ",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Gigantic Megafauna Companion",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>The mammoths and other megafauna ridden by your people are larger than any ordinary beast. Your megafauna companion increases in size to Huge but doesn't otherwise change its statistics.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Mammoth Lord Dedication"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "type": "feat"
+}

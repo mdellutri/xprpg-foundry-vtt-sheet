@@ -1,0 +1,75 @@
+<section class="effect-panel">
+    {{#each conditions as |condition|}}
+        {{> effect effect=condition}}
+    {{/each}}
+
+    {{#if (and conditions.length afflictions.length)}}<hr />{{/if}}
+
+    {{#each afflictions as |affliction|}}
+        {{> effect effect=affliction}}
+    {{/each}}
+
+    {{#if (and afflictions.length effects.length)}}<hr />{{/if}}
+
+    {{#each effects as |effect|}}
+        {{> effect effect=effect}}
+    {{/each}}
+</section>
+
+{{#*inline "effect"}}
+{{#if (or (not effect.unidentified) @root.user.isGM)}}
+<div class="effect-item" data-item-id="{{effect.id}}" data-badge-type="{{effect.badge.type}}">
+    <div class="effect-info">
+        <h1>{{effect.name}}</h1>
+        {{#if (or (eq effect.type "effect") effect.breakdown)}}
+            <div class="tags">
+                {{#if (and effect.system.duration.sustained (not effect.system.expired))}}
+                    <div class="tag tag_secondary">{{localize "XPRPG.EffectPanel.Sustained"}}</div>
+                {{/if}}
+                {{#if effect.unidentified}}
+                    <div class="tag tag_secondary">{{localize "XPRPG.EffectPanel.Unidentified"}}</div>
+                {{/if}}
+                {{#if effect.breakdown}}
+                    <div class="tag tag_secondary">{{effect.breakdown}}</div>
+                {{/if}}
+                {{#if effect.system.remaining}}
+                    <div class="tag tag_secondary">{{effect.system.remaining}}</div>
+                {{/if}}
+            </div>
+        {{/if}}
+        {{#if (eq effect.slug "persistent-damage")}}
+            <a data-action="recover-persistent-damage">
+                {{localize "XPRPG.Item.Condition.PersistentDamage.AssistedRecovery"}}
+            </a>
+        {{/if}}
+        <div class="instructions">
+            {{#if (not effect.locked)}}
+                {{#if (eq effect.badge.type "formula")}}
+                    <p>{{localize "XPRPG.EffectPanel.RollDamageToolTip"}}</p>
+                {{/if}}
+
+                {{#if (eq effect.badge.type "counter")}}
+                    <p>{{localize "XPRPG.EffectPanel.IncrementToolTip"}}</p>
+                    <p>{{localize "XPRPG.EffectPanel.DecrementToolTip"}}</p>
+                {{else}}
+                    <p>{{localize "XPRPG.EffectPanel.RemoveToolTip"}}</p>
+                {{/if}}
+            {{/if}}
+        </div>
+    </div>
+    <div class="icon{{#if effect.unidentified}} unidentified{{/if}}" data-locked="{{#if effect.locked}}true{{/if}}" style="background-image: url({{effect.img}})">
+        {{#if effect.locked}}
+            <div class="linked"><i class="fas fa-link"></i></div>
+        {{/if}}
+        {{#if effect.system.expired}}
+            <span class="expired">{{localize "XPRPG.EffectPanel.Expired"}}</span>
+        {{else if effect.badge}}
+            <div class="value-wrapper">
+                <div class="value"><strong>{{coalesce effect.badge.label effect.badge.value}}</strong></div>
+            </div>
+
+        {{/if}}
+    </div>
+</div>
+{{/if}}
+{{/inline}}

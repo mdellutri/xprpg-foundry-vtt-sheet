@@ -1,0 +1,48 @@
+{
+    "_id": "pr7e8xzrl8OLp6U9",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Coating Of Slime",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>An acidic ooze coats your limbs. Your unarmed attacks deal an additional [[/r 1d4[persistent,acid]]] damage on a critical hit.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 9
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "Note",
+                "outcome": [
+                    "criticalSuccess"
+                ],
+                "predicate": [
+                    "unarmed"
+                ],
+                "selector": "damage",
+                "text": "{item|name} @Localize[XPRPG.SpecificRule.Fleshwarp.CoatingOfSlime.CriticalHit]"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fleshwarp"
+            ]
+        }
+    },
+    "type": "feat"
+}

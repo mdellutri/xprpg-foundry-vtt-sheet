@@ -1,0 +1,1 @@
+export { CharacterXPRPG } from "./document";

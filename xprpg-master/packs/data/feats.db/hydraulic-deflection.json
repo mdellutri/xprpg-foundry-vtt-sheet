@@ -1,0 +1,40 @@
+{
+    "_id": "kqRFoXfErUFEndIs",
+    "img": "systems/xprpg/icons/default-icons/feats.webp",
+    "name": "Hydraulic Deflection",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "description": {
+            "value": "<p>Drawing moisture from the atmosphere, you create a disc of hovering water that deflects attacks. You gain a +1 circumstance bonus to AC until the start of your next turn.</p>\n<p>@UUID[Compendium.xprpg.feat-effects.Effect: Hydraulic Deflection]{Effect: Hydraulic Deflection}</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "abjuration",
+                "azarketi",
+                "concentrate",
+                "primal",
+                "water"
+            ]
+        }
+    },
+    "type": "feat"
+}

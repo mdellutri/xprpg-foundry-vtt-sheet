@@ -1,0 +1,36 @@
+{
+    "_id": "38L5yCVNgRAFFMsZ",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Cantrip Expansion",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You expand what your mind can accomplish. Add two additional occult cantrips to your repertoire.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "psychic"
+            ]
+        }
+    },
+    "type": "feat"
+}

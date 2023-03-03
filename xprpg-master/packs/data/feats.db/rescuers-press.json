@@ -1,0 +1,43 @@
+{
+    "_id": "wscmghwNCXvZtKsz",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Rescuer's Press",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Any shield you wield gains the shove trait. When you @UUID[Compendium.xprpg.actionsxprpg.Shove]{Shove} using a shield and Stride as part of that action, you can move an additional 5 feet to either side of the creature you Shoved. In addition, if you are in the @UUID[Compendium.xprpg.feats-srd.Everstand Stance]{Everstand Stance} and successfully Shove a creature using a shield that you wield two-handed, you can increase the distance of your Shove to 10 feet.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Lastwall Sentry Dedication"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "rare",
+            "selected": {
+                "archetype": "Archetype"
+            },
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "type": "feat"
+}

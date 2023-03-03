@@ -1,0 +1,37 @@
+{
+    "_id": "FkfWKq9jhhPzKAbb",
+    "img": "systems/xprpg/icons/actions/FreeAction.webp",
+    "name": "Rampaging Ferocity",
+    "system": {
+        "actionCategory": {
+            "value": "offensive"
+        },
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p><strong>Trigger</strong> You use @UUID[Compendium.xprpg.feats-srd.Orc Ferocity]{Orc Ferocity}</p>\n<hr />\n<p>You lash out viciously even as you fend off death. Make a single melee Strike. If this Strike brings a foe to 0 Hit Points, this activation of Orc Ferocity doesn't count against its frequency.</p>"
+        },
+        "requirements": {
+            "value": ""
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "trigger": {
+            "value": ""
+        },
+        "weapon": {
+            "value": ""
+        }
+    },
+    "type": "action"
+}

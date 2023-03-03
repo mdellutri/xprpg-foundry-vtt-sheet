@@ -1,0 +1,40 @@
+{
+    "_id": "FAUqvzfZDpRG44q0",
+    "img": "systems/xprpg/icons/default-icons/feats.webp",
+    "name": "Renewing Quills",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your spines grow back much faster than other shisks. You can use the @UUID[Compendium.xprpg.actionsxprpg.Barbed Quills]{Barbed Quills} reaction once every 10 minutes.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 5
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "quillcoat shisk heritage"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "shisk"
+            ]
+        }
+    },
+    "type": "feat"
+}

@@ -1,0 +1,36 @@
+{
+    "_id": "PGyzFBwuTgypU8cD",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Turn Undead",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Undead harmed by your positive energy might flee, compelled by an innate aversion to the force opposite undeath. When you use a <em>@UUID[Compendium.xprpg.spells-srd.Heal]{Heal}</em> spell to damage undead, each undead of your level or lower that critically fails its save gains the @UUID[Compendium.xprpg.conditionitems.Fleeing]{Fleeing} condition for 1 round.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "cleric"
+            ]
+        }
+    },
+    "type": "feat"
+}

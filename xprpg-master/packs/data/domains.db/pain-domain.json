@@ -1,0 +1,11 @@
+{
+    "_id": "TpFgfwcWrfT8zVMP",
+    "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Arazni]{Arazni}, @UUID[Compendium.xprpg.deities.Calistria]{Calistria}, @UUID[Compendium.xprpg.deities.Doloras]{Doloras}, @UUID[Compendium.xprpg.deities.Gyronna]{Gyronna}, @UUID[Compendium.xprpg.deities.Narakaas]{Narakaas}, @UUID[Compendium.xprpg.deities.Shax]{Shax}, @UUID[Compendium.xprpg.deities.Sifkesh]{Sifkesh}, @UUID[Compendium.xprpg.deities.Stag Mother of the Forest of Stones]{Stag Mother of the Forest of Stones}, @UUID[Compendium.xprpg.deities.Vildeis]{Vildeis}, @UUID[Compendium.xprpg.deities.Yaezhing]{Yaezhing}, @UUID[Compendium.xprpg.deities.Zon-Kuthon]{Zon-Kuthon}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Savor the Sting]{Savor the Sting}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Retributive Pain]{Retributive Pain}</em></p>\n<p>You punish those who displease you with the sharp sting of pain.</p>",
+    "name": "Pain Domain",
+    "ownership": {
+        "default": 0
+    },
+    "permission": {
+        "default": 0
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "_id": "byXkHIKFwuKrZ55M",
+    "img": "systems/xprpg/icons/spells/shifting-form.webp",
+    "name": "Spell Effect: Shifting Form (Scent)",
+    "system": {
+        "description": {
+            "value": "<p>Granted by casting <em>@UUID[Compendium.xprpg.spells-srd.Shifting Form]{Shifting Form}</em> and choosing to gain scent 60 feet (imprecise).</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "minutes",
+            "value": 1
+        },
+        "level": {
+            "value": 4
+        },
+        "rules": [
+            {
+                "acuity": "imprecise",
+                "key": "Sense",
+                "range": 60,
+                "selector": "scent"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "effect"
+}

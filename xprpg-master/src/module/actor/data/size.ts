@@ -1,0 +1,140 @@
+import { Size, SIZES, ZeroToFive } from "@module/data";
+
+interface SizeDimensions {
+    length: number;
+    width: number;
+}
+
+export class ActorSizeXPRPG {
+    /** The size category of this category */
+    value: Size;
+    /** The length dimension of this actor's space */
+    length: number;
+    /** The width dimension of this actor's space */
+    width: number;
+
+    /** The default space (in a Xenos Paragon: Roleplaying Gamerules context) of each size */
+    private static defaultSpaces: Record<Size, SizeDimensions> = {
+        tiny: { length: 2.5, width: 2.5 },
+        sm: { length: 5, width: 5 },
+        med: { length: 5, width: 5 },
+        lg: { length: 10, width: 10 },
+        huge: { length: 15, width: 15 },
+        grg: { length: 20, width: 20 },
+    };
+
+    /** A ranked ordering of sizes */
+    private static sizeRanks: Record<Size, ZeroToFive> = {
+        grg: 5,
+        huge: 4,
+        lg: 3,
+        med: 2,
+        sm: 1,
+        tiny: 0,
+    };
+
+    /**
+     * @param value A size category
+     * @param [length] A length of a Xenos Paragon "space"
+     * @param [width]  A width of a Xenos Paragon "space"
+     */
+    constructor({ value, length, width }: { value: Size; length?: number; width?: number }) {
+        if (typeof value !== "string") value = "med"; // Temporary line for pre-migration 728 size data
+
+        this.value = value;
+        const spaces = ActorSizeXPRPG.defaultSpaces[value] ?? ActorSizeXPRPG.defaultSpaces.med;
+        this.length = length ?? spaces.length;
+        this.width = width ?? spaces.width;
+    }
+
+    /**
+     * Test for equality between this and another size, falling back to comparing areas in case of a category tie
+     * @param size The size to which this size is being compared
+     * @param [smallIsMedium] Treat small as medium for both sizes
+     */
+    equals(size: ActorSizeXPRPG, { smallIsMedium = false } = {}): boolean {
+        const thisSize = this.getEffectiveSize(this.value, { smallIsMedium });
+        const otherSize = this.getEffectiveSize(size.value, { smallIsMedium });
+        return thisSize === otherSize;
+    }
+
+    /**
+     * Test whether this size is larger than another, falling back to comparing areas in case of a category tie
+     * @param size The size to which this size is being compared
+     * @param [smallIsMedium] Treat small as medium for both sizes
+     */
+    isLargerThan(size: ActorSizeXPRPG | Size, { smallIsMedium = false } = {}): boolean {
+        const other = size instanceof ActorSizeXPRPG ? size : new ActorSizeXPRPG({ value: size });
+        const thisSize = this.getEffectiveSize(this.value, { smallIsMedium });
+        const otherSize = this.getEffectiveSize(other.value, { smallIsMedium });
+        return ActorSizeXPRPG.sizeRanks[thisSize] > ActorSizeXPRPG.sizeRanks[otherSize];
+    }
+
+    /**
+     * Test whether this size is smaller than another, falling back to comparing areas in case of a category tie
+     * @param size The size to which this size is being compared
+     * @param [smallIsMedium] Treat small as medium for both sizes
+     */
+    isSmallerThan(size: ActorSizeXPRPG | Size, { smallIsMedium = false } = {}): boolean {
+        const other = size instanceof ActorSizeXPRPG ? size : new ActorSizeXPRPG({ value: size });
+        const thisSize = this.getEffectiveSize(this.value, { smallIsMedium });
+        const otherSize = this.getEffectiveSize(other.value, { smallIsMedium });
+        return ActorSizeXPRPG.sizeRanks[thisSize] < ActorSizeXPRPG.sizeRanks[otherSize];
+    }
+
+    /**
+     * Get the difference in number of size categories between this and another size
+     * @param size The size to which this size is being compared
+     * @param [smallIsMedium] Ignore the difference between small and medium
+     */
+    difference(size: ActorSizeXPRPG, { smallIsMedium = false } = {}): number {
+        const thisSize = this.getEffectiveSize(this.value, { smallIsMedium });
+        const otherSize = this.getEffectiveSize(size.value, { smallIsMedium });
+        return ActorSizeXPRPG.sizeRanks[thisSize] - ActorSizeXPRPG.sizeRanks[otherSize];
+    }
+
+    /**
+     * Get the "effective" size of a size category in case the `smallIsMedium` option was passed
+     * @param size The size used for comparison in the calling method
+     * @param [smallIsMedium] Return this size if both this and `size` are small or medium
+     */
+    private getEffectiveSize(size: Size, { smallIsMedium }: { smallIsMedium: boolean }): Size {
+        return smallIsMedium && size === "sm" ? "med" : size;
+    }
+
+    /**
+     * Increase this size the next larger category
+     * @param [skipSmall] Skip a size if the current size is tiny or small
+     */
+    increment({ skipSmall = false } = {}): void {
+        this.value =
+            this.value === "tiny" && skipSmall
+                ? "med"
+                : this.value === "sm" && skipSmall
+                ? "lg"
+                : this.value === "grg"
+                ? "grg"
+                : SIZES[SIZES.indexOf(this.value) + 1];
+
+        const newSpace = ActorSizeXPRPG.defaultSpaces[this.value];
+        this.length = newSpace.length;
+        this.width = newSpace.width;
+    }
+
+    /**
+     * Increase this size the next smaller category
+     * @param [skipSmall] Skip a size if the current size is tiny or small
+     */
+    decrement({ skipSmall = false } = {}): void {
+        const toTiny = (this.value === "med" && skipSmall) || this.value === "tiny";
+        this.value = toTiny ? "tiny" : SIZES[SIZES.indexOf(this.value) - 1];
+
+        const newSpace = ActorSizeXPRPG.defaultSpaces[this.value];
+        this.length = newSpace.length;
+        this.width = newSpace.width;
+    }
+
+    toString() {
+        return game.i18n.localize(CONFIG.XPRPG.actorSizes[this.value]);
+    }
+}

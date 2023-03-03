@@ -1,0 +1,11 @@
+{
+    "_id": "wCPGej4ZwdKCNtym",
+    "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Alseta]{Alseta}, @UUID[Compendium.xprpg.deities.Belial]{Belial}, @UUID[Compendium.xprpg.deities.Cyth-V'sug]{Cyth-V'sug}, @UUID[Compendium.xprpg.deities.Dagon]{Dagon}, @UUID[Compendium.xprpg.deities.Daikitsu]{Daikitsu}, @UUID[Compendium.xprpg.deities.Grandmother Spider]{Grandmother Spider}, @UUID[Compendium.xprpg.deities.Irori]{Irori}, @UUID[Compendium.xprpg.deities.Korada]{Korada}, @UUID[Compendium.xprpg.deities.Lamashtu]{Lamashtu}, @UUID[Compendium.xprpg.deities.Lubaiko]{Lubaiko}, @UUID[Compendium.xprpg.deities.Lymnieris]{Lymnieris}, @UUID[Compendium.xprpg.deities.Milani]{Milani}, @UUID[Compendium.xprpg.deities.Mother Vulture]{Mother Vulture}, @UUID[Compendium.xprpg.deities.Narakaas]{Narakaas}, @UUID[Compendium.xprpg.deities.Nocticula]{Nocticula}, @UUID[Compendium.xprpg.deities.Osiris]{Osiris}, @UUID[Compendium.xprpg.deities.Saloc]{Saloc}, @UUID[Compendium.xprpg.deities.The Lantern King]{The Lantern King}, @UUID[Compendium.xprpg.deities.Tlehar]{Tlehar}, @UUID[Compendium.xprpg.deities.Tsukiyo]{Tsukiyo}, @UUID[Compendium.xprpg.deities.Uvuko]{Uvuko}, @UUID[Compendium.xprpg.deities.Xhamen-Dor]{Xhamen-Dor}, @UUID[Compendium.xprpg.deities.Ydajisk]{Ydajisk}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Adapt Self]{Adapt Self}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Adaptive Ablation]{Adaptive Ablation}</em></p>\n<p>You can restructure the physical and metaphysical.</p>",
+    "name": "Change Domain",
+    "ownership": {
+        "default": 0
+    },
+    "permission": {
+        "default": 0
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "_id": "yyt2I2lGbRndXjbc",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Selective Energy",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>As you call down divine power, you can prevent some enemies from benefiting or some allies from being hurt. When you cast a version of <em>@UUID[Compendium.xprpg.spells-srd.Harm]{Harm}</em> or <em>@UUID[Compendium.xprpg.spells-srd.Heal]{Heal}</em> that has an area, you can designate a number of creatures equal to your Charisma modifier (minimum 1) that are not targeted by the spell.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "cleric"
+            ]
+        }
+    },
+    "type": "feat"
+}

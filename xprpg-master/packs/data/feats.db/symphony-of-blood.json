@@ -1,0 +1,36 @@
+{
+    "_id": "nJRcbt72wRk5Rmc4",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Symphony Of Blood",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You call forth the blood of your foes to grant you vigor. Once per day, you can cast <em>@UUID[Compendium.xprpg.spells-srd.Vampiric Exsanguination]{Vampiric Exsanguination}</em> as a 7th-level divine innate spell.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 17
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "dhampir"
+            ]
+        }
+    },
+    "type": "feat"
+}

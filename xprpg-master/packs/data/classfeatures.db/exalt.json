@@ -1,0 +1,36 @@
+{
+    "_id": "uptzvOLrZ3fctrl2",
+    "img": "systems/xprpg/icons/default-icons/feat.svg",
+    "name": "Exalt",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your champion's reaction exalts nearby allies, allowing them to benefit as well. See specific causes for details.</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 11
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "champion"
+            ]
+        }
+    },
+    "type": "feat"
+}

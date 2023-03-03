@@ -1,0 +1,60 @@
+{
+    "_id": "nT9Z4OPDTOg2AGYc",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Basic Blood Potency",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You gain a 1st- or 2nd-level sorcerer feat.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Sorcerer Dedication"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "adjustName": false,
+                "allowedDrops": {
+                    "label": "XPRPG.SpecificRule.Prompt.LevelOneOrTwoClassFeat",
+                    "predicate": [
+                        "item:type:feat",
+                        "item:trait:sorcerer"
+                    ]
+                },
+                "choices": {
+                    "query": "{\"system.level.value\":{\"$lte\":2},\"system.traits.value\":{\"$elemMatch\":\"sorcerer\"}}"
+                },
+                "key": "ChoiceSet",
+                "prompt": "XPRPG.SpecificRule.Prompt.LevelOneOrTwoClassFeat"
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "{item|flags.xprpg.rulesSelections.basicBloodPotency}"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "type": "feat"
+}

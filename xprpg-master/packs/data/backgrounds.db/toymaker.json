@@ -1,0 +1,84 @@
+{
+    "_id": "Sj91CUyEUeWoPh2R",
+    "img": "systems/xprpg/icons/default-icons/background.svg",
+    "name": "Toymaker",
+    "system": {
+        "boosts": {
+            "0": {
+                "value": [
+                    "cha",
+                    "int"
+                ]
+            },
+            "1": {
+                "value": [
+                    "cha",
+                    "con",
+                    "dex",
+                    "int",
+                    "str",
+                    "wis"
+                ]
+            }
+        },
+        "description": {
+            "value": "<p>You delight in making little trinkets for children of all ages, and seeing their faces light up thanks to one of your creations brings joy to your heart. Perhaps you sell your wares from a particular shop or from the back of a wagon as you travel from town to town.</p>\n<p>Choose two ability boosts. One must be to <strong>Intelligence</strong> or <strong>Charisma</strong>, and one is a free ability boost.</p>\n<p>You're trained in the Crafting skill and the Mercantile Lore skill. You gain the @UUID[Compendium.xprpg.feats-srd.Specialty Crafting]{Specialty Crafting} skill feat, choosing Artistry, Blacksmithing, Glassmaking, Leatherworking, Tailoring, or Woodworking as your specialty.</p>"
+        },
+        "items": {},
+        "rules": [
+            {
+                "adjustName": false,
+                "choices": [
+                    {
+                        "label": "XPRPG.SpecificRule.SpecialtyCrafting.Artistry",
+                        "value": "artistry"
+                    },
+                    {
+                        "label": "XPRPG.SpecificRule.SpecialtyCrafting.Blacksmithing",
+                        "value": "blacksmithing"
+                    },
+                    {
+                        "label": "XPRPG.SpecificRule.SpecialtyCrafting.Glassmaking",
+                        "value": "glassmaking"
+                    },
+                    {
+                        "label": "XPRPG.SpecificRule.SpecialtyCrafting.Leatherworking",
+                        "value": "leatherworking"
+                    },
+                    {
+                        "label": "XPRPG.SpecificRule.SpecialtyCrafting.Tailoring",
+                        "value": "tailoring"
+                    },
+                    {
+                        "label": "XPRPG.SpecificRule.SpecialtyCrafting.Woodworking",
+                        "value": "woodworking"
+                    }
+                ],
+                "key": "ChoiceSet",
+                "prompt": "XPRPG.SpecificRule.SpecialtyCrafting.Prompt"
+            },
+            {
+                "key": "GrantItem",
+                "preselectChoices": {
+                    "specialtyCrafting": "{item|flags.xprpg.rulesSelections.toymaker}"
+                },
+                "uuid": "Compendium.xprpg.feats-srd.Specialty Crafting"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "trainedLore": "Mercantile",
+        "trainedSkills": {
+            "custom": "",
+            "value": [
+                "cra"
+            ]
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "background"
+}

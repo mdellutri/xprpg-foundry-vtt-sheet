@@ -1,0 +1,36 @@
+{
+    "_id": "qAdlJvAHkWBisDJ0",
+    "img": "systems/xprpg/icons/default-icons/feats.webp",
+    "name": "Ceremony of Aeon's Shield",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your patron aeon graced you with powers of protection. You can cast <em>@UUID[Compendium.xprpg.spells-srd.Resist Energy]{Resist Energy}</em> and <em>@UUID[Compendium.xprpg.spells-srd.Shield Other]{Shield Other}</em> each once per day as 2nd-level divine innate spells.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 9
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "conrasu"
+            ]
+        }
+    },
+    "type": "feat"
+}

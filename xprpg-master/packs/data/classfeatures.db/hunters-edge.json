@@ -1,0 +1,65 @@
+{
+    "_id": "mzkkj9LEWjJPBhaq",
+    "img": "systems/xprpg/icons/features/classes/choice-feature.webp",
+    "name": "Hunter's Edge",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You have trained for countless hours to become a skilled hunter and tracker, gaining an additional benefit when you Hunt Prey depending on the focus of your training. Choose one of the following hunter's edges:</p>\n<ul>\n<li>@UUID[Compendium.xprpg.classfeatures.Flurry]{Flurry}</li>\n<li>@UUID[Compendium.xprpg.classfeatures.Outwit]{Outwit}</li>\n<li>@UUID[Compendium.xprpg.classfeatures.Precision]{Precision}</li>\n</ul>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "adjustName": false,
+                "allowedDrops": {
+                    "label": "1st-level Ranger class feature",
+                    "predicate": [
+                        "item:level:1",
+                        "item:trait:ranger",
+                        "item:type:feature"
+                    ]
+                },
+                "choices": [
+                    {
+                        "value": "Compendium.xprpg.classfeatures.Flurry"
+                    },
+                    {
+                        "value": "Compendium.xprpg.classfeatures.Outwit"
+                    },
+                    {
+                        "value": "Compendium.xprpg.classfeatures.Precision"
+                    }
+                ],
+                "key": "ChoiceSet",
+                "prompt": "XPRPG.SpecificRule.Ranger.HuntersEdge.Prompt"
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "{item|flags.xprpg.rulesSelections.huntersEdge}"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ranger"
+            ]
+        }
+    },
+    "type": "feat"
+}

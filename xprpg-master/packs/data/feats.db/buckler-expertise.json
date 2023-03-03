@@ -1,0 +1,36 @@
+{
+    "_id": "C5tSxOwDILefw4zq",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Buckler Expertise",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You've learned a flexible way to position your buckler to provide more protection. When you @UUID[Compendium.xprpg.actionsxprpg.Raise a Shield]{Raise a Shield} to gain a circumstance bonus to AC from a @UUID[Compendium.xprpg.equipment-srd.Buckler]{Buckler}, increase the bonus from +1 to +2.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "swashbuckler"
+            ]
+        }
+    },
+    "type": "feat"
+}

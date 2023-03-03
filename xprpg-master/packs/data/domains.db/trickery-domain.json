@@ -1,0 +1,11 @@
+{
+    "_id": "uy8GUGIOmEUNqIhH",
+    "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Achaekek]{Achaekek}, @UUID[Compendium.xprpg.deities.Ahriman]{Ahriman}, @UUID[Compendium.xprpg.deities.Asmodeus]{Asmodeus}, @UUID[Compendium.xprpg.deities.Baalzebul]{Baalzebul}, @UUID[Compendium.xprpg.deities.Bastet]{Bastet}, @UUID[Compendium.xprpg.deities.Belial]{Belial}, @UUID[Compendium.xprpg.deities.Besmara]{Besmara}, @UUID[Compendium.xprpg.deities.Calistria]{Calistria}, @UUID[Compendium.xprpg.deities.Chaldira]{Chaldira}, @UUID[Compendium.xprpg.deities.Dhalavei]{Dhalavei}, @UUID[Compendium.xprpg.deities.Droskar]{Droskar}, @UUID[Compendium.xprpg.deities.Erecura]{Erecura}, @UUID[Compendium.xprpg.deities.Grandmother Spider]{Grandmother Spider}, @UUID[Compendium.xprpg.deities.Lahkgya]{Lahkgya}, @UUID[Compendium.xprpg.deities.Lamashtu]{Lamashtu}, @UUID[Compendium.xprpg.deities.Lao Shu Po]{Lao Shu Po}, @UUID[Compendium.xprpg.deities.Mahathallah]{Mahathallah}, @UUID[Compendium.xprpg.deities.Nivi Rhombodazzle]{Nivi Rhombodazzle}, @UUID[Compendium.xprpg.deities.Norgorber]{Norgorber}, @UUID[Compendium.xprpg.deities.Nyarlathotep (Haunter in the Dark)]{Nyarlathotep (Haunter in the Dark)}, @UUID[Compendium.xprpg.deities.Nyarlathotep (The Crawling Chaos)]{Nyarlathotep (The Crawling Chaos)}, @UUID[Compendium.xprpg.deities.Pazuzu]{Pazuzu}, @UUID[Compendium.xprpg.deities.Shax]{Shax}, @UUID[Compendium.xprpg.deities.Sifkesh]{Sifkesh}, @UUID[Compendium.xprpg.deities.Sivanah]{Sivanah}, @UUID[Compendium.xprpg.deities.Sun Wukong]{Sun Wukong}, @UUID[Compendium.xprpg.deities.Thamir]{Thamir}, @UUID[Compendium.xprpg.deities.The Lantern King]{The Lantern King}, @UUID[Compendium.xprpg.deities.Yaezhing]{Yaezhing}, @UUID[Compendium.xprpg.deities.Ydajisk]{Ydajisk}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Sudden Shift]{Sudden Shift}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Trickster's Twin]{Trickster's Twin}</em></p>\n<p>You deceive others and cause mischief.</p>",
+    "name": "Trickery Domain",
+    "ownership": {
+        "default": 0
+    },
+    "permission": {
+        "default": 0
+    }
+}

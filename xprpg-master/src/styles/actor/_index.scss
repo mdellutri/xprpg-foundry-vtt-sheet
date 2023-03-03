@@ -1,0 +1,281 @@
+.default section.window-content {
+    padding: 0;
+    overflow: hidden;
+}
+
+$header-height: 89px;   /* Adjust height of the header */
+
+@import "character/ability-builder";
+@import "iwr-editor";
+
+.actor.sheet {
+    .image-container {
+        .hover-icon {
+            display: none;
+            font-size: var(--font-size-16);
+        }
+
+        &:hover .hover-icon {
+            display: block;
+        }
+    }
+
+    @import "../reset";
+    @import "item-summary";
+    @import "inventory";
+
+    .alignment-select {
+        background-color: #566193;
+        border: 2px solid #d8c384;
+        color: white;
+    }
+
+    .size-select {
+        background-color: #3a7a58;
+        border: 2px solid #d8c384;
+        color: white;
+    }
+
+    .rarity-select {
+        border: 2px solid #d8c384;
+        color: white;
+
+        &.common {
+            background-color: $rarity-common;
+        }
+        &.uncommon {
+            background-color: $rarity-uncommon;
+        }
+        &.rare {
+            background-color: $rarity-rare;
+        }
+        &.unique {
+            background-color: $rarity-unique;
+        }
+    }
+
+    &.character .crb-style {
+        @import "character";
+    }
+
+    &.vehicle .crb-style {
+        @import "vehicle";
+    }
+
+    .crb-style {
+        display: grid;
+        grid:
+            "sidebar header" 75px
+                             "sidebar nav" minmax(min-content, max-content)
+                             "sidebar content" 1fr
+                             / 230px 1fr;
+
+        font-family: var(--body-serif);
+
+        background: url("../assets/sheet/header.webp"), url("../assets/sheet/background.webp");
+        background-repeat: repeat-x, no-repeat;
+        background-size: auto $header-height, cover;
+        background-attachment: local;
+        height: 100%;
+
+        .d20-svg {
+            width: 19px;
+            height: 19px;
+        }
+
+        @import "sidebar", "header";
+
+        .char-header {
+            grid-area: header;
+            padding-right: 1rem;
+        }
+
+        .sheet-navigation {
+            grid-area: nav;
+            margin-left: -2px;
+        }
+
+        .sheet-body {
+            grid-area: content;
+            position: relative;
+
+            ol {
+                list-style: none;
+            }
+
+            .sheet-content,
+            .sheet-content .inventory {
+                bottom: 0;
+                display: flex;
+                flex-direction: column;
+                left: 0;
+                position: absolute;
+                top: 0;
+                width: 100%;
+
+                &.tab[data-tab] {
+                    display: none;
+                    &.active {
+                        display: initial;
+                    }
+                }
+            }
+
+            .sheet-content {
+                color: var(--body);
+
+                > .tab {
+                    padding: 0.6rem 0.6rem 0;
+                }
+
+                @import "spell-list";
+
+                ol.directory-list {
+                    > h3, > li > h3 {
+                        font-size: 1rem;
+                        font-weight: 500;
+                        font-family: var(--serif);
+                        line-height: 1;
+                        color: white;
+                        @include p-reset;
+                        margin-left: 8px;
+                    }
+
+                    .action-header {
+                        align-items: center;
+                        background: var(--primary);
+                        border: none;
+                        border-radius: 0.25em;
+                        box-shadow: inset 0 0 0 1px rgb(0 0 0 / 30%), inset 0 0 0 2px rgb(255 255 255 / 20%);
+                        display: flex;
+                        flex-basis: 100%;
+                        flex-wrap: nowrap;
+                        height: 32px;
+                        justify-content: space-between;
+                        margin-left: 0;
+                        margin-top: 8px;
+                        padding: 0 0.5em;
+                        position: relative;
+                        width: 100%;
+                        z-index: 2;
+
+                        &:first-child {
+                            margin-top: 0;
+                        }
+
+                        & + li {
+                            border-top: none;
+                        }
+
+                        .drag-handle {
+                            cursor: move;
+                        }
+
+                        & > a {
+                            .fas, > .fa {
+                                flex-basis: 0;
+                                color: white;
+                                margin-right: 0.25em;
+                                padding-top: 0.25em;
+                            }
+                        }
+
+                        .item-controls {
+                            color: white;
+                            flex: 1 0 auto;
+                            font: 0.85em var(--sans-serif);
+                            letter-spacing: 0.05em;
+                            margin-left: auto;
+                            max-width: fit-content;
+                            text-transform: uppercase;
+                            font-size: var(--font-size-12);
+                        }
+
+                        h3 {
+                            color: white;
+                            flex: 1 1 100%;
+                            margin-bottom: 0;
+                            font-size: var(--font-size-16);
+
+                            input.item-name-input {
+                                color: white;
+                                max-width: 100%;
+                                font-weight: 500;
+                            }
+                        }
+                    }
+                }
+
+                .tab.actions {
+                    @import "tabs/actions";
+                }
+
+                .tab.biography {
+                    @import "tabs/bio";
+                }
+
+                footer {
+                    @include micro;
+                    color: var(--primary);
+                    text-align: right;
+                    line-height: 1.4;
+                    margin: 1em 1em 0;
+                }
+            }
+        }
+
+        /* Navigation */
+        @import "nav";
+
+        /* Page structure elements */
+        .stroke-header {
+            position: relative;
+
+            svg {
+                position: absolute;
+                fill: var(--primary);
+            }
+
+            h3 {
+                position: relative;
+            }
+        }
+
+        /* Read-Only Sheet */
+        &.limited {
+            @import "limited";
+        }
+
+        input {
+            &.adjusted:not(:focus) {
+                font-weight: 700;
+                color: $adjusted-higher;
+            }
+        }
+
+        button.tag:disabled {
+            cursor: not-allowed;
+            background-color: var(--color-text-dark-inactive);
+        }
+    }
+}
+
+@import "spell-preparation";
+@import "coinage";
+
+/* Actor-type Imports */
+@import "familiar";
+
+@import "hazard";
+
+.npc {
+    @import "spell-list";
+    @import "npc";
+}
+
+@import "loot";
+
+/* Mystification data revealed to GMs */
+.gm-mystified-data {
+    opacity: 0.75;
+}

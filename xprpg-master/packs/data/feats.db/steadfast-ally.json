@@ -1,0 +1,40 @@
+{
+    "_id": "s0OqtQOeYOGkBMYG",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Steadfast Ally",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your presence alone is enough to provide your allies with emotional support. You can use the @UUID[Compendium.xprpg.actionsxprpg.Aid]{Aid} reaction to grant a bonus to another creature's Will saving throw even when you haven't prepared to help.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 13
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Loyal Empath"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "shoony"
+            ]
+        }
+    },
+    "type": "feat"
+}

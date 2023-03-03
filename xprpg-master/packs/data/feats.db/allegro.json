@@ -1,0 +1,36 @@
+{
+    "_id": "rOx7r8ygmPHPC6qF",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Allegro",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You can quicken your allies with a fast-paced performance. You learn the <em>@UUID[Compendium.xprpg.spells-srd.Allegro]{Allegro}</em> composition cantrip.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "bard"
+            ]
+        }
+    },
+    "type": "feat"
+}

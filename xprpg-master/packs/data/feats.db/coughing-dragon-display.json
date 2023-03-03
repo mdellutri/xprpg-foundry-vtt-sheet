@@ -1,0 +1,40 @@
+{
+    "_id": "qAVM65grmny3f8DP",
+    "img": "systems/xprpg/icons/default-icons/feats.webp",
+    "name": "Coughing Dragon Display",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>This display emits a cascade of loud bangs or glittering trails. While you initially designed the display to captivate your audience's attention, it turns out to have a surprisingly effective use in combat, suppressing auditory or visual effects behind your magnificent display. You gain the @UUID[Compendium.xprpg.actionsxprpg.Coughing Dragon]{Coughing Dragon} fireworks display.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Firework Technician Dedication"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "type": "feat"
+}

@@ -1,0 +1,41 @@
+{
+    "_id": "qVk9htKv47niPmXS",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Deep Vision",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your vision is suited for night or the underground. You gain @UUID[Compendium.xprpg.ancestryfeatures.Darkvision]{Darkvision}.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "Sense",
+                "selector": "darkvision"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fleshwarp"
+            ]
+        }
+    },
+    "type": "feat"
+}

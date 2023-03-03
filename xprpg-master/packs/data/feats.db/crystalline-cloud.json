@@ -1,0 +1,40 @@
+{
+    "_id": "RN5aZCzEnmlYmBf5",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Crystalline Cloud",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>When you use @UUID[Compendium.xprpg.feats-srd.Crystalline Dust]{Crystalline Dust}, you can spend one additional action to disperse the motes as a @Template[type:emanation|distance:10]{10-foot-radius} cloud centered on you instead of as haze; the activity gains the concentrate trait.</p>\n<p>All creatures within the cloud become @UUID[Compendium.xprpg.conditionitems.Concealed]{Concealed}, and all creatures outside the cloud become concealed to creatures within it.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 9
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Crystalline Dust"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "aphorite"
+            ]
+        }
+    },
+    "type": "feat"
+}

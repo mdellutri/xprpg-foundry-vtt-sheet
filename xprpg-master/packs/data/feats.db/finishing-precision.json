@@ -1,0 +1,110 @@
+{
+    "_id": "X5gNhaYNx1xu6NoH",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Finishing Precision",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You've learned how to land daring blows when you have @UUID[Compendium.xprpg.classfeatures.Panache]{Panache}.</p>\n<p>You gain the @UUID[Compendium.xprpg.classfeatures.Precise Strike]{Precise Strike} class feature but you deal 1 addition damage on a hit and 1d6 damage on a finisher. This damage doesn't increase as you gain levels. In addition, you gain the @UUID[Compendium.xprpg.actionsxprpg.Basic Finisher]{Basic Finisher} action.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Swashbuckler Dedication"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.xprpg.actionsxprpg.Basic Finisher"
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.xprpg.classfeatures.Precise Strike"
+            },
+            {
+                "damageCategory": "precision",
+                "key": "FlatModifier",
+                "predicate": [
+                    "self:effect:panache",
+                    {
+                        "or": [
+                            "item:melee",
+                            {
+                                "and": [
+                                    "feat:flying-blade",
+                                    "item:thrown",
+                                    "target:range-increment:1"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "or": [
+                            "item:trait:agile",
+                            "item:trait:finesse"
+                        ]
+                    },
+                    {
+                        "not": "finisher"
+                    }
+                ],
+                "selector": "strike-damage",
+                "slug": "finishing-precision",
+                "value": 1
+            },
+            {
+                "category": "precision",
+                "diceNumber": 1,
+                "dieSize": "d6",
+                "key": "DamageDice",
+                "predicate": [
+                    "self:effect:panache",
+                    "finisher",
+                    {
+                        "or": [
+                            "item:melee",
+                            {
+                                "and": [
+                                    "feat:flying-blade",
+                                    "item:thrown",
+                                    "target:range-increment:1"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "or": [
+                            "item:trait:agile",
+                            "item:trait:finesse"
+                        ]
+                    }
+                ],
+                "selector": "strike-damage",
+                "slug": "finishing-precision"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "type": "feat"
+}

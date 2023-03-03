@@ -1,0 +1,47 @@
+{
+    "_id": "6zo2PJGYoig7nFpR",
+    "img": "systems/xprpg/icons/features/classes/field-discovery-chirurgeon.webp",
+    "name": "Field Discovery (Toxicologist)",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You learn a special discovery depending on your field.</p>\n<p>When using @UUID[Compendium.xprpg.classfeatures.Advanced Alchemy]{Advanced Alchemy} to make poisons during your daily preparations, you can spend one batch of @UUID[Compendium.xprpg.classfeatures.Infused Reagents]{reagents} to create three poisons in any combination, instead of just two of the same poison.</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 5
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "override",
+                "path": "system.crafting.entries.alchemist.fieldDiscovery",
+                "phase": "beforeDerived",
+                "value": [
+                    "item:trait:alchemical",
+                    "item:trait:poison"
+                ]
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "alchemist"
+            ]
+        }
+    },
+    "type": "feat"
+}

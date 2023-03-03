@@ -1,0 +1,40 @@
+{
+    "_id": "DunjA0vLZeozcNxu",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Devil Magic",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Drawing on the infernal power of your sinister forbears, you mislead your foes with magical deception. You can cast <em>@UUID[Compendium.xprpg.spells-srd.Invisibility]{Invisibility}</em> and <em>@UUID[Compendium.xprpg.spells-srd.Misdirection]{Misdirection}</em> each once per day as 2nd-level divine innate spells.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 9
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Hellspawn"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "tiefling"
+            ]
+        }
+    },
+    "type": "feat"
+}

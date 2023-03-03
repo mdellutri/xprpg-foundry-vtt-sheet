@@ -1,0 +1,40 @@
+{
+    "_id": "eUXgY8W3fShlW7pd",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Inspire Competence",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You learn the <em>@UUID[Compendium.xprpg.spells-srd.Inspire Competence]{Inspire Competence}</em> composition cantrip, which aids your allies' skills.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "maestro muse"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "bard"
+            ]
+        }
+    },
+    "type": "feat"
+}

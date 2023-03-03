@@ -1,0 +1,37 @@
+{
+    "_id": "HPW7Qi02lkVprW6V",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Silent Step",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "description": {
+            "value": "<p>You vanish with silent treads. You @UUID[Compendium.xprpg.actionsxprpg.Step]{Step}, then @UUID[Compendium.xprpg.actionsxprpg.Hide]{Hide} or @UUID[Compendium.xprpg.actionsxprpg.Sneak]{Sneak}. You still need to meet the requirements to Hide or Sneak, as normal.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 9
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "catfolk",
+                "flourish"
+            ]
+        }
+    },
+    "type": "feat"
+}

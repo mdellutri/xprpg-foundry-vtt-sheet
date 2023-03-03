@@ -1,0 +1,73 @@
+{
+    "_id": "YG6OCTbbqZwqRTr3",
+    "img": "systems/xprpg/icons/default-icons/feats.webp",
+    "name": "Arcane Eye",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your eye has been magically enhanced to pierce darkness. You gain darkvision.</p>\n<p><strong>Enhancement</strong> Your eye can see @UUID[Compendium.xprpg.conditionitems.Invisible]{Invisible} creatures in brief spurts. You can cast <em>@UUID[Compendium.xprpg.spells-srd.See Invisibility]{See Invisibility}</em> as an arcane innate spell once per hour.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "low-light vision"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "Sense",
+                "selector": "darkvision"
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "add",
+                "path": "flags.xprpg.automaton.enhancements.lesser",
+                "value": {
+                    "label": "XPRPG.SpecificRule.Automaton.EnhanceableFeats.ArcaneEye",
+                    "predicate": [
+                        {
+                            "not": "enhancement:arcane-eye"
+                        }
+                    ],
+                    "value": "arcane-eye"
+                }
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "add",
+                "path": "flags.xprpg.automaton.enhancements.greater",
+                "value": {
+                    "label": "XPRPG.SpecificRule.Automaton.EnhanceableFeats.ArcaneEye",
+                    "predicate": [
+                        {
+                            "not": "enhancement:arcane-eye"
+                        }
+                    ],
+                    "value": "arcane-eye"
+                }
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "automaton"
+            ]
+        }
+    },
+    "type": "feat"
+}

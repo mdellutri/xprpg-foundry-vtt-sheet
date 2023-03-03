@@ -1,0 +1,107 @@
+{
+    "_id": "9onf3uGvZRnNLPR6",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Order Explorer",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You have learned the secrets of another druidic order, passing whatever rites of initiation that order requires and gaining access to its secrets. Choose an order other than your own. You gain a 1st-level feat that lists that order as a prerequisite, and you are now a member of that order for the purpose of meeting feat prerequisites. If you commit acts anathema to your new order, you lose all feats and abilities requiring that order but retain your other druid feats and abilities. You don't gain any of the other benefits of the order you chose.</p>\n<p><strong>Special</strong> You can take this feat multiple times. Each time you do, you must choose a different order other than your own.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 2
+        },
+        "maxTakable": null,
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "adjustName": false,
+                "choices": [
+                    {
+                        "predicate": [
+                            {
+                                "not": "feature:animal-order"
+                            }
+                        ],
+                        "value": "Compendium.xprpg.classfeatures.Animal Order"
+                    },
+                    {
+                        "predicate": [
+                            {
+                                "not": "feature:flame-order"
+                            }
+                        ],
+                        "value": "Compendium.xprpg.classfeatures.Flame Order"
+                    },
+                    {
+                        "predicate": [
+                            {
+                                "not": "feature:leaf-order"
+                            }
+                        ],
+                        "value": "Compendium.xprpg.classfeatures.Leaf Order"
+                    },
+                    {
+                        "predicate": [
+                            {
+                                "not": "feature:stone-order"
+                            }
+                        ],
+                        "value": "Compendium.xprpg.classfeatures.Stone Order"
+                    },
+                    {
+                        "predicate": [
+                            {
+                                "not": "feature:storm-order"
+                            }
+                        ],
+                        "value": "Compendium.xprpg.classfeatures.Storm Order"
+                    },
+                    {
+                        "predicate": [
+                            {
+                                "not": "feature:wave-order"
+                            }
+                        ],
+                        "value": "Compendium.xprpg.classfeatures.Wave Order"
+                    },
+                    {
+                        "predicate": [
+                            {
+                                "not": "feature:wild-order"
+                            }
+                        ],
+                        "value": "Compendium.xprpg.classfeatures.Wild Order"
+                    }
+                ],
+                "flag": "secondorder",
+                "key": "ChoiceSet",
+                "prompt": "XPRPG.SpecificRule.Druid.DruidicOrder.Prompt",
+                "rollOption": "feat:order-explorer"
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "{item|flags.xprpg.rulesSelections.secondorder}"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "druid"
+            ]
+        }
+    },
+    "type": "feat"
+}

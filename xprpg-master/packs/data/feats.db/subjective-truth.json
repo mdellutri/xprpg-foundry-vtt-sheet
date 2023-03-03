@@ -1,0 +1,44 @@
+{
+    "_id": "oXoQ9wwOmDe0hwbU",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Subjective Truth",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your disparate identities allow you to defeat magic that detects lies. As long as what you say is true from the point of view of your current identity, you can say it even under effects like <em>@UUID[Compendium.xprpg.spells-srd.Zone of Truth]{Zone of Truth}</em> that force you to speak the truth.</p>"
+        },
+        "featType": {
+            "value": "skill"
+        },
+        "level": {
+            "value": 7
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "master in Deception"
+                },
+                {
+                    "value": "Vigilante Dedication"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype",
+                "skill"
+            ]
+        }
+    },
+    "type": "feat"
+}

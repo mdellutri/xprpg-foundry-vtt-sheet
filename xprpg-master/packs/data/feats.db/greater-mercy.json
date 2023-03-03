@@ -1,0 +1,40 @@
+{
+    "_id": "kZdcoaTD849QalR9",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Greater Mercy",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your faith enhances your ability to remove conditions.</p>\n<p>When you use @UUID[Compendium.xprpg.feats-srd.Mercy]{Mercy}, you can instead attempt to counteract the @UUID[Compendium.xprpg.conditionitems.Blinded]{Blinded}, @UUID[Compendium.xprpg.conditionitems.Deafened]{Deafened}, @UUID[Compendium.xprpg.conditionitems.Sickened]{Sickened}, or @UUID[Compendium.xprpg.conditionitems.Slowed]{Slowed} conditions.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Mercy"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "champion"
+            ]
+        }
+    },
+    "type": "feat"
+}

@@ -1,0 +1,48 @@
+{
+    "_id": "xu05XGotyT5st56H",
+    "img": "systems/xprpg/icons/default-icons/deity.svg",
+    "name": "Lady Jingxi",
+    "system": {
+        "ability": [
+            "int",
+            "wis"
+        ],
+        "alignment": {
+            "follower": [
+                "NG",
+                "N"
+            ],
+            "own": "NG"
+        },
+        "category": "deity",
+        "description": {
+            "value": "<p><strong>Edicts</strong> Create art with words, master the written language, display the soft beauty of natural colors</p>\n<p><strong>Anathema</strong> Destroy a natural plum tree, drink excessive amounts of alcohol, act rude or boorish</p>"
+        },
+        "domains": {
+            "alternate": [],
+            "primary": [
+                "creation",
+                "glyph",
+                "knowledge",
+                "repose"
+            ]
+        },
+        "font": [
+            "heal"
+        ],
+        "rules": [],
+        "skill": "prf",
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "spells": {
+            "1": "Compendium.xprpg.spells-srd.o4lRVTwSxnOOn5vl",
+            "2": "Compendium.xprpg.spells-srd.j8vIoIEWElvpwkcI",
+            "5": "Compendium.xprpg.spells-srd.forsqeofEszBNtLq"
+        },
+        "weapons": [
+            "fighting-fan"
+        ]
+    },
+    "type": "deity"
+}

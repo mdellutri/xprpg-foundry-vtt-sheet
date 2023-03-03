@@ -1,0 +1,40 @@
+{
+    "_id": "nAgAICjPd4BSQlAj",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Axe Climber",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>When you are climbing a wooden surface and have a @UUID[Compendium.xprpg.equipment-srd.Hatchet]{Hatchet} or @UUID[Compendium.xprpg.equipment-srd.Battle Axe]{Battle Axe} in each hand, you have a climb Speed equal to half your normal Speed. You must still have both legs available to climb and can't use either of the axes in combat while climbing. This feat can also be used to climb a surface of ice if you have a @UUID[Compendium.xprpg.equipment-srd.Light Pick]{Light Pick} in each hand.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Turpin Rowe Lumberjack Dedication"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "type": "feat"
+}

@@ -1,0 +1,24 @@
+<section class="sheet-body content sheet-content-loot inventory">
+    {{> "systems/xprpg/templates/actors/partials/coinage.hbs" owner=owner}}
+    <ol class="inventory-list directory-list inventory-pane item-container item-list" data-container-type="actorInventory">
+        {{#each inventory.sections as |section|}}
+            <li class="inventory-header">
+                <h3 class="item-name">{{section.label}}</h3>
+                <span class="item-sell-value">{{localize "XPRPG.UnitPriceLabel"}}</span>
+                <span class="item-quantity">{{localize "XPRPG.QuantityLabel"}}</span>
+                <span class="item-weight">{{localize "XPRPG.BulkShortLabel"}}</span>
+                {{#if @root.owner}}
+                    <div class="item-controls">
+                        <a class="item-control item-create" title="{{localize "XPRPG.CreateItemTitle"}}" data-type="{{section.type}}"><i class="fas fa-plus"></i></a>
+                        <a class="item-control inventory-browse" title="{{localize "XPRPG.OpenInventoryBrowser"}}" data-filter="itemtypes-{{section.type}}"><i class="fas fa-search"></i></a>
+                    </div>
+                {{/if}}
+            </li>
+            <ol class="item-list">
+                {{#each section.items}}
+                    {{> "systems/xprpg/templates/actors/partials/item-line.hbs" this=this editable=@root.editable owner=@root.owner user=@root.user}}
+                {{/each}}
+            </ol>
+        {{/each}}
+    </ol>
+</section>

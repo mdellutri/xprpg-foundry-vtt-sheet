@@ -1,0 +1,39 @@
+{
+    "_id": "uMFB3uw8WTWL0LZD",
+    "img": "systems/xprpg/icons/actions/TwoActions.webp",
+    "name": "Draconic Frenzy",
+    "system": {
+        "actionCategory": {
+            "value": "offensive"
+        },
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 2
+        },
+        "description": {
+            "value": "<p>Your eidolon makes one Strike with their primary unarmed attack and two Strikes with their secondary unarmed attack (in any order). If any of these attacks critically hits an enemy, your eidolon instantly recovers the use of their Breath Weapon.</p>"
+        },
+        "requirements": {
+            "value": ""
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "eidolon"
+            ]
+        },
+        "trigger": {
+            "value": ""
+        },
+        "weapon": {
+            "value": ""
+        }
+    },
+    "type": "action"
+}

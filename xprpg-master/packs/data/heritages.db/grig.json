@@ -1,0 +1,39 @@
+{
+    "_id": "gfXSF1TafBAmZo2u",
+    "img": "systems/xprpg/icons/default-icons/heritage.svg",
+    "name": "Grig",
+    "system": {
+        "ancestry": {
+            "name": "Sprite",
+            "slug": "sprite",
+            "uuid": "Compendium.xprpg.ancestries.TRqoeYfGAFjQbviF"
+        },
+        "description": {
+            "value": "<p>You have the hindquarters of a cricket and adore art and music. Your cricket legs grant you a +2 circumstance bonus on Athletics checks to High Jump or Long Jump, and you gain <em>@UUID[Compendium.xprpg.spells-srd.Ghost Sound]{Ghost Sound}</em> as a primal innate cantrip.</p>"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "label": "XPRPG.SkillVariant.HighJumpOrLongJump",
+                "predicate": [
+                    {
+                        "or": [
+                            "action:high-jump",
+                            "action:long-jump"
+                        ]
+                    }
+                ],
+                "selector": "athletics",
+                "value": 2
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "heritage"
+}

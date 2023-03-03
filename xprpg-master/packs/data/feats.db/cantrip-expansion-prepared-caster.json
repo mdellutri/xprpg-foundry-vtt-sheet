@@ -1,0 +1,38 @@
+{
+    "_id": "A7ofsoPva0UtjqrX",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Cantrip Expansion (Prepared Caster)",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>A greater understanding of your magic broadens your range of simple spells.</p>\n<p>You can prepare two additional cantrips each day.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "cleric",
+                "witch",
+                "wizard"
+            ]
+        }
+    },
+    "type": "feat"
+}

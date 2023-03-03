@@ -1,0 +1,39 @@
+{
+    "_id": "jftNJjBNxp2cleoi",
+    "img": "systems/xprpg/icons/actions/FreeAction.webp",
+    "name": "Expeditious Inspection",
+    "system": {
+        "actionCategory": {
+            "value": "interaction"
+        },
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per 10 minutes</p>\n<hr />\n<p>You observe and assess your surroundings with great speed. You @UUID[Compendium.xprpg.actionsxprpg.Recall Knowledge]{Recall Knowledge}, @UUID[Compendium.xprpg.actionsxprpg.Seek]{Seek}, or @UUID[Compendium.xprpg.actionsxprpg.Sense Motive]{Sense Motive}.</p>"
+        },
+        "requirements": {
+            "value": ""
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "investigator"
+            ]
+        },
+        "trigger": {
+            "value": ""
+        },
+        "weapon": {
+            "value": ""
+        }
+    },
+    "type": "action"
+}

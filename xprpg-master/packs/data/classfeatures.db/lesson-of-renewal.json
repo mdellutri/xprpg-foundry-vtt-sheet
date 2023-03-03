@@ -1,0 +1,36 @@
+{
+    "_id": "7Y2XDqr4gRisjiAG",
+    "img": "systems/xprpg/icons/spells/restorative-moment.webp",
+    "name": "Lesson of Renewal",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You gain the <em>@UUID[Compendium.xprpg.spells-srd.Restorative Moment]{Restorative Moment}</em> hex, and your familiar learns <em>@UUID[Compendium.xprpg.spells-srd.Field of Life]{Field of Life}</em>.</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "witch"
+            ]
+        }
+    },
+    "type": "feat"
+}

@@ -1,0 +1,43 @@
+{
+    "_id": "otLs7XzMXR1cZKGe",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Quick Juggler",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>When you start to juggle or add another item to those you are Juggling, you add two items instead of one. Increase the maximum number of items you can Juggle by one.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Juggler Dedication"
+                },
+                {
+                    "value": "expert in Performance"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "uncommon",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "type": "feat"
+}

@@ -1,0 +1,44 @@
+{
+    "_id": "Kl1O0WK37KMTumv1",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Hidden Paragon",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Trigger</strong> You successfully use Stealth to @UUID[Compendium.xprpg.actionsxprpg.Hide]{Hide} and become @UUID[Compendium.xprpg.conditionitems.Hidden]{Hidden} from all of your current foes, or use Stealth to @UUID[Compendium.xprpg.actionsxprpg.Sneak]{Sneak} and become @UUID[Compendium.xprpg.conditionitems.Undetected]{Undetected} to all your current foes.</p>\n<hr />\n<p>When you put your mind to slipping out of sight, you disappear completely.</p>\n<p>You become @UUID[Compendium.xprpg.conditionitems.Invisible]{Invisible} for 1 minute, even if you use a hostile action. Not even <em>@UUID[Compendium.xprpg.spells-srd.Glitterdust]{Glitterdust}</em>, <em>@UUID[Compendium.xprpg.spells-srd.See Invisibility]{See Invisibility}</em>, or similar effects can reveal you, though creatures can still use the @UUID[Compendium.xprpg.actionsxprpg.Seek]{Seek} action to locate you as normal.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "frequency": {
+            "max": 1,
+            "per": "PT1H"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "legendary in Stealth"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "rogue"
+            ]
+        }
+    },
+    "type": "feat"
+}

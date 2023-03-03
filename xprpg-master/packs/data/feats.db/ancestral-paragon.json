@@ -1,0 +1,56 @@
+{
+    "_id": "m7KjpkAAh9PptJsY",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Ancestral Paragon",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Whether through instinct, study, or magic, you feel a deeper connection to your ancestry. You gain a 1st-level ancestry feat.</p>"
+        },
+        "featType": {
+            "value": "general"
+        },
+        "level": {
+            "value": 3
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "adjustName": false,
+                "allowedDrops": {
+                    "label": "XPRPG.SpecificRule.AncestralParagon.AllowedDrops",
+                    "predicate": [
+                        "item:feat-type:ancestry",
+                        "item:level:1"
+                    ]
+                },
+                "choices": {
+                    "query": "{\"system.featType.value\":\"ancestry\",\"system.level.value\":1,\"$or\":[{\"system.traits.value\":{\"$elemMatch\":\"{actor|system.details.ancestry.trait}\"}},{\"system.traits.value\":{\"$elemMatch\":\"{actor|system.details.heritage.trait}\"}}],\"$not\":{\"system.traits.value\":{\"$elemMatch\":\"lineage\"}}}"
+                },
+                "key": "ChoiceSet",
+                "prompt": "XPRPG.SpecificRule.AncestralParagon.Prompt"
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "{item|flags.xprpg.rulesSelections.ancestralParagon}"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "general"
+            ]
+        }
+    },
+    "type": "feat"
+}

@@ -1,0 +1,51 @@
+{
+    "_id": "OqU6QXkMrZqToEEi",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Opportunist",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You gain the @UUID[Compendium.xprpg.actionsxprpg.Attack of Opportunity]{Attack of Opportunity} reaction.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Fighter Dedication"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "add",
+                "path": "system.custom.modifiers.fighter-dedication-count",
+                "value": 1
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.xprpg.actionsxprpg.Attack of Opportunity"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "type": "feat"
+}

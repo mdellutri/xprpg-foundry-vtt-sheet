@@ -1,0 +1,93 @@
+{
+    "_id": "EkZVXMdtqTTgahiJ",
+    "img": "systems/xprpg/icons/equipment/worn-items/other-worn-items/ring-of-energy-resistance.webp",
+    "name": "Ring of Energy Resistance",
+    "system": {
+        "baseItem": null,
+        "containerId": null,
+        "description": {
+            "value": "<p>This ring grants you resistance 5 against one type of energy damage: acid, cold, electricity, fire, or sonic. Each ring is crafted to protect against a particular type of energy damage, and its design usually embodies the type of energy it protects the wearer from in some way. For instance, a <em>ring of fire resistance</em> might be capped with a ruby, whereas a <em>ring of cold resistance</em> features a sapphire instead.</p>"
+        },
+        "equippedBulk": {
+            "value": ""
+        },
+        "hardness": 0,
+        "hp": {
+            "brokenThreshold": 0,
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 6
+        },
+        "negateBulk": {
+            "value": "0"
+        },
+        "preciousMaterial": {
+            "value": ""
+        },
+        "preciousMaterialGrade": {
+            "value": ""
+        },
+        "price": {
+            "value": {
+                "gp": 245
+            }
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "choices": [
+                    {
+                        "label": "XPRPG.TraitAcid",
+                        "value": "acid"
+                    },
+                    {
+                        "label": "XPRPG.TraitCold",
+                        "value": "cold"
+                    },
+                    {
+                        "label": "XPRPG.TraitElectricity",
+                        "value": "electricity"
+                    },
+                    {
+                        "label": "XPRPG.TraitFire",
+                        "value": "fire"
+                    },
+                    {
+                        "label": "XPRPG.TraitSonic",
+                        "value": "sonic"
+                    }
+                ],
+                "flag": "ringOfEnergyResistance",
+                "key": "ChoiceSet",
+                "prompt": "XPRPG.SpecificRule.Prompt.EnergyType"
+            },
+            {
+                "key": "Resistance",
+                "type": "{item|flags.xprpg.rulesSelections.ringOfEnergyResistance}",
+                "value": 5
+            }
+        ],
+        "size": "med",
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "stackGroup": null,
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "abjuration",
+                "invested",
+                "magical"
+            ]
+        },
+        "usage": {
+            "value": "worn"
+        },
+        "weight": {
+            "value": "-"
+        }
+    },
+    "type": "equipment"
+}

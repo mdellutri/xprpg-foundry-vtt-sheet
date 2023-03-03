@@ -1,0 +1,40 @@
+{
+    "_id": "h5ksUZlrVGBjq6p4",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Radiant Blade Spirit",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your divine ally radiates power, enhancing your chosen weapon.</p>\n<p>When you choose the weapon for your blade ally during your daily preparations, add the following property runes to the list of effects you can choose from: @UUID[Compendium.xprpg.equipment-srd.Flaming]{Flaming} and any aligned properties (@UUID[Compendium.xprpg.equipment-srd.Anarchic]{Anarchic}, @UUID[Compendium.xprpg.equipment-srd.Axiomatic]{Axiomatic}, @UUID[Compendium.xprpg.equipment-srd.Holy]{Holy}, or @UUID[Compendium.xprpg.equipment-srd.Unholy]{Unholy}) that match your cause's alignment.</p>\n<p>@UUID[Compendium.xprpg.feat-effects.Effect: Blade Ally]{Effect: Blade Ally}</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "divine ally (blade)"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "champion"
+            ]
+        }
+    },
+    "type": "feat"
+}

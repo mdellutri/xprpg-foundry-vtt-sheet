@@ -1,0 +1,42 @@
+{
+    "_id": "oaR6YGiZKg8a2971",
+    "img": "systems/xprpg/icons/equipment/worn-items/other-worn-items/clockwork-goggles.webp",
+    "name": "Effect: Clockwork Goggles",
+    "system": {
+        "badge": null,
+        "description": {
+            "value": "<p>You gain low-light vision for 10 minutes.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "minutes",
+            "value": 10
+        },
+        "level": {
+            "value": 1
+        },
+        "rules": [
+            {
+                "key": "Sense",
+                "selector": "lowLightVision"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "effect"
+}

@@ -1,0 +1,11 @@
+{
+    "_id": "rIZ7OoG8c4Cct42M",
+    "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Anubis]{Anubis}, @UUID[Compendium.xprpg.deities.Barzahk]{Barzahk}, @UUID[Compendium.xprpg.deities.Chohar]{Chohar}, @UUID[Compendium.xprpg.deities.Dammerich]{Dammerich}, @UUID[Compendium.xprpg.deities.Dranngvit]{Dranngvit}, @UUID[Compendium.xprpg.deities.Irori]{Irori}, @UUID[Compendium.xprpg.deities.Kabriri]{Kabriri}, @UUID[Compendium.xprpg.deities.Pharasma]{Pharasma}, @UUID[Compendium.xprpg.deities.Ragadahn]{Ragadahn}, @UUID[Compendium.xprpg.deities.Shizuru]{Shizuru}, @UUID[Compendium.xprpg.deities.The Lost Prince]{The Lost Prince}, @UUID[Compendium.xprpg.deities.Tlehar]{Tlehar}, @UUID[Compendium.xprpg.deities.Winlas]{Winlas}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Object Memory]{Object Memory}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Remember the Lost]{Remember the Lost}</em></p>\n<p>You watch over those long passed and guard their secrets.</p>",
+    "name": "Vigil Domain",
+    "ownership": {
+        "default": 0
+    },
+    "permission": {
+        "default": 0
+    }
+}

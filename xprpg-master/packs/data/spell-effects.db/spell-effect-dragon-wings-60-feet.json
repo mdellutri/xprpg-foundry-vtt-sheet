@@ -1,0 +1,42 @@
+{
+    "_id": "V7jAnItnVqtfCAKt",
+    "img": "systems/xprpg/icons/spells/dragon-wings.webp",
+    "name": "Spell Effect: Dragon Wings (60 Feet)",
+    "system": {
+        "description": {
+            "value": "<p>Granted by casting <em>@UUID[Compendium.xprpg.spells-srd.Dragon Wings]{Dragon Wings}</em> and gaining a 60 foot fly Speed.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "minutes",
+            "value": 1
+        },
+        "level": {
+            "value": 5
+        },
+        "rules": [
+            {
+                "key": "BaseSpeed",
+                "selector": "fly",
+                "value": 60
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "effect"
+}

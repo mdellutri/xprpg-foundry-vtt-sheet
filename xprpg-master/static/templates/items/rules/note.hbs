@@ -1,0 +1,20 @@
+<div class="details-container-flex-row">
+    <label>
+        {{localize "XPRPG.RuleEditor.General.Selector"}}
+        <input type="text" name="system.rules.{{index}}.selector" value="{{rule.selector}}" />
+    </label>
+    <label>
+        {{localize "XPRPG.RuleEditor.Note.Hidden"}}
+        <input type="checkbox" class="hidden-value" {{checked (or (eq rule.visibility "gm") (eq rule.visibility "owner"))}}>
+    </label>
+</div>
+<input type="text" name="system.rules.{{index}}.title" value="{{rule.title}}" placeholder="{{localize "XPRPG.RuleEditor.Note.Title"}}"/>
+<textarea name="system.rules.{{index}}.text" spellcheck="false" placeholder="{{localize "XPRPG.RuleEditor.Note.Text"}}">{{rule.text}}</textarea>
+<div class="labelled-element">
+    {{localize "XPRPG.RuleEditor.Note.Outcome"}}
+    <input class="xprpg-tagify outcomes" name="system.rules.{{index}}.outcome" value="{{json rule.outcome}}" data-dtype="JSON" />
+</div>
+<label>
+    {{localize "XPRPG.RuleEditor.General.Predicate"}}
+    <input type="text" name="system.rules.{{index}}.predicate" value="{{json rule.predicate}}" />
+</label>

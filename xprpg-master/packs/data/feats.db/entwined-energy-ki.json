@@ -1,0 +1,69 @@
+{
+    "_id": "PSqxbLzKKzbMUnU9",
+    "img": "systems/xprpg/icons/default-icons/feats.webp",
+    "name": "Entwined Energy Ki",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You can transform your inner power into a type of energy to empower your ki abilities. When you gain this feat, choose either acid, cold, electricity, fire, or sonic damage. When you cast ki blast, you can choose to have the spell deal the type of damage you chose instead of force damage. When you cast ki form or ki strike, add the type of damage you chose to the list of damage types you can select for the spell.</p>\n<p><strong>Special</strong> At the GM's discretion, this feat can alter other ki spells.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "choices": [
+                    {
+                        "label": "XPRPG.TraitAcid",
+                        "value": "acid"
+                    },
+                    {
+                        "label": "XPRPG.TraitCold",
+                        "value": "cold"
+                    },
+                    {
+                        "label": "XPRPG.TraitElectricity",
+                        "value": "electricity"
+                    },
+                    {
+                        "label": "XPRPG.TraitFire",
+                        "value": "fire"
+                    },
+                    {
+                        "label": "XPRPG.TraitSonic",
+                        "value": "sonic"
+                    }
+                ],
+                "flag": "entwinedEnergyKi",
+                "key": "ChoiceSet",
+                "prompt": "XPRPG.SpecificRule.Prompt.DamageType"
+            },
+            {
+                "domain": "all",
+                "key": "RollOption",
+                "option": "entwined-energy-ki:{item|flags.xprpg.rulesSelections.entwinedEnergyKi}"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "uncommon",
+            "value": [
+                "monk"
+            ]
+        }
+    },
+    "type": "feat"
+}

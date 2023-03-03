@@ -1,0 +1,36 @@
+{
+    "_id": "7JK2a1D3VeWDcObo",
+    "img": "systems/xprpg/icons/features/classes/powerful-alchemy.webp",
+    "name": "Powerful Alchemy",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Alchemical items you create on the fly are particularly potent. When you use @UUID[Compendium.xprpg.classfeatures.Quick Alchemy]{Quick Alchemy} to create an infused alchemical item that allows a saving throw, you can change its DC to your class DC.</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 5
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "alchemist"
+            ]
+        }
+    },
+    "type": "feat"
+}

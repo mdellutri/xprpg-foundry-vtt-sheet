@@ -1,0 +1,40 @@
+{
+    "_id": "4cH2RoWsgXYaWIPa",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Eerie Compression",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your limbs and even your torso can collapse in on themselves, allowing you to fit through tight spaces as though you were a Small creature. You can move at full Speed while Squeezing.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 9
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Medium Size"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fleshwarp"
+            ]
+        }
+    },
+    "type": "feat"
+}

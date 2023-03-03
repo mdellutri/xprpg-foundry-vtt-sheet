@@ -1,0 +1,11 @@
+{
+    "_id": "41qaGiMit8nDP4xv",
+    "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Nhimbaloth]{Nhimbaloth}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Lift Nature's Caul]{Lift Nature's Caul}</em><u></u>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Fearful Feast]{Fearful Feast}</em></p>\n<p>You seek to instill abhorrence and horror in those around you.</p>",
+    "name": "Abomination Domain",
+    "ownership": {
+        "default": 0
+    },
+    "permission": {
+        "default": 0
+    }
+}

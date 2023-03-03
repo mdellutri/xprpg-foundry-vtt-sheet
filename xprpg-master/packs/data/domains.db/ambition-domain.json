@@ -1,0 +1,11 @@
+{
+    "_id": "NA4v0iwIPgkde8DP",
+    "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Baalzebul]{Baalzebul}, @UUID[Compendium.xprpg.deities.Casandalee]{Casandalee}, @UUID[Compendium.xprpg.deities.Eiseth]{Eiseth}, @UUID[Compendium.xprpg.deities.Fumeiyoshi]{Fumeiyoshi}, @UUID[Compendium.xprpg.deities.Gyronna]{Gyronna}, @UUID[Compendium.xprpg.deities.Lubaiko]{Lubaiko}, @UUID[Compendium.xprpg.deities.Mammon]{Mammon}, @UUID[Compendium.xprpg.deities.Ravithra]{Ravithra}, @UUID[Compendium.xprpg.deities.Shax]{Shax}, @UUID[Compendium.xprpg.deities.Szuriel]{Szuriel}, @UUID[Compendium.xprpg.deities.Thamir]{Thamir}, @UUID[Compendium.xprpg.deities.Ydersius]{Ydersius}, @UUID[Compendium.xprpg.deities.Zohls]{Zohls}, @UUID[Compendium.xprpg.deities.Zon-Kuthon]{Zon-Kuthon}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Blind Ambition]{Blind Ambition}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Competitive Edge]{Competitive Edge}</em></p>\n<p>You strive to keep up with and outpace the competition.</p>",
+    "name": "Ambition Domain",
+    "ownership": {
+        "default": 0
+    },
+    "permission": {
+        "default": 0
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "_id": "WZC2XXQo6Pu2GQeo",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Soaring Form",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your wings grow stronger. You gain the effects of @UUID[Compendium.xprpg.feats-srd.Soaring Flight]{Soaring Flight} at all times.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 17
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Soaring Flight"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "BaseSpeed",
+                "selector": "fly",
+                "value": "max(20,(@actor.attributes.speed.total))"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "tengu"
+            ]
+        }
+    },
+    "type": "feat"
+}

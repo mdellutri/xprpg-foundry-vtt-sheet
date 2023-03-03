@@ -1,0 +1,40 @@
+{
+    "_id": "LKxAuH0mLyzNygIY",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Hex Wellspring",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Focus flows from your patron each time you commune with your familiar. You can recover 3 Focus Points when you @UUID[Compendium.xprpg.actionsxprpg.Refocus]{Refocus} instead of 1 if you have spent at least 3 Focus Points since the last time you Refocused.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Hex Focus"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "witch"
+            ]
+        }
+    },
+    "type": "feat"
+}

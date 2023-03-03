@@ -1,0 +1,83 @@
+{
+    "_id": "ngwcN8u7f7CnqGXp",
+    "img": "systems/xprpg/icons/spells/call-spirit.webp",
+    "name": "Effect: Distant Wandering",
+    "system": {
+        "badge": null,
+        "description": {
+            "value": "<p>You are @UUID[Compendium.xprpg.conditionitems.Invisible]{Invisible} and inaudible.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "unlimited",
+            "value": -1
+        },
+        "level": {
+            "value": 1
+        },
+        "rules": [
+            {
+                "key": "GrantItem",
+                "onDeleteActions": {
+                    "grantee": "restrict"
+                },
+                "uuid": "Compendium.xprpg.conditionitems.Invisible"
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "override",
+                "path": "system.attributes.emitsSound",
+                "phase": "beforeDerived",
+                "value": false
+            },
+            {
+                "key": "BaseSpeed",
+                "predicate": [
+                    "awakening:distant-wandering:fly"
+                ],
+                "selector": "fly",
+                "value": "@actor.attributes.speed.value"
+            },
+            {
+                "key": "FlatModifier",
+                "predicate": [
+                    "awakening:distant-wandering:fly"
+                ],
+                "selector": [
+                    "land-speed",
+                    "fly-speed"
+                ],
+                "type": "status",
+                "value": 20
+            },
+            {
+                "key": "GrantItem",
+                "onDeleteActions": {
+                    "grantee": "restrict"
+                },
+                "predicate": [
+                    "awakening:distant-wandering:quick"
+                ],
+                "uuid": "Compendium.xprpg.conditionitems.Quickened"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "unidentified": false
+    },
+    "type": "effect"
+}

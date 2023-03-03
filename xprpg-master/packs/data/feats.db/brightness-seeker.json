@@ -1,0 +1,41 @@
+{
+    "_id": "8aRa9VHoDKl9B1Z1",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Brightness Seeker",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Once per day, you can spend 10 minutes studying your surroundings in search of omens related to a particular course of action to cast <em>@UUID[Compendium.xprpg.spells-srd.Augury]{Augury}</em> as an innate divine spell. Unless the result of the<em>augury</em>was \"nothing,\" you gain the @UUID[Compendium.xprpg.actionsxprpg.Call Upon the Brightness]{Call Upon the Brightness} reaction for the next 30 minutes.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 9
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.xprpg.actionsxprpg.Call Upon the Brightness"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "elf"
+            ]
+        }
+    },
+    "type": "feat"
+}

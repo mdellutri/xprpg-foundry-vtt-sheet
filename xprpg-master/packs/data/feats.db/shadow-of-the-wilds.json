@@ -1,0 +1,36 @@
+{
+    "_id": "kDklfrprKTuTpcEE",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Shadow of the Wilds",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>It's difficult to notice your passage through wild areas. As long as you're not in an urban environment, you're always considered to be @UUID[Compendium.xprpg.actionsxprpg.Cover Tracks]{Covering Tracks}, even if you chose a different activity in exploration mode.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "leshy"
+            ]
+        }
+    },
+    "type": "feat"
+}

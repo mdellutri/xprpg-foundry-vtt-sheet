@@ -1,0 +1,42 @@
+{
+    "_id": "6YhbQmOmbmy84W1C",
+    "img": "systems/xprpg/icons/spells/sanguine-mist.webp",
+    "name": "Effect: Crimson Shroud",
+    "system": {
+        "badge": null,
+        "description": {
+            "value": "<p>Granted by @UUID[Compendium.xprpg.feats-srd.Crimson Shroud]{Crimson Shroud}.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "minutes",
+            "value": 1
+        },
+        "level": {
+            "value": 6
+        },
+        "rules": [
+            {
+                "key": "FastHealing",
+                "value": "floor(@actor.level / 2)"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "effect"
+}

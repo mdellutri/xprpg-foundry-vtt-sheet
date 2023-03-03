@@ -1,0 +1,40 @@
+{
+    "_id": "rw4qq4qmCbO0hRfH",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Peri Magic",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>The shimmering embers of the righteous peris crackle at your fingertips. You can cast <em>@UUID[Compendium.xprpg.spells-srd.Glitterdust]{Glitterdust}</em> and <em>@UUID[Compendium.xprpg.spells-srd.Status]{Status}</em> each once per day as 2nd-level divine innate spells.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 9
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Emberkin"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "aasimar"
+            ]
+        }
+    },
+    "type": "feat"
+}

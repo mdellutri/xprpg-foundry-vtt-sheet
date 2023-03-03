@@ -1,0 +1,11 @@
+{
+    "_id": "M7koZH0zimcMgRDb",
+    "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Abraxas]{Abraxas}, @UUID[Compendium.xprpg.deities.Ahriman]{Ahriman}, @UUID[Compendium.xprpg.deities.Angazhan]{Angazhan}, @UUID[Compendium.xprpg.deities.Ayrzul]{Ayrzul}, @UUID[Compendium.xprpg.deities.Azathoth]{Azathoth}, @UUID[Compendium.xprpg.deities.Besmara]{Besmara}, @UUID[Compendium.xprpg.deities.Dagon]{Dagon}, @UUID[Compendium.xprpg.deities.Dahak]{Dahak}, @UUID[Compendium.xprpg.deities.Dhalavei]{Dhalavei}, @UUID[Compendium.xprpg.deities.Diomazul]{Diomazul}, @UUID[Compendium.xprpg.deities.Eiseth]{Eiseth}, @UUID[Compendium.xprpg.deities.Fumeiyoshi]{Fumeiyoshi}, @UUID[Compendium.xprpg.deities.General Susumu]{General Susumu}, @UUID[Compendium.xprpg.deities.Gorum]{Gorum}, @UUID[Compendium.xprpg.deities.Groetus]{Groetus}, @UUID[Compendium.xprpg.deities.Hei Feng]{Hei Feng}, @UUID[Compendium.xprpg.deities.Hshurha]{Hshurha}, @UUID[Compendium.xprpg.deities.Imot]{Imot}, @UUID[Compendium.xprpg.deities.Kelizandri]{Kelizandri}, @UUID[Compendium.xprpg.deities.Kerkamoth]{Kerkamoth}, @UUID[Compendium.xprpg.deities.Kostchtchie]{Kostchtchie}, @UUID[Compendium.xprpg.deities.Lady Nanbyo]{Lady Nanbyo}, @UUID[Compendium.xprpg.deities.Lubaiko]{Lubaiko}, @UUID[Compendium.xprpg.deities.Milani]{Milani}, @UUID[Compendium.xprpg.deities.Moloch]{Moloch}, @UUID[Compendium.xprpg.deities.Nethys]{Nethys}, @UUID[Compendium.xprpg.deities.Nurgal]{Nurgal}, @UUID[Compendium.xprpg.deities.Ragadahn]{Ragadahn}, @UUID[Compendium.xprpg.deities.Ragathiel]{Ragathiel}, @UUID[Compendium.xprpg.deities.Rovagug]{Rovagug}, @UUID[Compendium.xprpg.deities.Sekhmet]{Sekhmet}, @UUID[Compendium.xprpg.deities.Szuriel]{Szuriel}, @UUID[Compendium.xprpg.deities.Treerazer]{Treerazer}, @UUID[Compendium.xprpg.deities.Ymeri]{Ymeri}, @UUID[Compendium.xprpg.deities.Zevgavizeb]{Zevgavizeb}, @UUID[Compendium.xprpg.deities.Zon-Kuthon]{Zon-Kuthon}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Cry of Destruction]{Cry of Destruction}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Destructive Aura]{Destructive Aura}</em></p>\n<p>You are a conduit for divine devastation.</p>",
+    "name": "Destruction Domain",
+    "ownership": {
+        "default": 0
+    },
+    "permission": {
+        "default": 0
+    }
+}

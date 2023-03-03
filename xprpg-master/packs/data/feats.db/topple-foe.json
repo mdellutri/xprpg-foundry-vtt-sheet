@@ -1,0 +1,43 @@
+{
+    "_id": "7x1r2w7C7A4Uy7wG",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Topple Foe",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p><strong>Trigger</strong> An ally succeeds at a melee Strike against an opponent you are both adjacent to.</p>\n<hr />\n<p>You take advantage of the opening created by your ally to tip your foe off their feet. Attempt an Athletics check to @UUID[Compendium.xprpg.actionsxprpg.Trip]{Trip} the target of the triggering attack.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Marshal Dedication"
+                },
+                {
+                    "value": "trained in Athletics"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "type": "feat"
+}

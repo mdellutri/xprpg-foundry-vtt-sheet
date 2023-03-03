@@ -1,0 +1,36 @@
+{
+    "_id": "txLcSHu6kEfmrJj1",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Enduring Quickness",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You move as fast and as high as the wind itself. You're permanently @UUID[Compendium.xprpg.conditionitems.Quickened]{Quickened}.</p>\n<p>You can use your extra action to Stride or @UUID[Compendium.xprpg.actionsxprpg.Leap]{Leap}, to provide one of the actions needed for a @UUID[Compendium.xprpg.actionsxprpg.High Jump]{High Jump} or @UUID[Compendium.xprpg.actionsxprpg.Long Jump]{Long Jump}</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "monk"
+            ]
+        }
+    },
+    "type": "feat"
+}

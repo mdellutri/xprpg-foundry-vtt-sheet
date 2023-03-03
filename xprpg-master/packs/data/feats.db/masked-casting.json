@@ -1,0 +1,40 @@
+{
+    "_id": "4xeDjt8eARzAGARP",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Masked Casting",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p><strong>Requirements</strong> You are wearing your signifer's mask.</p>\n<p><strong>Trigger</strong> You begin Casting a Spell.</p>\n<hr />\n<p>You harness the magical energy flowing through your eyeless mask to effortlessly protect you from visual effects. You @UUID[Compendium.xprpg.actionsxprpg.Avert Gaze]{Avert your Gaze}.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Hellknight Signifer Dedication "
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "type": "feat"
+}

@@ -1,0 +1,83 @@
+nav.sheet-navigation {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    background: var(--secondary);
+    background: url('../assets/sheet/border-pattern.webp') repeat-x top,
+        url('../assets/sheet/border-pattern.webp') repeat-x bottom,
+        var(--secondary);
+    transition: all 0.1s ease-out;
+    box-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    position: relative;
+
+    .navigation-title {
+        color: var(--text-light);
+        margin-right: auto;
+        padding-left: 1em;
+        white-space: nowrap;
+        width: 7em;
+    }
+
+    > a {
+        @include flex-center;
+        margin: 0 6px;
+        font-size: var(--font-size-12);
+    }
+
+    .item {
+        height: 24px;
+        width: 24px;
+        border-radius: 50%;
+        z-index: 1;
+        transition: all 0.1s ease-out;
+        color: var(--tertiary);
+        fill: var(--tertiary);
+        background-image: url('../assets/sheet/nav-item-inactive.webp');
+        background-size: contain;
+
+        /* prettier-ignore */
+        box-shadow:
+            0 0 0 1px var(--tertiary),
+            0 0 0 2px #9f725b,
+            inset 0 0 4px rgba(black, 0.25);
+
+        &.active {
+            box-shadow: 0 0 0 1px var(--tertiary), 0 0 0 2px #9f725b,
+                inset 0 0 4px rgba(black, 0.25), 0 0 8px var(--tertiary);
+        }
+
+        &:last-child {
+            margin-right: 10px;
+        }
+
+        &:hover,
+        &.active {
+            z-index: 2;
+            transform: scale(1.2);
+            color: var(--text-light);
+            fill: var(--text-light);
+            background-image: url('../assets/sheet/nav-item.webp');
+        }
+
+        .fas {
+            padding-bottom: 0;
+        }
+
+        &:hover .xps-icon {
+            filter: drop-shadow( 0 0 8px var(--color-shadow-primary));
+        }
+
+        // Actions and PFS tabs
+        .action-icon {
+            align-self: baseline;
+            display: inline-block;
+            font-family: XenosParagonActions;
+            font-size: 1.4rem;
+            line-height: 1;
+            max-height: 0.75rem;
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "_id": "1aoUqGYDrdpnPWio",
+    "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Adanye]{Adanye}, @UUID[Compendium.xprpg.deities.Andoletta]{Andoletta}, @UUID[Compendium.xprpg.deities.Bes]{Bes}, @UUID[Compendium.xprpg.deities.Bolka]{Bolka}, @UUID[Compendium.xprpg.deities.Chohar]{Chohar}, @UUID[Compendium.xprpg.deities.Daikitsu]{Daikitsu}, @UUID[Compendium.xprpg.deities.Dwarven Pantheon]{Dwarven Pantheon}, @UUID[Compendium.xprpg.deities.Erastil]{Erastil}, @UUID[Compendium.xprpg.deities.Findeladlara]{Findeladlara}, @UUID[Compendium.xprpg.deities.Folgrit]{Folgrit}, @UUID[Compendium.xprpg.deities.Followers of Fate]{Followers of Fate}, @UUID[Compendium.xprpg.deities.Gendowyn]{Gendowyn}, @UUID[Compendium.xprpg.deities.Grandmother Spider]{Grandmother Spider}, @UUID[Compendium.xprpg.deities.Grundinnar]{Grundinnar}, @UUID[Compendium.xprpg.deities.Hathor]{Hathor}, @UUID[Compendium.xprpg.deities.Imbrex]{Imbrex}, @UUID[Compendium.xprpg.deities.Isis]{Isis}, @UUID[Compendium.xprpg.deities.Jaidi]{Jaidi}, @UUID[Compendium.xprpg.deities.Kazutal]{Kazutal}, @UUID[Compendium.xprpg.deities.Lamashtu]{Lamashtu}, @UUID[Compendium.xprpg.deities.Mazludeh]{Mazludeh}, @UUID[Compendium.xprpg.deities.Nivi Rhombodazzle]{Nivi Rhombodazzle}, @UUID[Compendium.xprpg.deities.Sairazul]{Sairazul}, @UUID[Compendium.xprpg.deities.Shei]{Shei}, @UUID[Compendium.xprpg.deities.Shelyn]{Shelyn}, @UUID[Compendium.xprpg.deities.Stag Mother of the Forest of Stones]{Stag Mother of the Forest of Stones}, @UUID[Compendium.xprpg.deities.The Prismatic Ray]{The Prismatic Ray}, @UUID[Compendium.xprpg.deities.Torag]{Torag}, @UUID[Compendium.xprpg.deities.Walkena]{Walkena}, @UUID[Compendium.xprpg.deities.Wards of the Pharaoh]{Wards of the Pharaoh}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Soothing Words]{Soothing Words}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Unity]{Unity}</em></p>\n<p>You aid and protect your family and community more effectively.</p>",
+    "name": "Family Domain",
+    "ownership": {
+        "default": 0
+    },
+    "permission": {
+        "default": 0
+    }
+}

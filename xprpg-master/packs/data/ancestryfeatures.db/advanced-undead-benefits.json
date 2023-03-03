@@ -1,0 +1,69 @@
+{
+    "_id": "YGk41WV42aTM7CQV",
+    "img": "systems/xprpg/icons/spells/dread-aura.webp",
+    "name": "Advanced Undead Benefits",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p><strong>Darkvision:</strong> You gain darkvision if you don't already have it.</p>\n<p><strong>Greater Disease and Poison Protection:</strong> Your bonus against disease and poison increases to +2. You gain poison resistance equal to half your level.</p>\n<p><strong>Paralysis and Sleep Protection:</strong> You gain a +1 circumstance bonus to saving throws (or any other defense) against effects that would make you @UUID[Compendium.xprpg.conditionitems.Paralyzed]{Paralyzed} or have the sleep trait.</p>"
+        },
+        "featType": {
+            "value": "ancestryfeature"
+        },
+        "level": {
+            "value": 0
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "Sense",
+                "selector": "darkvision"
+            },
+            {
+                "key": "FlatModifier",
+                "predicate": [
+                    {
+                        "or": [
+                            "disease",
+                            "poison"
+                        ]
+                    }
+                ],
+                "selector": "saving-throw",
+                "slug": "advanced-undead-disease-poison",
+                "type": "circumstance",
+                "value": 2
+            },
+            {
+                "key": "FlatModifier",
+                "predicate": [
+                    {
+                        "or": [
+                            "inflicts:paralyzed",
+                            "sleep"
+                        ]
+                    }
+                ],
+                "selector": "saving-throw",
+                "slug": "advanced-undead-paralyzed-sleep",
+                "type": "circumstance",
+                "value": 1
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "feat"
+}

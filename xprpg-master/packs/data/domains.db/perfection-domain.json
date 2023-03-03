@@ -1,0 +1,11 @@
+{
+    "_id": "c9odhpRoKId5dXmn",
+    "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Arshea]{Arshea}, @UUID[Compendium.xprpg.deities.Balumbdar]{Balumbdar}, @UUID[Compendium.xprpg.deities.Casandalee]{Casandalee}, @UUID[Compendium.xprpg.deities.Gruhastha]{Gruhastha}, @UUID[Compendium.xprpg.deities.Irori]{Irori}, @UUID[Compendium.xprpg.deities.Mazludeh]{Mazludeh}, @UUID[Compendium.xprpg.deities.Narriseminek]{Narriseminek}, @UUID[Compendium.xprpg.deities.Otolmens]{Otolmens}, @UUID[Compendium.xprpg.deities.Pillars of Knowledge]{Pillars of Knowledge}, @UUID[Compendium.xprpg.deities.Ragdya]{Ragdya}, @UUID[Compendium.xprpg.deities.Shei]{Shei}, @UUID[Compendium.xprpg.deities.Shizuru]{Shizuru}, @UUID[Compendium.xprpg.deities.The Godclaw]{The Godclaw}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Perfected Mind]{Perfected Mind}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Perfected Form]{Perfected Form}</em></p>\n<p>You strive to perfect your mind, body, and spirit.</p>",
+    "name": "Perfection Domain",
+    "ownership": {
+        "default": 0
+    },
+    "permission": {
+        "default": 0
+    }
+}

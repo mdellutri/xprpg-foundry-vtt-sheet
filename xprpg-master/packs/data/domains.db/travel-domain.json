@@ -1,0 +1,11 @@
+{
+    "_id": "1NHV4ujqoR2JVWpY",
+    "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Abadar]{Abadar}, @UUID[Compendium.xprpg.deities.Apsu]{Apsu}, @UUID[Compendium.xprpg.deities.Barbatos]{Barbatos}, @UUID[Compendium.xprpg.deities.Count Ranalc]{Count Ranalc}, @UUID[Compendium.xprpg.deities.Desna]{Desna}, @UUID[Compendium.xprpg.deities.Dranngvit]{Dranngvit}, @UUID[Compendium.xprpg.deities.Gozreh]{Gozreh}, @UUID[Compendium.xprpg.deities.Gruhastha]{Gruhastha}, @UUID[Compendium.xprpg.deities.Hanspur]{Hanspur}, @UUID[Compendium.xprpg.deities.Hei Feng]{Hei Feng}, @UUID[Compendium.xprpg.deities.Jaidz]{Jaidz}, @UUID[Compendium.xprpg.deities.Kelizandri]{Kelizandri}, @UUID[Compendium.xprpg.deities.Kofusachi]{Kofusachi}, @UUID[Compendium.xprpg.deities.Matravash]{Matravash}, @UUID[Compendium.xprpg.deities.Ng]{Ng}, @UUID[Compendium.xprpg.deities.Nocticula]{Nocticula}, @UUID[Compendium.xprpg.deities.Ranginori]{Ranginori}, @UUID[Compendium.xprpg.deities.The Path of the Heavens]{The Path of the Heavens}, @UUID[Compendium.xprpg.deities.The Prismatic Ray]{The Prismatic Ray}, @UUID[Compendium.xprpg.deities.Wadjet]{Wadjet}, @UUID[Compendium.xprpg.deities.Ylimancha]{Ylimancha}, @UUID[Compendium.xprpg.deities.Yog-Sothoth]{Yog-Sothoth}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Agile Feet]{Agile Feet}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Traveler's Transit]{Traveler's Transit}</em></p>\n<p>You have power over movement and journeys.</p>",
+    "name": "Travel Domain",
+    "ownership": {
+        "default": 0
+    },
+    "permission": {
+        "default": 0
+    }
+}

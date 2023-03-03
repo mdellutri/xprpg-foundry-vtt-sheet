@@ -1,0 +1,72 @@
+{
+    "_id": "lgo65ldX7WkXC8Ir",
+    "img": "systems/xprpg/icons/features/classes/devise-a-stratagem.webp",
+    "name": "Devise a Stratagem",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You can play out a battle in your head, using brains rather than brawn to execute an attack.</p>\n<p>You gain the @UUID[Compendium.xprpg.actionsxprpg.Devise a Stratagem]{Devise a Stratagem} action.</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "domain": "all",
+                "key": "RollOption",
+                "option": "devise-a-stratagem",
+                "toggleable": true
+            },
+            {
+                "ability": "int",
+                "key": "FlatModifier",
+                "predicate": [
+                    "class:investigator",
+                    "devise-a-stratagem",
+                    {
+                        "or": [
+                            "item:trait:agile",
+                            "item:trait:finesse",
+                            {
+                                "and": [
+                                    "item:ranged",
+                                    {
+                                        "not": "item:thrown-melee"
+                                    }
+                                ]
+                            },
+                            "item:base:sap"
+                        ]
+                    }
+                ],
+                "selector": "attack-roll",
+                "type": "ability"
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.xprpg.actionsxprpg.Devise a Stratagem"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "investigator"
+            ]
+        }
+    },
+    "type": "feat"
+}

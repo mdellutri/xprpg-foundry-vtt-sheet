@@ -1,0 +1,40 @@
+{
+    "_id": "fx50Ivl1ERxTijpT",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Invigorating Mercy",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your divine touch rejuvenates the weak and tired.</p>\n<p>When you use @UUID[Compendium.xprpg.feats-srd.Mercy]{Mercy}, you can instead attempt a counteract check to remove the @UUID[Compendium.xprpg.conditionitems.Clumsy]{Clumsy} or @UUID[Compendium.xprpg.conditionitems.Enfeebled]{Enfeebled} conditions, using the source of that condition to determine the counteract level and DC.</p>\n<p>If the condition was caused by an ongoing effect and you don't remove that effect, the condition returns at the end of your next turn.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Mercy"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "champion"
+            ]
+        }
+    },
+    "type": "feat"
+}

@@ -1,0 +1,93 @@
+{
+    "_id": "1xDMyQ8IHuhDHSXy",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Conrasu Weapon Familiarity",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You have taken it upon yourself to learn the ways of combat to aid with your tasks, perhaps in a role as a corrector. You are trained with the @UUID[Compendium.xprpg.equipment-srd.Composite Shortbow]{Composite Shortbow}, @UUID[Compendium.xprpg.equipment-srd.Glaive]{Glaive}, @UUID[Compendium.xprpg.equipment-srd.Longspear]{Longspear}, @UUID[Compendium.xprpg.equipment-srd.Longsword]{Longsword}, @UUID[Compendium.xprpg.equipment-srd.Shortbow]{Shortbow}, and @UUID[Compendium.xprpg.equipment-srd.Spear]{Spear}. You also gain access to all uncommon conrasu weapons(@UUID[Compendium.xprpg.equipment-srd.Buugeng]{Buugeng}). For the purpose of determining your proficiency, martial conrasu weapons are simple weapons and advanced conrasu weapons are martial weapons.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.martial.weapon-base-composite-shortbow.rank",
+                "value": 1
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.martial.weapon-base-glaive.rank",
+                "value": 1
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.martial.weapon-base-longspear.rank",
+                "value": 1
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.martial.weapon-base-longsword.rank",
+                "value": 1
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.martial.weapon-base-shortbow.rank",
+                "value": 1
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.martial.weapon-base-spear.rank",
+                "value": 1
+            },
+            {
+                "definition": [
+                    "item:trait:conrasu",
+                    "item:category:advanced"
+                ],
+                "key": "MartialProficiency",
+                "label": "XPRPG.SpecificRule.MartialProficiency.AdvancedConrasuWeapons",
+                "sameAs": "martial",
+                "slug": "advanced-conrasu-weapons"
+            },
+            {
+                "definition": [
+                    "item:trait:conrasu",
+                    "item:category:martial"
+                ],
+                "key": "MartialProficiency",
+                "label": "XPRPG.SpecificRule.MartialProficiency.MartialConrasuWeapons",
+                "sameAs": "simple",
+                "slug": "martial-conrasu-weapons"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "conrasu"
+            ]
+        }
+    },
+    "type": "feat"
+}

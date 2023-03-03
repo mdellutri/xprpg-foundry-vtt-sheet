@@ -1,0 +1,36 @@
+{
+    "_id": "2MHzEh1KUQEbhjUf",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Vivacious Bravado",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "description": {
+            "value": "<p><strong>Requirements</strong> You gained @UUID[Compendium.xprpg.classfeatures.Panache]{Panache} this turn.</p>\n<hr />\n<p>Your ego swells, granting you a temporary reprieve from your pain. You gain temporary Hit Points equal to your level plus your Charisma modifier that last until the start of your next turn.</p>\n<p>@UUID[Compendium.xprpg.feat-effects.Effect: Vivacious Bravado]{Effect: Vivacious Bravado}</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "swashbuckler"
+            ]
+        }
+    },
+    "type": "feat"
+}

@@ -1,0 +1,17 @@
+<div class="tab inventory item-container" data-container-type="actorInventory" data-group="primary" data-tab="inventory">
+    {{> "systems/xprpg/templates/actors/partials/coinage.hbs"}}
+    {{> "systems/xprpg/templates/actors/partials/inventory.hbs"}}
+
+    {{#with inventory.bulk}}
+        <div class="encumbrance {{#if isEncumbered}}encumbered{{/if}} {{#if isOverMax}}over-limit{{/if}}">
+            <img src="systems/xprpg/icons/equipment/adventuring-gear/backpack.webp" alt="Encumbrance">
+            <span class="encumbrance-bar" style="width:{{maxPercentageInteger}}%"></span>
+            <div class="encumbrance-label">
+                <span>{{localize "XPRPG.BulkLabel"}} {{value}} / {{localize "XPRPG.ConditionTypeEncumbered"}}: {{encumberedAt}}</span>
+                <span>{{localize "XPRPG.BulkMaxLabel"}}: {{max}}</span>
+            </div>
+            <div class="encumbrance-light-bulk-overflow">+ ({{value.light}}/10) {{localize "XPRPG.BulkTypeLight"}}</div>
+            <span class="bar-bg"></span>
+        </div>
+    {{/with}}
+</div>

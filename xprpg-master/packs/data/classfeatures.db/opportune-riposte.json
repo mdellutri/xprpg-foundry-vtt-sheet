@@ -1,0 +1,41 @@
+{
+    "_id": "Jtn7IugykXDlIoZq",
+    "img": "systems/xprpg/icons/features/classes/opportune-riposte.webp",
+    "name": "Opportune Riposte",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You turn the tables on foes who fumble, capitalizing immediately on their mistake. You gain the @UUID[Compendium.xprpg.actionsxprpg.Opportune Riposte]{Opportune Riposte} reaction.</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 3
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.xprpg.actionsxprpg.Opportune Riposte"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "swashbuckler"
+            ]
+        }
+    },
+    "type": "feat"
+}

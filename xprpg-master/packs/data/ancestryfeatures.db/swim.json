@@ -1,0 +1,42 @@
+{
+    "_id": "kMgyOI4kBIEtFvhb",
+    "img": "systems/xprpg/icons/spells/crashing-wave.webp",
+    "name": "Swim",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Azarketi get a base Swim speed of 30.</p>"
+        },
+        "featType": {
+            "value": "ancestryfeature"
+        },
+        "level": {
+            "value": 0
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "BaseSpeed",
+                "selector": "swim",
+                "value": 30
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "azarketi"
+            ]
+        }
+    },
+    "type": "feat"
+}

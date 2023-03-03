@@ -1,0 +1,36 @@
+{
+    "_id": "Iqv8qj7ym63YjexN",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Catfolk Dance",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "description": {
+            "value": "<p>You have a habit of always being in the way when other creatures attempt to move. Attempt an Acrobatics check against an adjacent creature's Reflex DC.</p>\n<p>@UUID[Compendium.xprpg.feat-effects.Effect: Catfolk Dance]{Effect: Catfolk Dance}</p>\n<hr />\n<p><strong>Critical Success</strong> The target creature gains a -2 circumstance penalty to Reflex saves and is @UUID[Compendium.xprpg.conditionitems.Flat-Footed]{Flat-Footed} until the start of your next turn.</p>\n<p><strong>Success</strong> The target creature gains a -2 circumstance penalty to Reflex saves until the start of your next turn.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "catfolk"
+            ]
+        }
+    },
+    "type": "feat"
+}

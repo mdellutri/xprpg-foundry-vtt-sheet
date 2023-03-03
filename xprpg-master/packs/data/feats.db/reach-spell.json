@@ -1,0 +1,44 @@
+{
+    "_id": "BWomK7EVY0WXxWgh",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Reach Spell",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "description": {
+            "value": "<p>You can extend the range of your spells. If the next action you use is to @UUID[Compendium.xprpg.actionsxprpg.Cast a Spell]{Cast a Spell} that has a range, increase that spell's range by 30 feet. As is standard for increasing spell ranges, if the spell normally has a range of touch, you extend its range to 30 feet.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "bard",
+                "cleric",
+                "concentrate",
+                "druid",
+                "metamagic",
+                "oracle",
+                "sorcerer",
+                "witch",
+                "wizard"
+            ]
+        }
+    },
+    "type": "feat"
+}

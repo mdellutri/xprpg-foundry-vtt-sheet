@@ -1,0 +1,40 @@
+{
+    "_id": "ybrx1nsg5J0L8d3j",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Shared Clarity",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You can project your premonitions of clarity to your allies.</p>\n<p>When you use @UUID[Compendium.xprpg.feats-srd.Premonition Of Clarity]{Premonition Of Clarity}, allies within 15 feet of you who failed the same saving throw against the same mental effect can also spend their reactions to reroll the failed saving throw with a +2 circumstance bonus.</p>\n<p>@UUID[Compendium.xprpg.feat-effects.Effect: Shared Clarity]{Effect: Shared Clarity}</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Premonition of Clarity"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "cleric"
+            ]
+        }
+    },
+    "type": "feat"
+}

@@ -1,0 +1,43 @@
+{
+    "_id": "mQVC1iDyNi2tfsF8",
+    "img": "systems/xprpg/icons/features/classes/inventive-expertise.webp",
+    "name": "Inventive Expertise",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Through innovation and experimentation, you've made your inventions more effective and reliable. Your proficiency rank for your inventor class DC increases to expert.</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 9
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.proficiencies.classDCs.inventor.rank",
+                "value": 2
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "inventor"
+            ]
+        }
+    },
+    "type": "feat"
+}

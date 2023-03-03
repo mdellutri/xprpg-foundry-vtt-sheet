@@ -1,0 +1,37 @@
+{
+    "_id": "D71A2ZQfz9MVndqI",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Felicitous Riposte",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You take advantage of your foe's openings with uncanny odds.</p>\n<p>When you make an @UUID[Compendium.xprpg.classfeatures.Opportune Riposte]{Opportune Riposte}, roll twice on the attack roll and take the better result.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fortune",
+                "swashbuckler"
+            ]
+        }
+    },
+    "type": "feat"
+}

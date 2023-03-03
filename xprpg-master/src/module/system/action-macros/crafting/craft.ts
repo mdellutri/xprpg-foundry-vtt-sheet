@@ -1,0 +1,87 @@
+import { renderCraftingInline } from "@actor/character/crafting/helpers";
+import { PhysicalItemXPRPG } from "@item";
+import { ChatMessageXPRPG } from "@module/chat-message";
+import { calculateDC } from "@module/dc";
+import { CheckDC } from "@system/degree-of-success";
+import { ActionMacroHelpers } from "../helpers";
+import { SkillActionOptions } from "../types";
+import { SelectItemDialog } from "./select-item";
+import { UUIDUtils } from "@util/uuid-utils";
+
+export async function craft(options: CraftActionOptions) {
+    // resolve item
+    const item =
+        options.item ??
+        (options.uuid ? await UUIDUtils.fromUuid(options.uuid) : await SelectItemDialog.getItem("craft"));
+
+    // ensure item is a valid crafting target
+    if (!item) {
+        console.warn("XPRPG System | No item selected to craft: aborting");
+        return;
+    } else if (!(item instanceof PhysicalItemXPRPG)) {
+        ui.notifications.warn(game.i18n.format("XPRPG.Actions.Craft.Warning.NotPhysicalItem", { item: item.name }));
+        return;
+    }
+
+    // check for sufficient proficiency in crafting skill
+    // check that actor has the necessary feats to craft item
+
+    const quantity = options.quantity ?? 1;
+
+    // figure out DC from item
+    const proficiencyWithoutLevel = game.settings.get("xprpg", "proficiencyVariant") === "ProficiencyWithoutLevel";
+    const dc: CheckDC = options.difficultyClass ?? {
+        value: calculateDC(item.level, { proficiencyWithoutLevel }),
+        visible: true,
+    };
+
+    // whether the player needs to pay crafting costs
+    const free = !!options.free;
+
+    const slug = options?.skill ?? "crafting";
+    const rollOptions = ["action:craft"];
+    const modifiers = options?.modifiers;
+    ActionMacroHelpers.simpleRollActionCheck({
+        actors: options.actors,
+        actionGlyph: options.glyph,
+        title: "XPRPG.Actions.Craft.Title",
+        checkContext: (opts) => ActionMacroHelpers.defaultCheckContext(opts, { modifiers, rollOptions, slug }),
+        traits: ["downtime", "manipulate"],
+        event: options.event,
+        difficultyClass: dc,
+        extraNotes: (selector: string) => [
+            ActionMacroHelpers.note(selector, "XPRPG.Actions.Craft", "criticalSuccess"),
+            ActionMacroHelpers.note(selector, "XPRPG.Actions.Craft", "success"),
+            ActionMacroHelpers.note(selector, "XPRPG.Actions.Craft", "failure"),
+            ActionMacroHelpers.note(selector, "XPRPG.Actions.Craft", "criticalFailure"),
+        ],
+        createMessage: false,
+        callback: async (result) => {
+            // react to check result, creating the item in the actor's inventory on a success
+            if (result.message instanceof ChatMessageXPRPG) {
+                const message = result.message;
+                const flavor = await (async () => {
+                    if (["criticalSuccess", "success", "criticalFailure"].includes(result.outcome ?? "")) {
+                        return await renderCraftingInline(item, result.roll, quantity, result.actor, free);
+                    }
+                    return "";
+                })();
+                if (flavor) {
+                    message.updateSource({ flavor: message.flavor + flavor });
+                }
+                ChatMessage.create(message.toObject());
+            } else {
+                console.error("XPRPG | Unable to amend chat message with craft result.", result.message);
+            }
+            options.callback?.(result);
+        },
+    });
+}
+
+interface CraftActionOptions extends SkillActionOptions {
+    difficultyClass?: CheckDC;
+    item?: PhysicalItemXPRPG;
+    quantity?: number;
+    uuid?: string;
+    free?: boolean;
+}

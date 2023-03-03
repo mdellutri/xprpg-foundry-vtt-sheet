@@ -1,0 +1,46 @@
+{
+    "_id": "PiKWzPloAR2nqIcC",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Constant Levitation",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your power has unbound you from the earth below. You're affected by a constant <em>@UUID[Compendium.xprpg.spells-srd.Fly]{Fly}</em> spell, and when your Psyche is Unleashed, you gain a +10-foot status bonus to your fly Speed.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "predicate": [
+                    "self:effect:unleashed-psyche"
+                ],
+                "selector": "fly-speed",
+                "type": "status",
+                "value": 10
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "psychic"
+            ]
+        }
+    },
+    "type": "feat"
+}

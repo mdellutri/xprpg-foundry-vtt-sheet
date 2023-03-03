@@ -1,0 +1,24 @@
+{
+    "_id": "sEnMG5zbnXdJvVPz",
+    "img": "systems/xprpg/icons/default-icons/heritage.svg",
+    "name": "Cloudleaper Lizardfolk",
+    "system": {
+        "ancestry": {
+            "name": "Lizardfolk",
+            "slug": "lizardfolk",
+            "uuid": "Compendium.xprpg.ancestries.HWEgF7Gmoq55VhTL"
+        },
+        "description": {
+            "value": "<p>Your body is light with flaps of skin along your limbs that catch the air that passes beneath you. As long as you can act and have enough room, you can open the flaps to slow any fall just enough to avoid taking damage (whether you have the room to do so depends on the GM's discretion).</p>"
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "heritage"
+}

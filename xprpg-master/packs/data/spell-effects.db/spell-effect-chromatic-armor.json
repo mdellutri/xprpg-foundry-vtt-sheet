@@ -1,0 +1,91 @@
+{
+    "_id": "DHYWmMGmKOpRSqza",
+    "img": "systems/xprpg/icons/spells/chromatic-armor.webp",
+    "name": "Spell Effect: Chromatic Armor",
+    "system": {
+        "badge": null,
+        "description": {
+            "value": "<p>Granted by <em>@UUID[Compendium.xprpg.spells-srd.Chromatic Armor]{Chromatic Armor}</em></p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "minutes",
+            "value": 1
+        },
+        "level": {
+            "value": 4
+        },
+        "rules": [
+            {
+                "choices": [
+                    {
+                        "label": "XPRPG.SpecificRule.ChromaticArmor.Fire",
+                        "value": "fire"
+                    },
+                    {
+                        "label": "XPRPG.SpecificRule.ChromaticArmor.Acid",
+                        "value": "acid"
+                    },
+                    {
+                        "label": "XPRPG.SpecificRule.ChromaticArmor.Electricity",
+                        "value": "electricity"
+                    },
+                    {
+                        "label": "XPRPG.SpecificRule.ChromaticArmor.Poison",
+                        "value": "poison"
+                    },
+                    {
+                        "label": "XPRPG.SpecificRule.ChromaticArmor.Sonic",
+                        "value": "sonic"
+                    },
+                    {
+                        "label": "XPRPG.SpecificRule.ChromaticArmor.Mental",
+                        "value": "mental"
+                    },
+                    {
+                        "label": "XPRPG.SpecificRule.ChromaticArmor.Force",
+                        "value": "force"
+                    }
+                ],
+                "flag": "chromaticArmor",
+                "key": "ChoiceSet",
+                "prompt": "XPRPG.SpecificRule.ChromaticArmor.Prompt"
+            },
+            {
+                "key": "Resistance",
+                "type": "{item|flags.xprpg.rulesSelections.chromaticArmor}",
+                "value": "5+5*floor((@item.level - 4) / 3)"
+            },
+            {
+                "key": "TokenLight",
+                "value": {
+                    "animation": {
+                        "intensity": 1,
+                        "speed": 3,
+                        "type": "pulse"
+                    },
+                    "bright": 20,
+                    "color": "#343434",
+                    "dim": 40
+                }
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Secrets of Magic"
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "effect"
+}

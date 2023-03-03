@@ -1,0 +1,11 @@
+{
+    "_id": "FJ9D4qpeRhJvjHai",
+    "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Black Butterfly]{Black Butterfly}, @UUID[Compendium.xprpg.deities.Cosmic Caravan]{Cosmic Caravan}, @UUID[Compendium.xprpg.deities.Desna]{Desna}, @UUID[Compendium.xprpg.deities.Findeladlara]{Findeladlara}, @UUID[Compendium.xprpg.deities.Luhar]{Luhar}, @UUID[Compendium.xprpg.deities.Ma'at]{Ma'at}, @UUID[Compendium.xprpg.deities.Pulura]{Pulura}, @UUID[Compendium.xprpg.deities.The Path of the Heavens]{The Path of the Heavens}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Zenith Star]{Zenith Star}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Asterism]{Asterism}</em></p>\n<p>You command the power of the stars.</p>",
+    "name": "Star Domain",
+    "ownership": {
+        "default": 0
+    },
+    "permission": {
+        "default": 0
+    }
+}

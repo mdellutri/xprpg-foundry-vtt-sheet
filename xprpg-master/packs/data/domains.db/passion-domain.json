@@ -1,0 +1,11 @@
+{
+    "_id": "O1qeC0mIufSf3wv5",
+    "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Ardad Lili]{Ardad Lili}, @UUID[Compendium.xprpg.deities.Arshea]{Arshea}, @UUID[Compendium.xprpg.deities.Bastet]{Bastet}, @UUID[Compendium.xprpg.deities.Belial]{Belial}, @UUID[Compendium.xprpg.deities.Bolka]{Bolka}, @UUID[Compendium.xprpg.deities.Calistria]{Calistria}, @UUID[Compendium.xprpg.deities.Cernunnos]{Cernunnos}, @UUID[Compendium.xprpg.deities.Hathor]{Hathor}, @UUID[Compendium.xprpg.deities.Isis]{Isis}, @UUID[Compendium.xprpg.deities.Kofusachi]{Kofusachi}, @UUID[Compendium.xprpg.deities.Likha]{Likha}, @UUID[Compendium.xprpg.deities.Lymnieris]{Lymnieris}, @UUID[Compendium.xprpg.deities.Naderi]{Naderi}, @UUID[Compendium.xprpg.deities.Nalinivati]{Nalinivati}, @UUID[Compendium.xprpg.deities.Shelyn]{Shelyn}, @UUID[Compendium.xprpg.deities.The Green Mother]{The Green Mother}, @UUID[Compendium.xprpg.deities.The Lantern King]{The Lantern King}, @UUID[Compendium.xprpg.deities.Tlehar]{Tlehar}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Charming Touch]{Charming Touch}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Captivating Adoration]{Captivating Adoration}</em></p>\n<p>You evoke passion, whether as love or lust.</p>",
+    "name": "Passion Domain",
+    "ownership": {
+        "default": 0
+    },
+    "permission": {
+        "default": 0
+    }
+}

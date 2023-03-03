@@ -1,0 +1,40 @@
+{
+    "_id": "aOYnK0xe9DKFtx7d",
+    "img": "systems/xprpg/icons/default-icons/feats.webp",
+    "name": "Innocent Butterfly",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You know how to alter the perceptions of others. You can cast <em>@UUID[Compendium.xprpg.spells-srd.Aura of the Unremarkable]{Aura of the Unremarkable}</em> once per day as an innate arcane spell. The spell uses your class DC or spell DC, whichever is higher.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Butterfly Blade Dedication"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "type": "feat"
+}

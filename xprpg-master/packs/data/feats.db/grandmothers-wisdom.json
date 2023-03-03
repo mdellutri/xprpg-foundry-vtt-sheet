@@ -1,0 +1,36 @@
+{
+    "_id": "mU8vTzrWX9fIlG0d",
+    "img": "systems/xprpg/icons/default-icons/feats.webp",
+    "name": "Grandmother's Wisdom",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You carry the bones of your ancestors with you, and you can ask them for counsel. You can cast <em>@UUID[Compendium.xprpg.spells-srd.Augury]{Augury}</em> twice per day as a 2nd-level occult innate spell.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 9
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "gnoll"
+            ]
+        }
+    },
+    "type": "feat"
+}

@@ -1,0 +1,11 @@
+{
+    "_id": "X7MkBRJGUIp91k6f",
+    "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Andoletta]{Andoletta}, @UUID[Compendium.xprpg.deities.Arazni]{Arazni}, @UUID[Compendium.xprpg.deities.Count Ranalc]{Count Ranalc}, @UUID[Compendium.xprpg.deities.Doloras]{Doloras}, @UUID[Compendium.xprpg.deities.Likha]{Likha}, @UUID[Compendium.xprpg.deities.Naderi]{Naderi}, @UUID[Compendium.xprpg.deities.Narakaas]{Narakaas}, @UUID[Compendium.xprpg.deities.Pulura]{Pulura}, @UUID[Compendium.xprpg.deities.Ravithra]{Ravithra}, @UUID[Compendium.xprpg.deities.Shizuru]{Shizuru}, @UUID[Compendium.xprpg.deities.Sifkesh]{Sifkesh}, @UUID[Compendium.xprpg.deities.The Lost Prince]{The Lost Prince}, @UUID[Compendium.xprpg.deities.Vildeis]{Vildeis}, @UUID[Compendium.xprpg.deities.Zyphus]{Zyphus}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Lament]{Lament}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Overflowing Sorrow]{Overflowing Sorrow}</em></p>\n<p>You have a painful connection to melancholy and sadness.</p>",
+    "name": "Sorrow Domain",
+    "ownership": {
+        "default": 0
+    },
+    "permission": {
+        "default": 0
+    }
+}

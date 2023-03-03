@@ -1,0 +1,117 @@
+{
+    "_id": "QEtgbY8N2V4wTbsI",
+    "img": "systems/xprpg/icons/features/classes/implement-paragon.webp",
+    "name": "Implement Paragon",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You have unlocked the last secrets of an implement. Choose one of your implements that already gained the adept benefit; you gain the paragon benefit for that implement.</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 17
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "adjustName": false,
+                "choices": [
+                    {
+                        "label": "XPRPG.SpecificRule.Thaumaturge.Implement.Amulet",
+                        "predicate": [
+                            "feature:amulet",
+                            "adept:amulet"
+                        ],
+                        "value": "amulet"
+                    },
+                    {
+                        "label": "XPRPG.SpecificRule.Thaumaturge.Implement.Bell",
+                        "predicate": [
+                            "feature:bell",
+                            "adept:bell"
+                        ],
+                        "value": "bell"
+                    },
+                    {
+                        "label": "XPRPG.SpecificRule.Thaumaturge.Implement.Chalice",
+                        "predicate": [
+                            "feature:chalice",
+                            "adept:chalice"
+                        ],
+                        "value": "chalice"
+                    },
+                    {
+                        "label": "XPRPG.SpecificRule.Thaumaturge.Implement.Lantern",
+                        "predicate": [
+                            "feature:lantern",
+                            "adept:lantern"
+                        ],
+                        "value": "lantern"
+                    },
+                    {
+                        "label": "XPRPG.SpecificRule.Thaumaturge.Implement.Mirror",
+                        "predicate": [
+                            "feature:mirror",
+                            "adept:mirror"
+                        ],
+                        "value": "mirror"
+                    },
+                    {
+                        "label": "XPRPG.SpecificRule.Thaumaturge.Implement.Regalia",
+                        "predicate": [
+                            "feature:regalia",
+                            "adept:regalia"
+                        ],
+                        "value": "regalia"
+                    },
+                    {
+                        "label": "XPRPG.SpecificRule.Thaumaturge.Implement.Tome",
+                        "predicate": [
+                            "feature:tome",
+                            "adept:tome"
+                        ],
+                        "value": "tome"
+                    },
+                    {
+                        "label": "XPRPG.SpecificRule.Thaumaturge.Implement.Wand",
+                        "predicate": [
+                            "feature:wand",
+                            "adept:wand"
+                        ],
+                        "value": "wand"
+                    },
+                    {
+                        "label": "XPRPG.SpecificRule.Thaumaturge.Implement.Weapon",
+                        "predicate": [
+                            "feature:weapon",
+                            "adept:weapon"
+                        ],
+                        "value": "weapon"
+                    }
+                ],
+                "key": "ChoiceSet",
+                "prompt": "XPRPG.UI.RuleElements.ChoiceSet.Prompt",
+                "rollOption": "paragon"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "thaumaturge"
+            ]
+        }
+    },
+    "type": "feat"
+}

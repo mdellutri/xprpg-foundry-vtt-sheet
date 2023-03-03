@@ -1,0 +1,87 @@
+{
+    "_id": "OTjRxyCtwPoqNFP2",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Kobold Weapon Familiarity",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You've trained with weapons ideal for subterranean efficiency. You are trained with the @UUID[Compendium.xprpg.equipment-srd.Crossbow]{Crossbow}, @UUID[Compendium.xprpg.equipment-srd.Greatpick]{Greatpick}, @UUID[Compendium.xprpg.equipment-srd.Light Pick]{Light Pick}, @UUID[Compendium.xprpg.equipment-srd.Pick]{Pick}, and @UUID[Compendium.xprpg.equipment-srd.Spear]{Spear}.</p>\n<p>You also gain access to all uncommon kobold weapons. For the purpose of determining your proficiency, martial kobold weapons are simple weapons, and advanced kobold weapons are martial weapons.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.martial.weapon-base-crossbow.rank",
+                "value": 1
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.martial.weapon-base-greatpick.rank",
+                "value": 1
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.martial.weapon-base-light-pick.rank",
+                "value": 1
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.martial.weapon-base-pick.rank",
+                "value": 1
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.martial.weapon-base-spear.rank",
+                "value": 1
+            },
+            {
+                "definition": [
+                    "item:trait:kobold",
+                    "item:category:advanced"
+                ],
+                "key": "MartialProficiency",
+                "label": "XPRPG.SpecificRule.MartialProficiency.AdvancedKoboldWeapons",
+                "sameAs": "martial",
+                "slug": "advanced-kobold-weapons"
+            },
+            {
+                "definition": [
+                    "item:trait:kobold",
+                    "item:category:martial"
+                ],
+                "key": "MartialProficiency",
+                "label": "XPRPG.SpecificRule.MartialProficiency.MartialKoboldWeapons",
+                "sameAs": "simple",
+                "slug": "martial-kobold-weapons"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "kobold"
+            ]
+        }
+    },
+    "type": "feat"
+}

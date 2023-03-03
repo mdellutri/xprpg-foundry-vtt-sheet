@@ -1,0 +1,52 @@
+{
+    "_id": "vj2hkcSbwwRYNLk5",
+    "img": "systems/xprpg/icons/equipment/worn-items/other-worn-items/backfire-mantle.webp",
+    "name": "Effect: Jack's Tattered Cape",
+    "system": {
+        "badge": null,
+        "description": {
+            "value": "<p>You gain a +1 item bonus to Stealth checks to @UUID[Compendium.xprpg.actionsxprpg.Hide]{Hide} or @UUID[Compendium.xprpg.actionsxprpg.Sneak]{Sneak}.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "rounds",
+            "value": 1
+        },
+        "level": {
+            "value": 1
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "predicate": [
+                    {
+                        "or": [
+                            "action:hide",
+                            "action:sneak"
+                        ]
+                    }
+                ],
+                "selector": "stealth",
+                "type": "item",
+                "value": 1
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "effect"
+}

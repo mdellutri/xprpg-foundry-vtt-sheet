@@ -1,0 +1,41 @@
+{
+    "_id": "cixf1uAQF2Y3w1Qx",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Nightvision Adaptation",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>The nanites in your ocular processors have adapted to darkness, enhancing your ability to see in the dark. You gain @UUID[Compendium.xprpg.ancestryfeatures.Darkvision]{Darkvision}.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "Sense",
+                "selector": "darkvision"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "android"
+            ]
+        }
+    },
+    "type": "feat"
+}

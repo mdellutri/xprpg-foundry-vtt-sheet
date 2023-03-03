@@ -1,0 +1,44 @@
+{
+    "_id": "D7teqZ68L21aZCpd",
+    "img": "systems/xprpg/icons/equipment/snares/glittering-snare-effect.webp",
+    "name": "Effect: Glittering Snare (Failure)",
+    "system": {
+        "badge": null,
+        "description": {
+            "value": "<p>The creature takes a -2 status penalty to Stealth checks for 2 minutes or until it spends a 2-action activity, which has the manipulate trait, to remove the glitter. If the creature was @UUID[Compendium.xprpg.conditionitems.Invisible]{Invisible}, the glitter outlines it for 1 round, making it @UUID[Compendium.xprpg.conditionitems.Concealed]{Concealed} rather than @UUID[Compendium.xprpg.conditionitems.Undetected]{Undetected} to visual senses.</p>"
+        },
+        "duration": {
+            "expiry": "turn-end",
+            "sustained": false,
+            "unit": "minutes",
+            "value": 2
+        },
+        "level": {
+            "value": 4
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "stealth",
+                "type": "status",
+                "value": -2
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": false
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "effect"
+}

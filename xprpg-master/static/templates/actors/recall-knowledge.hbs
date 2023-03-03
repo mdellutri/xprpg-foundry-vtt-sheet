@@ -1,0 +1,35 @@
+<h1>{{localize "XPRPG.RecallKnowledge.BreakdownTitle"}}</h1>
+<p>{{localize "XPRPG.RecallKnowledge.Help"}}</p>
+<table class="recall-knowledge-table">
+  <tbody>
+  <tr>
+    <th>{{localize "XPRPG.RecallKnowledge.Skill"}}</th>
+    <th>{{localize "XPRPG.RecallKnowledge.FirstAttempt"}}</th>
+    <th>{{localize "XPRPG.RecallKnowledge.SecondAttempt"}}</th>
+    <th>{{localize "XPRPG.RecallKnowledge.ThirdAttempt"}}</th>
+    <th>{{localize "XPRPG.RecallKnowledge.FourthAttempt"}}</th>
+    <th>{{localize "XPRPG.RecallKnowledge.FifthAttempt"}}</th>
+    <th>{{localize "XPRPG.RecallKnowledge.SixthAttempt"}}</th>
+  </tr>
+  {{#each skills}}
+  <tr>
+    <td>{{localize name}}</td>
+    {{#each attempts}}
+    <td>{{this}}</td>
+    {{/each}}
+  </tr>
+  {{/each}}
+  <tr>
+    <td>{{localize "XPRPG.RecallKnowledge.UnspecificLore"}}</td>
+    {{#each unspecificLoreAttempts}}
+    <td>{{this}}</td>
+    {{/each}}
+  </tr>
+  <tr>
+    <td>{{localize "XPRPG.RecallKnowledge.SpecificLore"}}</td>
+    {{#each specificLoreAttempts}}
+    <td>{{this}}</td>
+    {{/each}}
+  </tr>
+  </tbody>
+</table>

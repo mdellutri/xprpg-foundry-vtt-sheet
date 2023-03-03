@@ -1,0 +1,1 @@
+export { TokenXPRPG } from "./object";

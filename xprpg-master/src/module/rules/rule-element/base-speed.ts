@@ -1,0 +1,74 @@
+import { CreatureXPRPG } from "@actor";
+import { MovementType } from "@actor/creature/data";
+import { ActorType } from "@actor/data";
+import { MOVEMENT_TYPES } from "@actor/values";
+import { ItemXPRPG } from "@item";
+import { tupleHasValue } from "@util";
+import { BracketedValue, RuleElementOptions, RuleElementXPRPG, RuleElementSource } from ".";
+import { BaseSpeedSynthetic, DeferredMovementType } from "../synthetics";
+
+/**
+ * @category RuleElement
+ */
+class BaseSpeedRuleElement extends RuleElementXPRPG {
+    protected static override validActorTypes: ActorType[] = ["character", "familiar", "npc"];
+
+    private selector: string;
+
+    private value: number | string | BracketedValue = 0;
+
+    constructor(data: BaseSpeedSource, item: Embedded<ItemXPRPG>, options?: RuleElementOptions) {
+        super(data, item, options);
+
+        this.selector = String(data.selector)
+            .trim()
+            .replace(/-speed$/, "");
+
+        if (typeof data.value === "string" || typeof data.value === "number" || this.isBracketedValue(data.value)) {
+            this.value = data.value;
+        } else {
+            this.failValidation("A value must be a number, string, or bracketed value");
+        }
+    }
+
+    override beforePrepareData(): void {
+        if (this.ignored) return;
+        const speedType = this.resolveInjectedProperties(this.selector);
+        if (!tupleHasValue(MOVEMENT_TYPES, speedType)) {
+            return this.failValidation("Unrecognized or missing selector");
+        }
+
+        const speed = this.#createMovementType(speedType);
+        const synthetics = (this.actor.synthetics.movementTypes[speedType] ??= []);
+        synthetics.push(speed);
+    }
+
+    #createMovementType(type: MovementType): DeferredMovementType {
+        return (): BaseSpeedSynthetic | null => {
+            if (!this.test()) return null;
+
+            const value = Math.trunc(Number(this.resolveValue(this.value)));
+            if (!Number.isInteger(value)) {
+                this.failValidation("Failed to resolve value");
+                return null;
+            }
+            // Whether this speed is derived from the creature's land speed
+            const derivedFromLand =
+                type !== "land" &&
+                typeof this.value === "string" &&
+                /attributes\.speed\.(?:value|total)/.test(this.value);
+
+            return value > 0 ? { type: type, value, source: this.item.name, derivedFromLand } : null;
+        };
+    }
+}
+
+interface BaseSpeedSource extends RuleElementSource {
+    selector?: unknown;
+}
+
+interface BaseSpeedRuleElement extends RuleElementXPRPG {
+    get actor(): CreatureXPRPG;
+}
+
+export { BaseSpeedRuleElement };

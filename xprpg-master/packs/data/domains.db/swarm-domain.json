@@ -1,0 +1,11 @@
+{
+    "_id": "dnljU1twPjH4KFgO",
+    "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Apollyon]{Apollyon}, @UUID[Compendium.xprpg.deities.Ghlaunder]{Ghlaunder}, @UUID[Compendium.xprpg.deities.Halcamora]{Halcamora}, @UUID[Compendium.xprpg.deities.Lahkgya]{Lahkgya}, @UUID[Compendium.xprpg.deities.Lao Shu Po]{Lao Shu Po}, @UUID[Compendium.xprpg.deities.Pazuzu]{Pazuzu}, @UUID[Compendium.xprpg.deities.Rovagug]{Rovagug}, @UUID[Compendium.xprpg.deities.Urgathoa]{Urgathoa}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Swarmsense]{Swarmsense}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Swarm Form]{Swarm Form}</em></p>\n<p>You exert control over masses of creatures.</p>",
+    "name": "Swarm Domain",
+    "ownership": {
+        "default": 0
+    },
+    "permission": {
+        "default": 0
+    }
+}

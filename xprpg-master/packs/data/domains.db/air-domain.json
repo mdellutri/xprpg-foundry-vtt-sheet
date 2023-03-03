@@ -1,0 +1,11 @@
+{
+    "_id": "Ze2hoTyOQHbaQ6jD",
+    "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Apollyon]{Apollyon}, @UUID[Compendium.xprpg.deities.Baalzebul]{Baalzebul}, @UUID[Compendium.xprpg.deities.Ghlaunder]{Ghlaunder}, @UUID[Compendium.xprpg.deities.Gozreh]{Gozreh},@UUID[Compendium.xprpg.deities.Hei Feng]{Hei Feng},@UUID[Compendium.xprpg.deities.Horus]{Horus},@UUID[Compendium.xprpg.deities.Hshurha]{Hshurha},@UUID[Compendium.xprpg.deities.Pazuzu]{Pazuzu},@UUID[Compendium.xprpg.deities.Ragdya]{Ragdya},@UUID[Compendium.xprpg.deities.Ranginori]{Ranginori},@UUID[Compendium.xprpg.deities.Rovagug]{Rovagug},@UUID[Compendium.xprpg.deities.Sturovenen]{Sturovenen},@UUID[Compendium.xprpg.deities.Uvuko]{Uvuko},@UUID[Compendium.xprpg.deities.Ylimancha]{Ylimancha}</p>\n<p><strong>Domain Spell</strong><em>@UUID[Compendium.xprpg.spells-srd.Pushing Gust]{Pushing Gust}</em>;<strong>Advanced Domain Spell</strong><em>@UUID[Compendium.xprpg.spells-srd.Disperse into Air]{Disperse into Air}</em></p>\n<p>You can control winds and the weather.</p>",
+    "name": "Air Domain",
+    "ownership": {
+        "default": 0
+    },
+    "permission": {
+        "default": 0
+    }
+}

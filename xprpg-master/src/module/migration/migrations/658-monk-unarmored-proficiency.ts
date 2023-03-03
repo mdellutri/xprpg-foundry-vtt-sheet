@@ -1,0 +1,14 @@
+import { ItemSourceXPRPG } from "@item/data";
+import { sluggify } from "@util";
+import { MigrationBase } from "../base";
+
+export class Migration658MonkUnarmoredProficiency extends MigrationBase {
+    static override version = 0.658;
+
+    override async updateItem(itemSource: ItemSourceXPRPG): Promise<void> {
+        const slug = itemSource.system.slug ?? sluggify(itemSource.name);
+        if (itemSource.type === "class" && slug === "monk" && itemSource.system.defenses.unarmored !== 2) {
+            itemSource.system.defenses.unarmored = 2;
+        }
+    }
+}

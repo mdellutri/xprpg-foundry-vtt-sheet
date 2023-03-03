@@ -1,0 +1,150 @@
+{
+    "_id": "g0hHetVM9UmmIDKU",
+    "img": "systems/xprpg/icons/default-icons/feats.webp",
+    "name": "Fighting Horn",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You can modify the size and shape of your horn over time using your mental powers. Choose two of the following weapon traits: disarm, grapple, shove, and trip. Your horn gains the chosen traits.</p>\n<p><strong>Special</strong> You can take this feat a second time, adding the traits you didn't choose when you first took it.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 5
+        },
+        "maxTakable": 2,
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Puncturing Horn or xyloshi"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "adjustName": false,
+                "choices": [
+                    {
+                        "label": "XPRPG.TraitDisarm",
+                        "predicate": [
+                            {
+                                "not": "fighting-horn:disarm"
+                            }
+                        ],
+                        "value": "disarm"
+                    },
+                    {
+                        "label": "XPRPG.TraitGrapple",
+                        "predicate": [
+                            {
+                                "not": "fighting-horn:grapple"
+                            }
+                        ],
+                        "value": "grapple"
+                    },
+                    {
+                        "label": "XPRPG.TraitShove",
+                        "predicate": [
+                            {
+                                "not": "fighting-horn:shove"
+                            }
+                        ],
+                        "value": "shove"
+                    },
+                    {
+                        "label": "XPRPG.TraitTrip",
+                        "predicate": [
+                            {
+                                "not": "fighting-horn:trip"
+                            }
+                        ],
+                        "value": "trip"
+                    }
+                ],
+                "flag": "trait-one",
+                "key": "ChoiceSet",
+                "prompt": "XPRPG.UI.RuleElements.ChoiceSet.Prompt",
+                "rollOption": "fighting-horn"
+            },
+            {
+                "adjustName": false,
+                "choices": [
+                    {
+                        "label": "XPRPG.TraitDisarm",
+                        "predicate": [
+                            {
+                                "not": "fighting-horn:disarm"
+                            }
+                        ],
+                        "value": "disarm"
+                    },
+                    {
+                        "label": "XPRPG.TraitGrapple",
+                        "predicate": [
+                            {
+                                "not": "fighting-horn:grapple"
+                            }
+                        ],
+                        "value": "grapple"
+                    },
+                    {
+                        "label": "XPRPG.TraitShove",
+                        "predicate": [
+                            {
+                                "not": "fighting-horn:shove"
+                            }
+                        ],
+                        "value": "shove"
+                    },
+                    {
+                        "label": "XPRPG.TraitTrip",
+                        "predicate": [
+                            {
+                                "not": "fighting-horn:trip"
+                            }
+                        ],
+                        "value": "trip"
+                    }
+                ],
+                "flag": "trait-two",
+                "key": "ChoiceSet",
+                "prompt": "XPRPG.UI.RuleElements.ChoiceSet.Prompt",
+                "rollOption": "fighting-horn"
+            },
+            {
+                "definition": [
+                    "item:slug:horn"
+                ],
+                "key": "AdjustStrike",
+                "mode": "add",
+                "property": "weapon-traits",
+                "value": "{item|flags.xprpg.rulesSelections.trait-one}"
+            },
+            {
+                "definition": [
+                    "item:slug:horn"
+                ],
+                "key": "AdjustStrike",
+                "mode": "add",
+                "property": "weapon-traits",
+                "value": "{item|flags.xprpg.rulesSelections.trait-two}"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "kashrishi"
+            ]
+        }
+    },
+    "type": "feat"
+}

@@ -1,0 +1,37 @@
+{
+    "_id": "EHa0owz6mccnmSBf",
+    "img": "systems/xprpg/icons/actions/OneAction.webp",
+    "name": "Final Surge",
+    "system": {
+        "actionCategory": {
+            "value": "offensive"
+        },
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "description": {
+            "value": "<p>You Stride twice. The @UUID[Compendium.xprpg.equipment-srd.Drakeheart Mutagen (Lesser)]{Drakeheart Mutagen}'s duration ends.</p>"
+        },
+        "requirements": {
+            "value": ""
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "trigger": {
+            "value": ""
+        },
+        "weapon": {
+            "value": ""
+        }
+    },
+    "type": "action"
+}

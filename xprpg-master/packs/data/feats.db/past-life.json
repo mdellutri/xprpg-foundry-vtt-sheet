@@ -1,0 +1,166 @@
+{
+    "_id": "Z30nSkai5UmZCyKu",
+    "img": "systems/xprpg/icons/default-icons/feats.webp",
+    "name": "Past Life",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Flashes of your life become clearer and more frequent, allowing you to apply skills you developed while alive. You become trained in a skill of your choice and gain the @UUID[Compendium.xprpg.feats-srd.Additional Lore]{Additional Lore} feat for a Lore subcategory tied to your life.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 5
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.xprpg.feats-srd.Additional Lore"
+            },
+            {
+                "choices": [
+                    {
+                        "label": "XPRPG.SkillAcr",
+                        "predicate": [
+                            "skill:acr:rank:0"
+                        ],
+                        "value": "acr"
+                    },
+                    {
+                        "label": "XPRPG.SkillArc",
+                        "predicate": [
+                            "skill:arc:rank:0"
+                        ],
+                        "value": "arc"
+                    },
+                    {
+                        "label": "XPRPG.SkillAth",
+                        "predicate": [
+                            "skill:ath:rank:0"
+                        ],
+                        "value": "ath"
+                    },
+                    {
+                        "label": "XPRPG.SkillCra",
+                        "predicate": [
+                            "skill:cra:rank:0"
+                        ],
+                        "value": "cra"
+                    },
+                    {
+                        "label": "XPRPG.SkillDec",
+                        "predicate": [
+                            "skill:dec:rank:0"
+                        ],
+                        "value": "dec"
+                    },
+                    {
+                        "label": "XPRPG.SkillDip",
+                        "predicate": [
+                            "skill:dip:rank:0"
+                        ],
+                        "value": "dip"
+                    },
+                    {
+                        "label": "XPRPG.SkillItm",
+                        "predicate": [
+                            "skill:itm:rank:0"
+                        ],
+                        "value": "itm"
+                    },
+                    {
+                        "label": "XPRPG.SkillMed",
+                        "predicate": [
+                            "skill:arc:rank:0"
+                        ],
+                        "value": "med"
+                    },
+                    {
+                        "label": "XPRPG.SkillNat",
+                        "predicate": [
+                            "skill:nat:rank:0"
+                        ],
+                        "value": "nat"
+                    },
+                    {
+                        "label": "XPRPG.SkillOcc",
+                        "predicate": [
+                            "skill:occ:rank:0"
+                        ],
+                        "value": "occ"
+                    },
+                    {
+                        "label": "XPRPG.SkillPrf",
+                        "predicate": [
+                            "skill:prf:rank:0"
+                        ],
+                        "value": "prf"
+                    },
+                    {
+                        "label": "XPRPG.SkillRel",
+                        "predicate": [
+                            "skill:rel:rank:0"
+                        ],
+                        "value": "rel"
+                    },
+                    {
+                        "label": "XPRPG.SkillSoc",
+                        "predicate": [
+                            "skill:soc:rank:0"
+                        ],
+                        "value": "soc"
+                    },
+                    {
+                        "label": "XPRPG.SkillSte",
+                        "predicate": [
+                            "skill:ste:rank:0"
+                        ],
+                        "value": "ste"
+                    },
+                    {
+                        "label": "XPRPG.SkillSur",
+                        "predicate": [
+                            "skill:sur:rank:0"
+                        ],
+                        "value": "sur"
+                    },
+                    {
+                        "label": "XPRPG.SkillThi",
+                        "predicate": [
+                            "skill:thi:rank:0"
+                        ],
+                        "value": "thi"
+                    }
+                ],
+                "flag": "skill",
+                "key": "ChoiceSet",
+                "prompt": "XPRPG.SpecificRule.Prompt.Skill"
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "add",
+                "path": "system.skills.{item|flags.xprpg.rulesSelections.skill}.rank",
+                "value": 1
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "skeleton"
+            ]
+        }
+    },
+    "type": "feat"
+}

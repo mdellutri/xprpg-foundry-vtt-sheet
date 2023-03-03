@@ -1,0 +1,34 @@
+{
+    "_id": "YrJj8UI0XpkHv0Ho",
+    "img": "systems/xprpg/icons/default-icons/feat.svg",
+    "name": "Order of the Chain",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Members of the Order of the Chain are skilled at hunting down and capturing criminals, especially those who dare flee from justice.</p>\n<hr />\n<p><strong>Lesser Benefit</strong> @UUID[Compendium.xprpg.feats-srd.Shackles of Law]{Shackles of Law}</p>\n<p><strong>Greater Benefit</strong> @UUID[Compendium.xprpg.feats-srd.Sturdy Bindings]{Sturdy Bindings}</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 0
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "feat"
+}

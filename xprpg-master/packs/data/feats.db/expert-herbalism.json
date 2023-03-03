@@ -1,0 +1,54 @@
+{
+    "_id": "owJorCBZmUi5lIV0",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Expert Herbalism",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your @UUID[Compendium.xprpg.classfeatures.Advanced Alchemy]{Advanced Alchemy} level for herbalism increases to your level -3.</p>\n<p>You gain the formulas for elixirs of life as soon as your advanced alchemy level is high enough to create them: @UUID[Compendium.xprpg.equipment-srd.Elixir of Life (Lesser)]{lesser} at 8th level, @UUID[Compendium.xprpg.equipment-srd.Elixir of Life (Moderate)]{moderate} at 12th level, @UUID[Compendium.xprpg.equipment-srd.Elixir of Life (Greater)]{greater} at 16th level, and @UUID[Compendium.xprpg.equipment-srd.Elixir of Life (Major)]{major} at 18th level.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Herbalist Dedication"
+                },
+                {
+                    "value": "expert in Nature"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.crafting.entries.herbalist.maxItemLevel",
+                "phase": "beforeDerived",
+                "predicate": [
+                    "crafting:entry:herbalist"
+                ],
+                "value": "@actor.level - 3"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "type": "feat"
+}

@@ -1,0 +1,36 @@
+{
+    "_id": "JP5pptkl1Fx1JK4m",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Iron Fists",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your fists have been forged by battle, your naturally tough skin and dense bone further hardened by conflict.</p>\n<p>Your fist unarmed attacks no longer have the nonlethal trait and gain the shove weapon trait.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "orc"
+            ]
+        }
+    },
+    "type": "feat"
+}

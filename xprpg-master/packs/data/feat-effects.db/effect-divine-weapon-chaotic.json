@@ -1,0 +1,54 @@
+{
+    "_id": "OkcblqWj4aHVAkrp",
+    "img": "systems/xprpg/icons/spells/divine-lance.webp",
+    "name": "Effect: Divine Weapon (Chaotic)",
+    "system": {
+        "description": {
+            "value": "<p>Granted by @UUID[Compendium.xprpg.feats-srd.Divine Weapon]{Divine Weapon}.</p>\n<p>Until the end of your turn, the weapon deals an additional 1d6 chaotic damage.</p>"
+        },
+        "duration": {
+            "expiry": "turn-end",
+            "sustained": false,
+            "unit": "rounds",
+            "value": 0
+        },
+        "level": {
+            "value": 6
+        },
+        "rules": [
+            {
+                "choices": {
+                    "ownedItems": true,
+                    "types": [
+                        "weapon"
+                    ]
+                },
+                "key": "ChoiceSet",
+                "prompt": "XPRPG.SpecificRule.Prompt.Weapon"
+            },
+            {
+                "damageType": "chaotic",
+                "diceNumber": 1,
+                "dieSize": "d6",
+                "key": "DamageDice",
+                "selector": "{item|flags.xprpg.rulesSelections.effectDivineWeaponChaotic}-damage"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "effect"
+}

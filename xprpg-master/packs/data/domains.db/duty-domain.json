@@ -1,0 +1,11 @@
+{
+    "_id": "unN0otycQZanf3va",
+    "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Abadar]{Abadar}, @UUID[Compendium.xprpg.deities.Adanye]{Adanye}, @UUID[Compendium.xprpg.deities.Asmodeus]{Asmodeus}, @UUID[Compendium.xprpg.deities.Chohar]{Chohar}, @UUID[Compendium.xprpg.deities.Dammerich]{Dammerich}, @UUID[Compendium.xprpg.deities.Dispater]{Dispater}, @UUID[Compendium.xprpg.deities.Droskar]{Droskar}, @UUID[Compendium.xprpg.deities.Dwarven Pantheon]{Dwarven Pantheon}, @UUID[Compendium.xprpg.deities.Erastil]{Erastil}, @UUID[Compendium.xprpg.deities.Iomedae]{Iomedae}, @UUID[Compendium.xprpg.deities.Kols]{Kols}, @UUID[Compendium.xprpg.deities.Magrim]{Magrim}, @UUID[Compendium.xprpg.deities.Moloch]{Moloch}, @UUID[Compendium.xprpg.deities.Ragathiel]{Ragathiel}, @UUID[Compendium.xprpg.deities.Shizuru]{Shizuru}, @UUID[Compendium.xprpg.deities.Tanagaar]{Tanagaar}, @UUID[Compendium.xprpg.deities.The Godclaw]{The Godclaw}, @UUID[Compendium.xprpg.deities.Torag]{Torag}, @UUID[Compendium.xprpg.deities.Trudd]{Trudd}, @UUID[Compendium.xprpg.deities.Vildeis]{Vildeis}, @UUID[Compendium.xprpg.deities.Yaezhing]{Yaezhing}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Oathkeeper's Insignia]{Oathkeeper's Insignia}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Dutiful Challenge]{Dutiful Challenge}</em></p>\n<p>You defend oaths and carry out your divine missions with great dedication.</p>",
+    "name": "Duty Domain",
+    "ownership": {
+        "default": 0
+    },
+    "permission": {
+        "default": 0
+    }
+}

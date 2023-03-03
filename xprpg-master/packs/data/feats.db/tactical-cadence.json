@@ -1,0 +1,40 @@
+{
+    "_id": "4dQcLroKQ13QYIT3",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Tactical Cadence",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your remarkable breath control and concise instructions allow you to coordinate your allies more effectively. When you grant allies the quickened condition using Cadence Call, they can use the extra action to either Stride or Strike, and they aren't @UUID[Compendium.xprpg.conditionitems.Slowed]{Slowed 1} on their following turn if they use the extra action.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Cadence Call"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "type": "feat"
+}

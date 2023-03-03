@@ -1,0 +1,44 @@
+{
+    "_id": "Gj6u2Za5okFlsTvT",
+    "img": "systems/xprpg/icons/equipment/snares/deadweight-snare.webp",
+    "name": "Effect: Deadweight Snare (Failure/Critical Failure)",
+    "system": {
+        "badge": null,
+        "description": {
+            "value": "<p>The creature takes a -2 status penalty to attack rolls for 1 round or until it Escapes (DC 18).</p>"
+        },
+        "duration": {
+            "expiry": "turn-end",
+            "sustained": false,
+            "unit": "rounds",
+            "value": 1
+        },
+        "level": {
+            "value": 1
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "attack",
+                "type": "status",
+                "value": -2
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": false
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "effect"
+}

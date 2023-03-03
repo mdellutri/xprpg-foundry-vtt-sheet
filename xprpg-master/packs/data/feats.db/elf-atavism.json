@@ -1,0 +1,59 @@
+{
+    "_id": "7BVl9lFf0wuTjBgM",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Elf Atavism",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your elven blood runs particularly strong, granting you features far more elven than those of a typical half-elf. You may also have been raised among elves, steeped in your elven ancestors' heritage. You gain the benefits of the elf heritage of your elven parent or ancestors. You typically can't select a heritage that depends on or improves an elven feature you don't have. For example, you couldn't gain the cavern elf's darkvision ability if you didn't have low-light vision. In these cases, at the GM's discretion, you might gain a different benefit.</p>\n<p><strong>Special</strong> You can take this feat only at 1st level, and you can't retrain out of this feat or into this feat.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "allowedDrops": {
+                    "label": "XPRPG.SpecificRule.Elf.Atavism.AllowedDrops",
+                    "predicate": [
+                        "item:type:heritage",
+                        "item:ancestry:elf"
+                    ]
+                },
+                "choices": {
+                    "itemType": "heritage",
+                    "pack": "xprpg.heritages",
+                    "query": "{\"system.ancestry.slug\":\"elf\"}"
+                },
+                "flag": "heritage",
+                "key": "ChoiceSet",
+                "prompt": "XPRPG.SpecificRule.Elf.Atavism.Prompt"
+            },
+            {
+                "allowDuplicate": false,
+                "key": "GrantItem",
+                "uuid": "{item|flags.xprpg.rulesSelections.heritage}"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "half-elf"
+            ]
+        }
+    },
+    "type": "feat"
+}

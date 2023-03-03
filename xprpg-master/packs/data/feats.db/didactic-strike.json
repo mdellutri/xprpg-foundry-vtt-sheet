@@ -1,0 +1,40 @@
+{
+    "_id": "6fojN9yBJByTZ1Q9",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Didactic Strike",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>When you find a glaring weakness, you can set your allies up to annihilate your foe.</p>\n<p>When you use @UUID[Compendium.xprpg.feats-srd.Shared Stratagem]{Shared Stratagem}, you can designate up to 10 allies instead of just one. The foe is @UUID[Compendium.xprpg.conditionitems.Flat-Footed]{Flat-Footed} against the first attack from each designated ally before your next turn, and each ally's first attack deals an extra 2d6 precision damage to the target if it hits.</p>\n<p>@UUID[Compendium.xprpg.feat-effects.Effect: Didactic Strike]{Effect: Didactic Strike}</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Shared Stratagem"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "investigator"
+            ]
+        }
+    },
+    "type": "feat"
+}

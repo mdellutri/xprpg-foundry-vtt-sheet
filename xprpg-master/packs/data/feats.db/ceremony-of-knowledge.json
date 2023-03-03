@@ -1,0 +1,41 @@
+{
+    "_id": "73JyUrJnH3nOQJM5",
+    "img": "systems/xprpg/icons/default-icons/feats.webp",
+    "name": "Ceremony of Knowledge",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You tap into aeon knowledge. You gain the @UUID[Compendium.xprpg.feats-srd.Untrained Improvisation]{Untrained Improvisation} general feat. In addition, you can attempt skill actions that normally require you to be trained, even if you are untrained.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 5
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.xprpg.feats-srd.Untrained Improvisation"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "conrasu"
+            ]
+        }
+    },
+    "type": "feat"
+}

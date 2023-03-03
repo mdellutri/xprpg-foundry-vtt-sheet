@@ -1,0 +1,40 @@
+{
+    "_id": "QpnZwabXOVICJL5i",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Greater Merciful Elixir",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your additives contain panaceas that can remedy a plethora of maladies. When you use @UUID[Compendium.xprpg.feats-srd.Merciful Elixir]{Merciful Elixir}, your elixir can instead attempt to counteract the @UUID[Compendium.xprpg.conditionitems.Blinded]{Blinded}, @UUID[Compendium.xprpg.conditionitems.Deafened]{Deafened}, @UUID[Compendium.xprpg.conditionitems.Sickened]{Sickened}, or @UUID[Compendium.xprpg.conditionitems.Slowed]{Slowed} condition.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Merciful Elixir"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "alchemist"
+            ]
+        }
+    },
+    "type": "feat"
+}

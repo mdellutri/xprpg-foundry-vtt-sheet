@@ -1,0 +1,115 @@
+import { DamageDiceXPRPG, ModifierXPRPG } from "@actor/modifiers";
+import { AttackTarget, ResistanceType, StrikeSelf } from "@actor/types";
+import { ZeroToTwo } from "@module/data";
+import { RollNoteXPRPG } from "@module/notes";
+import { DegreeOfSuccessString } from "@system/degree-of-success";
+import { BaseRollContext } from "@system/rolls";
+import { DamageRoll } from "./roll";
+import { DAMAGE_CATEGORIES_UNIQUE, DAMAGE_DIE_FACES, DAMAGE_TYPES } from "./values";
+
+type DamageCategoryUnique = SetElement<typeof DAMAGE_CATEGORIES_UNIQUE>;
+type MaterialDamageEffect = keyof ConfigXPRPG["XPRPG"]["materialDamageEffects"];
+type DamageCategory = keyof ConfigXPRPG["XPRPG"]["damageCategories"];
+type DamageDieSize = SetElement<typeof DAMAGE_DIE_FACES>;
+type DamageType = SetElement<typeof DAMAGE_TYPES>;
+
+/**
+ * `null`: double on crit (includes most damage)
+ * `true`: critical only, don't double
+ * `false`: don't double on crit
+ */
+type CriticalInclusion = boolean | null;
+
+interface DamageCategoryRenderData {
+    dice: {
+        faces: number;
+        result: number;
+    }[];
+    formula: string;
+    label: string;
+    total: number;
+}
+
+interface DamageTypeRenderData {
+    icon: string;
+    categories: Record<string, DamageCategoryRenderData>;
+    label: string;
+}
+
+interface DamageRollRenderData {
+    damageTypes: Record<string, DamageTypeRenderData>;
+}
+
+interface DamageRollContext extends BaseRollContext {
+    type: "damage-roll";
+    sourceType: "attack" | "save";
+    outcome?: DegreeOfSuccessString;
+    self?: StrikeSelf | null;
+    target?: AttackTarget | null;
+    options: Set<string>;
+    secret?: boolean;
+    /** The domains this roll had, for reporting purposes */
+    domains?: string[];
+    /** The number of MAP increases from the preceding check */
+    mapIncreases?: ZeroToTwo;
+}
+
+interface DamageFormulaData {
+    base: BasicDamageData;
+    dice: DamageDiceXPRPG[];
+    modifiers: ModifierXPRPG[];
+    ignoredResistances: { type: ResistanceType; max: number | null }[];
+}
+
+interface ResolvedDamageFormulaData extends DamageFormulaData {
+    formula: Record<DegreeOfSuccessString, string | null>;
+    breakdown: Record<DegreeOfSuccessString, string[]>;
+}
+
+interface BasicDamageData {
+    damageType: DamageType;
+    diceNumber: number;
+    dieSize: DamageDieSize | null;
+    modifier: number;
+    category: DamageCategoryUnique | null;
+    materials?: MaterialDamageEffect[];
+}
+
+interface BaseDamageTemplate {
+    name: string;
+    notes: RollNoteXPRPG[];
+    traits: string[];
+    materials: MaterialDamageEffect[];
+    modifiers?: (ModifierXPRPG | DamageDiceXPRPG)[];
+}
+
+interface WeaponDamageTemplate extends BaseDamageTemplate {
+    damage: ResolvedDamageFormulaData;
+    domains: string[];
+}
+
+interface SpellDamageTemplate extends BaseDamageTemplate {
+    damage: {
+        roll: DamageRoll;
+        breakdownTags: string[];
+    };
+}
+
+type DamageTemplate = WeaponDamageTemplate | SpellDamageTemplate;
+
+export {
+    CriticalInclusion,
+    DamageCategory,
+    DamageCategoryRenderData,
+    DamageCategoryUnique,
+    DamageDieSize,
+    DamageFormulaData,
+    DamageRollContext,
+    DamageRollRenderData,
+    DamageTemplate,
+    DamageType,
+    DamageTypeRenderData,
+    MaterialDamageEffect,
+    SpellDamageTemplate,
+    WeaponDamageTemplate,
+};

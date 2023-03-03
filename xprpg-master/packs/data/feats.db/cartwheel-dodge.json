@@ -1,0 +1,40 @@
+{
+    "_id": "lmAuoHPxzQdaSUmN",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Cartwheel Dodge",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p><strong>Requirements</strong> You aren't @UUID[Compendium.xprpg.conditionitems.Encumbered]{Encumbered} or overburdened.</p>\n<p><strong>Trigger</strong> You succeed or critically succeed at a Reflex saving throw.</p>\n<hr />\n<p>You Step up to 10 feet.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Provocator Dedication"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "type": "feat"
+}

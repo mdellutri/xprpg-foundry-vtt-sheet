@@ -1,0 +1,36 @@
+{
+    "_id": "xDCtfNtbnaG166cy",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Janni Magic",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>The magic of jann runs through your blood. You can cast <em>@UUID[Compendium.xprpg.spells-srd.Enlarge]{Enlarge}</em> and <em>@UUID[Compendium.xprpg.spells-srd.Speak with Animals]{Speak with Animals}</em> once per day each as 2nd-level arcane innate spells.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 9
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "suli"
+            ]
+        }
+    },
+    "type": "feat"
+}

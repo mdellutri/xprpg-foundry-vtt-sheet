@@ -1,0 +1,49 @@
+{
+    "_id": "QibpLccM5bLUMopj",
+    "img": "systems/xprpg/icons/default-icons/deity.svg",
+    "name": "Lymnieris",
+    "system": {
+        "ability": [
+            "wis",
+            "cha"
+        ],
+        "alignment": {
+            "follower": [
+                "LG",
+                "NG",
+                "CG"
+            ],
+            "own": "LG"
+        },
+        "category": "deity",
+        "description": {
+            "value": "<p><strong>Edicts</strong> Help others achieve their desires, aid and protect sex workers, help others through difficult transitions</p>\n<p><strong>Anathema</strong> Persecute sex workers, force or support unwanted marriages</p>"
+        },
+        "domains": {
+            "alternate": [],
+            "primary": [
+                "change",
+                "passion",
+                "protection",
+                "repose"
+            ]
+        },
+        "font": [
+            "heal"
+        ],
+        "rules": [],
+        "skill": "soc",
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "spells": {
+            "1": "Compendium.xprpg.spells-srd.aAbfKn8maGjJjk2W",
+            "3": "Compendium.xprpg.spells-srd.MNiT0dHol5fEcKlz",
+            "4": "Compendium.xprpg.spells-srd.qJQADktwD0x8kLAy"
+        },
+        "weapons": [
+            "longsword"
+        ]
+    },
+    "type": "deity"
+}

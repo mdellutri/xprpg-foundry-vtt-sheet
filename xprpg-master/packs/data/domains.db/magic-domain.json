@@ -1,0 +1,11 @@
+{
+    "_id": "Y2kOBQydrsSqGCyn",
+    "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Abraxas]{Abraxas}, @UUID[Compendium.xprpg.deities.Alseta]{Alseta}, @UUID[Compendium.xprpg.deities.Arundhat]{Arundhat}, @UUID[Compendium.xprpg.deities.Baalzebul]{Baalzebul}, @UUID[Compendium.xprpg.deities.Barbatos]{Barbatos}, @UUID[Compendium.xprpg.deities.Elven Pantheon]{Elven Pantheon}, @UUID[Compendium.xprpg.deities.Irez]{Irez}, @UUID[Compendium.xprpg.deities.Isis]{Isis}, @UUID[Compendium.xprpg.deities.Korada]{Korada}, @UUID[Compendium.xprpg.deities.Lissala]{Lissala}, @UUID[Compendium.xprpg.deities.Nalinivati]{Nalinivati}, @UUID[Compendium.xprpg.deities.Nethys]{Nethys}, @UUID[Compendium.xprpg.deities.Ng]{Ng}, @UUID[Compendium.xprpg.deities.Nyarlathotep (The Crawling Chaos)]{Nyarlathotep (The Crawling Chaos)}, @UUID[Compendium.xprpg.deities.Qi Zhong]{Qi Zhong}, @UUID[Compendium.xprpg.deities.Selket]{Selket}, @UUID[Compendium.xprpg.deities.Sivanah]{Sivanah}, @UUID[Compendium.xprpg.deities.Soralyon]{Soralyon}, @UUID[Compendium.xprpg.deities.Urgathoa]{Urgathoa}, @UUID[Compendium.xprpg.deities.Valmallos]{Valmallos}, @UUID[Compendium.xprpg.deities.Wards of the Pharaoh]{Wards of the Pharaoh}, @UUID[Compendium.xprpg.deities.Yuelral]{Yuelral}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Magic's Vessel]{Magic's Vessel}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Mystic Beacon]{Mystic Beacon}</em></p>\n<p>You perform the unexpected and inexplicable.</p>",
+    "name": "Magic Domain",
+    "ownership": {
+        "default": 0
+    },
+    "permission": {
+        "default": 0
+    }
+}

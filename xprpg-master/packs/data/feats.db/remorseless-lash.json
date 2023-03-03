@@ -1,0 +1,47 @@
+{
+    "_id": "iRztLGEK5OfjZTPg",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Remorseless Lash",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You're skilled at beating a foe when their morale is already breaking. When you succeed at a melee weapon Strike against a @UUID[Compendium.xprpg.conditionitems.Frightened]{Frightened} foe, that foe can't reduce their frightened condition below 1 until the beginning of your next turn.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "Note",
+                "predicate": [
+                    "target:condition:frightened",
+                    "item:melee"
+                ],
+                "selector": "attack",
+                "text": "{item|system.description.value}",
+                "title": "{item|name}"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "hobgoblin"
+            ]
+        }
+    },
+    "type": "feat"
+}

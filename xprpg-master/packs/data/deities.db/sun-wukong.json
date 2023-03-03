@@ -1,0 +1,50 @@
+{
+    "_id": "BLNXYqvzmLgjMq2p",
+    "img": "systems/xprpg/icons/deity/Sun%20Wukong.webp",
+    "name": "Sun Wukong",
+    "system": {
+        "ability": [
+            "str",
+            "cha"
+        ],
+        "alignment": {
+            "follower": [
+                "CG",
+                "CN",
+                "CE"
+            ],
+            "own": "CN"
+        },
+        "category": "deity",
+        "description": {
+            "value": "<p><strong>Edicts</strong> Live life freely, drink, play pranks</p>\n<p><strong>Anathema</strong> Refuse a reasonable bet or duel, let social pressure change your behavior</p>"
+        },
+        "domains": {
+            "alternate": [],
+            "primary": [
+                "indulgence",
+                "might",
+                "nature",
+                "trickery"
+            ]
+        },
+        "font": [
+            "harm",
+            "heal"
+        ],
+        "rules": [],
+        "skill": "acr",
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "spells": {
+            "1": "Compendium.xprpg.spells-srd.Q7QQ91vQtyi1Ux36",
+            "3": "Compendium.xprpg.spells-srd.tFKJCPvOQZxKq6ON",
+            "4": "Compendium.xprpg.spells-srd.TUj8eugNqAvB1vVR"
+        },
+        "weapons": [
+            "bo-staff"
+        ]
+    },
+    "type": "deity"
+}

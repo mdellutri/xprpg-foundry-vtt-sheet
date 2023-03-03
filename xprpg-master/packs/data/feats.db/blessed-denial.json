@@ -1,0 +1,40 @@
+{
+    "_id": "kKoqqXOTdRYROmVV",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Blessed Denial",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p><strong>Trigger</strong> An ally within 30 feet would become @UUID[Compendium.xprpg.conditionitems.Frightened]{Frightened}, @UUID[Compendium.xprpg.conditionitems.Drained]{Drained}, @UUID[Compendium.xprpg.conditionitems.Enfeebled]{Enfeebled}, @UUID[Compendium.xprpg.conditionitems.Sickened]{Sickened}, or @UUID[Compendium.xprpg.conditionitems.Stupefied]{Stupefied}.</p>\n<hr />\n<p>You exude peace and protection, lessening a harmful condition as it falls upon an ally. Reduce the value of the condition your ally would take by 1 (to a minimum of 0). If the ally takes more than one condition at the same time, choose one to reduce.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Blessed One Dedication"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "type": "feat"
+}

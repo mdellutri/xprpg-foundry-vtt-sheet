@@ -1,0 +1,29 @@
+{
+    "_id": "kTlJqhC7ZSE8P8lu",
+    "img": "systems/xprpg/icons/default-icons/heritage.svg",
+    "name": "Venomous Anadi",
+    "system": {
+        "ancestry": {
+            "name": "Anadi",
+            "slug": "anadi",
+            "uuid": "Compendium.xprpg.ancestries.TQEqWqc7BYiadUdY"
+        },
+        "description": {
+            "value": "<p>Your natural form's fangs are capable of injecting foes with venom. You gain the @UUID[Compendium.xprpg.actionsxprpg.Anadi Venom]{Anadi Venom} ability.</p>"
+        },
+        "rules": [
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.xprpg.actionsxprpg.Anadi Venom"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "heritage"
+}

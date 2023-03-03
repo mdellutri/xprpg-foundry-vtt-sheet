@@ -1,0 +1,36 @@
+{
+    "_id": "vPZxFpq7XkRmE3Uc",
+    "img": "systems/xprpg/icons/default-icons/feats.webp",
+    "name": "Black Powder Boost",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "description": {
+            "value": "<p><strong>Requirements</strong> You're wielding a loaded firearm.</p>\n<hr />\n<p>You fire your weapon as you jump, using the kickback to go farther. You @UUID[Compendium.xprpg.actionsxprpg.Leap]{Leap} and discharge your firearm to add a +10-foot status bonus to the distance traveled. If you spend 2 actions for Black Powder Boost, you @UUID[Compendium.xprpg.actionsxprpg.High Jump]{High Jump} or @UUID[Compendium.xprpg.actionsxprpg.Long Jump]{Long Jump} instead.</p>\n<p><strong>Special</strong> An ability that allows you to High Jump or Long Jump as a single action (like the @UUID[Compendium.xprpg.feats-srd.Quick Jump]{Quick Jump} skill feat) lets you use Black Powder Boost as a single action for those jumps as well.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "gunslinger"
+            ]
+        }
+    },
+    "type": "feat"
+}

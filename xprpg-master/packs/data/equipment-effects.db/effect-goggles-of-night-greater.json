@@ -1,0 +1,42 @@
+{
+    "_id": "d7BDxmsnM1BUoEeT",
+    "img": "systems/xprpg/icons/equipment/worn-items/other-worn-items/goggles-of-night.webp",
+    "name": "Effect: Goggles of Night (Greater)",
+    "system": {
+        "badge": null,
+        "description": {
+            "value": "<p>Granted by activating @UUID[Compendium.xprpg.equipment-srd.Goggles of Night (Greater)]{Goggles of Night (Greater)}</p>\n<hr />\n<p>You gain Darkvision until you rotate the lenses back or the item is no longer invested by you, whichever comes first.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "unlimited",
+            "value": -1
+        },
+        "level": {
+            "value": 1
+        },
+        "rules": [
+            {
+                "key": "Sense",
+                "selector": "darkvision"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "target": null,
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "effect"
+}

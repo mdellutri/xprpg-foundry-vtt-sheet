@@ -1,0 +1,44 @@
+{
+    "_id": "NADqgn78Rvl7TUG8",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Sociable Vow",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You can leverage your vow in more social interactions. The circumstance bonus from your Binding Vow also applies to attempts to Gather Information, @UUID[Compendium.xprpg.actionsxprpg.Make an Impression]{Make an Impression}, or @UUID[Compendium.xprpg.actionsxprpg.Demoralize]{Demoralize} you make directly in service of fulfilling the vow.</p>"
+        },
+        "featType": {
+            "value": "skill"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Pactbinder Dedication"
+                },
+                {
+                    "value": "expert in Diplomacy"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype",
+                "skill"
+            ]
+        }
+    },
+    "type": "feat"
+}

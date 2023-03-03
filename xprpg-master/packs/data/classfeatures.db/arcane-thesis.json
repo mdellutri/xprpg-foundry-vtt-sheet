@@ -1,0 +1,71 @@
+{
+    "_id": "M89l9FOnjHe63wD7",
+    "img": "systems/xprpg/icons/features/classes/arcane-thesis.webp",
+    "name": "Arcane Thesis",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>During your studies to become a full-fledged wizard, you produced a thesis of unique magical research on one of a variety of topics. You gain a special benefit depending on the topic of your thesis research. The arcane thesis topics presented in this book are below; your specific thesis probably has a much longer and more technical title like \"On the Methods of Spell Interpolation and the Genesis of a New Understanding of the Building Blocks of Magic.\"</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "adjustName": false,
+                "allowedDrops": {
+                    "label": "level 1 Wizard class feature",
+                    "predicate": [
+                        "item:level:1",
+                        "item:trait:wizard",
+                        "item:type:feature"
+                    ]
+                },
+                "choices": [
+                    {
+                        "value": "Compendium.xprpg.classfeatures.Improved Familiar Attunement"
+                    },
+                    {
+                        "value": "Compendium.xprpg.classfeatures.Metamagical Experimentation"
+                    },
+                    {
+                        "value": "Compendium.xprpg.classfeatures.Spell Blending"
+                    },
+                    {
+                        "value": "Compendium.xprpg.classfeatures.Spell Substitution"
+                    },
+                    {
+                        "value": "Compendium.xprpg.classfeatures.Staff Nexus"
+                    }
+                ],
+                "key": "ChoiceSet",
+                "prompt": "XPRPG.SpecificRule.Wizard.ArcaneThesis.Prompt"
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "{item|flags.xprpg.rulesSelections.arcaneThesis}"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "wizard"
+            ]
+        }
+    },
+    "type": "feat"
+}

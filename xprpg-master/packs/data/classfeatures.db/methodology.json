@@ -1,0 +1,69 @@
+{
+    "_id": "uhHg9BXBiHpL5ndS",
+    "img": "systems/xprpg/icons/features/classes/choice-feature.webp",
+    "name": "Methodology",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your studies have made you savvy in many areas, but one in particular drew your intense interest. Choose a methodology. The methodologies are as follows:</p>\n<ul>\n<li>@UUID[Compendium.xprpg.classfeatures.Alchemical Sciences Methodology]{Alchemical Sciences Methodology}</li>\n<li>@UUID[Compendium.xprpg.classfeatures.Empiricism Methodology]{Empiricism Methodology}</li>\n<li>@UUID[Compendium.xprpg.classfeatures.Forensic Medicine Methodology]{Forensic Medicine Methodology}</li>\n<li>@UUID[Compendium.xprpg.classfeatures.Interrogation Methodology]{Interrogation Methodology}</li>\n</ul>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "adjustName": false,
+                "allowedDrops": {
+                    "label": "level 1 investigator class feature",
+                    "predicate": [
+                        "item:level:1",
+                        "item:trait:investigator",
+                        "item:type:feature"
+                    ]
+                },
+                "choices": [
+                    {
+                        "value": "Compendium.xprpg.classfeatures.Alchemical Sciences Methodology"
+                    },
+                    {
+                        "value": "Compendium.xprpg.classfeatures.Empiricism Methodology"
+                    },
+                    {
+                        "value": "Compendium.xprpg.classfeatures.Forensic Medicine Methodology"
+                    },
+                    {
+                        "value": "Compendium.xprpg.classfeatures.Interrogation Methodology"
+                    }
+                ],
+                "flag": "methodology",
+                "key": "ChoiceSet",
+                "prompt": "XPRPG.SpecificRule.Investigator.Methodology.Prompt"
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "{item|flags.xprpg.rulesSelections.methodology}"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "investigator"
+            ]
+        }
+    },
+    "type": "feat"
+}

@@ -1,0 +1,49 @@
+{
+    "_id": "hWTTS0e7J9hJfsp3",
+    "img": "systems/xprpg/icons/default-icons/deity.svg",
+    "name": "Matravash",
+    "system": {
+        "ability": [
+            "con",
+            "wis"
+        ],
+        "alignment": {
+            "follower": [
+                "LG",
+                "LN",
+                "N"
+            ],
+            "own": "LN"
+        },
+        "category": "deity",
+        "description": {
+            "value": "<p><strong>Edicts</strong> Aid the persecuted, accommodate and facilitate others, practice contemplation and restraint</p>\n<p><strong>Anathema</strong> Destroy lotus fields, interfere with the flow of the Matra river, pollute clean water, reveal the location of nonevil fugitives</p>"
+        },
+        "domains": {
+            "alternate": [],
+            "primary": [
+                "cities",
+                "nature",
+                "travel",
+                "water"
+            ]
+        },
+        "font": [
+            "heal"
+        ],
+        "rules": [],
+        "skill": "sur",
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "spells": {
+            "1": "Compendium.xprpg.spells-srd.nXmC2Xx9WmS5NsAo",
+            "3": "Compendium.xprpg.spells-srd.WsUwpfmhKrKwoIe3",
+            "4": "Compendium.xprpg.spells-srd.qvwIwJ9QBihy8R0t"
+        },
+        "weapons": [
+            "whip"
+        ]
+    },
+    "type": "deity"
+}

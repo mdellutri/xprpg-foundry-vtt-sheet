@@ -1,0 +1,58 @@
+{
+    "_id": "gsFaxWHbZmc1moY6",
+    "img": "systems/xprpg/icons/deity/Nalinivati.webp",
+    "name": "Nalinivati",
+    "system": {
+        "ability": [
+            "wis",
+            "cha"
+        ],
+        "alignment": {
+            "follower": [
+                "NG",
+                "LN",
+                "N",
+                "NE"
+            ],
+            "own": "N"
+        },
+        "category": "deity",
+        "description": {
+            "value": "<p><strong>Edicts</strong> Seek out magic and use it, use poison, heal poisons, bear or adopt children, raise snakes</p>\n<p><strong>Anathema</strong> Kill a harmless snake or swan, spurn friends due to jealousy or romantic competition, betray your offspring, separate lovers</p>"
+        },
+        "domains": {
+            "alternate": [],
+            "primary": [
+                "glyph",
+                "magic",
+                "passion",
+                "wyrmkin"
+            ]
+        },
+        "font": [
+            "harm",
+            "heal"
+        ],
+        "rules": [],
+        "skill": "arc",
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "spells": {
+            "1": "Compendium.xprpg.spells-srd.vLA0q0WOK2YPuJs6",
+            "2": "Compendium.xprpg.spells-srd.XXqE1eY3w3z6xJCB",
+            "3": "Compendium.xprpg.spells-srd.9AAkVUCwF6WVNNY2",
+            "4": "Compendium.xprpg.spells-srd.Mv5L4201uk8hnAtD",
+            "5": "Compendium.xprpg.spells-srd.GP3wewkQXEPrLxYj",
+            "6": "Compendium.xprpg.spells-srd.WPXzPl7YbMEIGWfi",
+            "7": "Compendium.xprpg.spells-srd.WG91Z5TiR6oO5FOw",
+            "8": "Compendium.xprpg.spells-srd.uEyfLoFQsRKBRIcB",
+            "9": "Compendium.xprpg.spells-srd.r4HLQcYwB62bTayl"
+        },
+        "weapons": [
+            "jaws",
+            "urumi"
+        ]
+    },
+    "type": "deity"
+}

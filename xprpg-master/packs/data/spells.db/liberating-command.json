@@ -1,0 +1,91 @@
+{
+    "_id": "0Dcd4iEXqCrkm4Jn",
+    "img": "systems/xprpg/icons/spells/liberating-command.webp",
+    "name": "Liberating Command",
+    "system": {
+        "ability": {
+            "value": ""
+        },
+        "area": null,
+        "category": {
+            "value": "spell"
+        },
+        "components": {
+            "material": false,
+            "somatic": false,
+            "verbal": true
+        },
+        "cost": {
+            "value": ""
+        },
+        "damage": {
+            "value": {}
+        },
+        "description": {
+            "value": "<p>You call out a liberating cry, urging an ally to break free of an effect that holds them in place. If the target is @UUID[Compendium.xprpg.conditionitems.Grabbed]{Grabbed}, @UUID[Compendium.xprpg.conditionitems.Immobilized]{Immobilized}, or @UUID[Compendium.xprpg.conditionitems.Restrained]{Restrained}, it can immediately use a reaction to attempt to @UUID[Compendium.xprpg.actionsxprpg.Escape]{Escape}.</p>"
+        },
+        "duration": {
+            "value": ""
+        },
+        "hasCounteractCheck": {
+            "value": false
+        },
+        "level": {
+            "value": 1
+        },
+        "materials": {
+            "value": ""
+        },
+        "prepared": {
+            "value": ""
+        },
+        "primarycheck": {
+            "value": ""
+        },
+        "range": {
+            "value": "60 feet"
+        },
+        "rules": [],
+        "save": {
+            "basic": "",
+            "value": ""
+        },
+        "school": {
+            "value": "enchantment"
+        },
+        "secondarycasters": {
+            "value": ""
+        },
+        "secondarycheck": {
+            "value": ""
+        },
+        "source": {
+            "value": "Xenos Paragon Lost Omens: Gods & Magic"
+        },
+        "spellType": {
+            "value": "utility"
+        },
+        "sustained": {
+            "value": false
+        },
+        "target": {
+            "value": "1 creature"
+        },
+        "time": {
+            "value": "1"
+        },
+        "traditions": {
+            "custom": "",
+            "value": [
+                "occult"
+            ]
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "mental"
+            ]
+        }
+    },
+    "type": "spell"
+}

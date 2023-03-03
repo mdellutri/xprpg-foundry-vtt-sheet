@@ -1,0 +1,42 @@
+{
+    "_id": "WoUwDqhA6i6abwen",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Song of Grace and Speed",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 2
+        },
+        "description": {
+            "value": "<p>You instill great swiftness into your allies. You and all allies within 30 feet become @UUID[Compendium.xprpg.conditionitems.Quickened]{Quickened} for 1 minute and can use the additional action to Strike, Stride, or Step.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Nantambu Chime-Ringer Dedication"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype",
+                "auditory",
+                "transmutation"
+            ]
+        }
+    },
+    "type": "feat"
+}

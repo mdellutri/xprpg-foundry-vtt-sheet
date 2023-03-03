@@ -1,0 +1,40 @@
+{
+    "_id": "aoz9dCq2NynyUYEf",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Formation Training",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You know how to fight in formation with your brethren. When you are adjacent to at least two hobgoblin allies, you gain a +1 circumstance bonus to AC and saving throws. This bonus increases to +2 on Reflex saves against area effects.</p>\n<p>@UUID[Compendium.xprpg.feat-effects.Effect: Formation Training]{Effect: Formation Training}</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 5
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "trained in all martial weapons"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "hobgoblin"
+            ]
+        }
+    },
+    "type": "feat"
+}

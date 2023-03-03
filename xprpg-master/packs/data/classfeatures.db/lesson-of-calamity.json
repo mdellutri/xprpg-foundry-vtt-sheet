@@ -1,0 +1,36 @@
+{
+    "_id": "PLMmDXJCDdMS0V5C",
+    "img": "systems/xprpg/icons/spells/daydreamers-curse.webp",
+    "name": "Lesson of Calamity",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You gain the <em>@UUID[Compendium.xprpg.spells-srd.Stumbling Curse]{Stumbling Curse}</em> hex, and your familiar learns <em>@UUID[Compendium.xprpg.spells-srd.Ill Omen]{Ill Omen}</em>.</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "uncommon",
+            "value": [
+                "witch"
+            ]
+        }
+    },
+    "type": "feat"
+}

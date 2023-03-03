@@ -1,0 +1,46 @@
+{
+    "_id": "iliy0ONIb8Hw6muA",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Swift Swimmer",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You swim faster than most iruxi. Your swim Speed increases to 25 feet.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 5
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "wetlander lizardfolk"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "BaseSpeed",
+                "selector": "swim",
+                "value": 25
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "lizardfolk"
+            ]
+        }
+    },
+    "type": "feat"
+}

@@ -1,0 +1,36 @@
+{
+    "_id": "llWKddRiyUHouaZx",
+    "img": "systems/xprpg/icons/default-icons/feats.webp",
+    "name": "Empathic Calm",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Once per day, you can cast either <em>@UUID[Compendium.xprpg.spells-srd.Calm Emotions]{Calm Emotions}</em> or <em>@UUID[Compendium.xprpg.spells-srd.Sanctuary]{Sanctuary}</em> as an innate occult spell, heightened to half your level rounded up.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 5
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "kashrishi"
+            ]
+        }
+    },
+    "type": "feat"
+}

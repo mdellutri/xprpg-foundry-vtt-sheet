@@ -1,0 +1,72 @@
+{
+    "_id": "nPGrNslTdc6VBuCB",
+    "img": "systems/xprpg/icons/equipment/adventuring-gear/classkit-rogue.webp",
+    "name": "Class Kit (Rogue)",
+    "system": {
+        "description": {
+            "value": "<div><strong>Armor</strong> leather armor</div>\n<div><strong>Weapons</strong> dagger, rapier</div>\n<div><strong>Gear</strong> adventurer's pack, climbing kit</div>\n<div><strong>Options</strong> @UUID[Compendium.xprpg.equipment-srd.Thieves' Tools]{thieves' tools} (3 gp)</div>"
+        },
+        "equippedBulk": {
+            "value": ""
+        },
+        "items": {
+            "5xujm": {
+                "img": "systems/xprpg/icons/equipment/armor/leather-armor.webp",
+                "isContainer": false,
+                "items": {},
+                "name": "Leather Armor",
+                "quantity": 1,
+                "uuid": "Compendium.xprpg.equipment-srd.4tIVTg9wj56RrveA"
+            },
+            "fvcr2": {
+                "img": "systems/xprpg/icons/equipment/adventuring-gear/climbing-kit.webp",
+                "isContainer": false,
+                "items": {},
+                "name": "Climbing Kit",
+                "quantity": 1,
+                "uuid": "Compendium.xprpg.equipment-srd.9UJbMaglf35GVzaZ"
+            },
+            "mkr9z": {
+                "img": "systems/xprpg/icons/equipment/adventuring-gear/adventurers-pack.webp",
+                "isContainer": true,
+                "items": {},
+                "name": "Adventurer's Pack",
+                "quantity": 1,
+                "uuid": "Compendium.xprpg.equipment-srd.2req0jGaxz8hScdB"
+            },
+            "okxnd": {
+                "img": "systems/xprpg/icons/equipment/weapons/rapier.webp",
+                "isContainer": false,
+                "items": {},
+                "name": "Rapier",
+                "quantity": 1,
+                "uuid": "Compendium.xprpg.equipment-srd.tH5GirEy7YB3ZgCk"
+            },
+            "r1unh": {
+                "img": "systems/xprpg/icons/equipment/weapons/dagger.webp",
+                "isContainer": false,
+                "items": {},
+                "name": "Dagger",
+                "quantity": 1,
+                "uuid": "Compendium.xprpg.equipment-srd.rQWaJhI5Bko5x14Z"
+            }
+        },
+        "price": {
+            "value": {
+                "gp": 6,
+                "sp": 2
+            }
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "rogue"
+            ]
+        }
+    },
+    "type": "kit"
+}

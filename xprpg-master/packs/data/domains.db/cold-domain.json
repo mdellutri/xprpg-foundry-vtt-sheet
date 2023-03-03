@@ -1,0 +1,11 @@
+{
+    "_id": "y3TTKFLPbP09HZUW",
+    "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Alglenweis]{Alglenweis}, @UUID[Compendium.xprpg.deities.Gozreh]{Gozreh}, @UUID[Compendium.xprpg.deities.Hshurha]{Hshurha}, @UUID[Compendium.xprpg.deities.Kostchtchie]{Kostchtchie}, @UUID[Compendium.xprpg.deities.Pulura]{Pulura}, @UUID[Compendium.xprpg.deities.Uvuko]{Uvuko}, @UUID[Compendium.xprpg.deities.Yamatsumi]{Yamatsumi}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Winter Bolt]{Winter Bolt}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Diamond Dust]{Diamond Dust}</em></p>\n<p>You control ice, snow, and freezing temperatures.</p>",
+    "name": "Cold Domain",
+    "ownership": {
+        "default": 0
+    },
+    "permission": {
+        "default": 0
+    }
+}

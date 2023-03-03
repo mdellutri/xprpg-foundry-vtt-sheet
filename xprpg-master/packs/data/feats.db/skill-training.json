@@ -1,0 +1,168 @@
+{
+    "_id": "P6icK2DbRoZ3H6kc",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Skill Training",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You become trained in the skill of your choice.</p>\n<hr />\n<p><strong>Special</strong> You can select this feat multiple times, choosing a new skill to become trained in each time.</p>"
+        },
+        "featType": {
+            "value": "skill"
+        },
+        "level": {
+            "value": 1
+        },
+        "maxTakable": null,
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Intelligence 12"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "choices": [
+                    {
+                        "label": "XPRPG.SkillAcr",
+                        "predicate": [
+                            "skill:acr:rank:0"
+                        ],
+                        "value": "acr"
+                    },
+                    {
+                        "label": "XPRPG.SkillArc",
+                        "predicate": [
+                            "skill:arc:rank:0"
+                        ],
+                        "value": "arc"
+                    },
+                    {
+                        "label": "XPRPG.SkillAth",
+                        "predicate": [
+                            "skill:ath:rank:0"
+                        ],
+                        "value": "ath"
+                    },
+                    {
+                        "label": "XPRPG.SkillCra",
+                        "predicate": [
+                            "skill:cra:rank:0"
+                        ],
+                        "value": "cra"
+                    },
+                    {
+                        "label": "XPRPG.SkillDec",
+                        "predicate": [
+                            "skill:dec:rank:0"
+                        ],
+                        "value": "dec"
+                    },
+                    {
+                        "label": "XPRPG.SkillDip",
+                        "predicate": [
+                            "skill:dip:rank:0"
+                        ],
+                        "value": "dip"
+                    },
+                    {
+                        "label": "XPRPG.SkillItm",
+                        "predicate": [
+                            "skill:itm:rank:0"
+                        ],
+                        "value": "itm"
+                    },
+                    {
+                        "label": "XPRPG.SkillMed",
+                        "predicate": [
+                            "skill:med:rank:0"
+                        ],
+                        "value": "med"
+                    },
+                    {
+                        "label": "XPRPG.SkillNat",
+                        "predicate": [
+                            "skill:nat:rank:0"
+                        ],
+                        "value": "nat"
+                    },
+                    {
+                        "label": "XPRPG.SkillOcc",
+                        "predicate": [
+                            "skill:occ:rank:0"
+                        ],
+                        "value": "occ"
+                    },
+                    {
+                        "label": "XPRPG.SkillPrf",
+                        "predicate": [
+                            "skill:prf:rank:0"
+                        ],
+                        "value": "prf"
+                    },
+                    {
+                        "label": "XPRPG.SkillRel",
+                        "predicate": [
+                            "skill:rel:rank:0"
+                        ],
+                        "value": "rel"
+                    },
+                    {
+                        "label": "XPRPG.SkillSoc",
+                        "predicate": [
+                            "skill:soc:rank:0"
+                        ],
+                        "value": "soc"
+                    },
+                    {
+                        "label": "XPRPG.SkillSte",
+                        "predicate": [
+                            "skill:ste:rank:0"
+                        ],
+                        "value": "ste"
+                    },
+                    {
+                        "label": "XPRPG.SkillSur",
+                        "predicate": [
+                            "skill:sur:rank:0"
+                        ],
+                        "value": "sur"
+                    },
+                    {
+                        "label": "XPRPG.SkillThi",
+                        "predicate": [
+                            "skill:thi:rank:0"
+                        ],
+                        "value": "thi"
+                    }
+                ],
+                "flag": "skill",
+                "key": "ChoiceSet",
+                "prompt": "XPRPG.SpecificRule.Prompt.Skill"
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.skills.{item|flags.xprpg.rulesSelections.skill}.rank",
+                "value": 1
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "general",
+                "skill"
+            ]
+        }
+    },
+    "type": "feat"
+}

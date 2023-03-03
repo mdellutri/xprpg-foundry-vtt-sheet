@@ -1,0 +1,41 @@
+{
+    "_id": "JH6um0St37UrjLNG",
+    "img": "systems/xprpg/icons/features/classes/peerless-inventor.webp",
+    "name": "Peerless Inventor",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You are constantly inventing, and your skill at crafting is unimpeachable. You gain the @UUID[Compendium.xprpg.feats-srd.Inventor]{Inventor} skill feat, even if you don't meet its prerequisites.</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.xprpg.feats-srd.Inventor"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "inventor"
+            ]
+        }
+    },
+    "type": "feat"
+}

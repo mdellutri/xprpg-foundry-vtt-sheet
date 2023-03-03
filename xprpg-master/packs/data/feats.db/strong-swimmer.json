@@ -1,0 +1,42 @@
+{
+    "_id": "UdwXT24zrLzg2ZIV",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Strong Swimmer",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your swim Speed increases to match your land Speed.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 9
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "BaseSpeed",
+                "selector": "swim",
+                "value": "@actor.attributes.speed.total"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "undine"
+            ]
+        }
+    },
+    "type": "feat"
+}

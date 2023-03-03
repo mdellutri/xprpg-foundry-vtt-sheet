@@ -1,0 +1,322 @@
+/* ----------------------------------------- */
+/* Animation                                 */
+/* ----------------------------------------- */
+
+:root {
+    --animate-duration: 1s;
+    --animate-delay: 1s;
+    --animate-repeat: 1;
+}
+
+/* ----------------------------------------- */
+/* Layout                                    */
+/* ----------------------------------------- */
+
+/** A vertical rule in a flexbox */
+.vr {
+    border: 1px inset;
+    margin: 1px;
+}
+
+/* ----------------------------------------- */
+/* Typography                                */
+/* ----------------------------------------- */
+
+.xprpg, .app.sheet.actor {
+  font-family: var(--sans-serif);
+    h1, h2, h3, h4 {
+        font-weight: 600;
+    }
+    p {
+        font-weight: 500;
+    }
+}
+
+// ensure higher specificity than the sheet styles
+.xprpg.sheet form span.xprpg-icon,
+.xprpg.sheet form span[data-xprpg-action],
+.xprpg.sheet form span[data-xprpg-action] *,
+.xprpg.sheet form span[data-xprpg-check],
+.xprpg.sheet form span[data-xprpg-check] *,
+.xprpg-icon {
+    display: inline;
+}
+
+.xprpg.sheet form span.xprpg-icon,
+.xprpg-icon {
+    font-family: "XenosParagonActions";
+    font-size: 1.2em;
+    &.larger {
+        font-size: 1.5em;
+    }
+}
+
+section.roll-note, p.compact-text {
+    display: inline-block;
+    font-weight: normal;
+    line-height: 1.4em;
+    margin: 0.5em 0;
+    min-height: 1rem;
+}
+
+.activity-icon {
+    align-self: center;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    font-family: XenosParagonActions;
+    font-size: 1.2em;
+}
+
+/* ----------------------------------------- */
+/* Styled table                              */
+/* ----------------------------------------- */
+
+table.xprpg-table {
+    border: solid 1px #000000;
+    border-collapse: collapse;
+    font-size: var(--font-size-13);
+    color: #191813;
+    user-select: text;
+
+    thead, tbody, tr, th, td {
+        box-sizing: border-box;
+        user-select: text;
+    }
+
+    tr:nth-child(odd) {
+        background-color: #eee5c8;
+    }
+    tr:nth-child(even) {
+        background-color: #f6f1e1;
+    }
+
+    th {
+        color: white;
+        font-weight: bold;
+        background-color: #522e2c;
+    }
+
+    th, td {
+        border: solid 1px #808080;
+        padding: 6px 15px;
+        text-align: center;
+    }
+}
+
+
+a.inline-roll, a.content-link {
+    font-weight: 500;
+    line-height: 1.6em;
+}
+
+a.foundry-href {
+    color: var(--primary);
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+@mixin inline-link {
+    background: var(--inline-link-bg);
+    border-radius: 2px;
+    border: 1px solid var(--color-border-dark-tertiary);
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: 500;
+    line-height: 1.5em;
+    padding: 1px 0.2em 0;
+    white-space: nowrap;
+    word-break: break-all;
+}
+
+/* ----------------------------------------- */
+/* XPRPG Action Custom Element                */
+/* ----------------------------------------- */
+
+[data-xprpg-action] {
+    @include inline-link;
+}
+
+[data-xprpg-action][data-xprpg-glyph]::before {
+    font-family: "XenosParagonActions";
+    font-size: 1.5em;
+    margin-right: 2px;
+    color: var(--color-text-dark-inactive);
+}
+
+[data-xprpg-action]:not([data-xprpg-glyph])::before,
+[data-xprpg-action][data-xprpg-glyph=""]::before {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background-image: url("../icons/actions/Passive.webp");
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    opacity: 0.4;
+    margin-bottom: -3px;
+    margin-right: 2px;
+    content: "";
+}
+
+[data-xprpg-action][data-xprpg-glyph="A"]::before,
+[data-xprpg-action][data-xprpg-glyph="a"]::before,
+[data-xprpg-action][data-xprpg-glyph="1"]::before {
+    content: "A";
+}
+[data-xprpg-action][data-xprpg-glyph="D"]::before,
+[data-xprpg-action][data-xprpg-glyph="d"]::before,
+[data-xprpg-action][data-xprpg-glyph="2"]::before {
+    content: "D";
+}
+[data-xprpg-action][data-xprpg-glyph="T"]::before,
+[data-xprpg-action][data-xprpg-glyph="t"]::before,
+[data-xprpg-action][data-xprpg-glyph="3"]::before {
+    content: "T";
+}
+[data-xprpg-action][data-xprpg-glyph="F"]::before,
+[data-xprpg-action][data-xprpg-glyph="f"]::before {
+    content: "F";
+}
+[data-xprpg-action][data-xprpg-glyph="R"]::before,
+[data-xprpg-action][data-xprpg-glyph="r"]::before {
+    content: "R";
+}
+
+/* ----------------------------------------- */
+/* XPRPG Check Custom Element                 */
+/* ----------------------------------------- */
+
+span[data-xprpg-check] {
+    @include inline-link;
+
+    &::before {
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        margin-right: 0.25em;
+        color: var(--color-text-dark-inactive);
+        content: "\f6cf";
+    }
+
+    &[data-xprpg-check="reflex"]::before {
+        content: "\f70c";
+    }
+
+    &[data-xprpg-check="will"]::before {
+        content: "\f5dc";
+    }
+
+    &[data-xprpg-check="fortitude"]::before {
+        content: "\f21e";
+    }
+
+    &[data-xprpg-check="perception"]::before {
+        content: "\f06e";
+    }
+
+    &[data-xprpg-traits*="secret"] {
+        background: var(--blind-roll);
+        border-color: #720073;
+    }
+}
+
+/* ----------------------------------------- */
+/* XPRPG Inline Template Custom Element       */
+/* ----------------------------------------- */
+
+span[data-xprpg-effect-area] {
+    @include inline-link;
+
+    &::before {
+        color: var(--color-text-dark-inactive);
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        margin-right: 0.25em;
+    }
+
+    &[data-xprpg-effect-area="cone"]::before {
+        content: "\f104";
+    }
+
+    &[data-xprpg-effect-area="line"]::before {
+        content: "\f7a5";
+    }
+
+    &[data-xprpg-effect-area="burst"]::before {
+        content: "\f111";
+    }
+
+    &[data-xprpg-effect-area="emanation"]::before {
+        content: "\f192";
+    }
+
+    &[data-xprpg-effect-area="rect"]::before {
+        content: "\f0c8";
+    }
+}
+
+/* ----------------------------------------- */
+/* XPRPG Inline Repost Element                */
+/* ----------------------------------------- */
+
+i[data-xprpg-repost] {
+    @include quick-transition;
+    background: var(--inline-repost-bg);
+    color: var(--color-text-dark-inactive);
+    border-left: 1px solid var(--color-border-dark-tertiary);
+    background: #FFF9;
+    padding: 2px;
+    margin-right: -3px;
+    margin-left: 2px;
+    text-shadow: none;
+
+    &:hover {
+        color: white;
+        text-shadow: 0px 0px 2px black;
+    }
+}
+
+[data-visibility]:not([data-visibility="all"]) {
+    border-radius: 1px;
+    box-sizing: border-box;
+    display: inline-block;
+    line-height: 1em;
+    outline: 1px dotted rgba(75, 74, 68, 0.5);
+    padding: 2px 1px 0px;
+
+    /* ----------------------------------------- */
+    /* GM Visibility Elements                    */
+    /* ----------------------------------------- */
+    &[data-visibility="gm"] {
+        background: var(--visibility-gm-bg);
+
+        &.message-sender {
+            max-width: fit-content;
+        }
+
+        [data-visibility="gm"] {
+            outline: none;
+            padding: initial;
+        }
+    }
+
+    /* ----------------------------------------- */
+    /* Owner Visibility Elements                 */
+    /* ----------------------------------------- */
+    &[data-visibility="owner"] {
+        background: var(--visibility-owner-bg);
+
+        [data-visibility="owner"] {
+            outline: none;
+            padding: initial;
+        }
+    }
+}
+
+/* ----------------------------------------- */
+/* Forms                                     */
+/* ----------------------------------------- */
+@import "forms";
+
+a[href]:hover {
+    text-shadow: 0 0 8px var(--color-text-hyperlink);
+}

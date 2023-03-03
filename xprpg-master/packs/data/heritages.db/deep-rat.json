@@ -1,0 +1,29 @@
+{
+    "_id": "7p9HtLzWBHc18JDW",
+    "img": "systems/xprpg/icons/features/ancestry/deep-rat.webp",
+    "name": "Deep Rat",
+    "system": {
+        "ancestry": {
+            "name": "Ratfolk",
+            "slug": "ratfolk",
+            "uuid": "Compendium.xprpg.ancestries.P6PcVnCkh4XMdefw"
+        },
+        "description": {
+            "value": "<p>Your ancestors lived deeper underground than other ratfolk, granting you the ability to see in the dark. You gain @UUID[Compendium.xprpg.ancestryfeatures.Darkvision]{Darkvision}.</p>"
+        },
+        "rules": [
+            {
+                "key": "Sense",
+                "selector": "darkvision"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "heritage"
+}

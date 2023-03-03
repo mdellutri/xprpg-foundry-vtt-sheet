@@ -1,0 +1,59 @@
+{
+    "_id": "2kwLzw618QaIHOap",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Genie Weapon Flourish",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Whenever you critically hit using a @UUID[Compendium.xprpg.equipment-srd.Falchion]{Falchion}, @UUID[Compendium.xprpg.equipment-srd.Ranseur]{Ranseur}, @UUID[Compendium.xprpg.equipment-srd.Scimitar]{Scimitar}, @UUID[Compendium.xprpg.equipment-srd.Trident]{Trident}, or a geniekin weapon, you apply the weapon's critical specialization effect.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 5
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Genie Weapon Familiarity"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "CriticalSpecialization",
+                "predicate": [
+                    {
+                        "or": [
+                            "item:trait:geniekin",
+                            "item:base:falchion",
+                            "item:base:ranseur",
+                            "item:base:scimitar",
+                            "item:base:trident"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ifrit",
+                "oread",
+                "suli",
+                "sylph",
+                "undine"
+            ]
+        }
+    },
+    "type": "feat"
+}

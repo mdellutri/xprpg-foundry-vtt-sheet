@@ -1,0 +1,52 @@
+{
+    "_id": "9QQnv7nFpsNCGE89",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Thorough Search",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You take your time searching to ensure you find everything. When @UUID[Compendium.xprpg.actionsxprpg.Search]{Searching}, you can take twice as long to search. Normally this means you Search at up to one quarter of your Speed, to a maximum of 150 feet per minute to check everything, or 75 feet per minute to check everything before you walk into it. If you do, you gain a +2 circumstance bonus to your Perception checks to @UUID[Compendium.xprpg.actionsxprpg.Seek]{Seek}.</p>"
+        },
+        "featType": {
+            "value": "general"
+        },
+        "level": {
+            "value": 3
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "expert in Perception"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "label": "Thorough Search (Seek thoroughly)",
+                "predicate": [
+                    "action:seek",
+                    "thorough-search"
+                ],
+                "selector": "perception",
+                "type": "circumstance",
+                "value": 2
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "general"
+            ]
+        }
+    },
+    "type": "feat"
+}

@@ -1,0 +1,48 @@
+{
+    "_id": "H1VrZ1QX0d2aPXT8",
+    "img": "systems/xprpg/icons/default-icons/deity.svg",
+    "name": "Dammerich",
+    "system": {
+        "ability": [
+            "con",
+            "wis"
+        ],
+        "alignment": {
+            "follower": [
+                "LG"
+            ],
+            "own": "LG"
+        },
+        "category": "deity",
+        "description": {
+            "value": "<p><strong>Edicts</strong> Perform just executions, study local laws, oppose corrupt or bloodthirsty government officials</p>\n<p><strong>Anathema</strong> Kill without thought, execute the innocent, mock the condemned, falsely incriminate another</p>"
+        },
+        "domains": {
+            "alternate": [],
+            "primary": [
+                "death",
+                "duty",
+                "truth",
+                "vigil"
+            ]
+        },
+        "font": [
+            "harm",
+            "heal"
+        ],
+        "rules": [],
+        "skill": "ath",
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "spells": {
+            "1": "Compendium.xprpg.spells-srd.Gb7SeieEvd0pL2Eh",
+            "3": "Compendium.xprpg.spells-srd.DCQHaLrYXMI37dvW",
+            "4": "Compendium.xprpg.spells-srd.2BV2yYPfVJ5zirZt"
+        },
+        "weapons": [
+            "greataxe"
+        ]
+    },
+    "type": "deity"
+}

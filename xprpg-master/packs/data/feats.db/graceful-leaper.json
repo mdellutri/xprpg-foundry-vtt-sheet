@@ -1,0 +1,44 @@
+{
+    "_id": "63sSYk5yqiAyZGb9",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Graceful Leaper",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Mass and muscle are meaningless when you leap; only grace and balance matter.</p>\n<p>You can roll an Acrobatics check instead of an Athletics check when making a @UUID[Compendium.xprpg.actionsxprpg.High Jump]{High Jump} or @UUID[Compendium.xprpg.actionsxprpg.Long Jump]{Long Jump}.</p>"
+        },
+        "featType": {
+            "value": "skill"
+        },
+        "level": {
+            "value": 7
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Acrobat Dedication"
+                },
+                {
+                    "value": "Master in Acrobatics"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype",
+                "skill"
+            ]
+        }
+    },
+    "type": "feat"
+}

@@ -1,0 +1,49 @@
+{
+    "_id": "KOf6kmwAZaUJSDW9",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Terrain Scout",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You gain the @UUID[Compendium.xprpg.feats-srd.Terrain Stalker]{Terrain Stalker} skill feat twice, choosing a different terrain each time.</p>\n<p>If you @UUID[Compendium.xprpg.actionsxprpg.Avoid Notice]{Avoid Notice} while exploring and any allies use @UUID[Compendium.xprpg.actionsxprpg.Follow the Expert]{Follow the Expert} to follow you as you do so, you can choose one of those allies to gain the benefit of any one Terrain Stalker feat you have.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Scout Dedication"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.xprpg.feats-srd.Terrain Stalker"
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.xprpg.feats-srd.Terrain Stalker"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "type": "feat"
+}

@@ -1,0 +1,40 @@
+{
+    "_id": "I3Md8XYhuMVSJqKI",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Continuous Assault",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You can use Elemental Assault once per hour instead of once per day.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 13
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Elemental Assault"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "suli"
+            ]
+        }
+    },
+    "type": "feat"
+}

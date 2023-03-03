@@ -1,0 +1,187 @@
+import { ActorXPRPG } from "@actor";
+import { ItemXPRPG } from "@item";
+import { ItemSummaryData } from "@item/data";
+import { isItemSystemData } from "@item/data/helpers";
+import { InlineRollLinks } from "@scripts/ui/inline-roll-links";
+import { UserVisibilityXPRPG } from "@scripts/ui/user-visibility";
+import { htmlClosest, htmlQuery, htmlQueryAll } from "@util";
+import { UUIDUtils } from "@util/uuid-utils";
+
+/**
+ * Implementation used to populate item summaries, toggle visibility
+ * of item summaries, and save expanded/collapsed state of item summaries.
+ */
+export class ItemSummaryRenderer<TActor extends ActorXPRPG> {
+    constructor(protected sheet: Application & { get actor(): TActor }) {}
+
+    activateListeners($html: JQuery) {
+        $html.find(".item .item-name h4, .item .melee-name h4, .item .action-name h4").on("click", async (event) => {
+            const element = htmlClosest(event.currentTarget, "[data-item-id], .expandable");
+            if (element) await this.toggleSummary(element);
+        });
+    }
+
+    /**
+     * Triggers toggling the visibility of an item summary element,
+     * delegating the populating of the item summary to renderItemSummary().
+     * Returns true if it the item is valid and it was toggled.
+     */
+    async toggleSummary(element: HTMLElement, options: { instant?: boolean } = {}) {
+        const actor = this.sheet.actor;
+
+        const { itemId, itemType } = element.dataset;
+        const isFormula = !!element.dataset.isFormula;
+        const duration = 0.4;
+
+        if (itemType === "spellSlot") return;
+
+        const item = isFormula
+            ? ((await UUIDUtils.fromUuid(itemId ?? "")) as Embedded<ItemXPRPG>)
+            : actor.items.get(itemId ?? "");
+
+        const summary = await (async () => {
+            const existing = htmlQuery(element, ":scope > .item-summary");
+            if (existing) return existing;
+
+            if (item instanceof ItemXPRPG && !item.isOfType("spellcastingEntry")) {
+                const insertLocation = htmlQueryAll(
+                    element,
+                    ":scope > .item-name, :scope > .item-controls, :scope > .action-header"
+                ).at(-1);
+                if (!insertLocation) return null;
+
+                const summary = document.createElement("div");
+                summary.classList.add("item-summary");
+                summary.hidden = true;
+                insertLocation.after(summary);
+
+                const chatData = await item.getChatData({ secrets: actor.isOwner }, element.dataset);
+                await this.renderItemSummary(summary, item, chatData);
+                InlineRollLinks.listen(summary, actor);
+                return summary;
+            }
+
+            return null;
+        })();
+
+        if (!summary) return;
+
+        const showSummary = !element.classList.contains("expanded") || summary.hidden;
+
+        if (options.instant) {
+            summary.hidden = !showSummary;
+            element.classList.toggle("expanded", showSummary);
+        } else if (showSummary) {
+            element.classList.add("expanded");
+            await gsap.fromTo(
+                summary,
+                { height: 0, opacity: 0, hidden: false },
+                { height: "auto", opacity: 1, duration }
+            );
+        } else {
+            await gsap.to(summary, {
+                height: 0,
+                duration,
+                opacity: 0,
+                paddingTop: 0,
+                paddingBottom: 0,
+                margin: 0,
+                clearProps: "all",
+                onComplete: () => {
+                    summary.hidden = true;
+                    element.classList.remove("expanded");
+                },
+            });
+        }
+    }
+
+    /**
+     * Called when an item summary is expanded and needs to be filled out.
+     */
+    async renderItemSummary(div: HTMLElement, item: Embedded<ItemXPRPG>, chatData: ItemSummaryData): Promise<void> {
+        const description = isItemSystemData(chatData)
+            ? chatData.description.value
+            : await TextEditor.enrichHTML(item.description, { rollData: item.getRollData(), async: true });
+
+        const rarity = item.system.traits?.rarity;
+
+        const summary = await renderTemplate("systems/xprpg/templates/actors/partials/item-summary.hbs", {
+            item,
+            description,
+            identified: game.user.isGM || !item.isOfType("physical") || item.isIdentified,
+            rarityLabel: rarity && item.isOfType("physical") ? CONFIG.XPRPG.rarityTraits[rarity] : null,
+            isCreature: item.actor?.isOfType("creature"),
+            chatData,
+        });
+
+        div.innerHTML = summary;
+        UserVisibilityXPRPG.process(div);
+
+        if (item.actor?.isOfType("creature")) {
+            for (const button of htmlQueryAll(div, "button")) {
+                button.addEventListener("click", (event) => {
+                    event.preventDefault();
+                    event.stopPropagation();
+
+                    const spell = item.isOfType("spell")
+                        ? item
+                        : item.isOfType("consumable")
+                        ? item.embeddedSpell
+                        : null;
+
+                    // which function gets called depends on the type of button stored in the dataset attribute action
+                    switch (button.dataset.action) {
+                        case "spellAttack":
+                            spell?.rollAttack(event);
+                            break;
+                        case "spellDamage":
+                            spell?.rollDamage(event);
+                            break;
+                        case "consume":
+                            if (item.isOfType("consumable")) item.consume();
+                            break;
+                    }
+                });
+            }
+        }
+    }
+
+    /**
+     * Executes a callback, performing a save and restore for all item summaries to maintain visual state.
+     * Most restorations are driven by a data-item-id attribute, however data-item-summary-id with a custom string
+     * can be used to avoid conflicts in areas such as spell preparation.
+     */
+    async saveAndRestoreState(callback: () => Promise<JQuery<HTMLElement>>): Promise<JQuery<HTMLElement>> {
+        // Identify which item and action summaries are expanded currently
+        const $element = this.sheet.element;
+        const expandedSummaryElements = $element.find(".item.expanded[data-item-summary-id]");
+        const expandedItemElements = $element.find(".item.expanded[data-item-id]:not([data-item-summary-id])");
+        const expandedActionElements = $element.find(".item.expanded[data-action-index]");
+        const openActionIdxs = new Set(expandedActionElements.map((_i, el) => el.dataset.actionIndex));
+
+        // Create a list of records that act as identification keys for expanded entries
+        const openItemsIds = expandedItemElements.map((_, el) => $(el).attr("data-item-id")).get();
+        const openSummaryIds = expandedSummaryElements.map((_, el) => $(el).attr("data-item-summary-id")).get();
+
+        const $result = await callback.apply(null);
+        const result = $result[0]!;
+
+        // Re-open hidden item summaries
+        for (const itemId of openItemsIds) {
+            const item = htmlQuery(result, `.item[data-item-id="${itemId}"]:not([data-item-summary-id])`);
+            if (item) await this.toggleSummary(item, { instant: true });
+        }
+
+        for (const summaryId of openSummaryIds) {
+            const item = htmlQuery(result, `.item[data-item-summary-id="${summaryId}"]`);
+            if (item) await this.toggleSummary(item, { instant: true });
+        }
+
+        // Reopen hidden actions
+        for (const elementIdx of openActionIdxs) {
+            $result.find(`.item[data-action-index=${elementIdx}]`).toggleClass("expanded");
+        }
+
+        return $result;
+    }
+}

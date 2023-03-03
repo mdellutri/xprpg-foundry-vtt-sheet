@@ -1,0 +1,29 @@
+{
+    "_id": "G9Gwfi8ZIva52uGp",
+    "img": "systems/xprpg/icons/features/ancestry/jinxed-halfling.webp",
+    "name": "Jinxed Halfling",
+    "system": {
+        "ancestry": {
+            "name": "Halfling",
+            "slug": "halfling",
+            "uuid": "Compendium.xprpg.ancestries.GgZAHbrjnzWOZy2v"
+        },
+        "description": {
+            "value": "<p>You were born with a strange blessing: bereft of the typical halfling luck, you can instead manipulate the fortunes of others. You can never take the @UUID[Compendium.xprpg.feats-srd.Halfling Luck]{Halfling Luck} feat, and you gain the @UUID[Compendium.xprpg.actionsxprpg.Jinx]{Jinx} action.</p>"
+        },
+        "rules": [
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.xprpg.actionsxprpg.Jinx"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "uncommon",
+            "value": []
+        }
+    },
+    "type": "heritage"
+}

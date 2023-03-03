@@ -1,0 +1,24 @@
+{
+    "_id": "cwOUw7kofcAiY01I",
+    "img": "systems/xprpg/icons/default-icons/heritage.svg",
+    "name": "Snaring Anadi",
+    "system": {
+        "ancestry": {
+            "name": "Anadi",
+            "slug": "anadi",
+            "uuid": "Compendium.xprpg.ancestries.TQEqWqc7BYiadUdY"
+        },
+        "description": {
+            "value": "<p>You were hatched with hooked fangs that give you an edge when hunting in your true form. Your fangs attack gains the grapple and trip traits.</p>"
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "type": "heritage"
+}

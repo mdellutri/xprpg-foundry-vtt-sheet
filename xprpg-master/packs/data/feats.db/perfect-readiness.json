@@ -1,0 +1,36 @@
+{
+    "_id": "Wukrctjz2e8W4bbS",
+    "img": "systems/xprpg/icons/default-icons/feats.webp",
+    "name": "Perfect Readiness",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You prepare to fire with an instinctive speed and muscle memory that go beyond your conscious thoughts. You're permanently @UUID[Compendium.xprpg.conditionitems.Quickened]{Quickened}. You can use your extra action only to Step or Interact to reload.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "gunslinger"
+            ]
+        }
+    },
+    "type": "feat"
+}

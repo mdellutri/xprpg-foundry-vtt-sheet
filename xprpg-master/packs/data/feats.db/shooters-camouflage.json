@@ -1,0 +1,40 @@
+{
+    "_id": "rqUJULinzDCUgimM",
+    "img": "systems/xprpg/icons/default-icons/feats.webp",
+    "name": "Shooter's Camouflage",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You specialize in blending into a particular type of environment, able to disappear after taking your shot. Choose either natural or urban terrain. In the chosen terrain, you can @UUID[Compendium.xprpg.actionsxprpg.Hide]{Hide} and @UUID[Compendium.xprpg.actionsxprpg.Sneak]{Sneak} even without cover or being @UUID[Compendium.xprpg.conditionitems.Concealed]{Concealed}.</p>"
+        },
+        "featType": {
+            "value": "class"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "master in Stealth"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "gunslinger"
+            ]
+        }
+    },
+    "type": "feat"
+}

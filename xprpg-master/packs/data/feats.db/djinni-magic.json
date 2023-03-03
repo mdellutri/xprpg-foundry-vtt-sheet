@@ -1,0 +1,36 @@
+{
+    "_id": "nHoRM1gLL7MtIiCS",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Djinni Magic",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>The magic of djinn runs through your blood. You can cast <em>@UUID[Compendium.xprpg.spells-srd.Gust of Wind]{Gust of Wind}</em> and <em>@UUID[Compendium.xprpg.spells-srd.Invisibility]{Invisibility}</em> once per day each as 2nd-level arcane innate spells.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 9
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "sylph"
+            ]
+        }
+    },
+    "type": "feat"
+}

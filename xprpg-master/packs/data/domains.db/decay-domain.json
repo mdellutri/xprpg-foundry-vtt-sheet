@@ -1,0 +1,11 @@
+{
+    "_id": "AaY3BmDItGry4oac",
+    "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Apollyon]{Apollyon}, @UUID[Compendium.xprpg.deities.Azathoth]{Azathoth}, @UUID[Compendium.xprpg.deities.Cyth-V'sug]{Cyth-V'sug}, @UUID[Compendium.xprpg.deities.Ghlaunder]{Ghlaunder}, @UUID[Compendium.xprpg.deities.Groetus]{Groetus}, @UUID[Compendium.xprpg.deities.Kerkamoth]{Kerkamoth}, @UUID[Compendium.xprpg.deities.Mother Vulture]{Mother Vulture}, @UUID[Compendium.xprpg.deities.Nhimbaloth]{Nhimbaloth}, @UUID[Compendium.xprpg.deities.Shyka]{Shyka}, @UUID[Compendium.xprpg.deities.The Green Mother]{The Green Mother}, @UUID[Compendium.xprpg.deities.Trelmarixian]{Trelmarixian}, @UUID[Compendium.xprpg.deities.Urgathoa]{Urgathoa}, @UUID[Compendium.xprpg.deities.Xhamen-Dor]{Xhamen-Dor}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Withering Grasp]{Withering Grasp}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Fallow Field]{Fallow Field}</em></p>\n<p>You have the power to spoil and deteriorate matter.</p>",
+    "name": "Decay Domain",
+    "ownership": {
+        "default": 0
+    },
+    "permission": {
+        "default": 0
+    }
+}

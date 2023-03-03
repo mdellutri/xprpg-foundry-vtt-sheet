@@ -1,0 +1,40 @@
+{
+    "_id": "iXhMlT5rlLngybxX",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Slip Into Shadow",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>Your shadow magic bleeds into the space around you. Whenever you cast a spell with the darkness trait, a lingering aura of shadows reduces bright light within a @Template[type:emanation|distance:5] around you to dim light until the end of your turn. Like in natural dim light, you can use these shadows to Hide, but the aura still makes your overall position obvious, so you can't become @UUID[Compendium.xprpg.conditionitems.Undetected]{Undetected} through the use of these shadows alone.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 9
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "ability to cast at least one spell with the darkness trait"
+                }
+            ]
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "dhampir"
+            ]
+        }
+    },
+    "type": "feat"
+}

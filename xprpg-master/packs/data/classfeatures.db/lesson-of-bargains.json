@@ -1,0 +1,36 @@
+{
+    "_id": "RcmqV0cuOLcnKQr0",
+    "img": "systems/xprpg/icons/features/classes/lesson-of-favors.webp",
+    "name": "Lesson of Bargains",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You gain the <em>@UUID[Compendium.xprpg.spells-srd.Over the Coals]{Over the Coals}</em> hex, and your familiar learns <em>@UUID[Compendium.xprpg.spells-srd.Subconscious Suggestion]{Subconscious Suggestion}</em>.</p>"
+        },
+        "featType": {
+            "value": "classfeature"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "witch"
+            ]
+        }
+    },
+    "type": "feat"
+}

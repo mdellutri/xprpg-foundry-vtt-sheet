@@ -1,0 +1,64 @@
+{
+    "_id": "y7DDs03GtDnmhxFp",
+    "img": "systems/xprpg/icons/features/feats/feats.webp",
+    "name": "Poisoner Dedication",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You make a point of always having a few toxins near at hand-you never know when some arsenic or the like might prove useful.</p>\n<p>You gain the basic alchemy benefits, though they can be used only for alchemical poisons. You gain batches of infused reagents per day equal to your level. Your advanced alchemy level for creating these is 1 and doesn't increase on its own.</p>\n<p><strong>Special</strong> You can't select another dedication feat until you have gained at least two other feats from the @UUID[Compendium.xprpg.journals.vx5FGEG34AxI2dow.JournalEntryPage.HvbDEgCsLbzuMRiR]{Poisoner} archetype.</p>"
+        },
+        "featType": {
+            "value": "archetype"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "trained in Crafting"
+                }
+            ]
+        },
+        "rules": [
+            {
+                "craftableItems": [
+                    "item:trait:alchemical",
+                    "item:trait:poison"
+                ],
+                "isAlchemical": true,
+                "isDailyPrep": true,
+                "key": "CraftingEntry",
+                "label": "XPRPG.SpecificRule.DedicationCraftingEntry.Poisoner",
+                "maxItemLevel": 1,
+                "selector": "poisoner"
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.resources.crafting.infusedReagents.max",
+                "value": "@actor.level"
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.xprpg.feats-srd.Alchemical Crafting"
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype",
+                "dedication"
+            ]
+        }
+    },
+    "type": "feat"
+}

@@ -1,0 +1,11 @@
+{
+    "_id": "PrFvU65ewfst69Mp",
+    "content": "<p><strong>Deities</strong> @UUID[Compendium.xprpg.deities.Besmara]{Besmara}, @UUID[Compendium.xprpg.deities.Charon]{Charon}, @UUID[Compendium.xprpg.deities.Dagon]{Dagon}, @UUID[Compendium.xprpg.deities.Diomazul]{Diomazul}, @UUID[Compendium.xprpg.deities.Geryon]{Geryon}, @UUID[Compendium.xprpg.deities.Gogunta]{Gogunta}, @UUID[Compendium.xprpg.deities.Gozreh]{Gozreh}, @UUID[Compendium.xprpg.deities.Hanspur]{Hanspur}, @UUID[Compendium.xprpg.deities.Hei Feng]{Hei Feng}, @UUID[Compendium.xprpg.deities.Kelizandri]{Kelizandri}, @UUID[Compendium.xprpg.deities.Lady Nanbyo]{Lady Nanbyo}, @UUID[Compendium.xprpg.deities.Lysianassa]{Lysianassa}, @UUID[Compendium.xprpg.deities.Matravash]{Matravash}, @UUID[Compendium.xprpg.deities.Naderi]{Naderi}, @UUID[Compendium.xprpg.deities.Ragadahn]{Ragadahn}, @UUID[Compendium.xprpg.deities.Sobek]{Sobek}, @UUID[Compendium.xprpg.deities.Wadjet]{Wadjet}, @UUID[Compendium.xprpg.deities.Ylimancha]{Ylimancha}</p>\n<p><strong>Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Tidal Surge]{Tidal Surge}</em>; <strong>Advanced Domain Spell</strong> <em>@UUID[Compendium.xprpg.spells-srd.Downpour]{Downpour}</em></p>\n<p>You control water and bodies of water.</p>",
+    "name": "Water Domain",
+    "ownership": {
+        "default": 0
+    },
+    "permission": {
+        "default": 0
+    }
+}

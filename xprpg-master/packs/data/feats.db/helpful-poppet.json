@@ -1,0 +1,49 @@
+{
+    "_id": "ARBIhYAREcytOIaL",
+    "img": "systems/xprpg/icons/default-icons/feats.webp",
+    "name": "Helpful Poppet",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "description": {
+            "value": "<p>You're particularly skilled at helping others with a task. You gain a +2 circumstance bonus on checks to @UUID[Compendium.xprpg.actionsxprpg.Aid]{Aid}, and you don't give your ally a -1 circumstance penalty to their check if you critically fail your attempt to Aid.</p>"
+        },
+        "featType": {
+            "value": "ancestry"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "predicate": [
+                    "action:aid"
+                ],
+                "selector": [
+                    "attack",
+                    "skill-check"
+                ],
+                "type": "circumstance",
+                "value": 2
+            }
+        ],
+        "source": {
+            "value": "Xenos Paragon Core Rulebook"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "poppet"
+            ]
+        }
+    },
+    "type": "feat"
+}

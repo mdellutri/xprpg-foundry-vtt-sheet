@@ -1,0 +1,107 @@
+import { SpellOverlay, SpellOverlayType, SpellSource } from "./data";
+import { ErrorXPRPG } from "@util";
+import { SpellXPRPG } from ".";
+
+class SpellOverlayCollection extends Collection<SpellOverlay> {
+    constructor(public readonly spell: SpellXPRPG, entries?: Record<string, SpellOverlay>) {
+        super(Object.entries(entries ?? {}));
+    }
+
+    /** Returns all variants based on override overlays */
+    get overrideVariants(): Embedded<SpellXPRPG>[] {
+        return [...this.entries()].reduce((result: Embedded<SpellXPRPG>[], [overlayId, data]) => {
+            if (data.overlayType === "override") {
+                const spell = this.spell.loadVariant({ overlayIds: [overlayId] });
+                if (spell) return [...result, spell];
+            }
+            return result;
+        }, []);
+    }
+
+    getType(overlayId: string): SpellOverlayType {
+        return this.get(overlayId, { strict: true }).overlayType;
+    }
+
+    async create(
+        overlayType: SpellOverlayType,
+        options: { renderSheet: boolean } = { renderSheet: false }
+    ): Promise<void> {
+        const id = randomID();
+
+        switch (overlayType) {
+            case "override":
+                await this.spell.update({
+                    [`system.overlays.${id}`]: {
+                        _id: id,
+                        sort: this.overrideVariants.length + 1,
+                        overlayType: "override",
+                    },
+                });
+                if (options.renderSheet) {
+                    const variantSpell = this.spell.loadVariant({ overlayIds: [id] });
+                    if (variantSpell) {
+                        variantSpell.sheet.render(true);
+                    }
+                }
+                break;
+        }
+    }
+
+    async updateOverride(
+        variantSpell: Embedded<SpellXPRPG>,
+        data: Partial<SpellSource>,
+        options?: DocumentModificationContext
+    ): Promise<Embedded<SpellXPRPG>> {
+        // Perform local data update of spell variant data
+        variantSpell.updateSource(data, options);
+
+        // Diff data and only save the difference
+        const variantSource = variantSpell.toObject();
+        const originSource = this.spell.toObject();
+        const difference = diffObject<DeepPartial<SpellSource> & { overlayType: string }>(originSource, variantSource);
+
+        if (Object.keys(difference).length === 0) return variantSpell;
+
+        // Always remove the spell description if it makes it this far
+        delete difference.system?.description;
+        // Restore overlayType
+        difference.overlayType = "override";
+
+        // Delete old entry to ensure clean data
+        await this.spell.update(
+            {
+                [`system.overlays.-=${variantSpell.id}`]: null,
+            },
+            { render: false }
+        );
+        // Save new diff object
+        await this.spell.update({
+            [`system.overlays.${variantSpell.id}`]: difference,
+        });
+
+        if (variantSpell.sheet.rendered) {
+            variantSpell.sheet.render(true);
+        }
+
+        return variantSpell;
+    }
+
+    async deleteOverlay(overlayId: string): Promise<void> {
+        this.verifyOverlayId(overlayId);
+
+        await this.spell.update({
+            [`system.overlays.-=${overlayId}`]: null,
+        });
+        this.delete(overlayId);
+    }
+
+    protected verifyOverlayId(overlayId: string): void {
+        if (!this.has(overlayId)) {
+            throw ErrorXPRPG(
+                `Spell ${this.spell.name} (${this.spell.uuid}) does not have an overlay with id: ${overlayId}`
+            );
+        }
+    }
+}
+
+export { SpellOverlayCollection };
